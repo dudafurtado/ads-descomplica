@@ -1,0 +1,281 @@
+1. O que é o Docker?
+Vamos entender melhor um de nossos protagonistas
+
+1. Conceito
+
+O Docker é uma plataforma que permite empacotar, distribuir e executar aplicações 
+dentro de containers.
+
+Um container é uma unidade leve e isolada que contém:
+
+Código da aplicação
+Bibliotecas e dependências
+Configurações necessárias para rodar
+Tudo isso de forma padronizada e portátil, para que a aplicação rode igual em 
+qualquer lugar: seu computador, servidor on-premises ou na nuvem.
+
+2. O problema que o Docker resolve
+
+Antes do Docker, era comum ouvir:
+
+“Na minha máquina funciona, mas no servidor não.”
+
+Isso acontecia porque ambientes diferentes (versões de SO, libs, configs) quebravam 
+aplicações. O Docker resolve isso empacotando tudo o que a aplicação precisa em um 
+container. Assim, o ambiente fica reproduzível e consistente.
+
+3. Como funciona
+
+O Docker usa containers em cima do kernel do sistema operacional (Linux por padrão).
+Diferente de máquinas virtuais (VMs), os containers não carregam um sistema operacional 
+completo; compartilham o kernel do host, mas têm processos, bibliotecas e redes isolados.
+Isso os torna leves (inicializam em segundos) e eficientes em uso de recursos.
+
+4. Componentes principais
+
+Docker Engine → o runtime que executa os containers.
+Docker Image → "foto" imutável com o código + dependências; usada para criar containers.
+Docker Container → instância em execução de uma imagem.
+Dockerfile → script com as instruções para construir uma imagem.
+Docker Hub → repositório público de imagens prontas (bancos, sistemas, libs).
+
+5. Vantagens técnicas
+
+Portabilidade → roda igual em Windows, Linux, macOS, Cloud.
+Isolamento → cada app com suas libs, sem conflito.
+Reprodutibilidade → versão do ambiente fica fixada na imagem.
+Escalabilidade → fácil replicar containers para atender mais usuários.
+Automação → integra bem com pipelines CI/CD.
+
+6. Exemplos de uso
+
+Rodar bancos de dados para desenvolvimento sem instalar localmente.
+Criar ambiente de produção idêntico ao de teste.
+Microserviços → cada serviço em um container independente.
+Pipelines de integração contínua (CI/CD).
+Orquestração com Kubernetes ou Docker Swarm para centenas de containers.
+
+2. O que é o Docker Hub?
+Vamos conhecer o repositório que nos apoiará.
+
+O Docker Hub é um serviço de registro de imagens (image registry) oficial da Docker, 
+parecido com um “repositório central” na nuvem, onde você pode:
+Encontrar imagens prontas (bancos de dados, linguagens, sistemas, ferramentas).
+Armazenar suas próprias imagens, públicas ou privadas.
+Compartilhar imagens com sua equipe ou comunidade.
+Automatizar builds e integrações com pipelines CI/CD.
+
+Como ele funciona na prática
+
+Imagens oficiais: Mantidas por empresas como MySQL, Nginx, Python, Node.js.
+Exemplo: docker pull mysql:8 → baixa a imagem oficial do MySQL versão 8.
+Imagens públicas: Criadas pela comunidade, disponíveis para todos.
+Exemplo: docker pull nginx → baixa imagem do Nginx feita pela própria equipe do Nginx.
+Imagens privadas: Apenas você ou sua empresa têm acesso; útil para sistemas internos.
+Versão e tagging: Cada imagem tem tags para indicar versões (python:3.11, node:20-alpine).
+
+Integração com o Docker local
+
+Pull: Baixa a imagem do Docker Hub para sua máquina.
+Push: Envia uma imagem criada por você para o Docker Hub.
+Login: Permite autenticação para repositórios privados.
+
+Cenários reais
+
+Desenvolvimento rápido: baixar um banco pronto (postgres, redis) sem instalação manual.
+CI/CD: pipelines usam imagens versionadas do Docker Hub para garantir ambientes idênticos.
+Empresas: mantêm repositórios privados para imagens internas.
+
+3. Instalando o Docker Desktop
+Vamos ver na prática como usar o Docker.
+
+O Docker Desktop é uma aplicação oficial da Docker que fornece um ambiente completo para 
+você criar, executar e gerenciar containers no seu computador, sem precisar configurar 
+tudo manualmente. Ele é muito usado em desenvolvimento local porque traz, em um único pacote:
+
+1. O que ele inclui
+
+Docker Engine → O runtime que realmente cria e executa os containers.
+Docker CLI → Linha de comando (docker run, docker build, etc.).
+Docker Compose → Ferramenta para orquestrar múltiplos containers com um único arquivo 
+docker-compose.yml.
+Kubernetes opcional → Para simular clusters localmente, se necessário.
+Dashboard GUI → Interface gráfica para ver containers, imagens e volumes em execução.
+
+2. Como funciona por baixo dos panos
+
+No Windows e no macOS, o Docker precisa de uma máquina virtual leve porque o kernel 
+desses sistemas não é Linux (e os containers usam recursos nativos do Linux).
+No Linux, o Docker roda diretamente sobre o sistema operacional, sem VM intermediária.
+
+Ou seja:
+
+macOS/Windows → Docker Desktop usa uma camada de virtualização interna (Hyper-V, WSL2, etc.).
+Linux → Docker Engine roda direto no host.
+
+3. Principais recursos
+
+Gerenciamento visual: ver logs, parar/iniciar containers via interface.
+Integração com Docker Hub: baixar imagens prontas ou publicar as suas.
+Suporte a volumes e redes: montar pastas locais dentro dos containers, 
+criar redes internas entre serviços.
+Atualizações automáticas: garante que o motor e o CLI estão na versão mais recente.
+
+4. Benefícios para desenvolvimento
+
+Ambiente local idêntico ao de produção → reduz o famoso “na minha máquina funciona”.
+Facilita trabalho em equipe → todos usam as mesmas imagens e configurações.
+Permite rodar bancos, filas, APIs em containers sem poluir o sistema operacional.
+
+5. Limitações
+
+Uso de recursos → Containers compartilham a máquina, então CPU/RAM devem ser bem 
+configurados no Docker Desktop.
+Licenciamento → Para empresas grandes, o Docker Desktop exige assinatura paga; 
+para uso pessoal, educacional e pequenas empresas, é gratuito.
+
+4. Do que é feita uma imagem Docker?
+Vamos conhecer o que está "debaixo do capô"de uma imagem do Docker.
+
+Uma imagem Docker é um pacote imutável que contém tudo o que a aplicação precisa para 
+rodar de forma consistente, em qualquer lugar.
+Tecnicamente, ela é composta por várias camadas (layers) empilhadas, geradas durante o 
+processo de build, e cada camada traz uma parte do ambiente necessário.
+
+1. Componentes principais de uma imagem Docker
+
+Sistema operacional base (Base Image)
+Fornece as bibliotecas e utilitários essenciais.
+Pode ser uma distro mínima Linux (ex.: alpine, ubuntu, debian) ou até uma imagem vazia 
+(scratch) para apps super enxutos,
+Dependências da aplicação
+Pacotes, bibliotecas e runtimes necessários (ex.: Node.js, Python, Java, etc.).
+Instalações via gerenciadores como apt, yum, pip, npm.
+Código-fonte da aplicação
+Arquivos da sua aplicação copiados para a imagem durante o build.
+Configurações de ambiente
+Variáveis (ENV), diretórios de trabalho (WORKDIR), portas expostas (EXPOSE).
+Comando de inicialização
+A instrução CMD ou ENTRYPOINT no Dockerfile define o que será executado quando o 
+container iniciar.
+
+2. Camadas (layers) e sistema de arquivos
+
+Cada instrução no Dockerfile (como FROM, RUN, COPY) gera uma nova camada.
+Essas camadas são imutáveis e cacheadas → se nada mudou, o Docker reaproveita as layers 
+já construídas, acelerando builds.
+No final, todas as camadas formam um sistema de arquivos unificado (UnionFS) que o 
+container enxerga como se fosse uma única coisa.
+
+3. Características importantes
+
+Leveza → Imagens compartilham camadas comuns; múltiplos containers não duplicam dados.
+Imutabilidade → A imagem não muda depois de criada; qualquer alteração gera uma nova 
+imagem (versão).
+Portabilidade → A mesma imagem roda igual no seu notebook, no servidor físico, em cloud 
+ou Kubernetes.
+
+4. Exemplo conceitual de uma imagem
+
+Imagine uma imagem para um app Node.js:
+
+Base: node:20-alpine (Node.js + Alpine Linux minimalista).
+Dependências: npm install instala as libs do projeto.
+Código: arquivos do app copiados para /app.
+CMD: node server.js define o comando para iniciar o app.
+
+O resultado final é uma imagem com tudo pronto para subir como container.
+
+5. Subindo nosso primeiro container 
+Vamos ver na prática como subir nosso primeiro container
+
+Subir um container Docker, na prática, significa pegar uma imagem e executá-la em 
+um ambiente isolado, com rede, sistema de arquivos e processo próprios.
+Vou explicar de forma técnica e organizada, como seria em uma disciplina de DevOps 
+ou Computação em Nuvem.
+
+1. Pré-requisitos
+
+Ter o Docker Engine ou Docker Desktop instalado.
+
+Ter uma imagem Docker local ou no Docker Hub (ex.: nginx, mysql, python, ou sua 
+própria imagem).
+
+2. Comando básico
+
+O comando mais simples é:
+
+docker run <imagem>
+
+Exemplo:
+
+docker run nginx
+
+Isso faz o Docker:
+
+Baixar a imagem do Docker Hub se não existir localmente.
+Criar uma instância (container) dessa imagem.
+Executar o processo principal definido no CMD ou ENTRYPOINT da imagem.
+
+3. Parâmetros mais usados
+
+-d → roda em modo detached (em background).
+--name → dá um nome amigável ao container.
+-p → mapeia portas: -p 8080:80 → porta local 8080 → porta interna 80 do container.
+-e → define variáveis de ambiente: -e MYSQL_ROOT_PASSWORD=123456.
+-v → monta volumes para persistência: -v dados:/var/lib/mysql.
+--rm → remove o container automaticamente ao parar.
+
+Exemplo completo:
+
+docker run -d --name meu_nginx -p 8080:80 nginx
+
+Agora o Nginx roda na porta 8080 do seu host.
+
+4. Verificando containers
+
+docker ps → lista containers rodando.
+docker ps -a → lista todos (inclusive parados).
+docker logs <nome> → mostra logs do container.
+docker exec -it <nome> bash → abre um terminal dentro do container (se tiver bash/sh).
+
+5. Parar e reiniciar
+
+docker stop <nome> → para o container.
+docker start <nome> → inicia novamente.
+docker rm <nome> → remove o container.
+
+1. docker container ls
+
+Lista os containers que estão sendo executados no momento.
+É equivalente a docker ps (a versão antiga).
+
+Mostra:
+
+Container ID: identificador único
+Image: imagem usada para criar o container
+Command: processo principal do container
+Created: quando foi iniciado
+Status: se está rodando, parado, etc.
+Ports: mapeamento de portas (ex.: 8080->80/tcp)
+Names: nome amigável dado ao container
+
+Se quiser ver todos os containers (inclusive os parados):
+
+docker container ls -a
+
+2. docker image ls
+
+Lista todas as imagens disponíveis localmente.
+
+Mostra:
+
+Repository: nome da imagem (ex.: nginx, mysql)
+Tag: versão da imagem (ex.: latest, 1.23)
+Image ID: identificador único
+Created: quando a imagem foi criada ou baixada
+Size: tamanho total no disco
+
+6. Versões de imagens
+Vamos ver na prática como versionar nossas imagens Docker
+

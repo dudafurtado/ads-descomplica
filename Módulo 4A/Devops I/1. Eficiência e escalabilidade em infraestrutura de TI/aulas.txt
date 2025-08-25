@@ -10,10 +10,8 @@ I/O, escalável verticalmente, projetado para transações críticas em tempo re
 
 Processamento paralelo: mainframes possuem múltiplos processadores especializados
 capazes de lidar com milhares de transações simultâneas.
-
 Alta I/O (Input/Output): otimizados para operações de entrada e saída massivas, 
 como milhões de acessos a banco de dados por segundo.
-
 Particionamento lógico (LPARs): um único mainframe pode ser “dividido” em várias 
 máquinas virtuais independentes, cada uma rodando seu próprio sistema operacional.
 
@@ -21,33 +19,26 @@ máquinas virtuais independentes, cada uma rodando seu próprio sistema operacio
 
 Usam sistemas específicos, como z/OS (IBM), z/VM, z/VSE ou até distribuições 
 Linux otimizadas.
-
 São construídos para 24x7 de disponibilidade, com suporte a hot swap de hardware 
 (substituição sem desligar).
 
 3. Escalabilidade e Confiabilidade
 
 MTBF (Mean Time Between Failures) altíssimo: projetados para quase zero downtime.
-
 Capacidade de processar centenas de milhares de MIPS (milhões de instruções por segundo).
-
 Redundância de componentes (CPU, memória, I/O) para evitar falhas catastróficas.
 
 4. Aplicações Típicas
 
 Processamento de transações financeiras (bancos, bolsas de valores, cartões de crédito).
-
 Sistemas de missão crítica (companhias aéreas, seguradoras, governos).
-
 Grandes bancos de dados centralizados e ERP de larga escala.
 
 5. Diferenças em relação a servidores comuns
 
 Servidores convencionais (x86, ARM) são escalados horizontalmente (adicionando 
 mais máquinas).
-
 Mainframes são escalados verticalmente (um único sistema com altíssima capacidade).
-
 Mainframes suportam centenas de milhares de usuários simultâneos sem perda de 
 performance.
 
@@ -156,7 +147,6 @@ Processar 50 milhões de pagamentos simultâneos é outro problema completamente
 Renderizar imagem/filme é outro universo técnico em relação a bolsa de valores 
 ou sistema bancário. Um Mac Pro pode ser incrível para Hollywood, mas nunca 
 substituiria um mainframe na B3 ou no Banco Central.
-
 
 | Área                                                | Tipo de máquina usada                                                                     | Exemplo                                           |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -857,11 +847,320 @@ China investe trilhões em independência tecnológica (Made in China 2025).
 2. Chegada do Hypervisor
 As quebras de paradigmas no uso de infraestrutura
 
+Um hypervisor é um software (ou firmware) que permite criar e gerenciar máquinas virtuais 
+(VMs) em um computador físico.
+Ele atua como uma camada entre o hardware físico e os sistemas operacionais convidados 
+(guest OS), isolando e distribuindo os recursos de CPU, memória, armazenamento e rede para cada VM.
+
+Funções principais
+
+Isolamento: cada VM roda separada, sem interferir nas outras.
+Consolidação: vários sistemas em um único hardware físico.
+Snapshot e Clonagem: criar cópias rápidas de VMs para backup ou teste.
+Migração ao vivo (Live Migration): mover VMs entre servidores sem desligar.
+
+Exemplos práticos
+
+Empresas → vários servidores virtuais (ERP, banco de dados, e-mail) rodando em 1 servidor físico.
+Desenvolvedores → criar ambientes de teste com Windows, Linux, macOS no mesmo computador.
+Cloud (AWS, Azure, GCP) → toda a infraestrutura de nuvem usa hypervisors para criar instâncias 
+virtuais.
+
+Um servidor físico não é só o computador:
+
+Ele precisa de racks em data centers, com largura/altura padronizada (1U, 2U...).
+Energia elétrica estável com redundância (no-breaks, geradores).
+Resfriamento constante (ar-condicionado de precisão, corredores frios/quentes).
+Rede de alta velocidade (switches, roteadores, fibra óptica).
+
+⚡ Um servidor 24/7 pode consumir centenas a milhares de watts.
+
+Por isso, empresas buscam:
+
+Consolidação → menos servidores físicos, mais eficientes.
+Virtualização → vários servidores virtuais num único hardware (graças ao hypervisor).
+
+Antes da virtualização, cada servidor físico rodava um único sistema. Resultado:
+
+Baixa utilização → CPU e memória ficavam ociosas.
+Alto custo → energia, espaço e manutenção para algo subutilizado.
+
+Com hypervisors e VMs:
+
+Um servidor físico pode hospedar vários sistemas operacionais.
+Melhor aproveitamento: CPU, RAM e disco são alocados conforme necessidade.
+Balanceamento de carga → distribui recursos dinamicamente entre as VMs.
+
+Antes da virtualização:
+
+Comprar servidor físico → esperar entrega → instalar SO → configurar rede → dias ou meses.
+Com hypervisor + automação:
+Criar uma nova VM → minutos.
+Instalar SO a partir de templates → poucos cliques.
+Com cloud → você cria um servidor virtual na AWS/Azure/GCP em segundos.
+
+Isso evoluiu para:
+
+Infraestrutura como Código (IaC) → Terraform, Ansible, etc.
+Orquestradores → VMware vCenter, OpenStack, Kubernetes (para contêineres).
+O hypervisor é a base da virtualização, mas a rapidez vem da combinação:
+Hypervisor → cria e isola as VMs.
+Templates e snapshots → permitem clonar sistemas pré-configurados em segundos.
+Automação e orquestração → gerenciam múltiplos hypervisors e VMs de forma automática.
+Cloud → leva isso a outro nível: capacidade infinita sob demanda.
+
+Ou seja:
+
+O hypervisor resolve o problema de aproveitamento.
+A automação + cloud resolve o problema de velocidade e escala.
+
 3. Eficiência organizacional: multi tenancy
 Como atender vários negócios com um único servidor
+
+Multi-tenancy (ou multi-inquilinato) é um conceito muito usado em computação em nuvem, sistemas SaaS e bancos de dados.
+Ele significa que uma única instância de software ou infraestrutura atende vários clientes (tenants) ao mesmo tempo, mantendo os dados e configurações isolados para cada um.
+
+Como funciona
+
+Tenant = cada cliente, empresa ou usuário que usa o sistema.
+Aplicação única → roda uma vez, mas serve todos os tenants.
+Isolamento lógico → cada tenant só vê seus dados, mesmo compartilhando a mesma aplicação e hardware.
+
+Exemplo:
+
+Um servidor na AWS com uma aplicação SaaS (ex: CRM).
+Dez empresas usam o mesmo servidor e a mesma aplicação.
+Cada empresa só acessa seus dados → isso é multi-tenancy.
+
+Tipos de Multi-Tenancy
+
+Instância única (Single Instance)
+Uma aplicação para todos os tenants.
+Dados separados por identificação (ex: ID do cliente).
+Exemplo: Salesforce, Gmail → todo mundo usa a mesma aplicação.
+
+Instâncias separadas (Multi-Instance)
+Cada tenant tem sua própria instância da aplicação, mas gerenciada centralmente.
+Mais isolamento, mas uso menos eficiente de recursos.
+
+Benefícios
+
+Custo menor → mais clientes na mesma infraestrutura.
+Manutenção simples → atualiza o software uma vez, todos recebem.
+Escalabilidade → fácil adicionar novos tenants.
+
+Desafios
+
+Segurança: garantir que um tenant não acesse dados de outro.
+Performance: muitos tenants podem sobrecarregar recursos.
+Customização: equilibrar código único com necessidades específicas.
+
+Exemplos práticos
+
+Gmail → milhões de usuários, 1 aplicação, cada um com seu e-mail isolado.
+Salesforce, HubSpot → vários clientes corporativos na mesma plataforma.
+Bancos → sistemas core atendendo milhares de agências, cada uma isolada.
 
 4. Chegada do Containers
 Reduzindo o tamanho do servidor para o tamanho da aplicação.
 
+Uma licença de sistema operacional (SO) é a autorização legal que você adquire para instalar, 
+usar e atualizar um sistema operacional (como Windows, macOS, Linux corporativo) em um ou mais 
+dispositivos, conforme os termos definidos pelo fabricante.
+Ela não é exatamente “o programa” em si, mas sim o direito de uso dentro de regras específicas.
+
+Como funciona
+
+Quando você compra um computador com Windows, o preço já inclui a licença OEM do sistema.
+Se você quiser instalar o mesmo Windows em outra máquina, precisa de uma nova licença (a não 
+ser que o contrato permita múltiplas ativações).
+
+A licença pode ser:
+
+Perpétua → paga uma vez e usa para sempre (ex: Windows 10 Home OEM).
+Por assinatura → paga anualmente/mensalmente (ex: Windows 365, Red Hat Enterprise Linux).
+
+🔹 Tipos comuns de licença
+
+OEM (Original Equipment Manufacturer)
+Vem pré-instalada no computador novo.
+Ligada ao hardware original, não pode ser transferida.
+
+Retail (Caixa)
+
+Comprada separadamente, pode ser transferida para outro computador.
+
+Volume Licensing
+Empresas compram um pacote para centenas/milhares de máquinas.
+Exemplos: Microsoft Open License, Enterprise Agreements.
+
+Por assinatura / SaaS
+Ex.: Windows 365, macOS Server, Red Hat Enterprise Linux → paga por período.
+
+Open Source
+Linux (Ubuntu, Debian, etc.) é gratuito para uso pessoal, mas empresas podem 
+pagar por suporte oficial (Red Hat, SUSE).
+
+O que a licença garante
+
+Uso legal → evita pirataria.
+Atualizações e patches de segurança.
+Suporte técnico oficial (em versões pagas).
+Conformidade jurídica → especialmente em empresas auditadas.
+
+Exemplos práticos
+
+Windows 11 Pro → precisa de licença paga.
+macOS → gratuito, mas só funciona legalmente em hardware Apple (licença embutida).
+Linux Ubuntu → gratuito, sem custo de licença, mas pode pagar por suporte corporativo (Canonical).
+
+Containers são uma tecnologia que permite empacotar e executar aplicações de forma isolada, 
+leve e portátil, usando os recursos do mesmo sistema operacional.
+
+Eles são parecidos com máquinas virtuais (VMs), mas muito mais leves, porque não precisam 
+instalar um sistema operacional completo para cada aplicação.
+
+Como funciona
+
+Um container inclui:
+O código da aplicação
+Dependências (bibliotecas, arquivos de configuração)
+Configurações de runtime
+Tudo roda sobre o mesmo kernel do sistema operacional, mas isolado dos outros containers.
+
+Diferença: Containers vs Máquinas Virtuais
+Recurso	Máquinas Virtuais (VM)	Containers
+Sistema operacional	Cada VM tem seu próprio SO	Compartilham o mesmo SO base
+Peso	Pesadas, vários GB	Leves, geralmente MB
+Velocidade	Mais lentas para iniciar	Inicialização em segundos
+Isolamento	Completo (hardware virtual)	Lógico (nível de processo)
+Uso típico	Servidores legados, múltiplos SOs	Microserviços, apps escaláveis
+
+Benefícios dos Containers
+
+Portabilidade → roda igual no seu computador, no servidor ou na nuvem.
+Rapidez → iniciar ou escalar containers leva segundos.
+Isolamento → cada aplicação tem seu ambiente independente.
+Eficiência → usa menos recursos que VMs.
+Escalabilidade → fácil criar ou destruir containers sob demanda.
+
+Exemplos práticos
+
+Docker → tecnologia mais popular de containers.
+Kubernetes → orquestrador para gerenciar milhares de containers em produção.
+CI/CD → pipelines de integração contínua usam containers para testes rápidos e consistentes.
+
+Onde são usados
+
+Microserviços → cada parte da aplicação em seu próprio container.
+DevOps → para criar ambientes iguais para desenvolvimento, teste e produção.
+Cloud → AWS, Azure e GCP oferecem serviços baseados em containers.
+CI/CD → automação de build e deploy.
+
 5. Escabilidade: OnPremises vc Containers
 Diferenças em como fazemos tudo hoje em dia
+
+Escalabilidade é a capacidade de um sistema, aplicação ou infraestrutura de lidar com aumento 
+de demanda — seja mais usuários, mais dados ou mais processamento — sem perder desempenho e, 
+idealmente, com custo proporcional.
+
+Ou seja, um sistema escalável cresce de forma eficiente: ele mantém performance, estabilidade e 
+custo sob controle mesmo quando o uso aumenta.
+
+Tipos de Escalabilidade:
+
+1. Escalabilidade Vertical (Scale Up)
+
+Aumenta o poder de uma única máquina:
+Mais CPU
+Mais memória (RAM)
+Mais armazenamento
+
+Exemplo: trocar um servidor com 16 núcleos por outro com 64 núcleos.
+Prós: simples de implementar.
+Contras: tem limite físico e pode ficar caro.
+
+2. Escalabilidade Horizontal (Scale Out)
+
+Adiciona mais máquinas/instâncias para dividir a carga:
+Um servidor vira dois, depois dez, depois cem.
+O sistema distribui os usuários/tarefas entre eles.
+
+Prós: praticamente ilimitada, ideal para nuvem.
+Contras: exige software preparado para trabalhar em paralelo.
+
+3. Escalabilidade Automática (Auto Scaling)
+
+Com nuvem e containers, dá para criar/destruir recursos automaticamente conforme o uso.
+
+Exemplo:
+Horário de pico → 20 servidores.
+Horário de madrugada → só 3 servidores.
+Economiza custos.
+
+Onde a Escalabilidade é Importante
+
+Aplicações Web → redes sociais, e-commerces, serviços de streaming.
+Bancos de Dados → lidar com bilhões de transações (bancos, bolsa de valores).
+Cloud Computing → AWS, Azure, GCP já oferecem escalabilidade automática.
+Processamento de Dados → Big Data, Inteligência Artificial, Analytics.
+
+Exemplo prático
+
+Sem escalabilidade:
+Um site com 1 servidor → aguenta 1000 usuários.
+Chega 5000 usuários → o site cai.
+
+Com escalabilidade horizontal:
+O sistema cria 5 servidores extras → cada um atende 1000 usuários → site continua estável.
+
+Extra:
+
+​A nuvem privada envolve os recursos pertencentes à empresa, já a nuvem pública envolve os 
+recursos em um fornecedor
+
+Resumo:
+
+A área de Tecnologia da Informação (TI) desempenha um papel crucial no mundo corporativo atual, 
+evoluindo de um foco em custos para um diferencial estratégico. A eficiência e a escalabilidade 
+da infraestrutura de TI são essenciais para suportar as aplicações que impulsionam os negócios. 
+Ao longo das décadas, diferentes modelos de infraestrutura surgiram, cada um com suas vantagens 
+e desvantagens.
+
+O modelo Mainframe, um dos primeiros, centralizava todos os recursos em um único sistema. Apesar 
+da velocidade, era caro e apresentava um ponto único de falha. A computação distribuída surgiu 
+como uma alternativa mais barata, permitindo a distribuição de aplicações em vários servidores. 
+No entanto, o modelo On-Premise tradicional, com servxidores físicos dedicados, gerava ociosidade 
+de recursos e custos adicionais com espaço físico, energia e equipe.
+
+A virtualização, com tecnologias como o Hypervisor, trouxe a possibilidade de criar máquinas 
+virtuais (VMs) dentro de um servidor físico, otimizando o uso de recursos. No entanto, a necessidade 
+de gerenciar múltiplos sistemas operacionais e o tempo de inicialização das VMs ainda representavam 
+desafios.
+
+A computação em nuvem revolucionou a forma como as empresas acessam e gerenciam recursos de TI. A 
+nuvem pública, como AWS, Azure e GCP, oferece infraestrutura como serviço, permitindo escalabilidade 
+sob demanda e pagamento apenas pelo uso. A nuvem privada, por sua vez, oferece os benefícios da nuvem 
+dentro da infraestrutura da empresa, proporcionando maior controle e segurança.
+
+Os containers, como o Docker, surgiram como uma solução leve e eficiente para o desenvolvimento e 
+implantação de aplicações. Diferentemente das VMs, os containers compartilham o kernel do sistema 
+operacional host, reduzindo o consumo de recursos e acelerando o tempo de inicialização. A 
+portabilidade e a escalabilidade são vantagens significativas dos containers, tornando-os ideais para
+microsserviços e aplicações modernas.
+
+A escolha do modelo de infraestrutura ideal depende das necessidades específicas de cada empresa. 
+O modelo On-Premise ainda é válido para empresas com requisitos de segurança e conformidade rigorosos. 
+A nuvem híbrida, combinando On-Premise e nuvem pública, oferece flexibilidade e otimização de custos.
+A escalabilidade é crucial para atender às demandas variáveis dos negócios. Em modelos On-Premise, 
+a escalabilidade exige investimento em hardware, espaço físico e equipe. Na nuvem, a escalabilidade 
+é mais ágil e econômica, permitindo ajustar os recursos de acordo com a demanda.
+
+A escolha entre On-Premise, nuvem privada ou nuvem pública depende de fatores como custos, segurança, 
+conformidade, escalabilidade e necessidades de negócios. A avaliação cuidadosa desses fatores é 
+essencial para determinar a melhor estratégia de infraestrutura de TI.
+
+Em resumo, a eficiência e a escalabilidade da infraestrutura de TI são essenciais para o sucesso das 
+empresas na era digital. A compreensão das diferentes opções disponíveis, desde o modelo Mainframe 
+até os containers, permite que as empresas tomem decisões estratégicas para otimizar suas operações 
+e impulsionar o crescimento.
