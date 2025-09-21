@@ -1,0 +1,444 @@
+1. O que é o Dockerfile?
+Um Dockerfile é um arquivo de texto que descreve, passo a passo, como construir 
+uma imagem Docker. Pense nele como um script de build declarativo: cada instrução 
+vira uma camada da imagem, e o docker build executa essas instruções em ordem para 
+gerar uma imagem reprodutível.
+
+Para que serve
+
+Empacotar app + dependências + sistema-base em uma imagem imutável.
+Reprodutibilidade: mesmo Dockerfile → mesma imagem (com as mesmas versões).
+Cache de camadas: builds futuros ficam rápidos se nada mudou nas etapas anteriores.
+Portabilidade: roda igual em qualquer host com Docker/compatível.
+
+Instruções mais comuns
+
+FROM — define a imagem base (ex.: FROM python:3.12-slim).
+WORKDIR — define o diretório de trabalho.
+COPY / ADD — copia arquivos para a imagem.
+RUN — executa comandos de instalação/configuração (gera nova camada).
+ENV — variáveis de ambiente para runtime.
+ARG — variáveis de build (não persistem na imagem).
+EXPOSE — documentação da porta (não abre firewall).
+CMD — comando padrão do contêiner (pode ser sobrescrito).
+ENTRYPOINT — “ponto de entrada” fixo; combina com CMD.
+HEALTHCHECK — comando para verificar saúde do contêiner.
+
+Exemplo (Python + Uvicorn)
+# Dockerfile
+FROM python:3.12-slim
+WORKDIR /app
+
+# camadas com bom cache: deps antes do código
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+EXPOSE 8000
+# melhor usar forma exec (array) para sinais e espaços
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+
+
+Exemplo AdonisJS (v5/v6)
+# Dockerfile — AdonisJS (multi-stage)
+# Etapa 1: build do projeto (compila TS e empacota assets)
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+# compila (gera diretório ./build)
+RUN npm run build
+
+# Etapa 2: runtime de produção (somente deps prod + build)
+FROM node:20-alpine AS runtime
+WORKDIR /app
+ENV NODE_ENV=production
+ENV HOST=0.0.0.0
+ENV PORT=3333
+# APP_KEY precisa ser passado no "docker run" ou orchestrator
+# ENV APP_KEY=coloque_sua_chave # (não recomendado fixar aqui)
+
+COPY package*.json ./
+RUN npm ci --omit=dev
+
+# Copia apenas o resultado do build (código compilado e assets)
+COPY --from=builder /app/build ./build
+# Se você usa arquivos estáticos fora do build, inclua-os:
+# COPY --from=builder /app/public ./public
+
+EXPOSE 3333
+CMD ["node", "build/server.js"]
+
+Boas práticas
+
+Use .dockerignore para não enviar lixo (ex.: .git, node_modules) ao build context.
+Fixe versões (apt, pip, npm) para reprodutibilidade.
+Não coloque segredos no Dockerfile (RUN echo SECRET=... é vazamento!). 
+Prefira build secrets/vault/variáveis em runtime.
+Rodar sem root (USER 10001) quando possível.
+Otimize ordem das camadas: deps primeiro, código depois (melhor cache).
+Em RUN apt-get: use apt-get update && apt-get install ... e limpe caches no mesmo comando.
+CMD x ENTRYPOINT (rápido)
+ENTRYPOINT define o executável “fixo” do contêiner.
+CMD fornece os argumentos padrão (ou o comando, se não houver ENTRYPOINT).
+No docker run ... <args>, você sobrescreve CMD, não o ENTRYPOINT.
+
+2. Nosso primeiro build de imagem
+Como criar nossa primeira imagem.
+
+1) Dockerfile (a “receita” da imagem)
+Exemplo mais simples possível: imprime uma mensagem e sai.
+
+# Dockerfile
+FROM alpine:3.20
+CMD ["echo", "Olá, Docker!"]
+
+Dica: o Dockerfile fica na pasta onde você vai rodar o docker build.
+O FROM define a base; cada instrução vira uma camada da imagem.
+
+2) Build da imagem
+Use -t para dar nome:tag e . para indicar o contexto (diretório atual):
+
+docker build -t meuapp:1.0 .
+-t meuapp:1.0 → nome meuapp, tag 1.0 (se omitir vira :latest).
+. → envia o conteúdo da pasta (respeitando .dockerignore, se existir) 
+para o daemon do Docker.
+
+Se você escreveu docker build nome:tag ., 
+corrija para docker build -t nome:tag .
+
+3) Ver as imagens
+Lista tudo que está local:
+
+docker image ls
+# ou
+docker images
+
+Você deve ver algo como:
+
+REPOSITORY   TAG   IMAGE ID      SIZE
+meuapp       1.0   1a2b3c4d5e6f  7MB
+
+4) Inspecionar a imagem
+Mostra metadados em JSON: camadas, comando padrão, env, arquitetura, etc.
+
+docker image inspect meuapp:1.0
+
+Campos úteis:
+
+Id / RepoTags — identificação e nome:tag.
+Config.Cmd / Config.Entrypoint — o que roda por padrão.
+RootFS.Layers — camadas que compõem a imagem.
+Size — tamanho total.
+Os / Architecture — sistema/arquitetura alvo.
+
+Formatação rápida:
+
+docker image inspect --format '{{.Id}}  CMD={{.Config.Cmd}}  
+Layers={{len .RootFS.Layers}}' meuapp:1.0
+
+.dockerignore:
+.git
+node_modules
+**/__pycache__/
+dist
+build
+.env
+
+3. Repositório local vs repositório remoto
+Diferença entre um repositório local e um repositório remoto.
+
+Repositório local (na sua máquina)
+
+É o conjunto de imagens e tags que o Docker Engine já baixou/gerou 
+e guarda no cache local (camadas na sua máquina).
+Você vê com: docker image ls e remove com: docker image rm <imagem:tag>.
+Vantagem: rápido (já está no disco) e funciona offline.
+Limite: só existe naquela máquina.
+
+Repositório remoto (na internet, em um registry)
+
+Fica em um registry (servidor de imagens), por exemplo: Docker Hub, 
+GitHub Container Registry (ghcr.io), GitLab, ECR/GCR/ACR.
+Um “repositório” remoto é um nome que agrupa tags de uma imagem 
+(ex.: library/alpine:3.20, seuuser/minha-api:1.0).
+Você baixa com docker pull e envia com docker push (após docker login).
+Terminologia rápida:
+Registry = serviço (Hub, GHCR); 
+repositório = conjunto de tags (ex.: seuuser/app); 
+imagem:tag = versão específica (ex.: seuuser/app:1.2.0).
+
+Docker Hub (registry padrão)
+
+É o registry padrão do Docker. Se você não especifica o registry, o 
+Docker assume docker.io.
+Ex.: docker pull alpine:3.20 → na prática puxa 
+docker.io/library/alpine:3.20.
+Tem repositórios públicos e privados, imagens oficiais (curadas) e de 
+editores verificados.
+Para publicar, crie uma conta, faça docker login, docker tag e docker push.
+
+Exemplo de publicação:
+
+docker login
+docker tag minha-api:1.0 docker.io/seuuser/minha-api:1.0
+docker push docker.io/seuuser/minha-api:1.0
+
+docker pull nome:versao (como funciona)
+
+Baixa a imagem nome:versao do registry (padrão: Docker Hub) para o 
+repositório local.
+Se você já tem as camadas no cache, o Docker reaproveita (não baixa de 
+novo).
+Se omitir a tag, usa :latest (não é “a mais nova garantida”, é apenas 
+a tag padrão).
+
+Exemplos:
+
+# Puxa do Docker Hub (registry padrão)
+docker pull nginx:1.27
+
+# Puxa do GitHub Container Registry
+docker pull ghcr.io/owner/projeto:2.3.1
+
+# Pinar por digest (imutável, mais seguro)
+docker pull nginx@sha256:...digest...
+
+Ver o que chegou:
+
+docker image ls
+docker image inspect nginx:1.27
+
+Boas práticas rápidas
+
+Evite :latest em produção — prefira uma tag de versão ou digest.
+docker login antes de pull/push em registries privados.
+Use .dockerignore e fixe versões no Dockerfile para builds reprodutíveis.
+Para reproduções exatas, registre o digest (sha256) que rodou em produção.
+
+4. Subindo nossa primeira imagem construída
+Como criar um container à partir da imagem que nós construimos.
+
+1) Comando básico (corrigido)
+O exemplo comum é:
+
+docker run --name teste -d -p 3000:3000 nome:tag
+
+No -p, use sempre host:container.
+Ex.: se o app dentro do container escuta na porta 3000, mapeie 3000:3000.
+Se ele escuta na 8000, então -p 3000:8000 (porta 3000 no host → 
+8000 no container).
+
+O que cada flag faz
+
+--name teste → dá um nome fácil para administrar (logs, stop, rm).
+-d → detached (roda em segundo plano).
+-p H:C → publica a porta H do host para a porta C do container.
+nome:tag → a imagem que você construiu (ex.: meuapp:1.0).
+
+2) Exemplos prontos
+Exemplo A — Node/TS (app escuta em 3000 dentro do container)
+
+docker run --name teste -d -p 3000:3000 meuapp:1.0
+# teste:
+curl http://localhost:3000
+
+Exemplo B — Adonis (porta interna 3333, precisa APP_KEY)
+
+docker run --name adonis -d -p 3333:3333 \
+  -e APP_KEY="sua_chave_de_32_chars" \
+  minha-api-adonis:1.0
+
+Exemplo C — Servidor Python (porta interna 8000, publicar em 3000 no host)
+
+docker run --name web -d -p 3000:8000 websimples:1.0
+# abre http://localhost:3000
+
+3) Checar, logs e parar
+docker ps                      # containers rodando
+docker logs -f teste           # seguir logs do container
+docker stop teste              # parar
+docker start teste             # iniciar novamente
+docker rm teste                # remover (após stop)
+
+4) Dicas rápidas e boas práticas
+
+EXPOSE ≠ publicar porta: EXPOSE no Dockerfile só documenta; 
+para acessar de fora, use -p.
+Restringir a localhost: se não quiser expor na rede, faça 
+-p 127.0.0.1:3000:3000.
+Variáveis de ambiente: -e CHAVE=valor ou --env-file .env.
+Apagar ao sair (útil em testes): --r
+docker run --rm --name teste -p 3000:3000 nome:tag
+Reinício automático (prod): --restart=unless-stopped
+Entrar no container: docker exec -it teste sh (ou bash, se existir).
+Porta certa? Verifique o código/Dockerfile para saber qual porta 
+interna seu processo realmente escuta.
+
+5. Layered system
+O que são as camada de uma imagem
+
+Cada instrução do seu Dockerfile (FROM, RUN, COPY, ADD, etc.) gera uma 
+camada (layer). A imagem final é um empilhamento dessas camadas, 
+armazenadas de forma content-addressable (endereçadas por sha256). 
+Quando você roda um contêiner, o Docker monta todas as camadas 
+somente-leitura + uma camada gravável do contêiner por cima (modelo 
+copy-on-write).
+
+Por que isso é ótimo
+
+Cache de build: se nada mudou numa etapa, aquela camada é reaproveitada 
+(builds mais rápidos).
+Reuso entre imagens: se duas imagens compartilham camadas (ex.: a mesma 
+FROM python:3.12-slim), o host baixa uma vez e reaproveita.
+Pull/Push eficiente: o registro só envia/recebe camadas que você não tem.
+
+Implicações práticas
+
+Ordem importa para o cache: ponha passos estáveis antes (instalação de 
+deps) e só depois COPY . . do seu código (que muda mais).
+Cada RUN/COPY = 1 layer: combine comandos quando fizer sentido (e limpe 
+caches de apt no mesmo RUN) para reduzir camadas/tamanho.
+Multi-stage build: construa em um estágio “builder” e copie só o 
+artefato para o estágio final → imagens menores e mais seguras.
+Limites e driver: há limites de quantidade de camadas por driver de 
+storage (ex.: overlay2 impõe um teto prático). Evite dezenas/centenas 
+de camadas desnecessárias.
+
+Ver na prática
+
+docker history suaimg:1.0           # mostra camadas e comandos
+docker image inspect suaimg:1.0 | jq '.[0].RootFS.Layers'   
+# lista os digests das layers
+
+6. Tageamento
+Como as "tags" nos ajudam a organizar nossas versões de imagem
+
+O que é tag: o sufixo :algo no nome da imagem (ex.: meuapp:1.4.2). 
+Tags são rótulos mutáveis apontando para um manifest (que referencia as 
+camadas). Você pode mover uma tag para apontar para outro build a 
+qualquer momento. Para imutabilidade total, use digest (ex.: @sha256:...).
+
+Boas práticas de versionamento
+
+SemVer quando fizer sentido: 1.4.2, mais alias úteis: 1.4, 1, latest.
+Tag de data/commit para rastreabilidade: 2025-09-21, git-abcdef.
+Ambientes (promote por re-tag): :dev, :staging, :prod.
+
+Exemplo completo
+
+# buildando com múltiplas tags de uma vez
+docker build -t seuuser/meuapp:1.4.2 \
+             -t seuuser/meuapp:1.4 \
+             -t seuuser/meuapp:1 \
+             -t seuuser/meuapp:latest .
+
+# enviar para o registry
+docker push seuuser/meuapp:1.4.2
+docker push seuuser/meuapp:1.4
+docker push seuuser/meuapp:1
+docker push seuuser/meuapp:latest
+
+Promover entre ambientes (sem rebuild)
+
+# suponha que você testou 1.4.2 em staging e quer promover a prod
+docker pull seuuser/meuapp:1.4.2
+docker tag  seuuser/meuapp:1.4.2  seuuser/meuapp:prod
+docker push seuuser/meuapp:prod
+
+Tags x Digest (imutável)
+
+# ver o digest (imutável) associado à tag
+docker images --digests seuuser/meuapp
+
+# rodar pinando por digest (segurança/reprodutibilidade)
+docker run seuuser/meuapp@sha256:abcdef...   # em vez de :latest
+
+Metadados úteis (não são tags, mas ajudam)
+Adicione LABELs OCI no Dockerfile para rastreabilidade:
+
+LABEL org.opencontainers.image.title="meuapp" \
+      org.opencontainers.image.version="1.4.2" \
+      org.opencontainers.image.revision="abcdef" \
+      org.opencontainers.image.source="https://github.com/seuuser/meuapp"
+
+Erros comuns a evitar
+
+Usar :latest em produção (tag é mutável; atualizações inesperadas 
+quebram o deploy).
+
+Rebuilds não reprodutíveis: fixe versões de pacotes (apt/pip/npm), 
+use .dockerignore, e, quando crítico, rode por digest.
+
+Resumo:
+
+No universo Docker, a construção de imagens personalizadas é um passo 
+crucial para o desenvolvimento e deploy eficientes de aplicações. 
+Diferente de simplesmente utilizar imagens prontas do Docker Hub, criar 
+suas próprias imagens permite customizar o ambiente de execução de 
+acordo com as necessidades específicas do seu projeto. O Dockerfile atua 
+como o script que guia esse processo de construção, definindo as etapas 
+e configurações que serão aplicadas à imagem.
+
+A primeira linha de um Dockerfile geralmente é o comando `FROM`, que 
+define a imagem base sobre a qual a nova imagem será construída. Essa 
+imagem base funciona como um sistema operacional mínimo, fornecendo as 
+ferramentas e bibliotecas essenciais para a execução da sua aplicação. 
+Por exemplo, se você estiver construindo uma aplicação web em Python, 
+pode usar uma imagem base oficial do Python como ponto de partida.
+
+Após definir a base, o comando `RUN` entra em cena para executar comandos 
+dentro do ambiente da imagem em construção. É como se você estivesse 
+acessando o terminal da imagem base e executando comandos diretamente. 
+Isso permite instalar pacotes adicionais, configurar variáveis de 
+ambiente, criar diretórios e realizar qualquer outra tarefa necessária 
+para preparar o ambiente para sua aplicação.
+
+O comando `EXPOSE` é utilizado para declarar as portas que serão 
+expostas pelo container quando ele for iniciado a partir da imagem. 
+Essas portas são como canais de comunicação que permitem que aplicações 
+externas interajam com a aplicação em execução dentro do container. 
+Por exemplo, se sua aplicação web escuta na porta 8080, você usaria 
+`EXPOSE 8080` para torná-la acessível externamente.
+
+Enquanto o `RUN` executa comandos durante a construção da imagem, o 
+comando `CMD` define o comando que será executado quando um container 
+for iniciado a partir da imagem. Esse comando geralmente é utilizado 
+para iniciar o processo principal da aplicação, garantindo que ela 
+esteja em execução quando o container for iniciado.
+
+As tags são como apelidos que você atribui às suas imagens, permitindo 
+identificá-las e diferenciá-las facilmente. A tag `latest` é 
+frequentemente utilizada para indicar a versão mais recente de uma 
+imagem. No entanto, você pode criar tags personalizadas para 
+representar diferentes versões, releases ou configurações da sua 
+aplicação.
+
+O sistema de camadas é um conceito fundamental na arquitetura das 
+imagens Docker. Cada instrução no Dockerfile cria uma nova camada na 
+imagem, sendo que as camadas são empilhadas umas sobre as outras. 
+Essa estrutura em camadas torna as imagens Docker extremamente eficientes 
+em termos de armazenamento e tempo de construção, pois apenas as 
+camadas modificadas precisam ser reconstruídas quando você faz alterações 
+no Dockerfile.
+
+Para visualizar as camadas de uma imagem, você pode usar o comando 
+`docker history <nome-da-imagem>`. Esse comando exibe um histórico das 
+instruções executadas durante a construção da imagem, revelando a 
+estrutura em camadas e as alterações feitas em cada etapa.
+
+Ao construir uma imagem, é crucial ter em mente a importância de 
+otimizar o tamanho da imagem final. Imagens menores são mais rápidas 
+de serem baixadas, transferidas e iniciadas, o que é especialmente 
+importante em ambientes de produção. Uma dica para reduzir o tamanho da 
+imagem é utilizar imagens base menores e combinar múltiplos comandos 
+`RUN` em um único comando, utilizando o operador `&&` para encadear as 
+instruções.
+
+Compreender o funcionamento do Dockerfile e os conceitos por trás da 
+construção de imagens é essencial para qualquer desenvolvedor que 
+utilize Docker. Ao dominar essas ferramentas, você poderá criar 
+ambientes de execução consistentes, portáteis e eficientes para suas 
+aplicações, facilitando o desenvolvimento, deploy e gerenciamento do 
+ciclo de vida do seu software.

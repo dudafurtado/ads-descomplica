@@ -1,0 +1,322 @@
+1. Subindo um "Olá mundo!" com Nginx
+Exemplo simples de web site com NGINX
+
+Subindo o Olá Mundo com NGINX
+
+Subir uma aplicação "Olá Mundo" com NGINX é simples. Após verificar se o 
+Docker está em execução, utilize o comando 'docker run' com o nome desejado 
+para o container, defina a porta e a imagem 'NGINX latest'. Após a execução, 
+acesse a aplicação através do navegador na porta definida.
+
+Entendendo o comando para uso de volumes com NGINX
+
+Para utilizar volumes no Docker com NGINX, utilize o comando 'docker run' com a 
+flag '-v' seguida do caminho da pasta local e o caminho interno do container, 
+separados por dois pontos. O conteúdo da pasta local será acessível dentro do 
+container no caminho especificado.
+
+Suba um NGINX puro e exponha a porta:
+
+docker run --name web -d -p 8080:80 nginx:alpine
+
+Teste: abra http://localhost:8080
+ (deve aparecer a página padrão do NGINX).
+
+Usando -v (bind mount) para servir seu arquivo
+
+Crie sua pasta e um index.html:
+
+mkdir -p site && cat > site/index.html <<'HTML'
+<!doctype html>
+<title>Olá</title>
+<h1>Olá, Docker + NGINX! 🎉</h1>
+HTML
+
+Agora rode o container montando sua pasta sobre a raiz web do NGINX:
+
+docker rm -f web 2>/dev/null || true
+docker run --name web -d -p 8080:80 \
+  -v "$PWD/site:/usr/share/nginx/html:ro" \
+  nginx:alpine
+
+-v host:container:ro = bind mount (seu diretório → dentro do container, 
+somente leitura).
+Atualize o index.html local e recarregue o navegador: muda na hora (ótimo 
+para dev).
+
+2. Volumes
+Pra que serve os tais volumes no docker
+
+Introdução aos Volumes no Docker
+
+Volumes no Docker são como gavetas externas que armazenam arquivos usados 
+por containers. Sem volumes, os arquivos são excluídos quando o container 
+é destruído. Ao usar volumes, os arquivos persistem, permitindo acesso contínuo 
+mesmo após a reinicialização do container.
+
+Funcionamento e Vantagens dos Volumes no Docker
+
+Volumes no Docker funcionam como links entre uma pasta externa e um diretório 
+interno do container. Isso permite que arquivos externos sejam acessados como se 
+estivessem dentro do container, garantindo persistência de dados e facilitando a 
+atualização de arquivos sem precisar reconstruir a imagem.
+
+Volumes são áreas de dados gerenciadas pelo Docker, fora da camada gravável do 
+container. Benefícios:
+
+Persistência: dados sobrevivem a docker rm do container.
+Isolamento & portabilidade: o Docker cuida do local 
+(ex.: /var/lib/docker/volumes/...).
+Backup/restore facilitados e menos atrito de permissões do host.
+
+Tipos:
+
+Named volume: você dá um nome (ex.: -v meusdados:/caminho).
+Anonymous volume: sem nome (o Docker cria um id).
+Bind mount: pasta/arquivo do host mapeado para dentro do container 
+(ex.: -v $PWD/site:/usr/share/nginx/html).
+
+Criação/listagem:
+
+docker volume create meusdados
+docker volume ls
+docker volume inspect meusdados
+
+3. Nosso "Olá mundo" usando volumes
+Como usar volumes em um container com o web site com NGINX
+
+Introdução aos Volumes no Docker
+
+Volumes permitem compartilhar arquivos e diretórios entre o sistema host 
+e os containers Docker. Isso é útil para persistir dados, compartilhar 
+dados entre containers e manter a imagem do container enxuta.
+
+Usando a flag --mount para configurar volumes no Docker
+
+A flag `--mount` oferece uma sintaxe mais detalhada para configurar volumes, 
+permitindo especificar o tipo de volume (`bind`, `volume`, `tmpfs`), a origem 
+(`src`) e o destino (`dst`) do volume.
+
+Se quiser usar volume (em vez de bind) com NGINX, você precisa popular o 
+volume com seu conteúdo (porque volume nasce vazio):
+
+# cria volume e um contêiner temporário para copiar o html
+docker volume create sitevol
+
+# popular o volume com um index.html
+docker run --rm -v sitevol:/site alpine sh -c \
+  "echo '<h1>Olá de um volume!</h1>' > /site/index.html"
+
+# agora monte o volume no caminho que o NGINX serve
+docker rm -f web 2>/dev/null || true
+docker run --name web -d -p 8080:80 \
+  -v sitevol:/usr/share/nginx/html:ro \
+  nginx:alpine
+
+4. Subindo um banco de dados
+Exemplo de um container com banco de dados MySQL
+
+Instalação e configuração do MySQL Workbench
+
+Para utilizar o MySQL é necessário instalar o software MySQL Workbench, 
+que permite acessar e gerenciar bancos de dados MySQL de forma mais fácil.
+
+Criando um banco de dados MySQL com Docker e conectando com o Workbench
+
+Através do Docker, podemos criar um container com o MySQL, definindo variáveis 
+de ambiente como senha do root e criar um novo usuário com privilégios específicos. 
+Após a criação, podemos estabelecer uma conexão com o container utilizando o MySQL 
+Workbench.
+
+Criando tabelas e inserindo dados no MySQL com Workbench
+
+Dentro do esquema criado no banco de dados, podemos criar tabelas com suas 
+respectivas colunas e tipos de dados. Após a criação, podemos inserir dados 
+utilizando comandos SQL.
+
+Persistência de dados em containers Docker: Entendendo o problema
+
+Ao finalizar a utilização do container, é fundamental entender que os dados 
+inseridos não são persistidos. Ao remover o container, os dados são perdidos, 
+o que demonstra a importância de mecanismos de persistência de dados em 
+ambientes Docker.
+
+Sem persistência (apenas para demonstrar):
+
+docker run --name mysql -d -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=senha \
+  -e MYSQL_DATABASE=appdb \
+  mysql:8.0
+
+Conecte (cliente à sua escolha), crie algo:
+
+CREATE TABLE clientes(id INT PRIMARY KEY, nome VARCHAR(50));
+INSERT INTO clientes VALUES (1,'Ana'),(2,'Bruno');
+
+5. Os dados sumiram! Porquê?
+O que acontece ao destruir e recriar e recriar um container com
+banco de dados MySQL.
+
+Entendendo o Funcionamento dos Volumes em Containers Docker
+
+Ao subir um container que necessita de um volume, o Docker cria 
+automaticamente um volume com um nome gerado, vinculando-o ao container, 
+mesmo quando parado.
+
+Persistência de Dados e Criação de Volumes em Containers Docker
+
+Se um container com um volume associado for excluído e um novo container 
+for iniciado com a mesma imagem, o Docker criará um novo volume para o 
+novo container, resultando na perda de acesso aos dados do volume anterior.
+
+Se você fizer:
+
+docker rm -f mysql
+docker run --name mysql -d -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=senha \
+  -e MYSQL_DATABASE=appdb \
+  mysql:8.0
+
+Vai perceber que a tabela sumiu. Motivo: sem volume, o MySQL gravou o 
+datadir na camada gravável do container; ao remover o container, essa camada 
+é descartada. Container novo = datadir novo.
+
+6. Usando um volume para nosso banco de dados
+Como destruir e recriar um container mantendo à salvo nossos dados
+com banco de dados MySQL.
+
+Criando um Volume para o MySQL com Docker
+
+Para utilizar volumes com Docker e MySQL, primeiro crie um volume com 
+"docker volume create
+Podemos criar um volume sem nome. Caso isso seja feito, o docker informa 
+um nome aleatório, mas também podemos criar com nome informando docker volume 
+create nomevolume. Onde nomevolume você pode informar o nome do volume.​
+
+Testando a Persistência de Dados com Volumes no MySQL
+
+A persistência de dados com volumes no MySQL permite que os dados sejam 
+mantidos mesmo após o container ser reiniciado ou removido. Isso é possível 
+porque os dados são armazenados no volume, que é independente do container.
+
+Criando um Volume para o MySQL com Docker
+
+Para utilizar volumes com Docker e MySQL, primeiro crie um volume com 
+"docker volume create 
+
+Monte um named volume em /var/lib/mysql (datadir padrão):
+
+docker rm -f mysql 2>/dev/null || true
+docker volume create mysqldata
+
+docker run --name mysql -d -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=senha \
+  -e MYSQL_DATABASE=appdb \
+  -v mysqldata:/var/lib/mysql \
+  mysql:8.0
+
+Agora os dados ficam no volume mysqldata e persistem mesmo que você destrua e 
+recrie o container:
+
+docker rm -f mysql
+# recria apontando para o MESMO volume
+docker run --name mysql -d -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=senha \
+  -e MYSQL_DATABASE=appdb \
+  -v mysqldata:/var/lib/mysql \
+  mysql:8.0
+# dados continuam lá
+
+Backup rápido do volume
+docker run --rm -v mysqldata:/var/lib/mysql -v "$PWD:/backup" \
+  alpine sh -c "tar czf /backup/mysql_backup.tgz -C /var/lib mysql"
+
+Perguntas:
+​Com um volume montado em um container, o que acontece se alterarmos 
+um arquivo do volume referenciado de fora do container, ou seja, direto 
+no “host”?
+
+As mudanças aparecem dentro do container imediatamente (ou quase), porque 
+volume é um “mount” para o mesmo diretório/arquivos. Isso vale tanto para:
+Bind mount (-v $PWD/site:/usr/share/nginx/html): você edita no host e o 
+container vê na hora.
+Volume nomeado (-v meusdados:/data): o conteúdo mora no host 
+(ex.: Linux em /var/lib/docker/volumes/meusdados/_data) e qualquer alteração 
+ali também aparece no container.
+
+Detalhes e cuidados
+
+Cache da aplicação: se o processo dentro do container mantém o arquivo aberto 
+ou faz cache, pode não refletir até reabrir/recarregar. Ferramentas de watch 
+(inotify) normalmente recebem eventos.
+Permissões/UID/GID: o usuário dentro do container precisa ter permissão para 
+ler/escrever. Se você editar no host como outro usuário, o container pode 
+perder acesso. Ajuste com chown/chmod ou rode o processo com UID compatível.
+Montagem read-only (:ro): o container não escreve, mas lê; alterações feitas 
+no host continuam visíveis no container.
+Docker Desktop (macOS/Windows): há uma camada de virtualização; as mudanças 
+chegam, porém watchers podem ter ligeiro atraso (ainda assim funcionam).
+Volumes nomeados: tecnicamente você pode editar direto no Mountpoint do volume, 
+mas não é recomendado (risco de permissões/SELinux). Prefira usar um container 
+auxiliar para manipular dados:
+
+docker run --rm -it -v meusdados:/data alpine sh
+# dentro dele, edite /data/...
+
+Mini-demonstração (bind mount)
+mkdir -p site && echo "v1" > site/index.html
+docker run --name web -d -p 8080:80 -v "$PWD/site:/usr/share/nginx/html:ro" 
+nginx:alpine
+# edite no host:
+echo "v2" > site/index.html
+# dentro do container já está "v2":
+docker exec web sh -c 'cat /usr/share/nginx/html/index.html'
+
+Portanto: volume = visão compartilhada do mesmo filesystem; mudar no host muda 
+para o container, e vice-versa, respeitando permissões e possíveis caches da 
+aplicação.
+
+Resumo:
+No contexto da utilização de containers Docker, a persistência de dados é um 
+aspecto crucial, especialmente quando se lida com aplicações que exigem a 
+manutenção de informações mesmo após a interrupção ou remoção de um container. 
+Volumes Docker surgem como uma solução eficaz para esse desafio, proporcionando 
+um mecanismo para armazenar dados de forma independente do ciclo de vida do container.
+
+Imagine a situação em que você está executando um servidor web Nginx em um 
+container Docker. Sem o uso de volumes, qualquer alteração feita no conteúdo 
+do servidor web, como a modificação de arquivos HTML, seria perdida quando o 
+container fosse interrompido. Isso ocorre porque, por padrão, o sistema de arquivos 
+de um container é efêmero, ou seja, existe apenas enquanto o container estiver em 
+execução.
+
+É nesse ponto que os volumes se tornam valiosos. Um volume Docker atua como um 
+diretório externo que pode ser montado em um container. Ao fazer isso, os dados 
+dentro do volume persistem mesmo após o container ser interrompido, reiniciado ou 
+até mesmo excluído. Isso significa que você pode atualizar o conteúdo do seu servidor 
+web Nginx sem se preocupar com a perda de dados quando o container for reiniciado.
+
+Existem diferentes maneiras de criar e utilizar volumes Docker. Uma delas é a 
+montagem de ligação, ou "bind mount", que permite mapear um diretório específico 
+do sistema host para um diretório dentro do container. Por exemplo, você pode 
+vincular um diretório em sua máquina local que contém os arquivos HTML do seu 
+site a um diretório dentro do container Nginx. Dessa forma, qualquer alteração 
+feita nos arquivos HTML em sua máquina local será refletida no container.
+
+Outra forma de usar volumes é criando volumes nomeados. Volumes nomeados são 
+gerenciados pelo Docker e oferecem maior flexibilidade em termos de gerenciamento 
+e compartilhamento de dados entre containers. Você pode criar um volume nomeado e, 
+em seguida, montá-lo em um ou mais containers.
+
+A importância dos volumes se torna ainda mais evidente quando se trabalha com 
+bancos de dados. Imagine que você está executando um banco de dados MySQL em 
+um container Docker. Sem volumes, todos os dados armazenados no banco de dados 
+seriam perdidos se o container fosse excluído. No entanto, ao usar um volume 
+para armazenar os dados do MySQL, você garante que os dados persistem mesmo se 
+o container for removido e recriado.
+
+Em resumo, volumes Docker são uma ferramenta essencial para qualquer pessoa que 
+utilize containers Docker, especialmente para aplicações que exigem persistência 
+de dados. Eles permitem que você armazene dados de forma independente do ciclo de 
+vida do container, garantindo que seus dados estejam seguros e disponíveis mesmo 
+após o container ser interrompido ou excluído.

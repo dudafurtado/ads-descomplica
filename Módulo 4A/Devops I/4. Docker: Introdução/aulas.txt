@@ -279,3 +279,59 @@ Size: tamanho total no disco
 6. Versões de imagens
 Vamos ver na prática como versionar nossas imagens Docker
 
+Resumo:
+
+O Docker é uma ferramenta poderosa que simplifica o desenvolvimento e a execução de 
+aplicações em ambientes isolados chamados containers. Imagine um container como uma 
+caixa de video game que contém tudo o que você precisa para jogar: o console, os 
+controles, os cabos de energia, tudo pronto para usar. Da mesma forma, um container 
+Docker encapsula sua aplicação com todas as suas dependências, como bibliotecas e 
+arquivos de configuração, garantindo que ela funcione da mesma maneira em qualquer 
+lugar, seja no seu computador, em um servidor na nuvem ou no dispositivo de um colega.
+
+Para começar a usar o Docker, você precisa instalá-lo em sua máquina. Se você usa 
+Windows 10 ou 11, o processo é bastante direto, mas exige atenção a alguns detalhes 
+importantes. Primeiramente, certifique-se de que a virtualização esteja habilitada na 
+BIOS do seu computador. A virtualização permite que o Docker crie um ambiente isolado, 
+como uma máquina virtual leve, onde seus containers serão executados. Para verificar 
+se a virtualização está habilitada, abra o Gerenciador de Tarefas do Windows, vá na 
+aba "Desempenho" e procure pelo item "Virtualização". Se estiver "Habilitado", você 
+está pronto para o próximo passo. Caso contrário, consulte o manual do seu computador 
+ou entre em contato com o suporte técnico para obter ajuda.
+
+Com a virtualização habilitada, o próximo passo é instalar o WSL, sigla para Windows 
+Subsystem for Linux. O WSL permite que você execute um sistema Linux dentro do seu 
+Windows, e é nesse ambiente Linux que o Docker irá funcionar de forma mais eficiente. 
+Para instalar o WSL, abra o PowerShell como administrador e execute o comando "wsl --install". 
+Após a instalação, reinicie o computador e atualize o WSL para a versão 2 seguindo as 
+instruções da documentação oficial da Microsoft.
+
+Agora você já pode instalar o Docker Desktop para Windows. Faça o download no site 
+oficial do Docker e siga as instruções do instalador. Após a instalação, o Docker será 
+iniciado automaticamente e você verá um ícone de baleia na barra de tarefas. Aguarde até 
+que o ícone fique verde, indicando que o Docker está pronto para uso.
+
+Com o Docker instalado, você pode começar a explorar o mundo dos containers! O Docker Hub 
+é um repositório online onde você encontra milhares de imagens de containers prontas para usar, 
+desde servidores web como o Nginx até bancos de dados como MySQL e PostgreSQL. Para baixar uma 
+imagem do Docker Hub, utilize o comando "docker pull" seguido do nome da imagem. Por exemplo, 
+para baixar a imagem do Nginx, execute "docker pull nginx".
+
+Para criar um container a partir de uma imagem, utilize o comando "docker run". Por exemplo, 
+para criar um container do Nginx e executá-lo em segundo plano, utilize o comando 
+"docker run -d -p 80:80 nginx". Esse comando irá iniciar um container do Nginx, mapear a 
+porta 80 do container para a porta 80 da sua máquina host e executá-lo em segundo plano.
+
+O Docker oferece uma ampla gama de comandos e recursos para gerenciar seus containers, 
+como pausar, reiniciar, acessar o terminal e muito mais. Explore a documentação oficial do 
+Docker para se aprofundar no assunto e descobrir todas as possibilidades que essa ferramenta 
+incrível tem a oferecer.
+Lembre-se de que o Docker Hub permite que você armazene suas próprias imagens de containers, 
+tornando-as públicas ou privadas. Isso é útil para compartilhar suas próprias aplicações ou 
+para manter uma biblioteca de imagens personalizadas para uso próprio.
+
+Em resumo, o Docker é uma ferramenta essencial para desenvolvedores e administradores de 
+sistemas que desejam simplificar o processo de desenvolvimento, implantação e gerenciamento de 
+aplicações. Com o Docker, você pode criar ambientes isolados e portáteis para suas aplicações, 
+garantindo que elas funcionem da mesma maneira em qualquer lugar.
+ 

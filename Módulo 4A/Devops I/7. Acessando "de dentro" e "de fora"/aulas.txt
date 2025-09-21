@@ -1,0 +1,169 @@
+1. Conceito: host e seus containers
+O host e a importancia para o gerenciamento de containers
+
+Entendendo o Host e os Containers
+
+O host é um sistema operacional que serve como base para os containers, 
+gerenciando e distribuindo recursos da máquina local, como CPU, memória 
+e rede. É ele quem permite que os containers acessem e utilizem esses 
+recursos de forma isolada.
+
+2. Windows vs Linux vc Mac
+Quais as diferenças entre os sistemas operacionais
+
+Introdução aos Sistemas Operacionais como Host para Docker
+
+Utilizar Windows ou Linux como host para Docker depende da necessidade. 
+Softwares para Windows exigem host Windows, enquanto Linux é popular 
+para servidores e empresas.
+
+Comparativo entre Windows, Linux e Mac como Host para Docker
+
+No Mac, o host utilizado é o Linux. Já no Windows, é possível escolher entre usar 
+o próprio Windows ou o Linux como host. A escolha depende do software a ser entregue.
+
+Popularidade e Tamanhos de Imagens de Linux e Windows no Docker 
+Hub
+
+Linux é o host mais popular no Docker Hub, com mais imagens disponíveis. 
+Suas imagens costumam ser menores e sua estrutura mais simples, utilizando 
+Ubuntu como base.
+
+3. Qual a melhor escolha de host?
+Host para o containers
+
+Escolha do Host: Windows, Linux ou Apple?
+
+A escolha do host ideal, seja Windows ou Linux, depende das necessidades da 
+empresa e da equipe de desenvolvimento. Se a empresa utiliza predominantemente 
+Windows, um host Windows faz sentido. Se há uma mescla de sistemas, é possível 
+ter servidores com hosts diferentes, mas a gestão de desenvolvimento se torna 
+crucial para garantir a compatibilidade das aplicações com cada host.
+
+4. Acessando um container
+Como acessar um container e ver o que tem dentro.
+
+Acessando um Container Docker: Entendendo a Relação com o Host
+
+Para acessar um container Docker sem uma porta mapeada, podemos usar o 
+terminal. Isso nos permite interagir com o sistema de arquivos do container 
+e executar comandos dentro dele, mas não acessaremos a aplicação em execução.
+
+Acessando um Container Docker via Terminal: Comandos e Exemplos Práticos
+
+O comando `docker exec -it 
+
+5. O que é a tal da porta?
+O que é uma porta no sistema operacional e como isso é 
+importante para os nossos containers.
+
+Introdução às Portas Virtuais
+
+Portas virtuais são interfaces de software que permitem a comunicação entre 
+processos e aplicações em um sistema operacional, diferenciando-as por meio de 
+números de porta específicos.
+
+Funcionalidade e Importância das Portas Virtuais
+
+As portas virtuais são essenciais para identificar e direcionar o tráfego de rede 
+para a aplicação correta em um servidor, evitando conflitos e garantindo que os 
+dados cheguem ao destino desejado.
+
+Unicidade das Portas e Considerações Finais
+
+Cada porta virtual é única em um sistema e não pode ser utilizada por duas 
+aplicações simultaneamente, semelhante à restrição de conectar dois cabos em 
+uma única porta física.
+
+6. Acessando um container pela Porta
+Como usar a tal da porta para acessar nossos containers
+
+Entendendo e utilizando portas no Docker
+
+As portas permitem a comunicação entre o mundo externo e os containers. Para 
+acessar um container em execução, é necessário realizar o bind de uma porta do 
+host com uma porta do container.
+
+Comunicando containers através de redes no Docker
+
+Containers podem se comunicar através de redes. O Docker utiliza a rede bridge 
+por padrão, mas é possível criar redes customizadas para melhor gerenciamento e 
+isolamento. Redes customizadas permitem a comunicação entre containers pelo nome, 
+enquanto a rede bridge padrão exige o endereço IP.
+
+Resumo:
+
+No contexto do Docker, o "host" é o sistema operacional base que sustenta os 
+containers, fornecendo recursos como CPU, memória, disco e interface de rede. 
+É importante destacar que o "host" não se limita ao sistema operacional do seu 
+computador, podendo ser, por exemplo, uma instância do Windows Subsystem for 
+Linux (WSL) rodando em um ambiente Windows. Essa camada de abstração permite a 
+execução de containers baseados em Linux em um sistema host Windows.
+
+A escolha do sistema operacional do "host" impacta diretamente na portabilidade 
+das soluções. Enquanto o Windows limita a execução de containers a imagens Windows, 
+o Linux oferece maior flexibilidade, permitindo a execução de containers em diferentes 
+sistemas operacionais, tornando-o uma escolha mais versátil.
+
+A comunicação entre o "host" e os containers, bem como entre os próprios containers, 
+é viabilizada pelo conceito de "bind de porta". Imagine um container como uma casa com 
+um número de porta. O "bind" seria o ato de colocar esse número na porta da casa para 
+que o carteiro (o "host" ou outro container) possa encontrá-la.
+
+Cada container possui uma porta interna, que representa a aplicação em execução, e pode 
+ter uma ou mais portas externas, definidas pelo "bind", que permitem a comunicação com 
+o mundo exterior. É importante ressaltar que cada porta externa deve ser única dentro 
+do "host", evitando conflitos de comunicação.
+
+Além do "bind de porta", a comunicação entre containers também é influenciada pela 
+"sub-rede" à qual pertencem. Uma "sub-rede" pode ser vista como um condomínio, onde os 
+containers dentro dela conseguem se comunicar diretamente através de seus endereços IP. 
+No entanto, a comunicação entre containers em "sub-redes" diferentes é bloqueada por 
+padrão, como se fossem condomínios distintos.
+
+Para ilustrar, imagine dois containers, A e B, ambos com a porta 80 interna exposta. O 
+container A possui um "bind" na porta 9080, enquanto o container B não possui "bind". 
+Nesse cenário, o "host" consegue acessar a aplicação no container A através da porta 
+9080, mas não consegue acessar o container B, pois este não possui uma porta externa 
+mapeada.
+
+Se ambos os containers estiverem na mesma "sub-rede", o container A poderá se comunicar 
+com o container B através da porta 80, mesmo que o container B não possua um "bind". 
+Isso ocorre porque, dentro da mesma "sub-rede", os containers conseguem se enxergar e 
+se comunicar diretamente.
+
+No entanto, se o container A estiver em uma "sub-rede" diferente do container B, a 
+comunicação entre eles será bloqueada, mesmo que o container A tente acessar o container 
+B através da porta 80. Essa restrição se deve ao fato de que "sub-redes" diferentes 
+atuam como ambientes isolados dentro do Docker.
+
+Em resumo, o "bind de porta" permite a comunicação entre o "host" e os containers, 
+enquanto as "sub-redes" organizam e isolam os containers em grupos, controlando o 
+acesso e a visibilidade entre eles. A compreensão desses conceitos é fundamental para 
+o desenvolvimento e a gestão de aplicações em ambientes conteinerizados.
+
+Perguntas:
+​Mesmo sem um bind de porta no container, é possível haver comunicação entre containers 
+de uma mesma “sub-rede”?
+
+Sim. Containers na mesma rede Docker se comunicam entre si sem precisar de -p 
+(port binding). O -p host:container só é necessário para expor a porta do container para 
+o host (e para fora). Entre containers, basta estarem na mesma rede e o serviço escutar 
+em 0.0.0.0 dentro do container.
+
+Como funciona
+
+User-defined bridge: Docker fornece DNS interno; você acessa outro container pelo nome 
+e porta interna (sem -p).
+Default bridge: comunicação por IP funciona; por nome só com --link (obsoleto). Prefira 
+criar rede própria.
+Overlay (Swarm/Compose): vale o mesmo princípio, inclusive entre hosts.
+
+EXPOSE é apenas metadado (documentação). Não “abre” portas.
+Publicar porta (-p) não é necessário para tráfego container↔container.
+
+Porque a conectividade entre “sub-redes” distintas e internas do Docker não funciona?
+
+​Porque dentro da “sub-rede” interna, os containers só enxergam os endereços IP de 
+mesmo prefixo (como 172.17), outros com outros prefixos (como 172.18) é como se 
+nem existissem no contexto da “sub-rede” local
