@@ -1,0 +1,197 @@
+1. Sistemas de Numeração
+Conhecer os sistemas numéricos computacionais 
+
+Bits e Bytes
+
+Bit significa zero ou 1, aberto ou fechado, ligado ou desligado. A única coisa que o 
+computador entende é 0 e 1. Então quando mexemos o mouse ou clicamos em uma aba isso
+é interpretado para essa linguagem bit que para o computador significa algo.
+O conjunto de 8 bit se chama byte, ou seja, é um tamanho formato por uma sequencia de
+0 e 1.
+
+00000000 = 0
+00000001 = 1
+00000010 = 2
+00000011 = 3
+00000100 = 4
+11111111 = 255
+
+Grandezas de armazenamento de informação
+
+Espaço, Unidade de medida, Número de caracteres
+8 bits, 1 byte, 1
+1024 bytes, 1 kilobyte, 1.024
+1024 kilobytes, 1 megabyte, 1.048.576
+1024 Megabytes, 1 gigabyte, 1.073.741.824
+1024 Gigabytes, 1 Terabyte, 1.099511628 x el 12
+
+Sistemas numéricos
+A quantidade de algarismos disponíveis em um sistema numeração designa-se de base.
+Decimal = base 10, 0 1 2 3 4 5 6 7 8 9
+Binário = base 2, 0 1
+Octal = base 8, 0 1 2 3 4 5 6 7
+Hexadecimal =  base 16, 0 1 2 3 4 5 6 7 8 9 A B C D E F 
+
+No sistema decimal cada algarismo tem um valor posicional, ou seja, cada algorismo tem um 
+peso de acordo com a sua posição na representação do valor.
+
+O binário é mais utilizado por máquinas, uma vez que os sistemas digitais trabalham internamente
+com dois estados (ligado/desligado, verdadeiro/falso, aberto/fechado). O sistema binário utiliza
+os símbolos: 0, 1, sendo cada símbolo designado por bit (binary digit).
+
+Octal é um sistema de numeração de base 8, ou seja, recorre a 8 símbolos para a representação
+de um determinado valor.
+
+Muito utilizado na programação de microprocessadores, especialmente nos equipamentos de estudo
+e sistemas de desenvolvimento. O sistema hexadecimal utiliza símbolos do sistema decimal e as letra. 
+Equivalências: A = 10, B = 11, C = 12, D = 13, E = 14 e F = 15. 
+
+2. Conversões de base decimal
+Aprender conversão entre os sistemas numéricos computacionais.
+
+Decimal para binário
+Dividir sucessivamente por 2 o número decimal e os quocientes que vão sendo obtidos, até que o
+quociente de uma das diviões seja 0. O resultado é a sequência de baixo para cima de todos os restos
+obtidos.
+
+Decimal para octal 
+Divisões sucessivas por 8. O resultado é a sequência de baixo para cima de todos os restos obtidos.
+217 vira 331 e 37 vira 45.
+
+Decimal para hexadecimal
+Diviões sucessivas por 16. 223 vira DF e 76 vira 4C.
+
+3. Conversões de base binária, octal e hexadecimal
+Aprender conversão entre os sistemas numéricos computacionais.
+
+Base 2 para as demais
+Binário para decimal. Basta calcular a soma de cada um dos dígitos do número binário multiplicado
+por 2 (que é a sua base) elevado à posição colunar do número que da direita para a esquerda
+começa em 0.
+11001
+1x2(4) + 1x2(3) + 0x2(2) + 0x2(2) + 1x2(1)
+16 + 8 + 0 + 0 + 1 = 25
+
+Base 8 para as demais
+Binário para octal
+Separe-se os dígitos do número binário em grupos de 3 bits da direita para a esquerda. Em seguida
+transforma-se cada grupo individual de 3 bits em octal. Ao final, une-se os resultados:
+Caso o número de dígitos do número binário não seja múltiplo de 3, completa-se os dígitos à esquerda 
+com zeros (0)
+
+Base 16 para as demais
+Binário para hexadecimal
+Separa-se o número binário em grupos de 4 bits, da direita para a esquerda. Em seguida, transforma-se 
+cada grupo de 4 bits em hexadecimal. Ao final, simplesmente une-se os resultados em um só:
+Caso o número de dígitos do número binário não seja múltiplo de 4, completa-se os dígitos à esquerda
+com zeros (0) 
+
+Octal para decimal
+Obtida através da soma dos sígitos do número octal multiplicados pela base 8 elevado à posição colunar 
+do dígito, começando em 0 da direita para a esquerda.
+
+Octal para binário 
+Decompõem-se o número octal diretamente em binários de 3 dígitos. Os zeros mais à esquerda do resultado
+binário podem ser omitidos.
+
+Octal para hexadecimal
+Transforma-se primeiro o octal em binário e em seguida o binário em hexadecimal.
+
+Hexadecimal para decimal
+Realizada através da soma dos dígitos hexadecimais multiplicados pela base 16 elevada à posição colunar 
+contando da direira para a esquerda, começando em 0, de forma semelhante à conversão de binários em 
+decimais:
+Note que os carcteres que definem os dígitos hexadecimais A, B, C foram substituídos pelos valores 
+equivalentes em decimais 10, 11 e 12 de acordo com a tabela da lição anterior para a reslização do 
+cálculo.
+
+Hexadecimal para binário
+Decompõem-se o número hexadecimal diretamente em binários de 4 dígitos. Os zeros mais à esquerda do
+resultado binário podem ser omitidos.
+
+Hexadecimal para octal
+Transforma-se primeiro o hexadecimal em binário e em seguida o binário em octal.
+
+4. Resumos e dicas
+Tabela ASCII e conversões
+
+Usar conversores
+
+Grandezas
+Byte - B - 8 bit
+KiloByte - KB - 1024 Byte
+MegaByte - MB - 1024 KByte
+GigaByte - GB - 1024 MByte 
+TeraByte - TB - 1024 GByte
+PetaByte - PB - 1024 TByte
+ExaByte - EB - 1024 PByte
+ZettaByte - ZB - 1024 EByte
+YottaByte - YB - 1024 ZByte
+
+Tabela ASCII
+
+Os sistemas de numeração são a base da linguagem dos computadores, que, por sua vez, são máquinas 
+eletrônicas que processam informações. Diferentemente dos humanos, que utilizam o sistema decimal 
+(base 10), os computadores trabalham com o sistema binário (base 2), composto apenas pelos dígitos 0 e 1, 
+representando os estados ligado/desligado dos seus circuitos eletrônicos. Cada dígito binário é chamado 
+de bit (Binary Digit), a menor unidade de informação na computação.
+
+O byte, por sua vez, é um conjunto de 8 bits, o que possibilita 256 (2^8) combinações diferentes, 
+representando letras, números, símbolos e caracteres especiais. A combinação de bits e bytes permite 
+aos computadores armazenarem e processarem grandes quantidades de dados, desde textos simples até 
+imagens, vídeos e softwares complexos.
+
+Além do sistema binário, outros sistemas numéricos são importantes na computação, como o octal (base 8) 
+e o hexadecimal (base 16). O sistema octal, utilizando os dígitos de 0 a 7, facilita a representação de 
+números binários grandes, agrupando-os em conjuntos de 3 bits. Já o sistema hexadecimal, com 16 dígitos 
+(0 a 9 e A a F, representando de 10 a 15), é frequentemente usado para representar endereços de memória e 
+cores em programação, pois permite uma representação mais compacta de valores binários grandes.
+
+A conversão entre diferentes bases numéricas é fundamental para a comunicação entre humanos e computadores. 
+Para converter um número decimal para binário, divide-se o número decimal sucessivamente por 2, anotando 
+os restos de cada divisão. O número binário será formado pelos restos da divisão, lidos do último para o 
+primeiro. A conversão de decimal para octal e hexadecimal segue o mesmo princípio, dividindo-se por 8 e 16, 
+respectivamente.
+
+A tabela ASCII (American Standard Code for Information Interchange) é outro elemento crucial na representação 
+de caracteres em computadores. Ela estabelece um código numérico para cada caractere, permitindo que os 
+computadores armazenem e processem textos de forma padronizada. Cada caractere, seja letra, número ou símbolo, 
+possui um código ASCII correspondente, possibilitando a comunicação entre diferentes sistemas computacionais.
+
+As grandezas de armazenamento de dados também são importantes na computação. O byte, como já vimos, é a 
+unidade básica, e seus múltiplos são utilizados para expressar quantidades maiores de dados. O kilobyte (KB) 
+equivale a 1024 bytes, o megabyte (MB) a 1024 KB, o gigabyte (GB) a 1024 MB, e assim por diante, com as unidades 
+terabyte (TB), petabyte (PB), exabyte (EB), zettabyte (ZB) e yottabyte (YB) representando quantidades cada vez 
+maiores de informação.
+
+Compreender os sistemas de numeração, as conversões entre bases, a tabela ASCII e as grandezas de armazenamento 
+é essencial para qualquer pessoa que deseje se aprofundar no mundo da computação. Esses conceitos são a base 
+para entender como os computadores armazenam, processam e transmitem informações, desde as tarefas mais simples 
+até as tecnologias mais avançadas.
+
+o computador só entende 0 e 1 (binário), porque os circuitos eletrônicos trabalham com dois estados físicos: 
+ligado/desligado, presença/ausência de corrente. Mas aí entram as outras bases, e a importância delas é mais 
+para nós, humanos do que para a máquina. Vou explicar:
+
+🔹 Binário (base 2)
+
+É a linguagem nativa da máquina. Toda informação (números, letras, imagens, sons) acaba sendo codificada em 
+sequências de 0 e 1. Exemplo: número 13 em binário é 1101.
+
+🔹 Decimal (base 10)
+
+É o sistema que nós usamos naturalmente no dia a dia. Quando programamos ou interpretamos resultados, muitas 
+vezes convertimos do binário para decimal. Exemplo: se o computador guarda 1101 em binário, nós entendemos como 
+13 em decimal.
+
+🔹 Octal (base 8)
+
+Foi muito usado no passado, em computadores mais antigos. Ele simplifica a representação de binário porque cada 
+dígito octal equivale a 3 dígitos binários. Ex.: binário 110101 → octal 65. Servia para reduzir a quantidade de 
+dígitos, facilitando a leitura de códigos de máquina.
+
+🔹 Hexadecimal (base 16)
+
+É o mais usado atualmente em programação e eletrônica. Ele simplifica ainda mais: cada dígito hexadecimal 
+equivale a 4 bits (4 dígitos binários). Ex.: binário 1101 1110 → hexadecimal DE. É muito usado para: Endereços 
+de memória (0xFF00A3). Códigos de cores em HTML/CSS (#FF5733). Representar instruções de máquina de forma compacta.

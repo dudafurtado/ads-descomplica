@@ -1,0 +1,109 @@
+Arquitetura de Computadores
+
+O que é?
+O que aborda essa disciplina?
+Porque estudar Arquitetura de Computadores?
+
+O que é arquitetura de computadores? 
+
+Arquitetura se refere a um projeto de uma construção. Ela vai adotar uma série de ações para 
+organizar e criar espaços que possam dar condições a diferentes atividades humanas.
+
+Quando migramos o termo para a área da tecnologia da informação, temos a arquitetura da
+computação - um projeto que define os parâmetros e o modo em que os diversos componentes de 
+um computador devem ser organizados para não só entrar em operação, mas também para alcançar a 
+qualidade e o desempenho necessários, a fim de ser aplicado na função para o qual foi intencionado.
+
+Por que estudar Arquitetura de Computadores?
+
+É essencial que todos os profissionais da Computação tenham pelo menos conhecimentos básicos de 
+Arquitetura de Computadores.
+
+Saber como o computador funciona nos permitirá entender sua capacidade (e incapacidade) de resolver
+problemas, sobre como programá-los da melhor forma possível, como deixar o compuatador e os dados 
+contidos neles mais seguros, como ganhar desempenho e o que faz ele ficar tão lento.
+
+É necessário aprender quais são os componentes de um computador, como eles funcionam e como eles 
+trabalham em conjunto formando um sistema.
+
+A UCP (Unidade Central de Processamento), ou CPU (Central Processing Unit), é o “cérebro” do computador, 
+responsável por interpretar e executar instruções.
+
+Ela é composta por três principais componentes:
+
+1. Unidade Lógica e Aritmética (ULA ou ALU)
+
+Responsável por realizar operações matemáticas (somas, subtrações, multiplicações, divisões) e lógicas 
+(comparações, maior/menor, igual/diferente). É onde os cálculos e decisões lógicas do programa são realmente 
+processados.
+
+2. Unidade de Controle (UC)
+
+Controla e coordena o funcionamento do computador. Interpreta as instruções da memória e envia sinais de 
+controle para que cada parte do sistema execute sua função no momento certo. Atua como um “maestro”, 
+sincronizando todo o fluxo de dados.
+
+3. Registradores
+
+Pequenas áreas de memória dentro da própria CPU. São extremamente rápidas e armazenam dados temporários, 
+instruções e endereços de memória durante o processamento. Exemplos: registrador de instrução (IR), contador 
+de programa (PC).
+
+📌 Resumo:
+
+A UCP funciona em um ciclo conhecido como “ciclo de máquina” ou “ciclo de busca e execução”: Busca a 
+instrução na memória (fetch). Decodifica a instrução (decode). Executa a instrução (execute), utilizando a 
+ALU e registradores, sob controle da UC.
+
+O SSD (Solid State Drive) é mais silencioso do que o HD (Hard Disk Drive). Isso acontece porque:
+
+HD: possui partes mecânicas — pratos giratórios e cabeças de leitura/escrita que se movimentam. Esse 
+movimento gera ruído perceptível, principalmente em momentos de leitura/gravação intensos.
+
+SSD: não tem partes móveis, funciona apenas com chips de memória flash. Por isso é totalmente silencioso, além 
+de mais rápido e resistente a impactos.
+
+A disciplina Arquitetura de Computadores proporciona uma visão abrangente sobre o funcionamento dos computadores, 
+desde seus primórdios até as tecnologias mais recentes. O estudo da história da computação nos leva a compreender 
+a evolução das máquinas de calcular, desde os autômatos mecânicos do século XVIII até os computadores eletrônicos 
+do século XX. Nomes como Blaise Pascal, Gottfried Leibniz, Charles Babbage e Herman Hollerith figuram como 
+pioneiros nesse desenvolvimento, cada um com suas contribuições para a criação de máquinas cada vez mais complexas 
+e eficientes. O surgimento dos computadores de mesa, ou desktops, no final da década de 1970, revolucionou a 
+maneira como interagimos com a tecnologia, tornando-a acessível a um público mais amplo.
+
+O modelo de von Neumann, proposto em meados do século XX, ainda serve como base para a arquitetura dos 
+computadores modernos. Esse modelo divide o computador em componentes essenciais, como a unidade de controle, 
+a unidade lógica e aritmética (ULA) e a memória. A unidade de controle é responsável por buscar e interpretar 
+as instruções dos programas armazenados na memória, enquanto a ULA realiza operações aritméticas e lógicas 
+sobre os dados. A memória, por sua vez, armazena tanto os dados quanto os programas, sendo organizada em 
+posições endereçáveis que permitem o acesso rápido e eficiente à informação.
+
+Os dispositivos de entrada e saída permitem a interação do usuário com o computador. O teclado, o mouse, 
+o scanner e a webcam são exemplos de dispositivos de entrada, que capturam informações do usuário e as 
+convertem em sinais que o computador pode processar. Já o monitor, a impressora e os alto-falantes são 
+dispositivos de saída, que apresentam ao usuário os resultados do processamento realizado pelo computador.
+A evolução da computação também é marcada pela miniaturização dos componentes e pelo aumento da capacidade 
+de processamento. Os smartphones, por exemplo, são verdadeiros computadores de bolso, capazes de realizar 
+tarefas complexas e se conectar à internet. A internet, por sua vez, revolucionou a comunicação e o acesso 
+à informação, conectando pessoas e dispositivos ao redor do mundo.
+
+No contexto da arquitetura de computadores, é fundamental compreender a diferença entre hardware e software. 
+Hardware refere-se aos componentes físicos do computador, como a placa-mãe, o processador, a memória RAM, o 
+disco rígido e os dispositivos de entrada e saída. Já o software compreende os programas que instruem o hardware 
+a realizar tarefas específicas, como sistemas operacionais, aplicativos, jogos e navegadores de internet.
+
+O processador, também conhecido como CPU (Central Processing Unit), é o cérebro do computador, responsável por 
+executar as instruções dos programas. A velocidade do processador é medida em Hertz (Hz) e influencia diretamente 
+o desempenho do computador. A memória RAM (Random Access Memory) é um tipo de memória volátil, ou seja, que perde 
+seu conteúdo quando o computador é desligado. Ela armazena temporariamente os dados e programas que estão sendo 
+utilizados pelo processador, permitindo um acesso rápido e eficiente.
+
+O disco rígido, por outro lado, é um tipo de memória não volátil, que armazena os dados permanentemente, mesmo 
+quando o computador é desligado. É no disco rígido que são armazenados o sistema operacional, os aplicativos, 
+os arquivos e documentos do usuário. Atualmente, os discos rígidos tradicionais (HD) estão sendo substituídos 
+pelos discos de estado sólido (SSD), que são mais rápidos, silenciosos e resistentes a impactos.
+
+Em suma, a disciplina Arquitetura de Computadores nos fornece o conhecimento fundamental para compreender o 
+funcionamento dos computadores, desde seus componentes básicos até as tecnologias mais avançadas. Esse 
+conhecimento é essencial para profissionais da área de computação e para qualquer pessoa que utilize o 
+computador como ferramenta de trabalho ou lazer.

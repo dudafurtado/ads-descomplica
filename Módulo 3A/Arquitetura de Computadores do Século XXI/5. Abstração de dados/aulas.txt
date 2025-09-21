@@ -1,0 +1,362 @@
+1. Vetores e exemplos
+Abstração de dados. Conhecer a estrutura de lista em memoria conínua.
+
+Abstração de dados
+“Abstrair” é separar o que um tipo de dado oferece (operações e garantias) 
+de como ele é implementado. A Lista como TAD (Tipo Abstrato de Dado) define 
+operações como tamanho(), get(i), set(i,x), insere(i,x), remove(i), iteração, 
+sem expor arranjos, ponteiros ou realocações. Essa separação permite trocar a 
+implementação (array contíguo, lista encadeada, deque) mantendo o mesmo contrato 
+e a mesma semântica observável.
+
+Lista em memória contínua (array)
+Uma lista “em memória contínua” armazena elementos em posições adjacentes de RAM. 
+Se base é o endereço do primeiro elemento e cada elemento ocupa s bytes, o endereço 
+do índice i é base + i*s. Isso dá acesso aleatório O(1) a get(i)/set(i), alta 
+localidade de cache e bom throughput em loops vetorizáveis. Custo: capacidade fixa 
+(em arrays estáticos) e operações no meio exigem deslocamentos.
+
+Conceito de vetores
+
+“Vetor” pode significar:
+Array estático (tamanho fixo em compilação/alocação);
+Vetor dinâmico (ex.: std::vector em C++, ArrayList em Java): mantém um array contíguo 
+com capacidade ≥ tamanho e cresce por realocação quando cheio (normalmente multiplicando a 
+capacidade por 1.5× ou 2×). Isso preserva push_back O(1) amortizado: a maioria dos inserts no 
+fim é O(1), ocasionalmente um grow custa O(n) para copiar. Iteradores/ponteiros podem invalidar 
+após realocação.
+
+Memória contígua
+
+Contiguidade explora o hardware: cache lines (típ. 64 bytes), pré-busca (prefetch) e TLB favorecem 
+acessos sequenciais; estruturas contíguas minimizam “pointer chasing”. Atenções: alinhamento 
+(ex.: 8/16 bytes), padding em structs, e escolha entre AoS (Array of Structs) vs SoA (Struct of Arrays) 
+para maximizar coalescência em SIMD/GPU e filtros por campo.
+
+Inserindo um elemento
+
+No fim: append em vetor dinâmico → O(1) amortizado; quando a capacidade estoura, aloca-se 
+novo bloco maior e copia-se n elementos (pico O(n)).
+No meio/início: é preciso abrir espaço: deslocar n−i elementos uma posição à direita e gravar 
+em i → O(n) tempo, O(1) espaço extra.
+Arrays estáticos: sem espaço livre, não inserem (a não ser sobrescrevendo ou realocando manualmente).
+
+Apagando um elemento
+
+No meio/início: fecha o buraco deslocando n−i−1 elementos uma posição à esquerda → O(n).
+No fim: pop_back() → O(1).
+Remoção sem estabilidade (se ordem não importar) pode trocar A[i] por A[n-1] e decrementar n → O(1), 
+mas altera a ordem.
+
+Custos resumidos (vetor/vetor dinâmico)
+
+get(i)/set(i): O(1)
+append (fim): O(1) amortizado
+insert(i) / remove(i): O(n) (deslocamentos)
+Crescimento: realocação e cópia O(n), invalida endereços/iteradores
+
+Quando usar
+
+Vetor/array contíguo: acesso por índice muito frequente, percursos sequenciais longos, operações no fim, 
+processamento numérico, coleções grandes com leitura predominante.
+
+Evitar para cargas dominadas por inserções/remoções no meio/início; considere listas ligadas, deques ou 
+estruturas de bloco (gap buffer, ropes) conforme o padrão de uso.
+
+leitura de matriz armazenada na memória contígua com inicio em x
+Significa que a matriz está “achatada” num bloco único e contínuo de RAM, começando no endereço 
+(ou ponteiro) x. A partir desse endereço-base, cada elemento é acessado por aritmética de endereços: você 
+calcula um deslocamento (offset) em bytes e lê no endereço x + offset. Não há buracos/padding entre 
+linhas/colunas — tudo vem “colado”.
+
+matriz (4l x 5c) armazenada segundo a sequência de linhas
+“sequência de linhas” quer dizer row-major: os elementos são guardados linha por linha,
+ da esquerda para a direita; termina a 1ª linha, segue para a 2ª, e assim por diante.
+
+Matriz 4×5 em row-major
+Considere A com 4 linhas (L=4) e 5 colunas (C=5),
+
+Fórmulas essenciais
+Linearização (i,j → k): k = i*C + j
+Deslinearização (k → i,j): i = k // C, j = k % C
+
+2. Listas ligadas e exemplos
+Estrutura de lista em memória não contínua
+
+Uma lista ligada (ou lista encadeada) é uma estrutura de dados formada por nós; cada 
+nó guarda um valor e ponteiro(s) para o(s) próximo(s) (e às vezes anterior). Diferente 
+de vetores, os elementos não ficam contíguos na memória: eles são “encadeados” pelos ponteiros.
+
+Ideia e variações
+
+Simplesmente ligada: cada nó aponta para o próximo.
+Duplamente ligada: cada nó aponta para próximo e anterior.
+Circular: o último aponta de volta ao primeiro (útil para filas circulares).
+
+Custos (complexidade)
+
+Acesso por índice: O(n) (precisa caminhar nó a nó).
+Busca por valor: O(n).
+Inserir/remover no início (head): O(1).
+Inserir/remover após um nó conhecido: O(1).
+Inserir/remover no fim: O(1) se você mantiver ponteiro para o tail; caso contrário, O(n).
+Vantagem central: inserções/remoções sem deslocar elementos; Desvantagem central: sem acesso 
+aleatório e pior localidade de cache que arrays.
+
+Quando faz sentido
+
+Muitas inserções/remoções no meio da sequência, especialmente quando você já tem o 
+ponteiro/iterador para a posição (ex.: manipular listas de trabalho, LRU caches com lista 
+duplamente ligada).
+Tamanhos altamente dinâmicos e splices (juntar/separar listas) em tempo O(1) 
+(ex.: std::list::splice).
+
+Quando evitar
+
+Se você precisa de acessos por índice frequentes ou percursos pesados: um vetor/ArrayList 
+tende a ser mais rápido (melhor uso de cache).
+
+Em ambientes com overhead grande por objeto/ponteiro (GC headers, alinhamento), o consumo 
+de memória por elemento pode ser bem maior que em arrays.
+
+Observações práticas
+
+Iteradores/ponteiros podem invalidar após remoções; em vetores, realocações também invalidam, 
+mas por motivos diferentes.
+
+Em linguagens modernas:
+
+C++: std::list (dupla), std::forward_list (simples).
+Java: LinkedList é duplamente ligada; ArrayList não é lista ligada (é vetor dinâmico).
+Python: list é vetor dinâmico; para lista ligada, use collections.deque (lista de blocos) 
+ou implemente.
+
+Versões avançadas: skip lists (camadas com “saltos” para busca média O(log n)), listas 
+de blocos, gap buffers (editores de texto).
+
+3. Árvores e exemplos
+Conceito de árvore e aplicações
+
+Conceito de árvore
+
+Árvore é uma estrutura hierárquica composta por nós ligados por arestas. Há um raiz, 
+nós pais/filhos, folhas (sem filhos) e subárvores. Medidas comuns: altura (maior distância 
+até uma folha) e profundidade (distância até a raiz). 
+
+Percursos clássicos:
+
+Pré-ordem (raiz, esquerda, direita)
+Em-ordem (esquerda, raiz, direita)
+Pós-ordem (esquerda, direita, raiz)
+Largura (nível a nível)
+
+Árvores modelam hierarquias e permitem busca/ordenação eficientes quando obedecem a 
+propriedades de ordenação.
+
+Uma ideia de implementação
+
+Em memória, cada nó vive em qualquer lugar do heap; a ligação vem dos ponteiros (não 
+é contíguo como vetores).
+Percursos e muitas operações são naturalmente recursivos; versões iterativas usam 
+pilhas/filas.
+Árvores especializadas (heaps, tries, B-trees) podem usar blocos contíguos para melhorar 
+cache/disk I/O.
+
+Árvore de pesquisa
+
+A Árvore de Pesquisa Binária (BST) impõe o invariante:
+todas as chaves em esquerda  <  nó  <  todas as chaves em direita
+
+Consequências:
+
+Busca/insert/remove: tempo médio O(log n);
+pior caso O(n) se a árvore degrada (encadeia) por inserções desbalanceadas.
+Em-ordem gera as chaves em ordem crescente.
+Duplicatas: pode guardar contagem, lista no nó, ou definir convenção (ex.: iguais vão à direita).
+Para garantir O(log n) no pior caso, usam-se árvores balanceadas:
+AVL, Red-Black (balanceamento por rotações)
+Treaps, Splay (probabilístico/heurístico)
+B-Tree / B+-Tree (n-árias, otimizadas para disco/SSD: poucos níveis, páginas grandes)
+
+Esboços de operações (BST)
+
+Inserção(k): desce como na busca até achar ponteiro NULL e cria o novo nó ali; 
+em árvores balanceadas, aplica rotações/ajustes após inserir.
+Remoção(k): três casos:
+nó folha → remove direto;
+1 filho → liga o filho ao pai;
+2 filhos → troca por sucessor (mínimo da direita) e remove o sucessor.
+
+Exemplos de uso de árvores de pesquisa
+
+Índices de banco de dados (B+-Trees): suportam WHERE x = ..., intervalos (BETWEEN, >=/<=) 
+e ORDER BY em O(log n) para localizar páginas. É o índice padrão em PostgreSQL, MySQL/InnoDB, 
+SQL Server. Cada nó corresponde a páginas de disco, minimizando profundidade (tipicamente 2–4 
+níveis para milhões de linhas).
+
+Coleções ordenadas em linguagens:
+
+Java TreeMap/TreeSet (Red-Black)
+C++ std::map/std::set (Red-Black)
+.NET SortedDictionary (Red-Black)
+Fornecem busca/insert/remove/iteração ordenada em O(log n).
+Sistemas de arquivos: NTFS, APFS, HFS+, ext4 (h-tree) usam variações de B/B+-Trees para 
+diretórios, metadados e extents, permitindo localizar entradas e faixas de blocos rapidamente.
+Roteamento e prefixos: tries/radix trees (árvores de pesquisa por dígitos/bits) para longest 
+prefix match em redes e autocomplete por prefixo (busca por intervalo de prefixos).
+Agendadores/estruturas de kernel: Linux usa Red-Black Trees para temporizadores, runqueues e 
+estruturas que exigem extração ordenada pelo “próximo a vencer”.
+Estatísticas por ordem (order statistics): árvores com contadores de tamanho por subárvore 
+permitem selecionar k-ésimo e contar ≤ x em O(log n) (ex.: leaderboards, percentis).
+
+Quando escolher
+
+Precisa de dados sempre ordenados, consultas por intervalo e operações frequentes de 
+inserção/remoção → BST balanceada (memória) ou B/B+-Tree (disco).
+Se só precisa de igualdade rápida, um hash vence em média (O(1)), mas não ordena nem resolve 
+intervalos.
+Se só extrai mínimos/máximos, um heap é mais simples (mas não suporta busca por chave arbitrária 
+em O(log n) sem estruturas auxiliares).
+
+4. Resumo e dicas
+Filas e pilhas com listas ligadas
+
+Pilha (stack) — política LIFO (Last In, First Out): o último a entrar é o primeiro a sair.
+Operações principais (todas O(1) em boas implementações):
+
+push(x): empilha no topo
+pop(): desempilha do topo
+top()/peek(): lê o topo sem remover
+Uso típico: desfazer/refazer, avaliação de expressões, chamada de funções (call stack).
+
+Fila (queue) — política FIFO (First In, First Out): o primeiro a entrar é o primeiro a sair.
+Operações (O(1)):
+
+enqueue(x): entra no fim
+dequeue(): sai do início
+front()/peek(): lê o primeiro
+Uso típico: buffers de I/O, filas de tarefas, agendadores.
+
+Implementações comuns
+
+Contíguas (vetores/arrays)
+Pilha: vetor dinâmico com ponteiro de topo (amortizado O(1) para push, realoca quando enche).
+Fila: buffer circular (índices head, tail, avanço por módulo da capacidade).
+
+Ligadas (nós com ponteiros)
+
+Pilha: lista simplesmente ligada com o head como topo (todas operações O(1) reais, sem realocação).
+Fila: lista ligada mantendo head (dequeue) e tail (enqueue) em O(1).
+
+Pilhas com listas ligadas (lista simplesmente ligada)
+Estrutura de nó (C-like):
+Características
+push/pop/peek O(1); sem cópias/shift de elementos.
+Sem contiguidade: cada nó pode estar em qualquer lugar do heap.
+Cuidado com fragmentação e overhead de malloc/free em altíssimas taxas; pools de nós mitigam isso.
+
+Exemplo na memória do computador (endereços e ponteiros)
+Pilha (lista ligada) — sequência de push e pop
+Suponha que cada nó ocupe 24 bytes e as alocações retornem endereços:
+
+Estado inicial
+S.top = NULL
+push(42) → aloca nó em 0x1000
+
+0x1000: [ value=42 | next=NULL ]
+S.top → 0x1000
+push(7) → aloca nó em 0x1080 (endereços no heap não são contíguos por obrigação)
+
+0x1080: [ value=7  | next=0x1000 ]
+0x1000: [ value=42 | next=NULL  ]
+S.top → 0x1080
+
+peek() lê S.top->value = 7
+pop():
+guarda p = 0x1080, lê x=7
+move topo: S.top = 0x1000
+free(0x1080)
+
+Estado:
+
+S.top → 0x1000
+0x1000: [ value=42 | next=NULL ]
+pop() novamente → libera 0x1000 e S.top = NULL.
+
+Visualmente dá para sentir o encadeamento por ponteiros e que não há “bloco único” de 
+memória como num array.
+
+Fila com buffer circular (contígua) — visão de endereços
+
+Capacidade C = 8, elementos int (4 bytes), base do array em 0x2000.
+Endereço do índice k: addr = 0x2000 + 4*k.
+
+Início: head=0, tail=0 (vazia).
+
+enqueue(5) grava em A[tail] = A[0] → endereço 0x2000, tail=(0+1)%8=1.
+
+enqueue(9) → A[1] (0x2004), tail=2.
+
+dequeue() lê A[head] = A[0] (0x2000), head=1.
+
+Se continuarmos inserindo até tail dar a volta, usamos % 8 para “circular”.
+
+Aqui os dados ficam contíguos em RAM; o movimento é só dos ponteiros lógicos head/tail.
+
+Escolha prática
+
+Precisa do máximo desempenho por cache e vai só empilhar/desempilhar? → vetor.
+
+Precisa evitar realocações/cópias e a taxa de alocação é moderada? → lista ligada.
+
+Filas de alto throughput com tamanho limitado conhecido → buffer circular.
+
+Filas com tamanho muito variável e imprevisível → lista ligada (ou linked blocks).
+
+A abstração de dados é um conceito fundamental em ciência da computação que permite aos 
+programadores lidar com dados de forma mais intuitiva, sem se preocupar com os detalhes 
+de como esses dados são armazenados na memória do computador. As estruturas de dados são 
+um exemplo claro de abstração de dados, fornecendo formas organizadas de armazenar e 
+acessar informações.
+
+Um vetor, também conhecido como array, é uma estrutura de dados que armazena uma sequência 
+de elementos do mesmo tipo em posições de memória contíguas. O acesso a um elemento 
+específico em um vetor é feito diretamente através de seu índice, o que torna a busca por 
+elementos muito eficiente. No entanto, inserir ou remover elementos em um vetor pode ser 
+custoso, pois exige o deslocamento de todos os elementos subsequentes na memória.
+
+As listas ligadas são outra estrutura de dados que, ao contrário dos vetores, não exigem 
+que os elementos sejam armazenados em posições contíguas na memória. Cada elemento em uma 
+lista ligada contém um ponteiro que aponta para o próximo elemento na sequência. Essa 
+estrutura permite a inserção e remoção eficiente de elementos, pois basta ajustar os 
+ponteiros para reorganizar a lista. No entanto, o acesso a um elemento específico em uma 
+lista ligada exige percorrer a lista desde o início até encontrar o elemento desejado.
+As árvores são estruturas de dados hierárquicas que consistem em nós conectados por arestas. 
+O nó no topo da árvore é chamado de raiz, e os nós subsequentes são chamados de filhos. As 
+árvores são usadas em uma variedade de aplicações, como organização de arquivos em sistemas 
+de arquivos e implementação de algoritmos de busca eficientes.
+
+As pilhas e filas são estruturas de dados que impõem restrições à forma como os elementos são 
+adicionados e removidos. As pilhas seguem o princípio LIFO (Last-In, First-Out), o que significa 
+que o último elemento adicionado à pilha será o primeiro a ser removido. As filas, por outro lado, 
+seguem o princípio FIFO (First-In, First-Out), o que significa que o primeiro elemento adicionado à 
+fila será o primeiro a ser removido.
+
+A escolha da estrutura de dados mais adequada para uma determinada aplicação depende das necessidades 
+específicas do problema. Vetores são eficientes para acesso aleatório a elementos, enquanto listas 
+ligadas são mais eficientes para inserção e remoção de elementos. Árvores são adequadas para 
+representar dados hierárquicos, enquanto pilhas e filas são úteis para implementar algoritmos 
+específicos.
+
+A memória do computador pode ser vista como uma grande sequência de células, cada uma com um 
+endereço único. As estruturas de dados são armazenadas na memória do computador, e a forma como 
+são organizadas na memória afeta a eficiência dos algoritmos que as utilizam.
+
+Os ponteiros são variáveis especiais que armazenam endereços de memória. Eles são usados em 
+estruturas de dados como listas ligadas e árvores para conectar elementos e permitir a navegação 
+eficiente pela estrutura.
+
+A compreensão das diferentes estruturas de dados e seus trade-offs é essencial para o 
+desenvolvimento de software eficiente. A escolha da estrutura de dados correta pode ter um 
+impacto significativo no desempenho de um programa.
+ 

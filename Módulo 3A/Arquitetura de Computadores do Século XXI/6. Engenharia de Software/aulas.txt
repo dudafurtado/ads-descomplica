@@ -1,0 +1,414 @@
+1. Conceitos — visão geral
+
+Disciplina de Engenharia de Software (ES): área que aplica princípios de 
+engenharia ao desenvolvimento e evolução de software — processos, métodos, 
+ferramentas, qualidade, gestão de risco e pessoas. Vai além de “codar”: define 
+como conceber, construir, testar, entregar e manter sistemas confiáveis e 
+sustentáveis.
+
+Requisitos: descrição do que o sistema deve fazer (funcionais) e como deve se 
+comportar (não funcionais: desempenho, segurança, usabilidade, disponibilidade), 
+além de restrições (leis, plataformas, integrações).
+
+Protótipos: representações antecipadas de uma solução (do rascunho à alta 
+fidelidade) para explorar ideias, reduzir incertezas e validar com usuários 
+antes (ou durante) a implementação.
+
+Verificação e Validação (V&V):
+
+Verificação: “estou construindo do jeito certo?” (conformidade com especificação).
+Validação: “estou construindo a coisa certa?” (atende necessidades de negócio/usuários).
+
+Por que Engenharia de Software
+
+Reduz risco e custo: erros detectados cedo são muito mais baratos de corrigir.
+Previsibilidade: processos e métricas (lead time, defeitos, cobertura) dão controle.
+Qualidade e segurança: padrões, revisões, testes e automação elevam a confiabilidade.
+Escala e manutenção: arquitetura, modularidade e documentação viabilizam evolução.
+Alinhamento ao negócio: decisões técnicas ligadas a metas (valor, compliance, ROI).
+
+Elicitação de Requisitos
+
+Objetivo: descobrir necessidades, restrições e prioridades de todas as partes interessadas.
+
+Técnicas principais
+
+Entrevistas, workshops/JAD, observation/shadowing, análise documental.
+Story mapping, brainstorming, card sorting, prototipação rápida.
+Questionários (quando há muitos usuários).
+Modelagem: casos de uso, jornadas, diagramas de contexto, domínios (UML/DDD).
+
+Boas práticas
+
+Mapear stakeholders (quem decide, quem usa, quem opera).
+Capturar não funcionais (latência, SLA, LGPD, auditabilidade).
+Resolver conflitos via negociação e trade-offs.
+Priorizar (MoSCoW, WSJF, RICE) e definir critérios de aceitação.
+Manter rastreabilidade (requisito → histórias → testes → entregas).
+
+Saídas comuns: Visão/escopo, SRS (Software Requirements Specification) ou 
+backlog (épicos/histórias), critérios de aceite, protótipos iniciais, RTM 
+(Requirements Traceability Matrix).
+
+Requisitos
+
+Funcionais: serviços/capacidades (“o sistema deve calcular juros compostos”).
+Não funcionais (qualidade): desempenho, segurança, confiabilidade, usabilidade, 
+acessibilidade, observabilidade, portabilidade, escalabilidade.
+Restrições: tecnologias impostas, padrões de segurança, legislação, integração legada.
+
+Qualidade de requisitos (checklist)
+
+Claros, não ambíguos, testáveis, completos, consistentes, rastreáveis e priorizados.
+Escreva com linguagem verificável: evite termos vagos (“rápido”, “fácil”). Prefira: 
+“p95 < 300 ms para consulta X”.
+
+Formas de especificar
+
+User stories + critérios de aceitação (Given/When/Then).
+Casos de uso com fluxos principais e alternativos.
+Especificações formais (quando criticamente necessário).
+
+Protótipos
+
+Para que servem: reduzir incertezas de requisitos, UX, viabilidade técnica e 
+alinhar expectativas.
+
+Tipos
+
+Baixa fidelidade: esboços, wireframes; baratos, rápidos para iterar.
+Alta fidelidade: protótipos navegáveis (Figma), às vezes com dados fictícios.
+Horizontal vs. Vertical: amplitude de telas vs. profundidade em um fluxo.
+Descartável (throwaway) vs. Evolutivo (vira base do produto com cuidado).
+
+Dicas
+
+Prototipe o risco (o que mais ameaça valor/viabilidade).
+Valide com usuários-alvo medindo entendimento e sucesso de tarefas.
+Documente aprendizados e atualize requisitos e critérios de aceite.
+
+Verificação e Validação (V&V)
+
+Verificação — “construindo do jeito certo”
+
+Revisões (pair review, inspection), linters, análise estática, model checking 
+(quando aplicável).
+Testes: unitários, integração, contrato, componente, regressão; CI para executar sempre.
+Cobertura significativa (sem fetiche por 100%); foco em caminhos críticos.
+
+Validação — “construindo a coisa certa”
+
+Testes de aceitação (UAT) com critérios Given/When/Then.
+Ensaios com usuários, protótipos, feature flags e experimentos (A/B).
+Demonstrações com stakeholders e métricas de produto (ativação, conversão, NPS).
+
+Traço de ponta a ponta
+
+Requisito → história → teste de aceitação → build/deploy → métrica.
+Use RTM e ferramentas ALM/issue trackers para fechar o ciclo.
+
+Amarrando tudo no ciclo de vida
+
+Descoberta: elicitação + protótipos → requisitos claros e priorizados.
+Construção: implementação guiada por requisitos e critérios; verificação contínua (CI/CD).
+Validação: UAT, pilotos, telemetria; ajuste fino do que entrega valor.
+Operação/Evolução: incidentes, feedback, novas necessidades; requisitos se renovam.
+
+2. Ciclos de vida
+
+Do requisito à entrega (visão ponta-a-ponta)
+
+Descoberta & Requisitos: elicitar necessidades, restrições e metas; priorizar; 
+definir critérios de aceite.
+Análise & Modelagem: entender domínio, processos, dados e casos de uso; esboçar 
+arquitetura candidata.
+Projeto (Design): dividir em módulos/serviços, definir contratos, dados, padrões 
+de integração.
+Implementação: codificar, versionar, revisar (code review), automatizar build.
+Teste & V&V: unitários, integração/contrato, end-to-end, performance, segurança.
+Entrega & Operação: deploy (CI/CD), monitoração/observabilidade, gestão de incidentes, 
+feedback para nova rodada.
+
+Modelo de Cascata
+
+Ideia: fases sequenciais com gates de aprovação 
+(Requisitos → Análise → Design → Implementação → Testes → Operação).
+
+Quando usar:
+Requisitos estáveis e regulatórios fortes (governo, aeroespacial, compliance pesado).
+Contratos com escopo fechado.
+
+Vantagens:
+Traçabilidade e documentação claras; gestão tradicional de riscos e custos.
+
+Limites:
+Baixa adaptabilidade a mudanças; validação tardia (problemas descobertos no fim 
+custam caro).
+
+Boas práticas:
+Prototipar partes críticas mesmo em cascata; reviews formais por fase; matriz de 
+rastreabilidade requisito→teste.
+
+Modelo Evolutivo (Iterativo/Incremental, Agile, RUP)
+
+Ideia: entrega em incrementos curtos, com ciclos de 
+planejar → construir → inspecionar → adaptar. Requisitos e design evoluem com feedback.
+
+Quando usar:
+Alta incerteza ou inovação de produto; necessidade de time-to-value rápido; forte 
+envolvimento de usuários.
+
+Vantagens:
+Risco reduzido por validar cedo; prioridades podem mudar a cada iteração; valor contínuo.
+
+Limites:
+Exige disciplina de produto (priorização) e engenharia (automação de testes/CI/CD) para 
+não degradar qualidade.
+Governança e contratos precisam suportar escopo variável.
+
+Boas práticas:
+Backlog priorizado, critérios de aceite claros, Definition of Done, automação de testes, 
+feature flags, métricas (lead time, p95, defeitos).
+
+Modelo Espiral (Boehm)
+
+Ideia: ciclos em quatro quadrantes orientados a risco:
+Definir objetivos/alternativas → 2) Analisar/mitigar riscos (protótipos, POCs) →
+Desenvolver e validar o incremento → 4) Planejar a próxima volta da espiral.
+
+Quando usar:
+Sistemas grandes/complexos, com riscos técnicos/organizacionais relevantes (novas 
+techs, requisitos críticos de segurança/desempenho).
+
+Vantagens:
+Risco tratado explicitamente; uso sistemático de prototipagem/experimentos antes 
+de comprometer orçamento grande.
+
+Limites:
+Exige maturidade em gestão de risco e arquitetura; overhead maior de análise.
+
+Boas práticas:
+Catálogo de riscos com probabilidade/impacto/mitigações; protótipos dirigidos 
+a riscos (desempenho, integração, usabilidade).
+
+Técnicas de modelagem (análise):
+
+Objetivo: entender e comunicar o problema e as soluções candidatas antes (e durante) 
+o código, reduzindo ambiguidades.
+
+Domínio e processos
+
+Casos de Uso (objetivos do ator e fluxos principal/alternativos).
+Jornadas/Story mapping (experiência ponta-a-ponta).
+BPMN / Fluxogramas (processos e decisões).
+Event Storming / DDD (eventos de domínio, comandos, aggregates).
+
+Dados e estrutura
+
+Modelo de Domínio (conceitual): entidades, valores, agregados.
+ER (Entidade-Relacionamento) para persistência relacional.
+UML de Classes (atributos/associações), Estado (ciclos de vida), 
+Sequência (interações/temporalidade).
+
+Arquitetura & integração
+
+Diagramas C4 (Contexto/Contêiner/Componente/Código) para visão de arquitetura.
+Contratos de API (OpenAPI/AsyncAPI), modelos de mensagens (eventos, tópicos).
+
+Boas práticas de modelagem
+
+Modele o mínimo necessário para decidir bem (evite “analysis paralysis”).
+Anexe critérios de aceite/testes a cada requisito/modelo.
+Sincronize modelos com o que está em produção 
+(diagramas como código: Mermaid/PlantUML, OpenAPI versionado).
+Valide com domínio (stakeholders) e com engenharia (viabilidade técnica/performance).
+
+Como escolher o ciclo de vida
+
+Requisitos estáveis + compliance rígido → Cascata (com protótipos de risco).
+Incerteza alta + necessidade de feedback rápido → Evolutivo/Agile.
+Complexidade elevada + riscos críticos → Espiral (dirigido a risco; pode combinar 
+com iterações ágeis por incremento).
+Independente do modelo, maximize qualidade com:
+
+CI/CD, testes automatizados, observabilidade, feature flags, trunk-based development, 
+code review, gestão de riscos e rastreabilidade requisito→teste→deploy.
+
+3. Garantia de Qualidade (GQ) e Testes de Software
+
+Garantia de Qualidade (GQ) é o conjunto de práticas que assegura que o processo 
+de desenvolvimento previne defeitos e produz software confiável e aderente aos 
+requisitos. Envolve políticas, padrões, auditorias, métricas, melhoria contínua 
+e um estratégia de testes bem definida (pessoas, papéis, ambientes, dados e automação).
+
+Objetivos de testes
+
+Encontrar defeitos cedo (“shift-left”), reduzir custo de correção.
+Evidenciar conformidade com requisitos funcionais e não funcionais.
+Dar confiança para mudanças (regressão automatizada, CI/CD).
+Mensurar qualidade (cobertura, taxa de falhas, p95/p99 de latência, etc.).
+
+Níveis e tipos (visão rápida)
+
+Níveis: unitário → integração/contrato → componente → sistema → aceitação (UAT).
+Não funcionais: desempenho (carga, estresse), segurança (SAST/DAST), confiabilidade, 
+usabilidade, acessibilidade, compatibilidade.
+Pirâmide de testes: mais testes unitários → média quantidade de integração/contrato 
+→ poucos end-to-end.
+
+Caixa Branca (testes estruturais)
+
+Ideia: testar a partir da estrutura interna do código/algoritmo. O testador conhece 
+controle de fluxo, condições e dados internos.
+
+Onde brilha
+
+Verificar caminhos de decisão complexos, cálculos, tratamento de erros.
+Aumentar cobertura e evitar “código morto”.
+Critérios clássicos de cobertura
+Instruções: cada linha/bloco executado ao menos uma vez.
+Ramos/decisões: cada saída de if/while/switch executada.
+Condições: cada condição booleana avaliada a true/false.
+MC/DC (Modified Condition/Decision Coverage): cada condição influencia, de 
+forma independente, o resultado da decisão (muito usado em software crítico).
+Caminhos: sequências completas de execução (combinatorialmente explosivo; usa-se amostragens).
+
+Técnicas e ferramentas
+
+Análise estática (linters, SAST), análise de cobertura, mutation testing (injeta 
+mutações e verifica se os testes “matam” o mutante), testes de propriedade (geração 
+aleatória guiada por invariantes).
+
+Limitações
+
+Pode não revelar falhas de integração ou requisitos mal entendidos.
+Foco na implementação atual; mudanças de código → manutenção dos testes.
+
+Caixa Preta (testes funcionais/externos)
+
+Ideia: testar pelo comportamento observado, sem conhecer o código. O foco é nas 
+entradas/saídas e critérios de aceitação.
+
+Onde brilha
+
+Validar requisitos funcionais e contratos (APIs), regras de negócio, fluxos de usuário.
+Adequado para aceitação e regressão de alto nível.
+
+Técnicas principais
+
+Particionamento por equivalência: dividir entradas em classes “equivalentes”; testar 
+um representante por classe.
+Análise de valores-limite: focar em limites e vizinhanças (ex.: min, min±1).
+Tabela de decisão: combinações de regras/condições → ações esperadas.
+Transição de estados: validar eventos, estados e transições válidas/inválidas.
+Pairwise/combinatorial: cobrir pares de parâmetros reduzindo explosão combinatória.
+Teste baseado em casos de uso e cenários BDD (Given-When-Then).
+
+Limitações
+
+Pode deixar lacunas na implementação interna (lógicas pouco exercitadas).
+Cobertura real do código é indireta.
+
+Objetivo do teste
+
+Funcional — verifica o que o sistema faz.
+• Técnicas: partições de equivalência, valores-limite, tabelas de decisão.
+• Métrica: cobertura de requisitos/estórias.
+
+Regressão — garante que algo que já funcionava continua ok após mudança.
+• Construa uma suíte estável e rápida que roda a cada PR/merge.
+• Métrica: falhas por release, tempo de execução, flaky rate.
+
+Usabilidade — mede facilidade/eficiência de uso.
+• Sessões moderadas, SUS, tarefas cronometradas; heurísticas de Nielsen.
+• Em automação, valide acessibilidade (axe/lighthouse) e fluxos críticos com E2E.
+
+Segurança — encontra vulnerabilidades e violações de política.
+• SAST/linters (shift-left), DAST/fuzzing, dependabot/SBOM, testes de autorização.
+• Métrica: tempo para corrigir CVEs, severidade média, cobertura de ameaças (STRIDE).
+
+Integração — verifica contratos entre módulos/serviços.
+• Testes de contrato (pact), ambientes “fake” (testcontainers), wiremock.
+• Métrica: taxa de quebra de contrato, cobertura de endpoints/eventos.
+
+Performance — latência, throughput, consumo.
+• Carga, estresse, escalabilidade, soak.
+• Métrica: p50/p95/p99, erro sob pico, custo/req.
+
+Instalação — instalação/provisionamento/migração e smoke test pós-deploy.
+• Desktop: instalador, upgrades, rollback.
+• Cloud: IaC (Terraform), migrações DB, health checks.
+• Métrica: tempo de deploy, taxa de sucesso, reversibilidade.
+
+Manutenção — valida pós-mudança (bugfix, refator, config, OS/SDK).
+• Inclui reteste do defeito e regressão focada no impacto.
+• Métrica: taxa de reabertura, defeitos escapados, MTTR após mudanças.
+
+4. Resumos e dicas
+Algumas ferramentas valorizadas no mercado
+
+Academia, empresas e concursos
+Testes automatizados de software
+
+A Engenharia de Software é uma disciplina crucial no desenvolvimento de sistemas 
+complexos, atuando desde a concepção da ideia até a entrega e manutenção do produto 
+final. Ela busca garantir que o software seja desenvolvido de forma organizada, 
+eficiente e com alta qualidade, atendendo às necessidades dos usuários e do cliente. 
+Para isso, a Engenharia de Software se apoia em metodologias, ferramentas e boas práticas 
+que abrangem todo o ciclo de vida do software.
+
+Um dos pilares da Engenharia de Software é a etapa de levantamento de requisitos, que 
+consiste em entender e documentar as necessidades dos usuários em relação ao sistema. Os 
+requisitos podem ser funcionais, descrevendo o que o sistema deve fazer, ou não funcionais, 
+estabelecendo restrições e características de qualidade, como desempenho, segurança e 
+usabilidade. A comunicação clara e constante com o cliente é essencial durante todo o processo 
+de desenvolvimento, garantindo que o produto final atenda às suas expectativas.
+
+Existem diferentes modelos de ciclo de vida de software, cada um com suas características e 
+abordagens. O modelo em cascata, por exemplo, é um modelo tradicional que segue uma sequência 
+linear de fases, como análise de requisitos, projeto, implementação, testes e manutenção. Já o 
+modelo evolutivo, como o próprio nome sugere, propõe um desenvolvimento iterativo e incremental, 
+com ciclos curtos de desenvolvimento e entregas frequentes de versões do software. O modelo em 
+espiral, por sua vez, combina elementos dos modelos anteriores, adicionando a gestão de riscos 
+como um fator central no processo de desenvolvimento.
+
+A escolha do modelo de ciclo de vida mais adequado depende de diversos fatores, como o tipo de 
+projeto, os requisitos do cliente, o tempo e os recursos disponíveis. Independentemente do 
+modelo escolhido, a documentação é uma etapa fundamental em todo o processo de desenvolvimento 
+de software. Ela serve como base para a comunicação entre os membros da equipe, para o registro 
+das decisões tomadas e para a garantia da qualidade do produto final.
+
+A modelagem de software é uma técnica utilizada para representar o sistema de forma abstrata, 
+facilitando a comunicação entre os envolvidos no projeto e auxiliando na identificação de erros e 
+inconsistências. Diversas ferramentas e linguagens de modelagem podem ser utilizadas, como 
+diagramas de fluxo de dados, diagramas de entidade-relacionamento e diagramas de classes.
+
+A garantia da qualidade do software é um aspecto crítico em Engenharia de Software, abrangendo 
+todo o ciclo de vida do produto. As atividades de garantia de qualidade visam assegurar que o 
+software atenda aos requisitos especificados, seja confiável, seguro e fácil de usar. Testes de 
+software são uma parte fundamental da garantia da qualidade, permitindo identificar e corrigir 
+erros antes da entrega do produto final.
+
+Existem diferentes tipos de testes de software, cada um com o objetivo de avaliar aspectos 
+específicos do sistema. Os testes de caixa branca, por exemplo, analisam o código-fonte do 
+software, enquanto os testes de caixa preta avaliam o comportamento do sistema a partir da 
+perspectiva do usuário, sem conhecimento prévio da implementação interna.
+
+A escolha das ferramentas adequadas é essencial para o sucesso do desenvolvimento de software. 
+Existem ferramentas para diversas finalidades, como modelagem, gerenciamento de projetos, 
+controle de versão, testes automatizados e desenvolvimento integrado. A escolha das ferramentas 
+deve levar em consideração as necessidades específicas do projeto e da equipe de desenvolvimento.
+
+A manutenção de software é uma etapa crucial no ciclo de vida do produto, que se inicia após 
+a entrega do sistema e se estende por toda a sua vida útil. As atividades de manutenção 
+incluem correção de erros, adaptação a novas tecnologias e implementação de novas 
+funcionalidades. A Engenharia de Software fornece as bases para que a manutenção seja 
+realizada de forma eficiente e segura, garantindo a longevidade do sistema.
+
+Em resumo, a Engenharia de Software é uma disciplina fundamental para o desenvolvimento 
+de software de alta qualidade. Através de metodologias, ferramentas e boas práticas, a 
+Engenharia de Software busca garantir que o software seja desenvolvido de forma organizada, 
+eficiente e que atenda às necessidades dos usuários e do cliente. A escolha do modelo de 
+ciclo de vida, das ferramentas e das técnicas de garantia de qualidade depende das 
+características específicas de cada projeto.
+ 
