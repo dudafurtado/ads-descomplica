@@ -1,0 +1,12 @@
+Resumo:
+
+O YAML é uma linguagem de fácil leitura para humanos e que pode ser traduzida para qualquer linguagem de programação, sendo utilizada para criar scripts de pipeline no GitLab CI/CD. Esses scripts definem as etapas de automação do processo de desenvolvimento de software, como teste, build e deploy, organizadas em "stages" e "jobs". As "stages" definem as etapas sequenciais da pipeline, enquanto os "jobs" são as tarefas executadas em cada etapa. Cada "job" possui um script que define os comandos a serem executados, como se estivesse sendo executado em um terminal Linux.
+Para executar os "jobs", o GitLab CI/CD utiliza o "runner", que pode ser configurado para usar o Docker como executor. O "runner" irá criar um container temporário para cada "job", utilizando uma imagem base definida no script ou a imagem padrão configurada no "runner". É possível executar comandos do Docker dentro do script, como o "docker run" para criar um container com uma imagem específica.
+Para garantir que o script da pipeline esteja correto antes de executá-lo, o GitLab CI/CD oferece a ferramenta "CI Lint", que valida a sintaxe do YAML e verifica se as "stages" e "jobs" estão corretamente definidos. É importante utilizar o "CI Lint" para evitar que a pipeline seja executada com erros, o que pode gerar perda de tempo e recursos.
+Para acelerar a execução da pipeline, é possível configurar o "runner" para executar os "jobs" em paralelo. Isso é feito através do parâmetro "concurrent" no arquivo de configuração do "runner". Ao aumentar o valor de "concurrent", o "runner" poderá executar mais "jobs" simultaneamente, o que pode reduzir o tempo total de execução da pipeline.
+Os volumes do Docker são utilizados para persistir dados em containers, mesmo após a sua finalização. Eles são úteis para armazenar arquivos de configuração, bancos de dados e outros dados que precisam ser acessados por diferentes containers ou que precisam ser mantidos após a finalização do container. Para utilizar um volume em um container, basta especificá-lo no comando "docker run" utilizando a flag "-v".
+Em resumo, o GitLab CI/CD é uma ferramenta poderosa para automatizar o processo de desenvolvimento de software, permitindo a criação de pipelines eficientes e flexíveis. O uso do YAML, Docker, "stages", "jobs", scripts, "runners", imagens base, "CI Lint", concorrência e volumes são elementos essenciais para o desenvolvimento de pipelines robustas e eficientes.
+
+Repositório:
+
+https://gitlab.com/everton.juniti/descomplica

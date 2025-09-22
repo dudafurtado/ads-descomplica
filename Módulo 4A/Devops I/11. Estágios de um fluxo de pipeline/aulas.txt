@@ -1,0 +1,14 @@
+Resumo:
+
+No contexto de desenvolvimento de software, pipelines de CI/CD (Integração Contínua e Entrega Contínua) são essenciais para automatizar o processo de construção, teste e implantação de aplicações. O GitLab CI/CD é uma ferramenta poderosa que permite definir pipelines através de um arquivo de configuração chamado `.gitlab-ci.yml`.
+Um pipeline típico consiste em várias etapas, chamadas de "stages", que representam diferentes fases do processo de entrega. As stages mais comuns são "test", "build" e "deploy", que correspondem, respectivamente, à execução de testes unitários, à construção da aplicação e à sua implantação em um ambiente de produção ou de testes.
+Cada stage pode conter um ou mais "jobs", que são unidades de trabalho executadas sequencialmente dentro de uma stage. Por exemplo, a stage de teste pode ter jobs para executar diferentes tipos de testes, como testes unitários, testes de integração e testes de interface do usuário.
+Para tornar os pipelines mais eficientes, o GitLab CI/CD oferece recursos como "artifacts" e "cache". Artifacts permitem que os jobs compartilhem arquivos entre si, o que é útil para passar o resultado de uma etapa para outra. Por exemplo, o resultado da compilação do código-fonte pode ser armazenado como um artifact e usado posteriormente pela stage de deploy.
+O cache, por outro lado, permite que os jobs armazenem em cache arquivos e diretórios que são caros de criar, como dependências de bibliotecas. Isso acelera as execuções subsequentes do pipeline, pois os jobs podem reutilizar os arquivos em cache em vez de baixá-los ou criá-los novamente.
+Para ilustrar o funcionamento de um pipeline, vamos considerar um exemplo prático de uma aplicação Spring Boot. A stage de teste executaria os testes unitários da aplicação usando o Maven, uma ferramenta de gerenciamento de builds para projetos Java. A stage de build usaria o Docker para criar uma imagem da aplicação, que é um pacote executável contendo o código da aplicação e suas dependências. Finalmente, a stage de deploy implantaria a imagem em um ambiente Docker, como um servidor de produção ou um cluster Kubernetes.
+Para evitar a repetição de código e facilitar a manutenção do pipeline, o GitLab CI/CD permite o uso de variáveis. As variáveis podem ser definidas globalmente para o pipeline ou localmente para um job específico. Elas podem armazenar informações como o nome da aplicação, a tag da imagem Docker e as credenciais de acesso a serviços externos.
+Em resumo, pipelines de CI/CD são uma parte fundamental do desenvolvimento de software moderno, permitindo que as equipes automatizem o processo de entrega de software e garantam a qualidade e a confiabilidade das aplicações. O GitLab CI/CD oferece uma plataforma robusta e flexível para definir e executar pipelines, com recursos avançados como artifacts, cache e variáveis que ajudam a otimizar o processo de entrega.
+
+Fontes:
+
+https://docs.gitlab.com/ci/caching/
