@@ -1,0 +1,41 @@
+Objetivos da Disciplina
+
+Criar algoritmos e aplicações para dispositivos móveis
+Desenvolver pequenas aplicações
+Fazer controle de fluxo de aplicações
+Entender a utilizar recursão
+Conhecer os principais algoritmos de busca
+Implementar algoritmos
+Executar algoritmos
+Fazer identificação e correção de erros em algoritmos
+
+Sumário
+
+1. Configuração do Ambiente de Desenvolvimento
+Instalação do Flutter e do VS Code, configuração do ambiente.
+
+2. Estrutura de um projeto Flutter
+Exploração da estrutura de diretórios de um projeto Flutter e criação
+de um projeto simples.
+
+3. Widgets e Layouts Básicos
+Introdução aos widgets, explicação de Stateless e Stateful widgets e 
+gerenciadores de layout.
+
+4. Integração Básica do Usuário
+Como adicionar botões, imagens e reagir a eventos como cliques.
+
+Resumo:
+
+A disciplina de desenvolvimento mobile visa apresentar as ferramentas e tecnologias disponíveis para a criação de aplicativos móveis, com foco no framework Flutter e na linguagem de programação Dart, ambos desenvolvidos pelo Google. O Flutter se destaca por ser um framework híbrido, permitindo que um único código seja executado em diferentes plataformas, como Android, iOS, web e desktop.
+Para iniciar o desenvolvimento com Flutter, a configuração adequada do ambiente é crucial. O primeiro passo consiste em instalar o SDK do Flutter, disponível no site oficial, seguindo as instruções específicas para o sistema operacional em uso. Durante a instalação, é importante prestar atenção à compatibilidade das APIs para evitar problemas futuros.
+Com o SDK do Flutter instalado, a linguagem Dart já estará disponível, pois está integrada ao framework. O próximo passo é instalar o Android Studio, IDE utilizada para emular dispositivos móveis e testar os aplicativos durante o desenvolvimento. É fundamental instalar os plugins do Flutter e do Dart no Android Studio para habilitar as funcionalidades específicas do framework.
+O VS Code, editor de código da Microsoft, também pode ser utilizado para o desenvolvimento em Flutter. Para isso, é necessário instalar as extensões do Flutter e do Dart, que fornecem recursos como realce de sintaxe, autocompletar e depuração.
+Com o ambiente configurado, é possível criar o primeiro projeto Flutter, que apresentará uma estrutura de diretórios predefinida. O diretório "lib" armazena o código-fonte do aplicativo, sendo o arquivo "main.dart" o ponto de entrada principal. O diretório "android" contém os arquivos específicos para a plataforma Android, enquanto o diretório "ios" armazena os arquivos para a plataforma iOS.
+O arquivo "pubspec.yaml" desempenha um papel fundamental na configuração do projeto, especificando as dependências, assets e outras configurações relevantes. As dependências são bibliotecas externas que fornecem funcionalidades adicionais ao aplicativo, como acesso a APIs, widgets personalizados e recursos de interface do usuário.
+No desenvolvimento com Flutter, tudo é um widget, desde elementos básicos como texto e imagens até layouts complexos e telas inteiras. Os widgets são organizados em uma estrutura de árvore, formando a interface do usuário do aplicativo. O Flutter oferece uma ampla variedade de widgets pré-construídos, além da possibilidade de criar widgets personalizados.
+Dois tipos principais de widgets são utilizados no Flutter: StatelessWidget e StatefulWidget. StatelessWidget, como o nome sugere, representam widgets que não possuem estado interno, ou seja, sua aparência e comportamento não se alteram ao longo do tempo. Já os StatefulWidgets possuem estado interno que pode ser modificado, refletindo as mudanças na interface do usuário.
+A interação do usuário com o aplicativo é um aspecto crucial no desenvolvimento mobile. O Flutter fornece widgets específicos para lidar com eventos de interação, como toques na tela, cliques em botões e entrada de texto. O widget GestureDetector permite detectar uma variedade de gestos, como toques, arrastos e movimentos de pinça.
+O RaisedButton é um widget que representa um botão com elevação, respondendo a cliques do usuário. Já o TextField permite a entrada de texto pelo usuário, capturando o valor digitado para processamento posterior.
+O Hot Reload é um recurso poderoso do Flutter que acelera o desenvolvimento, permitindo visualizar as alterações no código em tempo real, sem a necessidade de reiniciar o aplicativo. Essa funcionalidade agiliza o processo de desenvolvimento e facilita a identificação e correção de erros.
+Em resumo, o desenvolvimento mobile com Flutter oferece uma abordagem moderna e eficiente para a criação de aplicativos multiplataforma. A curva de aprendizado pode parecer desafiadora inicialmente, mas a estrutura organizada do framework, a linguagem Dart e a vasta gama de recursos disponíveis tornam o Flutter uma escolha poderosa para desenvolvedores de todos os níveis de experiência.
