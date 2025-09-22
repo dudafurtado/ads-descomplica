@@ -1,0 +1,161 @@
+1. Conceitos
+Introdução e conceitos básicos de rede.
+
+Introdução às Redes de Computadores
+
+Redes de computadores são conjuntos de dispositivos interconectados, como 
+roteadores, computadores e servidores, que permitem a comunicação e troca 
+de informações. Surgiram durante a Guerra Fria com o sistema S.A.G.E. e 
+evoluíram com tecnologias como redes telefônicas, rádio e satélites.
+
+Tipos de Redes e Ethernet
+
+Ethernet é um padrão de comunicação em redes locais (LANs) que oferece 
+velocidades de 100 Mbps a 100 Gbps. As redes são classificadas por área 
+geográfica em: redes pessoais (PAN), redes locais (LAN), redes metropolitanas 
+(MAN) e redes de longa distância (WAN), como a internet.
+
+2. Protocolos
+Estrtura topológico das redes e protocolos de comunicação
+
+Introdução aos Protocolos de Rede
+
+Protocolos de rede são conjuntos de regras que definem o formato, ordem e 
+ações para o envio e recebimento de mensagens em redes, garantindo 
+comunicação eficaz entre emissores e receptores.
+
+Tipos de Protocolos e Arquiteturas de Rede
+
+Existem diversos tipos de protocolos, como HTTP, FTP e SMTP, cada um com 
+regras específicas para diferentes tipos de comunicação, como navegação 
+web e envio de emails.
+
+Arquitetura Ponto-a-Ponto (P2P)
+
+Diferente do modelo cliente-servidor, onde um cliente solicita e um servidor 
+responde, a arquitetura P2P estabelece uma conexão direta entre as máquinas 
+para troca de informações.
+
+3. Topologias e Meio de Transmissão
+As redes quanto ao seu alcance geográfico
+
+Introdução à Topologia de Redes
+
+A topologia de rede descreve o layout e a forma como os dispositivos se 
+conectam para o tráfego de informações. Influencia a flexibilidade, velocidade 
+de transmissão e segurança da rede, sendo descrita física e logicamente.
+
+Existem diferentes tipos de topologia de rede, cada uma com suas características. 
+A topologia em anel conecta os dispositivos em um círculo, enquanto a topologia 
+em barramento utiliza um único cabo para conectar todos os dispositivos.
+
+A topologia em estrela utiliza um dispositivo central para conectar todos os 
+outros dispositivos, enquanto a topologia em malha conecta todos os dispositivos 
+entre si. Já a topologia em árvore organiza os dispositivos em uma estrutura 
+hierárquica.
+
+Tipos e Meios de Transmissão de Dados
+
+Os meios de transmissão de dados podem ser guiados, como cabos coaxiais, par 
+trançado e fibra ótica, ou não guiados, como ondas de rádio.
+
+Cada meio de transmissão possui suas características, como velocidade, custo 
+e segurança. A escolha do meio de transmissão depende das necessidades da rede.
+
+4. Resumo e dicas
+Redes de computadores: evolução
+
+Gerenciamento de Redes
+
+O gerenciamento de redes de computadores coordena dispositivos como computadores, 
+servidores e roteadores, além de recursos lógicos como protocolos, para garantir 
+a segurança e a eficiência da transmissão de informações. As tarefas básicas 
+incluem coleta de dados, diagnóstico de problemas, ações de controle e melhorias 
+contínuas.
+
+Softwares para Gerenciamento de Redes
+
+Existem diversos softwares para gerenciamento de redes, como o CACTI, que oferece 
+uma visão geral dos hosts e tráfego, o Nagios, que permite a personalização com 
+plugins para diferentes sistemas operacionais e o Zabbix, que monitora a 
+infraestrutura completa em tempo real através de uma interface web.
+
+Resumo:
+
+Redes de computadores são a base da nossa sociedade conectada, permitindo que 
+dispositivos compartilhem recursos e se comuniquem. Desde a sua gênese com o 
+objetivo de conectar máquinas e compartilhar dados, as redes evoluíram para 
+conectar pessoas globalmente através da internet. Essa interconexão massiva 
+exige regras e padrões para garantir a organização e a segurança da comunicação 
+entre os dispositivos. Essas regras, conhecidas como protocolos de rede, definem 
+como as informações são formatadas, endereçadas e transmitidas, garantindo que 
+cheguem ao destino correto sem erros.
+
+A estrutura de uma rede, chamada topologia, descreve como os dispositivos estão 
+conectados. Existem diversos tipos de topologias, cada uma com suas vantagens e 
+desvantagens em termos de custo, velocidade e complexidade. A escolha da topologia 
+ideal depende das necessidades específicas da rede, como o número de dispositivos, 
+a distância entre eles e a criticidade da informação transmitida.
+
+O modelo TCP/IP, um conjunto de protocolos que governa a internet, organiza a 
+omunicação em camadas, cada uma com funções específicas. Essa estrutura em camadas 
+simplifica a comunicação e permite que dispositivos com diferentes hardwares e 
+softwares se conectem e interajam de forma transparente.
+
+A segurança é um aspecto crucial em redes de computadores, especialmente com o 
+aumento das ameaças cibernéticas. Diversos protocolos de segurança, como SSL, TLS e 
+HTTPS, garantem a confidencialidade e a integridade dos dados transmitidos, protegendo 
+as informações de acessos não autorizados e ataques maliciosos.
+
+O gerenciamento de redes é essencial para garantir a estabilidade, o desempenho e a 
+segurança da comunicação. Através de softwares de gerenciamento, os administradores 
+podem monitorar o tráfego de dados, identificar gargalos, detectar falhas e implementar 
+medidas de segurança, garantindo o bom funcionamento da rede.
+
+O Wi-Fi, uma tecnologia de rede sem fio onipresente, revolucionou a forma como nos 
+conectamos à internet. Baseado no padrão IEEE 802.11, o Wi-Fi permite que dispositivos 
+se conectem à internet sem a necessidade de cabos, proporcionando mobilidade e 
+flexibilidade aos usuários.
+
+A evolução do Wi-Fi resultou em padrões mais rápidos e eficientes, como o Wi-Fi 6 
+(802.11ax), que oferece velocidades de transmissão de dados significativamente 
+maiores, maior capacidade de dispositivos conectados e melhor desempenho em ambientes 
+com alta densidade de usuários.
+
+A segurança do Wi-Fi é fundamental para proteger os dados transmitidos e evitar acessos 
+não autorizados. Protocolos de segurança como WPA2 e WPA3 garantem a criptografia dos 
+dados, dificultando o acesso de intrusos à rede e protegendo as informações dos usuários.
+
+Compreender os conceitos básicos de redes de computadores, protocolos, segurança e 
+gerenciamento é essencial para profissionais da área de tecnologia e usuários que 
+desejam navegar na internet com segurança e utilizar os recursos da rede de forma eficiente.
+
+As redes de computadores são complexas e multifacetadas, com tecnologias e protocolos 
+em constante evolução. A busca por conhecimento e a atualização constante são 
+fundamentais para acompanhar as novas tendências e garantir a segurança e o bom 
+funcionamento das redes.
+
+Perguntas:
+
+​Um quadro 802.11 possui muitas semelhanças com um quadro Ethernet. No entanto, ele 
+também contém vários campos que são específicos para sua utilização nos enlaces sem 
+fio. O comprimento máximo permitido no campo carga útil da especificação do protocolo 
+é?​Um quadro 802.11 possui muitas semelhanças com um quadro Ethernet. No entanto, ele 
+também contém vários campos que são específicos para sua utilização nos enlaces sem 
+fio. O comprimento máximo permitido no campo carga útil da especificação do protocolo é?
+
+até 2304 bytes de dados (MSDU) + 8 bytes de LLC/SNAP, totalizando 2312 bytes. (Não 
+inclui cabeçalho MAC nem FCS.)
+Para comparação, no Ethernet clássico a carga útil máxima é 1500 bytes. Observação: 
+em 802.11n/ac/ax há agregação (A-MSDU/A-MPDU) que aumenta o tráfego efetivo por quadro, 
+mas o limite por MSDU individual permanece conforme acima.
+
+A máxima taxa de transmissão alcançada no IEEE 802.11n é de 135 Mbps por canal. 
+Um dos fatores que permite essa velocidade é:
+
+Uso de canais de 40 MHz (channel bonding).
+No 802.11n, ao dobrar a largura do canal de 20 MHz para 40 MHz, a taxa PHY por 1 fluxo 
+espacial sobe de ~65/72,2 Mb/s (GI longo/curto) para ~135/150 Mb/s, permitindo atingir 
+os 135 Mb/s citados (com GI longo). Outros fatores que elevam o throughput no 11n são 
+MIMO (fluxos espaciais), 64-QAM e intervalo de guarda curto, mas o valor específico de 
+135 Mb/s vem do canal de 40 MHz com 1 fluxo.

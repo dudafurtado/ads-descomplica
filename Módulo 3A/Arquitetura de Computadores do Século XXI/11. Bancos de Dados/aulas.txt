@@ -1,0 +1,80 @@
+Resumo:
+
+Os bancos de dados são elementos onipresentes na sociedade contemporânea, permeando 
+diversas atividades cotidianas, desde operações bancárias até o uso de redes sociais. 
+Eles consistem em coleções organizadas de informações, estruturadas de forma a facilitar 
+o armazenamento, a gestão e a extração de conhecimento. Diferentes modelos de bancos de 
+dados foram desenvolvidos ao longo do tempo, cada um com suas características e aplicações 
+específicas.
+
+O Modelo Relacional, um dos mais difundidos, organiza os dados em tabelas, compostas por 
+linhas (representando registros) e colunas (representando atributos). Essas tabelas podem 
+se relacionar entre si, estabelecendo conexões lógicas entre os dados. A gestão desses 
+bancos de dados é realizada por Sistemas de Gerenciamento de Banco de Dados (SGBDs), que 
+fornecem ferramentas para acessar, manipular e consultar as informações armazenadas. A 
+linguagem SQL (Structured Query Language) é frequentemente utilizada para interagir com 
+bancos de dados relacionais, permitindo a execução de operações como inserção, atualização, 
+exclusão e consulta de dados.
+
+Para garantir a integridade e a consistência dos dados armazenados, os bancos de dados 
+relacionais implementam restrições de integridade. Essas restrições definem regras que 
+os dados devem seguir, como a unicidade de chaves primárias, a integridade referencial 
+entre tabelas relacionadas e a definição de domínios para os atributos.
+
+O Modelo Entidade-Relacionamento (MER) é uma ferramenta conceitual utilizada para modelar 
+a estrutura de um banco de dados relacional. Ele representa as entidades (objetos do mundo 
+real) como retângulos, os atributos (características das entidades) como elipses e os 
+relacionamentos entre as entidades como losangos. A cardinalidade, representada por 
+números ou símbolos nas linhas de conexão, indica a quantidade de instâncias de uma 
+entidade que podem estar relacionadas a instâncias de outra entidade.
+
+Com o crescimento da internet e a necessidade de lidar com grandes volumes de dados não 
+estruturados, surgiram os bancos de dados NoSQL (Not Only SQL). Diferentemente dos bancos 
+de dados relacionais, que se baseiam em esquemas rígidos, os bancos de dados NoSQL oferecem 
+maior flexibilidade e escalabilidade, sendo adequados para armazenar dados como documentos 
+JSON, grafos e valores-chave.
+
+Outra abordagem para modelagem de dados é o paradigma orientado a objetos, que busca 
+aproximar a representação dos dados no banco de dados da forma como os objetos são 
+representados em linguagens de programação orientadas a objetos. Os bancos de dados 
+orientados a objetos armazenam dados na forma de objetos, que encapsulam dados e 
+comportamentos. Cada objeto possui uma identidade única, independente de seus valores 
+de atributo, geralmente implementada por meio de um identificador de objeto (OID) imutável, 
+gerado pelo sistema.
+
+A escolha do modelo de banco de dados mais adequado depende das necessidades específicas 
+da aplicação, como o tipo de dado a ser armazenado, a necessidade de escalabilidade, a 
+complexidade das relações entre os dados e o modelo de programação utilizado.
+
+Pergunta:
+
+1. O que é uma dependência funcional no banco de dados?
+
+Uma dependência funcional é uma regra de negócio que diz: se dois registros têm o 
+mesmo valor em certo(s) campo(s), então devem ter o mesmo valor em outro(s) campo(s). 
+Ex.: o CPF identifica uma única pessoa; portanto, se dois registros têm o mesmo CPF, 
+eles precisam trazer o mesmo nome e a mesma data de nascimento. Do mesmo jeito, código 
+do produto determina descrição e preço.
+
+Essas regras servem para definir chaves (os campos que identificam unicamente cada 
+linha) e guiar a normalização do modelo, evitando redundância e erros. Se um campo 
+depende só de parte de uma chave composta, há dependência parcial (problema da 2ª 
+forma normal). Se um campo depende de outro não chave, que por sua vez depende da 
+chave, há dependência transitiva (problema da 3ª forma normal).
+
+Quando respeitamos as dependências funcionais, reduzimos anomalias: não precisamos 
+atualizar o mesmo dado em vários lugares, não travamos inserções por falta de 
+informações em campos que não fazem sentido ali, e evitamos inconsistências.
+
+Em resumo: descubra quais campos identificam os registros no seu domínio e quais 
+devem ficar amarrados a eles de forma única; modele as tabelas para que cada fato 
+apareça uma vez no lugar certo. Isso é aplicar dependências funcionais na prática.
+
+2. Há bancos de dados que combinam características de bancos de dados relacionais 
+com bancos de dados orientados a objetos, e são conhecidos como:
+
+Bancos de dados objeto-relacionais (ORDBMS).
+Eles estendem o modelo relacional com recursos de OO (tipos complexos, herança, 
+métodos), mantendo SQL e tabelas. Exemplos clássicos: PostgreSQL, Oracle (tipos 
+objeto), DB2.
+
