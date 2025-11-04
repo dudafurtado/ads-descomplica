@@ -38,10 +38,54 @@ Multitarefas x Multifoco
 3. Regra dos 2min
 Uma regra poderosa de ação
 
+ANOTE TUDO ASSIM QUE POSSÍVEL
+O que é isso?
+Demanda ação?
+NÃO → LIXO | INCUBAÇÃO | REFERÊNCIA
 
+QUAL A PRÓXIMA AÇÃO NECESSÁRIA?
+Dura menos de 2 minutos? → FAÇA AGORA
+Depende de outra pessoa? → DELEGUE E ANOTE
+Tem um momento determinado? → AGENDE
+Precisa ser feita assim que possível? → ORGANIZE UMA LISTA
+
+“A maioria das coisas que pode ser manuseada dentro desta estrutura 
+de tempo levaria, na verdade, muito mais tempo para organizar e 
+revisar novamente do que concluir naquele momento”. 
+(ALLEN, David, 2002 p185)
 
 4. Organização de E-mails GTD
 Como organizar a caixa de e-mails de uma forma efetiva
 
+Depois de classificar na leitura dinâmica:
+
+Pasta ação -> aja e delegue
+
+Resolveu -> Arquivar.
+
+Continuidade -> lista de tarefas ou projeto
+
+Delega -> se torna um “aguardando resposta”
+Passar manualmente ou criar filtro de cópia.
+
+Criar o hábito de todos os dias olhar para as pastas ação e aguardando.
+
+@Ação
+@Aguardando Resposta
+Arquivo Comprovantes I...
+Arquivo de Mkt
+Arquivo Geral
+Incubadora
+Mais
+
 5. Gerenciamento WhatsApp
 Como organizar essa caixa de entrada para não esquecer nada e não perder tempo
+
+Demanda Ação? Sim, faça.
+Demora menos de 2min, faça agora
+
+Demanda Ação? Não. (lixo ou arquivo).
+Após realizar a sua ação, arquive.
+Observe a configuração de arquivamento.
+
+Blocos de Resposta
