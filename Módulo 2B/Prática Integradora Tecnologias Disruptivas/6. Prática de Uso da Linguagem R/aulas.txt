@@ -1,0 +1,94 @@
+Sumário
+
+1• Introdução à Linguagem R
+Apresentação dos conceitos básicos e da importância da linguagem R para análise de dados.
+
+Definição: R é uma linguagem de programação e um ambiente de software para análise estatística 
+e gráficos.
+Origem: Desenvolvida nos anos 90 por Robert Gentleman e Ross Ihaka na Nova Zelândia.
+Open Source: R é uma linguagem de código aberto, o que facilita sua adaptação e evolução contínua 
+pela comunidade.
+Estatística Avançada: Ferramentas robustas para análise estatística e modelos matemáticos.
+Gráficos e Visualização: Criação de visualizações de dados complexas e customizáveis.
+Comunidade e Pacotes: Grande comunidade de usuários que desenvolvem pacotes para expandir as 
+funcionalidades do R.
+Análise de Dados: Ferramenta amplamente usada em análise de dados em áreas como finanças, saúde 
+e marketing.
+Machine Learning: Implementação de algoritmos de aprendizado de máquina para predição e classificação.
+Visualização de Dados: Criação de gráficos interativos e relatórios dinâmicos.
+Versatilidade: Adequado tanto para análises simples quanto para projetos complexos.
+Integração: Fácil integração com outras linguagens e ferramentas (Python, SQL, Hadoop).
+Extensibilidade: Ampla gama de pacotes disponíveis para diversas aplicações específicas.
+
+R: Focada em estatísticas e gráficos, criada especificamente para análise de dados.
+R: Tem uma curva de aprendizado íngreme, especialmente para iniciantes em programação, mas é 
+intuitiva para estatísticos.
+
+Python: Linguagem de propósito geral, amplamente usada em ciência de dados, desenvolvimento web, 
+automação, entre outras áreas.
+Python: Considerada mais amigável para iniciantes devido à sua sintaxe simples e legibilidade.
+
+R se destaca por sua ampla lista de ferramentas avançadas para estatísticas, visualizações de dados 
+detalhadas, e análises especializadas em áreas como bioinformática e séries temporais, tornando-o 
+ideal para trabalhos que exigem profundidade estatística e gráficos altamente customizados.
+
+Instalação: Download e instalação do R e RStudio (IDE popular para R).
+Primeiros Passos: Familiarização com a interface e comandos básicos.
+Com unidade e Recursos: Acesso a tutoriais, fóruns, e documentação oficial.
+
+2• Ferramentas para R
+Exploração das principais ferramentas e ambientes de desenvolvimento para programar em R.
+
+RStudio
+
+Descrição: IDE (Ambiente de Desenvolvimento Integrado) mais popular para R.
+Recursos: Interface amigável, ferramentas de depuração, e suporte para projetos RMarkdown.
+Uso: Facilita a escrita de código, análise de dados e visualização.
+
+RMarkdown
+
+Descrição: Ferramenta para criar relatórios dinâmicos e documentos reprodutíveis.
+Recursos: Integração com R para gerar documentos HTML, PDF e Word.
+Uso: Ideal para combinar análise de dados com texto explicativo em um único documento.
+
+Tidyverse
+
+Descrição: Conjunto de pacotes R para ciência de dados, incluindo dplyr, ggplot2, tidyr e mais.
+Recursos: Oferece ferramentas coesas e poderosas para manipulação e visualização de dados.
+Uso: Simplifica o fluxo de trabalho de análise de dados, desde a importação até a visualização.
+
+Shiny
+
+Descrição: Framework para criar aplicativos web interativos diretamente a partir do código R.
+Recursos: Permite a construção de dashboards e ferramentas de visualização interativas.
+Uso: Utilizado para compartilhar análises de dados de maneira interativa e acessível.
+
+CRAN
+
+Descrição: Repositório oficial de pacotes para R.
+Recursos: Contém milhares de pacotes desenvolvidos para diversas finalidades, desde estatísticas 
+até machine learning.
+Uso: Essencial para expandir as funcionalidades do R com pacotes específicos para diferentes análises.
+
+3• Codificação Básica em R
+Introdução à codificação básica em R, incluindo operações fundamentais e manipulação de dados.
+
+# Chamando bibliotecas
+
+install.packages("ggplot2")
+install.packages("dplyr")
+
+# fim da chamada das bibliotecas
+
+library(ggplot2)
+library(dplyr)
+
+# Carregar dados
+
+saude_df <- read.csv("saude_data.csv")
+logistica_df <- read.csv("logistica_data.csv")
+terceiro_setor_df <- read.csv("terceiro_setor_data.csv")
+
+4• Projeto Prático em R
+Aplicação dos conceitos aprendidos em um projeto prático, utilizando R para análise de dados.
+

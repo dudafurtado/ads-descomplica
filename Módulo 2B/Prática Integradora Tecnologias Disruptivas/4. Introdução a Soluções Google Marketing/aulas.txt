@@ -1,0 +1,216 @@
+Sumário
+
+1- Introdução ao Google Analytics
+Apresentação do Google Analytics e suas funcionalidades principais.
+
+O que é o Google Analytics?
+• Ferramenta gratuita da Google para monitoramento e análise de tráfego de sites.
+• Função Principal: Coletar dados sobre visitantes do site e gerar relatórios detalhados.
+
+Por que usar o Google Analytics?
+• Monitoramento: Acompanhar o comportamento dos usuários no site.
+• Otimização: Identificar áreas de melhoria no site e estratégias de marketing.
+• Decisões Informadas: Tomar decisões baseadas em dados reais e precisos.
+
+Principais funcionalidades
+• Relatórios em Tempo Real: Monitoramento instantâneo de visitantes e interações.
+• Aquisição: Análise de como os usuários encontram seu site (tráfego orgânico, pago, social, etc.).
+• Comportamento: Entendimento do que os usuários fazem no site (páginas visitadas, tempo de 
+permanência, etc.).
+• Conversões: Monitoramento de objetivos e ações importantes (compras, inscrições, etc.).
+
+2- Configuração de Conta no Google
+Passo a passo para criar e configurar uma conta no Google Analytics.
+
+3- Análise de Métricas Básicas
+Compreensão e interpretação das principais métricas do Google Analytics.
+
+4- Projeto de Análise de Dados
+Aplicação prática das métricas básicas em um projeto real de análise de dados.
+
+1. Posso conectar um site que já está online?
+
+Sim.
+Você instala o Google Analytics no site a partir de agora e ele começa a coletar dados dali 
+pra frente (não busca histórico).
+
+Passos gerais:
+
+Criar conta no Google Analytics (GA4, que é o padrão hoje).
+Criar uma Propriedade para o seu site.
+Criar um Data Stream (Fluxo de dados) Web.
+Instalar o tag do GA no site:
+Via Google Tag Manager ou
+Colando o código gtag.js no <head> de todas as páginas.
+Conferir se está recebendo dados em Relatórios → Em tempo real.
+
+2. Passo a passo básico – configuração
+
+Acessar
+Entre em: analytics.google.com com sua conta Google.
+Criar conta e propriedade
+Clique em Administração (rodapé esquerdo).
+Nível Conta: “Criar conta” → dê um nome (ex.: “PP – Sites”).
+Nível Propriedade: “Criar propriedade” → nome da propriedade (ex.: “Site Principal”), 
+fuso horário e moeda.
+Criar fluxo de dados Web
+Ainda na propriedade → Fluxos de dados → Web.
+Informe a URL do site e um nome (ex.: “Site institucional”).
+Salve.
+Instalar a tag
+Depois de criar o fluxo, o GA mostra o código gtag.js.
+Copie o script e cole no <head> do seu site (ou peça pro dev/empresa de hospedagem fazer).
+Se usar Google Tag Manager: crie uma tag GA4, cole a Measurement ID (ex.: G-XXXXXXX) e publique 
+o container.
+Validar
+Abra o site em uma aba anônima.
+No GA, vá em Relatórios → Em tempo real e veja se aparece 1 usuário ativo.
+Se aparecer, está funcionando.
+
+3. O que olhar primeiro (relatórios essenciais)
+
+Vou focar em GA4 (atual).
+Visão geral de tráfego
+Relatórios → Visão Geral
+
+Insights:
+Quantidade de usuários, sessões e taxa de engajamento.
+Ver se o site está crescendo ou caindo em visitas.
+De onde vem o tráfego (Aquisição)
+Relatórios → Aquisição → Aquisição de tráfego
+
+Insights:
+Organic Search: quanto vem do Google.
+Direct: pessoas digitando o site ou favoritos.
+Paid Search / Display / Social: resultado de anúncios.
+
+Pergunta prática:
+
+“Quais canais trazem mais usuários?”
+“Quais trazem usuários que realmente ficam no site (engajamento)?”
+Quais páginas mais importantes (Engajamento → Páginas)
+
+Relatórios → Engajamento → Páginas e telas
+
+Insights:
+Páginas mais vistas.
+Páginas com maior tempo médio de engajamento.
+Páginas com alta saída (o usuário entra, olha e vai embora).
+
+Pergunta prática:
+
+“Minha página de serviço/produto está sendo visitada?”
+“Tem alguma página com tráfego alto e performance ruim (pouco tempo, alta saída) que eu 
+precise melhorar?”
+Comportamento do usuário (Jornada)
+Explorar → Caminho do usuário (se você quiser algo mais avançado)
+
+Insights:
+De que página as pessoas começam.
+Pra onde vão depois.
+Onde costumam abandonar o site.
+Útil pra ver se a navegação está intuitiva.
+Dispositivos e localização
+Em Usuários / Tecnologia e Demografia.
+
+Insights:
+Desktop x Mobile: se a maioria é mobile, o site TEM que estar perfeito no celular.
+País/estado/cidade: pode orientar campanhas regionais.
+
+4. Eventos e conversões (onde o GA realmente fica útil)
+
+Você precisa dizer ao GA o que é sucesso pra você.
+
+Exemplos de eventos:
+Clique em botão de WhatsApp.
+Envio de formulário de contato.
+Download de arquivo.
+Clique em “Assinar newsletter”.
+Acessar página de “Obrigado” após compra/contato.
+
+Passos gerais:
+
+Mapear o que é conversão no seu negócio.
+Criar esses eventos:
+Com Tag Manager (ideal).
+Ou configurando “eventos personalizados” no GA4.
+No GA, marcar esses eventos como Conversão.
+
+Depois, olhar:
+
+Relatórios → Engajamento → Conversões
+Insights:
+
+Quais canais trazem mais conversões.
+Quais páginas antecedem mais conversões (páginas chave).
+Taxa de conversão por dispositivo/canal.
+
+5. Melhores insights práticos que você pode tirar
+
+Alguns tipos de perguntas que valem ouro:
+Canal que converte melhor
+“Entre tráfego orgânico, anúncios e redes sociais, quem gera mais leads/vendas?”
+Use: Aquisição → Aquisição de tráfego + Conversões.
+Página de entrada problemática
+“Qual página as pessoas mais acessam primeiro e logo saem?”
+Use: Páginas e telas, ordene por sessões e veja tempo de engajamento e taxa de saída.
+Conteúdo que segura o usuário
+“Quais posts/artigos têm maior tempo médio de engajamento?”
+Foque em produzir mais conteúdo semelhante (tema, formato, tamanho).
+Funil de conversão
+“Quantos chegam na página do formulário?”
+“Quantos começam o formulário, mas não enviam?”
+Dá pra montar funis customizados no Explorar, se quiser ir além.
+Problema de usabilidade mobile
+Se mobile representa, por exemplo, 70% das sessões e tem tempo de engajamento muito menor que 
+desktop:
+Provável problema de layout, velocidade ou UX no celular.
+Dias e horários melhores
+Em relatórios de engajamento, veja quando o tráfego é maior.
+Útil pra programar posts, e-mails ou push em horários mais fortes.
+
+Resumo:
+
+O Google Analytics é uma ferramenta poderosa para quem trabalha com marketing digital, 
+fornecendo insights valiosos sobre o comportamento dos usuários em sites e aplicativos. Ele 
+permite acompanhar métricas importantes como taxa de rejeição, duração da sessão, fontes de 
+tráfego e conversões, auxiliando na otimização do desempenho online. A configuração inicial 
+envolve a criação de uma conta, a inserção de um código de rastreamento no site e a definição 
+de metas e eventos específicos que se deseja monitorar. Ao analisar as métricas coletadas, os 
+profissionais de marketing podem identificar áreas de aprimoramento, como páginas com altas 
+taxas de rejeição, e tomar medidas para melhorar a experiência do usuário, como otimizar o 
+conteúdo e o design dessas páginas.
+
+A compreensão das diferentes métricas é crucial para a interpretação correta dos dados. A taxa de 
+rejeição, por exemplo, indica a porcentagem de visitantes que saem do site após visualizar apenas 
+uma página, sem interagir com o conteúdo. Uma alta taxa de rejeição pode indicar problemas de 
+design, conteúdo irrelevante ou problemas de navegação. Já a duração da sessão revela o tempo 
+médio que os usuários passam no site, e um tempo maior pode indicar maior engajamento com o 
+conteúdo. As fontes de tráfego, por sua vez, mostram de onde vêm os visitantes, como redes 
+sociais, buscas orgânicas ou links diretos, permitindo identificar quais canais estão gerando 
+mais tráfego.
+
+A definição de metas e eventos personalizados é fundamental para acompanhar o sucesso de uma 
+estratégia de marketing. As metas representam ações desejadas que os usuários podem realizar 
+no site, como realizar uma compra, preencher um formulário ou se inscrever em uma newsletter. 
+Os eventos, por outro lado, rastreiam ações específicas dos usuários, como cliques em botões, 
+downloads de arquivos ou visualizações de vídeos. Ao configurar corretamente as metas e eventos, 
+é possível acompanhar o desempenho das campanhas de marketing e identificar áreas de sucesso e 
+áreas que precisam de melhorias.
+
+O uso de parâmetros UTM (Urchin Tracking Module) é essencial para rastrear o tráfego proveniente 
+de diferentes campanhas de marketing. Os parâmetros UTM são adicionados aos links das campanhas 
+e permitem identificar a origem do tráfego, o meio de divulgação e o nome da campanha. Por 
+exemplo, é possível usar parâmetros UTM para rastrear o tráfego proveniente de um anúncio no 
+Facebook, um link em um email marketing ou um post em uma rede social. Ao analisar os dados de 
+tráfego segmentados por UTM, os profissionais de marketing podem determinar quais campanhas 
+estão gerando mais tráfego qualificado e otimizar suas estratégias de acordo.
+
+A análise dos dados do Google Analytics é um processo contínuo que exige atenção aos detalhes e 
+capacidade de interpretar os dados de forma estratégica. É importante ter em mente que as 
+métricas devem ser analisadas em conjunto, e não isoladamente, para se ter uma visão completa 
+do desempenho do site ou aplicativo. Além disso, é fundamental definir um objetivo claro para 
+a análise de dados, como aumentar as conversões, reduzir a taxa de rejeição ou melhorar o 
+engajamento do usuário. Com base nesse objetivo, é possível definir as métricas-chave de 
+desempenho (KPIs) que serão monitoradas e utilizar os dados do Google Analytics para tomar 
+decisões estratégicas e otimizar o desempenho online.
