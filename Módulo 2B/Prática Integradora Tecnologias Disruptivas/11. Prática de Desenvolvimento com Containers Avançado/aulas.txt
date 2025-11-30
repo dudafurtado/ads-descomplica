@@ -1,0 +1,91 @@
+Sumário
+
+1• Funções Avançadas de Containers
+Exploração de funcionalidades avançadas de containers, como redes, volumes, e gerenciamento 
+de múltiplos containers em aplicações complexas.
+
+Redes e volumes em Containers
+
+Redes de Containers: Configuração de redes personalizadas que permitem a comunicação segura e 
+eficiente entre múltiplos containers.
+
+Volumes: Mecanismo para persistência de dados em containers, permitindo que os dados sejam 
+armazenados fora do ciclo de vida do container.
+
+Orquestração de Containers
+
+Definição: Orquestração é o processo de gerenciar a implantação, escala e operação de 
+múltiplos containers em produção.
+
+Ferramentas: Kubernetes é a principal ferramenta de orquestração de containers, permitindo 
+a gestão automatizada de clusters de containers.
+
+Introdução ao Kubernetes
+
+O que é Kubernetes: Plataforma de código aberto para orquestração de containers que automatiza 
+a implantação, escala e operação de aplicações containerizadas.
+
+Componentes Principais: Pods, Serviços, Deployments, e ConfigMaps, que juntos facilitam a 
+gestão de aplicações complexas.
+
+Benefícios do Kubernetes
+
+Escalabilidade Automática: Kubernetes pode automaticamente escalar as aplicações com base na 
+demanda de recursos.
+
+Gerenciamento de Estado: Mantém a aplicação em um estado desejado, mesmo após falhas ou 
+interrupções.
+
+Desempenho e Eficiência: Maximiza o uso dos recursos de hardware ao orquestrar múltiplos 
+containers em diferentes nós de um cluster.
+
+Funções avançadas no Kubernetes
+
+Autoscaling: Ajuste automático do número de instâncias de containers baseadas na carga de 
+trabalho.
+
+Rolling Updates: Implementação de novas versões de uma aplicação sem tempo de inatividade, 
+garantindo que a atualização seja gradual e segura.
+
+Service Discovery e Load Balancing: Kubernetes distribui automaticamente o tráfego de rede 
+entre diferentes containers para garantir alta disponibilidade e desempenho.
+
+Integração com CI/CD
+
+Pipeline Automatizado: Kubernetes se integra facilmente com pipelines de integração e entrega 
+contínua, facilitando a automação desde o desenvolvimento até a produção.
+
+Deployments Automatizados: Permite automatizar o processo de implantação, garantindo que novas 
+versões sejam lançadas de forma rápida e segura.
+
+2• Configuração Avançada de Ambiente
+Configuração de ambientes de desenvolvimento e produção utilizando técnicas avançadas de 
+orquestração e automação com Docker Compose e Kubernetes.
+
+appseed flask bootstrap 5 volt
+https://flask-volt-dashboard.appseed-srv1.com/index
+https://jinja-volt-pro.appseed-srv1.com/
+
+github
+https://github.com/app-generator/flask-volt-dashboard
+
+3• Desenvolvimento Avançado com Containers
+Implementação de práticas avançadas no desenvolvimento de aplicações containerizadas, 
+incluindo a otimização de imagens e a criação de pipelines de CI/CD.
+
+4• Projeto Prático de Containers Avançado
+Desenvolvimento de um projeto completo que integra todas as técnicas avançadas, criando uma 
+aplicação robusta e escalável utilizando containers e ferramentas de orquestração.
+
+Resumo:
+
+Ao longo do curso, exploramos o mundo dos containers, uma tecnologia poderosa que revoluciona 
+a forma como desenvolvemos e implantamos aplicações. Começamos com o Docker, uma plataforma 
+que nos permite encapsular aplicações e suas dependências em unidades portáteis e isoladas, 
+chamadas containers. Essa abordagem traz inúmeras vantagens, como a garantia de que a aplicação funcione da mesma forma em diferentes ambientes, desde o desenvolvimento até a produção, além de facilitar a escalabilidade e a gestão de dependências.
+Avançamos para conceitos mais complexos, como a orquestração de containers, que se torna essencial à medida que trabalhamos com aplicações compostas por múltiplos containers, formando microsserviços. Nesse contexto, o Docker Compose surge como uma ferramenta valiosa para definir e gerenciar a interação entre esses diferentes containers, especificando como se conectam, compartilham recursos e dependem uns dos outros. Através de um único arquivo de configuração, o Docker Compose nos permite definir a estrutura da nossa aplicação e garantir que cada serviço seja iniciado na ordem correta e com as configurações adequadas.
+No entanto, quando lidamos com sistemas ainda mais complexos e em larga escala, precisamos de uma ferramenta ainda mais robusta e poderosa para gerenciar e orquestrar nossos containers. É aí que entra o Kubernetes, uma plataforma open-source que automatiza a implantação, o escalonamento e a gestão de aplicações em containers. O Kubernetes nos permite gerenciar clusters de containers, distribuindo-os entre diferentes máquinas e garantindo alta disponibilidade, além de fornecer mecanismos para balanceamento de carga, auto recuperação em caso de falhas e gerenciamento de segredos, como senhas e chaves de acesso.
+Para monitorar e coletar dados sobre o desempenho e a saúde das nossas aplicações em containers, o Kubernetes se integra a ferramentas como o Prometheus e o Grafana. O Prometheus atua como um sistema de monitoramento e alerta, coletando métricas dos nossos containers e disparando alertas caso algo saia do esperado. Já o Grafana, por sua vez, entra como uma ferramenta de visualização, permitindo criar dashboards interativos e painéis de controle a partir dos dados coletados pelo Prometheus, fornecendo uma visão clara e em tempo real do estado da nossa aplicação.
+Ao longo do curso, também aprendemos a configurar um ambiente de desenvolvimento com Flask, um framework web para Python, e a importância de integrar um banco de dados para armazenar informações persistentes da nossa aplicação. Vimos como configurar um banco de dados MySQL e como conectar nossa aplicação Flask a ele, permitindo o cadastro de usuários, login e outras funcionalidades que exigem persistência de dados.
+Por fim, abordamos a importância da segurança em ambientes de containers, aprendendo a configurar variáveis de ambiente de forma segura, limitar o uso de privilégios dentro dos containers e utilizar ferramentas como o Nginx como proxy reverso para proteger o backend da nossa aplicação de acessos indevidos. Vimos também a importância de manter as imagens de containers o mais enxutas possível, contendo apenas o necessário para a aplicação funcionar, o que reduz a superfície de ataque e melhora o desempenho.
+Em resumo, o curso nos proporcionou uma imersão no mundo dos containers, desde os conceitos básicos até tópicos mais avançados como orquestração, segurança e monitoramento. Aprendemos a utilizar ferramentas como Docker, Docker Compose, Kubernetes, Prometheus, Grafana, Flask e MySQL, e como integrá-las para construir aplicações modernas, escaláveis e seguras. O conhecimento adquirido nos prepara para enfrentar os desafios do desenvolvimento e da implantação de aplicações em ambientes de cloud e nos coloca em uma posição privilegiada no mercado de trabalho, cada vez mais orientado a tecnologias e práticas de DevOps.

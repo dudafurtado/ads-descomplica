@@ -1,0 +1,196 @@
+Sumário
+
+1• Avançando no BI com Python
+Exploração de técnicas avançadas em Business Intelligence utilizando Python, abordando 
+funcionalidades mais complexas e poderosas para análise de dados.
+
+# previsão de dados
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_log_error
+
+saude_df = pd.read_csv('/content/BI_saude_dados_simulados.csv')
+
+X = saude_df[['Impressões','CTR','Lat','Long']]
+y = saude_df['Conversoes']
+
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.3, random_state=42)
+
+Esse código implementa o início de um modelo de Machine Learning para prever conversões 
+usando dados de campanha, dentro de um fluxo avançado de Business Intelligence.
+
+Ele executa 4 etapas avançadas típicas de BI com Python:
+
+Importa bibliotecas essenciais para modelagem
+
+pandas → manipular dados (dataframes)
+train_test_split → separar dados em treino e teste
+LinearRegression → criar modelo preditivo
+mean_squared_log_error → medir erro do modelo (métrica avançada)
+Isso já entra na parte avançada de BI, porque envolve modelagem estatística/machine learning.
+
+Carrega um dataset real de BI
+
+Esse CSV provavelmente contém métricas de campanhas, como:
+Impressões
+CTR
+Latitude / Longitude
+Conversões
+
+Seleciona variáveis para treinar o modelo
+
+X = variáveis independentes (inputs):
+Impressões
+CTR
+Lat
+Long
+
+y = variável dependente (alvo):
+Conversões
+Ou seja:
+➡️ O modelo vai aprender a prever Conversões usando Impressões + CTR + Localização.
+Isso é análise avançada preditiva, muito usada em BI moderno.
+
+Divide os dados em treino e teste
+
+70% dos dados → treinar o modelo
+30% → testar se o modelo funciona bem
+random_state=42 → garante o mesmo resultado sempre
+Essa divisão é padrão em Machine Learning aplicado ao BI.
+
+2• Análise de Dados Avançada
+Aplicação de métodos sofisticados de análise de dados, como modelagem preditiva e machine 
+learning, para extrair insights mais profundos e significativos.
+
+model = LinearRegression()
+
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+mse = mean_squared_error(y_test, y_pred)
+
+print(mse)
+
+Esse código:
+
+Cria um modelo de regressão linear
+Treina o modelo
+Faz previsões
+Mede o erro dessas previsões
+
+É um exemplo típico de técnicas avançadas de BI com Python, pois envolve:
+
+Modelagem estatística
+Predição
+Métricas de desempenho
+
+3• Visualização de Dados Avançada
+Utilização de bibliotecas avançadas para criar visualizações interativas e dinâmicas que 
+ajudam a comunicar resultados complexos de forma intuitiva.
+
+#Parte 2 - Visualização de Previsão
+
+pred_df = pd.DataFrame({'Real': y_test, 'Predito': y_pred})
+fig = px.scatter(pred_df, x='Real', y='Predito', trendline='ols', title="Previsão de Conversões - Saúde")
+fig.show()
+
+Ele compara o valor real (do conjunto de teste) com o valor predito pelo modelo e gera um 
+gráfico de dispersão com linha de tendência. Isso serve para avaliar o quão boa foi a previsão.
+
+4• Projeto Prático de BI Avançado
+Desenvolvimento de um projeto completo que integra todas as técnicas avançadas aprendidas, 
+criando uma solução de BI robusta e interativa para análise e visualização de dados empresariais.
+
+import pandas as pd
+import numpy as np
+
+# Definindo o número de exemplos na base de dados
+num_samples = 1000
+
+# Gerando dados simulados
+np.random.seed(42)
+investment = np.random.randint(5000, 50000, num_samples)   # Investimento em Publicidade (R$)
+visits = np.random.randint(1000, 10000, num_samples)        # Número de Visitas ao Site
+conversion_rate = np.random.uniform(0.01, 0.20, num_samples)  # Taxa de Conversão (%)
+avg_price = np.random.uniform(50, 300, num_samples)         # Preço Médio do Produto (R$)
+
+# Calculando vendas com base em uma função realista
+sales = visits * conversion_rate * avg_price + 0.05 * investment + np.random.normal(0, 2000, num_samples)
+
+# Criando o DataFrame
+sales_df = pd.DataFrame({
+    'Investimento_Publicidade': investment,
+    'Visitas_Site': visits,
+    'Taxa_Conversao': conversion_rate,
+    'Preco_Medio_Produto': avg_price,
+    'Vendas': sales
+})
+
+# Salvando em um arquivo CSV
+sales_df.to_csv('/content/BI_vendas_dados_simulados.csv', index=False)
+
+# Visualizando os primeiros registros
+print(sales_df.head())
+
+Perguntas:
+
+No contexto da modelagem preditiva com Python, qual é a finalidade principal da 
+biblioteca scikit-learn?
+
+A finalidade principal da scikit-learn é fornecer algoritmos e ferramentas para criar, 
+treinar, validar e avaliar modelos de machine learning de forma simples e padronizada.
+
+Em BI preditivo, ela serve principalmente para:
+Treinar modelos (ex.: regressão linear, árvore de decisão, SVM).
+Dividir dados em treino e teste.
+Fazer previsões.
+Medir desempenho (MSE, accuracy, R² etc.).
+Padronizar pipelines de modelagem.
+Ou seja: é a biblioteca central para machine learning supervisionado e não supervisionado 
+em Python.
+
+Em uma análise de modelagem preditiva para conversões, qual métrica do modelo de regressão 
+linear permite avaliar o quão bem os dados de entrada explicam a variável dependente?
+
+A métrica correta é o R² (coeficiente de determinação).
+
+Ele indica o quanto das variações da variável dependente (ex.: Conversões) é explicado pelos 
+dados de entrada usados no modelo. Quanto mais próximo de 1, melhor a explicação do modelo.
+
+Qual é a função do método train_test_split da biblioteca scikit-learn no processo de modelagem 
+de dados?
+
+O método train_test_split serve para dividir o conjunto de dados em duas partes:
+
+treino (train): usado para ensinar o modelo
+teste (test): usado para avaliar o desempenho do modelo
+
+Isso evita que o modelo seja avaliado com os mesmos dados usados para treiná-lo, garantindo uma 
+avaliação real e imparcial da sua performance.
+
+Na criação de uma análise preditiva de vendas com regressão linear, qual métrica abaixo indica o 
+quanto as previsões se distanciam, em média, dos valores reais?
+
+A métrica que indica o quanto as previsões se distanciam, em média, dos valores reais é o MSE – 
+Mean Squared Error (Erro Quadrático Médio).
+
+Ele mede a diferença média ao quadrado entre valores previstos e reais — quanto menor o MSE, 
+melhor o modelo.
+
+Em uma visualização de previsões versus resultados reais utilizando Plotly, qual tipo de 
+gráfico seria mais apropriado para apresentar essas discrepâncias?
+
+O gráfico mais apropriado é o gráfico de dispersão (scatter plot).
+
+Ele permite comparar ponto a ponto:
+
+valor real no eixo X
+
+valor predito no eixo Y
+
+E visualizar claramente a discrepância entre eles.
+
+Qual a principal utilidade da modelagem preditiva com regressão linear para um nexialista 
+em Business Intelligence?

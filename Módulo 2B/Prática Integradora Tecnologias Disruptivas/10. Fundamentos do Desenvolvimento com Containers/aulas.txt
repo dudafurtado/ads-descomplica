@@ -1,0 +1,135 @@
+Sumário
+
+1• Introdução a Containers
+Conceitos fundamentais sobre containers, sua importância na virtualização de aplicativos e 
+como eles diferem de máquinas virtuais tradicionais.
+
+O que são Containers?
+
+Definição: Containers são unidades leves e portáteis que permitem empacotar e executar 
+aplicações e suas dependências em um ambiente isolado.
+
+Diferenciação: Diferente das máquinas virtuais, containers compartilham o kernel do sistema 
+operacional, o que os torna mais eficientes e rápidos.
+
+Por que usar Containers?
+
+Portabilidade: Containers garantem que o software funcione consistentemente em diferentes 
+ambientes, seja no desenvolvimento, teste ou produção.
+
+Eficiência: Por serem leves, os containers utilizam menos recursos do sistema, permitindo a 
+execução de várias instâncias em um único servidor.
+
+Escalabilidade: Facilita o escalonamento de aplicações, permitindo a criação rápida de múltiplas 
+instâncias.
+
+Containers vs Máquinas Virtuais
+
+Máquinas Virtuais: Cada VM inclui um sistema operacional completo, tornando-as mais pesadas e 
+exigentes em termos de recursos.
+
+Containers: Compartilham o mesmo sistema operacional, mas isolam a aplicação, tornando-os mais 
+leves e rápidos para iniciar e parar.
+
+Benefícios dos Containers: Menor consumo de recursos, inicialização mais rápida, e maior densidade 
+de aplicativos em um servidor.
+
+Componentes principais de um Container
+
+Imagem: Modelo de leitura que define o que o container vai executar, incluindo o aplicativo e 
+suas dependências.
+
+Container: Instância de uma imagem em execução.
+
+Dockerfile: Script que automatiza a criação de uma imagem, especificando as instruções para 
+configurar o container.
+
+Registries: Repositórios para armazenar e compartilhar imagens de containers, como o Docker Hub.
+
+Aplicações práticas dos Containers
+
+Desenvolvimento: Ambientes de desenvolvimento consistentes e isolados.
+
+Teste: Facilita o teste de aplicativos em múltiplos ambientes.
+
+Produção: Simplifica a implantação e escalonamento de aplicações em produção.
+
+DevOps: Integrado em pipelines de CI/CD para automação e entrega contínua.
+
+2• Configuração de Ambiente
+Passo a passo para configurar o ambiente necessário para trabalhar com containers, incluindo 
+a instalação do Docker e a preparação do sistema.
+
+3• Desenvolvimento Básico com Containers
+Criação e gerenciamento de containers simples, explorando comandos básicos e entendendo como 
+containers podem facilitar o desenvolvimento e a implantação de aplicativos.
+
+4• Projeto Prático de Containers Básico
+Aplicação prática do conhecimento adquirido para desenvolver e implementar um projeto básico 
+utilizando containers, consolidando os conceitos e práticas aprendidos.
+
+Resumo:
+
+Containers representam uma revolução no desenvolvimento de software, permitindo empacotar 
+aplicações com todas as suas dependências para garantir que funcionem de forma consistente 
+em qualquer ambiente. Essa tecnologia, popularizada pelo Docker, é fundamental para a criação 
+de aplicações modernas, portáteis e escaláveis, superando desafios de inconsistência entre 
+ambientes de desenvolvimento e produção.
+
+Historicamente, o desenvolvimento de software evoluiu de sites estáticos para aplicações complexas 
+com back-end, front-end e bancos de dados. Essa complexidade levou à segmentação do trabalho em 
+microserviços, onde grandes aplicações são divididas em componentes menores e independentes. 
+Containers são a ferramenta ideal para hospedar esses microserviços, permitindo que equipes se 
+concentrem em partes específicas da aplicação, como login ou funcionalidades de crédito.
+
+A principal vantagem dos containers sobre as máquinas virtuais (VMs) é a leveza e a eficiência. 
+Enquanto VMs emulam um sistema operacional completo, containers compartilham o kernel do sistema 
+operacional do host, tornando-os significativamente mais leves e rápidos. Isso resulta em maior 
+eficiência no uso de recursos, isolamento de falhas (se um container falha, outros continuam funcionando), 
+e a capacidade de realizar rollbacks rápidos para versões anteriores.
+
+A portabilidade é uma característica chave, pois um container pode ser facilmente movido entre 
+diferentes ambientes, seja um computador local, um servidor ou plataformas de nuvem como AWS e Azure. 
+Além disso, a escalabilidade é grandemente facilitada: containers podem ser replicados e distribuídos 
+rapidamente para responder a aumentos de demanda, otimizando o consumo de recursos e garantindo uma 
+experiência fluida para o usuário, sem a necessidade de intervenção manual constante.
+
+O Docker é a ferramenta mais utilizada para criar e gerenciar containers. Seus elementos essenciais 
+incluem as imagens, que são "plantas" ou modelos de aplicações; os containers, que são instâncias 
+executáveis dessas imagens; e os Dockerfiles, que são arquivos de texto com instruções para construir 
+uma imagem. Para começar, é possível baixar imagens prontas do Docker Hub, um repositório vasto de 
+programas containerizados, utilizando o comando `docker pull python:3.9` para, por exemplo, obter uma 
+imagem oficial do Python.
+
+Um Dockerfile é crucial para definir como um container será construído. Ele especifica a imagem base, 
+o diretório de trabalho (`WORKDIR /app`), copia arquivos da aplicação (`COPY . /app`), instala 
+dependências (`RUN pip install -r requirements.txt`) e define o comando de execução (`CMD ['python', 
+'app.py']`). Após criar o Dockerfile, o comando `docker build -t minha_aplicacao .` é utilizado para 
+construir a imagem da aplicação. Este processo garante a consistência do ambiente e a automação da 
+implantação, permitindo que a mesma aplicação seja executada perfeitamente em qualquer lugar.
+
+A configuração do ambiente é ainda mais refinada com o uso de arquivos `.env` (environment). Estes 
+arquivos contêm variáveis que permitem personalizar o comportamento da aplicação sem alterar seu 
+código-fonte, como chaves de API ou limites de memória. O profissional de DevOps, por sua vez, é o 
+responsável por gerenciar e otimizar esses ambientes, garantindo que as aplicações funcionem de forma 
+eficiente e escalável. Sua função é insubstituível, pois ele controla o ambiente onde as próprias 
+ferramentas, como a inteligência artificial, operam.
+
+Para aplicações mais complexas que envolvem múltiplos containers, o Docker Compose é uma ferramenta 
+essencial. Ele permite definir e executar aplicações multi-container, compilando os serviços e suas 
+configurações. Uma vez que a aplicação está pronta, ela pode ser executada localmente, interagindo via 
+console, ou disponibilizada como um serviço online, acessível via IP ou localhost, transformando o 
+computador em um servidor.
+
+Embora o Docker possa ser instalado localmente, exigindo recursos consideráveis de hardware, existem 
+alternativas baseadas em nuvem que facilitam a containerização. Plataformas como AWS Educate e Azure 
+oferecem créditos e acessos para estudantes, enquanto o Python Anywhere proporciona um ambiente de 
+containerização mais amigável, com interface gráfica, ideal para hospedar aplicações Python sem a 
+complexidade de gerenciar um servidor local.
+
+A habilidade de trabalhar com containers abre portas para o desenvolvimento de aplicações inovadoras, 
+como a criação de um sistema de recomendação similar ao Netflix, que combina páginas estáticas com 
+inteligência artificial adaptativa. O GitHub e o Docker Hub são recursos valiosos para encontrar 
+projetos prontos e imagens de Docker, permitindo que desenvolvedores e gestores construam e implementem 
+soluções complexas com maior agilidade e eficiência, impulsionando a Web 3 e a era dos microserviços 
+inteligentes.

@@ -1,0 +1,15 @@
+1° Fundamentos de Machine Learning
+Introdução aos conceitos básicos de Machine Learning, incluindo tipos 
+de aprendizado e principais algoritmos.
+
+2° Desenvolvimento de Modelo de ML
+Passo a passo para construir um modelo de Machine Learning, desde a 
+preparação dos dados até a escolha do algoritmo.
+
+3° Avaliação do Modelo de ML
+Métodos para avaliar a performance do modelo de Machine Learning, garantindo 
+precisão e eficácia.
+
+4° Implementação de Solução de ML
+Guia prático para implantar o modelo de Machine Learning em um ambiente de 
+produção, tornando-o acessível para uso real.
