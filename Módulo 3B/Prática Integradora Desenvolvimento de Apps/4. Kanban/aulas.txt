@@ -1,0 +1,108 @@
+Sumário
+
+1• Criação de Kanban para Requisitos
+Essa aula apresenta uma visão geral a criação de Kanban para levantamento de requisitos.
+
+A criação de um Kanban para gerenciamento de requisitos é uma prática eficaz que ajuda 
+equipes a visualizar, priorizar e gerenciar o fluxo de trabalho durante o desenvolvimento 
+de software ou projetos.
+
+Principais Características
+
+Quais requisitos precisam ser gerenciados?
+
+Qual é a prioridade dos requisitos?
+
+Quais são as etapas do processo?
+
+2• Implementação do Kanban no Levantamento de Requisitos
+Essa aula aborda as principais formas de implementação de um Kanban.
+
+A implementação do Kanban no levantamento de requisitos é uma maneira eficaz de visualizar, 
+organizar e gerenciar as demandas e expectativas dos stakeholders.
+
+A metodologia Kanban é especialmente útil em ambientes ágeis, onde a adaptabilidade e a 
+colaboração são essenciais.
+
+3• Colaboração e Comunicação em Kanban
+Essa aula explora o processo colaboração e comunicação em Kanban
+
+O quadro Kanban permite que a equipe visualize o andamento das tarefas, trazendo transparência, 
+ajudando a identificar bloqueios e facilitando discussões sobre o progresso.
+
+Cada cartão deve mostrar informações essenciais: responsável, status, prioridade e prazo. 
+Isso garante clareza e evita falhas de comunicação.
+
+Mantenha uma cultura de colaboração: todos devem poder compartilhar ideias, apontar problemas 
+e sugerir melhorias. Comunicação aberta e respeito são fundamentais.
+
+4• Aplicação Prática em Kanban
+Essa aula aplica os conhecimentos adquiridos.
+
+Vamos seguir com o desenvolvimento do nosso APP e aplicar o quadro Kanban nesse processo.
+
+Resumo:
+
+O Kanban é uma metodologia de gerenciamento de fluxo de trabalho que se destaca por sua 
+capacidade de otimizar processos e aumentar a eficiência, especialmente em áreas como 
+desenvolvimento de software e gerenciamento de projetos. Sua abordagem visual, baseada em um 
+quadro dividido em colunas que representam os estágios do trabalho, como "A Fazer", 
+"Em Progresso" e "Concluído", torna transparente o andamento das tarefas, facilitando a 
+comunicação e o alinhamento entre os membros da equipe. Um dos princípios centrais do Kanban 
+é a limitação do trabalho em progresso (WIP), que consiste em estabelecer um número máximo de 
+tarefas que podem estar em andamento simultaneamente. Essa prática evita a sobrecarga de 
+trabalho e permite que a equipe se concentre na conclusão das tarefas em andamento antes de 
+iniciar novas, o que contribui para um fluxo de trabalho mais suave e eficiente.
+
+A aplicação do Kanban no desenvolvimento de software se mostra particularmente eficaz, pois 
+permite acompanhar as diferentes etapas do processo, desde a coleta de requisitos até a 
+implementação e testes. A visualização do fluxo de trabalho através do quadro Kanban possibilita 
+a identificação rápida de gargalos e a otimização do processo como um todo. Além disso, a 
+flexibilidade do Kanban permite que a equipe se adapte às mudanças nos requisitos ou prioridades 
+do projeto de forma dinâmica, ajustando o fluxo de trabalho conforme necessário. Essa capacidade 
+de resposta ágil é crucial em ambientes de desenvolvimento de software, onde as necessidades 
+podem mudar rapidamente.
+
+A utilização de cartões no quadro Kanban, representando as tarefas a serem realizadas, oferece 
+uma visão clara do status de cada atividade, facilitando a gestão do projeto. Cada cartão pode 
+conter informações relevantes sobre a tarefa, como prazos, responsáveis e status, o que torna a 
+comunicação mais eficiente e transparente. A simplicidade do Kanban, aliada à sua capacidade de 
+promover a colaboração e a visualização do trabalho, o torna uma ferramenta poderosa para equipes 
+que buscam otimizar seus processos e entregar software de alta qualidade de forma consistente.
+
+A metodologia Kanban se baseia em princípios como a visualização do trabalho, a limitação do 
+trabalho em progresso (WIP) e a busca pela melhoria contínua. A visualização, como já mencionado, 
+é fundamental para tornar transparente o andamento das tarefas e o status do projeto. A limitação 
+do WIP, por sua vez, impede que a equipe se sobrecarregue e garante que o foco seja mantido nas 
+tarefas mais importantes. Já a melhoria contínua é um princípio intrínseco ao Kanban, que 
+incentiva a equipe a analisar constantemente o processo de trabalho em busca de oportunidades de 
+otimização e aumento da eficiência.
+
+Ao aplicar o Kanban, as equipes podem se beneficiar de um feedback constante sobre o andamento do 
+trabalho, o que permite identificar gargalos, otimizar o fluxo de trabalho e garantir que os 
+projetos sejam entregues dentro do prazo e com a qualidade esperada. A flexibilidade do Kanban 
+também permite que a equipe se adapte a mudanças nas prioridades do projeto de forma rápida e 
+eficiente, o que é essencial em ambientes dinâmicos como o desenvolvimento de software. Em resumo, 
+o Kanban é uma metodologia ágil e poderosa que pode ajudar equipes a melhorar a comunicação, a 
+colaboração e a eficiência na gestão de projetos e desenvolvimento de software.
+
+A implementação do Kanban em um projeto de desenvolvimento de software, como o aplicativo EcoRadar 
+mencionado nos materiais, pode ser bastante benéfica. O Kanban auxilia na organização das tarefas, 
+na visualização do progresso e na gestão do fluxo de trabalho, aspectos cruciais para o sucesso do 
+projeto. A divisão do projeto em tarefas menores e a atribuição destas a diferentes membros da 
+equipe, representadas por cartões no quadro Kanban, facilita o acompanhamento e a gestão do 
+progresso individual e coletivo.
+
+A utilização de cores para indicar o status das tarefas, como verde para concluído, amarelo para 
+em andamento e vermelho para atrasado, torna a visualização do quadro Kanban ainda mais intuitiva 
+e facilita a identificação de possíveis problemas no fluxo de trabalho. A possibilidade de mover 
+os cartões entre as colunas à medida que as tarefas progridem oferece uma visão clara e em tempo 
+real do status do projeto. Além disso, a comunicação entre a equipe é facilitada, pois todos têm 
+acesso ao quadro Kanban e podem acompanhar o andamento das tarefas e identificar possíveis gargalos 
+ou impedimentos.
+
+A aplicação do Kanban no desenvolvimento do EcoRadar pode contribuir para um processo mais 
+organizado, transparente e eficiente, resultando em um produto final de maior qualidade e entregue 
+dentro do prazo. A metodologia Kanban, com sua ênfase na visualização, na limitação do trabalho 
+em progresso e na melhoria contínua, se mostra uma ferramenta valiosa para equipes de 
+desenvolvimento de software que buscam otimizar seus processos e alcançar melhores resultados.

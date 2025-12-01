@@ -1,0 +1,106 @@
+1 • Tipos de Requisitos
+Essa aula apresenta uma visão geral sobre os tipos de requisitos existentes.
+
+O levantamento de requisitos é uma etapa crucial no desenvolvimento de software, 
+design de aplicativos e em projetos de engenharia em geral. Essa fase consiste em 
+coletar, documentar e analisar as necessidades e expectativas dos stakeholders 
+(partes interessadas) em relação ao sistema ou produto a ser desenvolvido.
+
+Principais Características
+
+Requisitos Funcionais
+Requisitos não funcionais
+Requisitos de Negócios
+Requisito de Usuário
+Requisitos de Sistema
+
+2 • Métodos de Levantamento de Requisitos
+Essa aula aborda as principais metodologias para levantamento de requisitos.
+
+O levantamento de requisitos é uma fase crucial no desenvolvimento de software e 
+envolve a coleta e análise das necessidades dos stakeholders (partes interessadas). 
+xistem diversos métodos que podem ser utilizados para garantir que os requisitos 
+sejam compreendidos e documentados de forma eficaz.
+
+As entrevistas são uma abordagem direta para coletar informações, onde um facilitador 
+faz perguntas a um ou mais stakeholders. As entrevistas podem ser estruturadas, 
+semi-estruturadas ou não estruturadas, dependendo do nível de detalhe e flexibilidade 
+desejados.
+
+Questionários e surveys são usados para coletar dados de um grande número de pessoas 
+de forma estruturada. Eles podem incluir perguntas de múltipla escolha, classificações 
+ou questões abertas.
+
+Focus groups reúnem um grupo de stakeholders para discutir suas opiniões e ideias 
+sobre requisitos e funcionalidades. Um facilitador conduz a discussão para garantir 
+que todos tenham a oportunidade de participar.
+
+3 • Análise de Stakeholders
+Essa aula explora o processo de análise de stakeholders.
+
+A análise de stakeholders é uma etapa fundamental no gerenciamento de projetos e 
+no levantamento de requisitos. Ela envolve identificar, avaliar e priorizar as 
+partes interessadas que têm um interesse ou impacto no projeto, produto ou sistema 
+a ser desenvolvido.
+
+Essa análise ajuda a garantir que as necessidades e expectativas de todos os 
+stakeholders sejam compreendidas e consideradas ao longo do processo de desenvolvimento.
+
+4 • Aplicação Prática em Requisitos
+Essa aula aplica os conhecimentos adquiridos.
+
+Resumo:
+
+O levantamento de requisitos é uma etapa crucial no desenvolvimento de qualquer 
+sistema, produto ou serviço, especialmente no contexto de metodologias ágeis e 
+Design Thinking. Ele serve como base para a compreensão das necessidades dos 
+usuários, clientes e outras partes interessadas, chamadas de stakeholders, e 
+garante que o produto final atenda a essas necessidades de forma eficaz. Esse 
+processo envolve a identificação, análise, documentação e validação das necessidades 
+e expectativas dos stakeholders em relação ao sistema a ser desenvolvido. A falta 
+de um levantamento de requisitos adequado pode levar a falhas no projeto, retrabalho, 
+atrasos na entrega e insatisfação do cliente.
+
+Existem diferentes tipos de requisitos que precisam ser considerados durante o 
+levantamento. Os requisitos funcionais descrevem o que o sistema deve fazer, as 
+funcionalidades que ele deve ter para atender às necessidades dos usuários. Por exemplo, 
+em um aplicativo de mensagens, um requisito funcional seria a capacidade de enviar e 
+receber mensagens de texto. Já os requisitos não funcionais descrevem como o sistema 
+deve funcionar, abrangendo aspectos como desempenho, segurança, usabilidade e 
+confiabilidade. Um exemplo de requisito não funcional para o aplicativo de mensagens 
+seria a exigência de que ele carregue em menos de dois segundos.
+
+Para realizar o levantamento de requisitos, diversas técnicas podem ser empregadas, cada 
+uma com suas vantagens e desvantagens. As entrevistas, por exemplo, permitem uma interação 
+direta com os stakeholders, possibilitando a obtenção de informações detalhadas e 
+personalizadas. Os questionários, por outro lado, são úteis para coletar dados de um 
+grande número de pessoas de forma estruturada e eficiente. Workshops e sessões de 
+brainstorming promovem a colaboração entre os stakeholders, facilitando a geração de ideias 
+e a identificação de soluções inovadoras. A análise de documentos e sistemas existentes 
+fornece insights valiosos sobre as necessidades dos usuários e o funcionamento do sistema 
+atual.
+
+A escolha das técnicas de levantamento de requisitos mais adequadas depende do contexto 
+do projeto, das características dos stakeholders e dos recursos disponíveis. É importante 
+ressaltar que o levantamento de requisitos não é uma etapa única e isolada, mas um processo 
+iterativo e contínuo que deve ser realizado ao longo de todo o ciclo de vida do projeto. À 
+medida que o projeto evolui, novas necessidades podem surgir, e os requisitos iniciais podem 
+precisar ser revisados e atualizados.
+
+A prototipagem é uma ferramenta valiosa durante o levantamento de requisitos, pois permite 
+que os stakeholders visualizem e interajam com uma versão simplificada do sistema. Isso 
+facilita a identificação de falhas, a validação de ideias e a comunicação entre a equipe de 
+desenvolvimento e os stakeholders. A prototipagem pode ser de baixa fidelidade, como um 
+esboço em papel, ou de alta fidelidade, como um protótipo funcional desenvolvido em software.
+
+A gestão de stakeholders é outro aspecto crucial no levantamento de requisitos. É fundamental 
+identificar todas as partes interessadas no projeto, entender seus interesses, expectativas 
+e níveis de influência. A comunicação clara e constante com os stakeholders é essencial 
+para garantir que suas necessidades sejam atendidas e que estejam engajados no processo 
+de desenvolvimento.
+
+Em resumo, o levantamento de requisitos é uma etapa fundamental no desenvolvimento de 
+sistemas, produtos e serviços. Ele garante que o produto final atenda às necessidades dos 
+usuários e stakeholders, evitando retrabalho, atrasos e custos desnecessários. A utilização 
+de técnicas adequadas, a prototipagem e a gestão eficaz dos stakeholders são elementos-chave 
+para o sucesso do levantamento de requisitos e, consequentemente, do projeto como um todo.

@@ -1,0 +1,31 @@
+Caderno:
+
+Introdução à Ideação e Design Thinking
+
+A fase de ideação é crucial para a concepção de um aplicativo, onde se transfere a 
+pesquisa e feedbacks em ideias concretas. O objetivo é integrar as perspectivas para 
+desenvolver um protótipo que atenda às necessidades do usuário.
+
+Fundamentos da Ideação e Pensamento Divergente
+
+A ideação envolve a exploração de soluções criativas e o pensamento divergente, 
+permitindo a análise de diferentes perspectivas. É fundamental para a construção do 
+aplicativo EcoRadar, focando na usabilidade e na experiência do usuário.
+
+Técnicas de Geração de Ideias
+
+A geração de ideias é fundamental na construção de software, envolvendo tanto a concepção 
+do design quanto a parte técnica. A arquitetura de software é composta por front-end e 
+back-end, e a integração de práticas é essencial para o desenvolvimento do aplicativo.
+
+Técnicas de Ideação e Brainstorming
+
+As técnicas de ideação, como o brainstorming, são ferramentas que estimulam a criatividade 
+nas equipes, abrangendo tanto front-end quanto back-end. A escolha de tecnologias e 
+plataformas é crucial para o desenvolvimento eficaz de aplicativos, considerando o público-alvo.
+
+Introdução ao Aplicativo de Sustentabilidade
+
+O aplicativo de sustentabilidade está sendo desenvolvido a partir de diversos cenários, 
+focando na ideação e construção. O Miro é utilizado para prototipagem e ideação, facilitando 
+a visualização e o planejamento do projeto.

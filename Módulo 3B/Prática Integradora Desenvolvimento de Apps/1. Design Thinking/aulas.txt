@@ -1,0 +1,116 @@
+Sumário
+
+1° Introdução ao Design Thinking para Mobile
+Essa aula apresenta uma visão geral das funcionalidades básicas de Design Thinking.
+
+Design Thinking é uma abordagem centrada no ser humano para a inovação e resolução 
+de problemas, focada em entender profundamente as necessidades e perspectivas das 
+pessoas envolvidas.
+
+Principais Características
+
+Empatia
+Definição
+Ideação
+Prototipagem
+Testes
+
+Principais Aplicações
+
+MIRO
+JORNADA DO USUÁRIO
+BRAINSTORM
+
+2° Pesquisa e Empatia no Design de Apps
+Essa aula aborda o processo de pesquisa e empatia no design de apps.
+
+Entrevistas com usuários: Conversar diretamente com os usuários potenciais para entender 
+suas necessidades, frustrações e expectativas em relação ao app. Perguntar sobre suas 
+experiências com outros aplicativos pode revelar oportunidades de melhoria.
+
+Pesquisas e questionários: Aplicar questionários online para um público maior pode ajudar 
+a identificar padrões de comportamento, preferências e problemas comuns.
+
+Análise de concorrentes: Estudar apps semelhantes no mercado para identificar o que 
+está funcionando, o que não está, e quais são as expectativas dos usuários em termos de 
+usabilidade e design.
+
+Testes de usabilidade:
+Observar os usuários interagindo com protótipos de baixa ou alta fidelidade do app 
+para identificar onde ocorrem dificuldades e se a navegação é intuitiva.
+
+Mapeamento de jornada do usuário:
+Mapear os passos que o usuário percorre ao interagir com o app, desde a descoberta até 
+o uso diário. Isso permite identificar os pontos de atrito e as oportunidades de aprimorar 
+a experiência.
+
+3° Prototipagem Rápida para Mobile
+Essa aula explora o processo de prototipagem.
+
+A prototipagem rápida para mobile é uma técnica essencial no Design Thinking para criar, 
+testar e melhorar rapidamente soluções de aplicativos móveis.
+
+Ela envolve a criação de versões simplificadas e interativas de um app com o objetivo de 
+visualizar ideias, validar conceitos e testar a usabilidade antes do desenvolvimento final. 
+Esse processo é ágil e iterativo, permitindo ajustes rápidos com base no feedback dos usuários.
+
+4° Aplicação Prática em Design Thinking
+Essa aula aplica os conhecimentos adquiridos.
+
+"Vamos começar o desenvolvimento do nosso APP.
+Chegou a hora da design thinking."
+
+Resumos:
+
+O Design Thinking é uma metodologia centrada no ser humano que busca soluções inovadoras 
+para problemas complexos, combinando criatividade, empatia e análise lógica. Suas etapas 
+principais são: Empatia, Definição do Problema, Ideação, Prototipagem e Teste. Essa 
+abordagem iterativa e colaborativa coloca o usuário no centro do processo de design, 
+buscando entender suas necessidades, dores e desejos para criar soluções que realmente 
+atendam às suas expectativas. No desenvolvimento de aplicativos, o Design Thinking é 
+crucial para criar apps úteis, intuitivos e agradáveis de usar.
+
+A prototipagem rápida é uma etapa essencial no Design Thinking, permitindo visualizar ideias, 
+validar conceitos e testar a usabilidade de um aplicativo antes mesmo de iniciar o 
+desenvolvimento. Ferramentas como o Miro e o Figma facilitam a criação de protótipos 
+interativos que simulam a experiência do usuário, possibilitando receber feedback e realizar 
+ajustes de forma ágil e econômica.
+
+A pesquisa com o usuário é fundamental para o sucesso de qualquer aplicativo. Entender o 
+público-alvo, suas necessidades, comportamentos e preferências é essencial para criar um 
+produto que realmente agregue valor. Através de entrevistas, pesquisas de mercado, testes 
+de usabilidade e análise da concorrência, é possível obter insights valiosos para direcionar 
+o desenvolvimento do aplicativo.
+
+A construção de um aplicativo envolve diversas etapas, desde a concepção da ideia até o 
+desenvolvimento e lançamento do produto final. É importante considerar tanto aspectos 
+técnicos, como a escolha da linguagem de programação e framework, quanto aspectos 
+relacionados à experiência do usuário, como design da interface, usabilidade e performance.
+
+A escolha da linguagem de programação e framework depende dos requisitos específicos do 
+aplicativo. Flutter, com a linguagem Dart, tem se destacado como uma opção poderosa e 
+versátil para o desenvolvimento mobile, permitindo criar aplicativos multiplataforma com 
+interface moderna e alto desempenho.
+
+A experiência do usuário é um fator crucial para o sucesso de um aplicativo. Uma interface 
+intuitiva, navegação fluida, design responsivo e performance adequada são elementos 
+essenciais para garantir a satisfação e fidelização dos usuários.
+
+A jornada do usuário descreve o caminho percorrido pelo usuário dentro do aplicativo, desde 
+o primeiro acesso até a realização de uma tarefa específica. Mapear a jornada do usuário 
+ajuda a identificar possíveis pontos de fricção e otimizar a experiência de uso.
+
+A prototipagem do aplicativo EcoRadar, um aplicativo focado em sustentabilidade, utilizando 
+a plataforma Miro, demonstra na prática como o Design Thinking pode ser aplicado no 
+desenvolvimento de apps. A ferramenta permite criar interfaces interativas, simular a 
+navegação do usuário e testar diferentes layouts e funcionalidades.
+
+A importância de integrar o back-end e o front-end no desenvolvimento de um aplicativo é 
+crucial para garantir a funcionalidade e a usabilidade do produto final. O back-end cuida 
+da lógica, processamento de dados e acesso a banco de dados, enquanto o front-end é 
+responsável pela interface com o usuário.
+
+A utilização de APIs (Application Programming Interfaces) permite integrar o aplicativo a 
+serviços externos, como mapas, redes sociais, plataformas de pagamento, entre outros, 
+enriquecendo a experiência do usuário e expandindo as funcionalidades do aplicativo.
+ 
