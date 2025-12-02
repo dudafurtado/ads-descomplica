@@ -1,0 +1,2 @@
+REST = conjunto de princípios.
+RESTful = quando uma API segue esses princípios na prática.
