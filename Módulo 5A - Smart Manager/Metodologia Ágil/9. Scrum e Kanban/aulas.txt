@@ -1,0 +1,113 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Scrum
+Como entender o método scrum
+
+• É uma metodologia ágil
+• Utilizada na gestão de projetos em qualquer área ou setor
+• Traz agilidade
+• Aumenta a produtividade
+• É uma ferramenta que é usada para implementar a metodologia ágil
+• Transparência na gestão
+• Todos no projeto sabem o que está sendo feito
+
+• Divisão do projeto em pequenos e diversos ciclos de atividades
+• Reuniões frequentes para alinhamento da equipe
+• Pensar formas de melhorar o processo com agilidade
+• Acompanhamento do projeto sempre bem de perto
+• Mudanças de planejamento o tempo todo
+• De forma livre e pouco engessada
+• As atividades de cada ciclo são mostradas para toda a equipe de forma visual
+
+• Product backlog – conjuntos de objetivos do projeto ou pacotes de funcionalidades a serem 
+desenvolvidas do software.
+• Sprint backlog – tarefas específicas que serão realizadas e desenvolvidas em cada ciclo ou 
+sprint, que deve ser de parte diário, parte semanal, parte mensal.
+• (Sprint) – são os ciclos de cada projeto.
+• Working increment of the software – desenvolvimento de trabalho do software
+
+Principais pontos
+
+• reuniões diárias
+• mostrar trabalho de forma visual
+• equipes enxutas
+• nada de títulos de função
+• priorização
+• heroísmo não é um bom sinal
+
+2. Kanban
+Como entender o método kanban
+
+• Criado pela Toyota na década de 1960
+• Metodologia JIT (Just in Time) – fazer apenas o que é necessário
+• Gestão por resultados
+• Fácil visualização
+• Melhoria da comunicação
+• Padronização
+• Redução de desperdícios
+
+• Principais itens de controle estão ao alcance de toda a equipe
+• Toda equipe sabe do andamento do projeto
+• As atividades passam de cada etapa até serem entregues.
+• É uma metodologia ágil
+• Utilizada na gestão de projetos
+
+Benefícios do Kanban
+
+• Visão do todo
+• Simplicidade
+• Facilita o fluxo de trabalho
+• Incentivo à comunicação
+• Prioridades e metas claras
+• Menos microgestão
+
+3. Scrum x Kanban
+Como determinar as diferenças entre kanban e scrum
+
+FLUXO
+• Kanban – fluxo contínuo
+• Scrum – sprints regulares definidas
+
+FUNÇÕES
+• Kanban – sem funções existentes
+• Scrum – funções são definidas, como scrum master, equipe de desenvolvimento
+
+ENTREGAS
+• Kanban – contínua ou a critério da equipe
+• Scrum – no final de cada Sprint devem ser aprovadas. Caso não seja, a mesma tarefa volta 
+para a próxima sprint.
+
+MUDANÇAS
+• Kanban – podem ocorrer a qualquer momento
+• Scrum – as equipes devem se esforçar para não ter alterações, para manter a estimativa
+
+4. Aplicando Scrum e Kanban
+Como saber aplicar scrum e kanban
+
+• Engajamento da equipe
+• Escolher bem a equipe
+• Determinar as tarefas
+• Estimar esforço de cada tarefa (produtividade e velocidade)
+• Determinar os sprints
+• Reuniões diárias com o que fez ontem, o que vai fazer hoje, quais problemas encontrados
+• Reuniões semanais para revisar o sprint
+
+• Utilizar quadros com post-it ou meio digital
+• Organizar o desenvolvimento
+• Do – a fazer
+• Doing – em execução
+• Done – feito
+
+Resumo:
+
+As metodologias ágeis representam uma abordagem moderna e eficiente para a gestão de projetos, especialmente no desenvolvimento de software, mas com aplicabilidade em qualquer área. Elas buscam entregar resultados de forma rápida e com qualidade, aumentando a produtividade das equipes e permitindo adaptações contínuas ao longo do processo. Duas das ferramentas mais conhecidas e utilizadas nesse contexto são o Scrum e o Kanban, que, embora distintas, compartilham o objetivo de otimizar o fluxo de trabalho.
+O Scrum é uma ferramenta da metodologia ágil que se destaca por trazer agilidade e transparência à gestão de projetos. Ele promove um ambiente onde todos os envolvidos têm clareza sobre o que está sendo feito, desde as tarefas individuais até o progresso geral do projeto. Essa transparência é fundamental para o alinhamento da equipe e para a rápida identificação e resolução de problemas.
+Nesta metodologia, o projeto é dividido em pequenos e diversos ciclos de atividades, chamados Sprints, que podem ter duração diária, semanal ou mensal. As reuniões de alinhamento são frequentes, geralmente diárias, e servem para que a equipe discuta o que foi feito, o que será feito e quais problemas foram encontrados, buscando soluções imediatas e melhorias contínuas no processo.
+Entre os conceitos-chave do Scrum, temos o Product Backlog, que é o conjunto de objetivos e funcionalidades que compõem o projeto, e o Sprint Backlog, que são as tarefas específicas selecionadas do Product Backlog para serem desenvolvidas em um determinado Sprint. O Work Increment of the Software refere-se ao desenvolvimento contínuo do software, com alterações e incrementos acontecendo rapidamente, reduzindo o tempo gasto em fases posteriores como testes.
+Os principais pontos do Scrum incluem reuniões diárias, a visualização do trabalho (muitas vezes em quadros com colunas como "A Fazer", "Fazendo" e "Feito"), equipes enxutas de aproximadamente 10 pessoas, a ausência de títulos de função rígidos e a priorização de tarefas, desencorajando o "heroísmo" individual em favor do trabalho em equipe. As entregas ocorrem ao final de cada Sprint e precisam ser aprovadas; caso contrário, a tarefa retorna para ser refeita.
+Por outro lado, o Kanban é uma metodologia ágil que teve sua origem na Toyota, na década de 1960, com o objetivo de otimizar a gestão da linha de produção. Ele se baseia no conceito Just-in-Time (JIT), que significa "fazer apenas o que é necessário", focando na gestão por resultados e na redução de desperdícios.
+O Kanban é caracterizado pela fácil visualização do fluxo de trabalho, utilizando quadros (físicos ou digitais) com colunas que representam as etapas do processo, como "A Fazer", "Fazendo" e "Feito". Essa visualização clara melhora a comunicação da equipe, pois todos têm acesso ao status do projeto e podem identificar onde são necessários mais esforços. Diferente do Scrum, o Kanban não possui funções definidas ou hierarquia rígida, promovendo uma estrutura mais horizontal onde todos são igualmente responsáveis.
+As atividades no Kanban fluem continuamente de uma etapa para a próxima até serem entregues. Os principais itens de controle estão ao alcance de toda a equipe, garantindo que todos saibam o andamento do projeto. Os benefícios do Kanban incluem uma visão holística do trabalho, simplicidade, facilitação do fluxo, incentivo à comunicação, prioridades e metas claras, e uma redução da microgestão.
+Ao comparar Scrum e Kanban, notam-se diferenças importantes. O Kanban possui um fluxo contínuo, permitindo a inserção de novas funcionalidades a qualquer momento, o que o torna mais flexível. Já o Scrum opera com Sprints regulares e bem definidos, onde as equipes se esforçam para evitar alterações durante o ciclo para manter as estimativas. Em relação às funções, o Kanban não tem papéis definidos, enquanto o Scrum possui funções específicas, como o Scrum Master. As entregas no Kanban são contínuas ou a critério da equipe, enquanto no Scrum ocorrem ao final de cada Sprint e exigem aprovação. A escolha entre um ou outro, ou a combinação de ambos, depende da natureza do projeto e da dinâmica da equipe.
+Para aplicar tanto o Scrum quanto o Kanban de forma eficaz, alguns elementos são cruciais. É fundamental garantir o engajamento e a motivação da equipe, escolhendo membros que demonstrem harmonia e boa comunicação. As tarefas devem ser pequenas e granulares, permitindo que cada membro da equipe realize várias atividades em um curto período, o que aumenta a sensação de dever cumprido e a produtividade.
+A estimativa do esforço de cada tarefa é importante, podendo ser feita com base em escalas como a série de Fibonacci, que ajuda a equipe a entender a complexidade e o tempo necessário para cada item. As reuniões diárias, rápidas e objetivas, são essenciais para revisar o progresso, discutir o que foi feito, o que será feito e resolver problemas. A utilização de quadros visuais, sejam físicos ou digitais, com as colunas "A Fazer", "Fazendo" e "Feito", é uma prática comum e altamente recomendada para organizar e acompanhar o fluxo de trabalho, motivando a equipe ao ver o progresso das tarefas.

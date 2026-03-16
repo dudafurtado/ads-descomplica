@@ -1,0 +1,166 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. O que é design thinking
+Como entender a importância do design thinking
+
+Inovar por quê?
+
+• Mercados novos
+• Necessidade humana não atendida
+• Novos caminhos
+
+• Abordagem focada no ser humano
+• Multidisciplinar, colaborativo, tangível de pensamentos e processos
+• Promoção no bem-estar das pessoas
+• Maneira do design pensar, pensamento abdutivo
+• Solução que se encaixa no problema, desafiando padrões
+• Transforma oportunidade em negócios
+
+Introdução à Inovação e Design Thinking
+
+Inovar é crucial para evitar a estagnação e a obsolescência. Buscar novos mercados e entender 
+as necessidades dos usuários são os principais motivadores para a inovação no desenvolvimento de software.
+
+Design Thinking: Entendendo o Usuário e Encontrando Soluções
+
+Design Thinking é uma abordagem centrada no ser humano que busca entender profundamente as necessidades, 
+desejos e emoções dos usuários. A metodologia auxilia na identificação de problemas e soluções, mesmo 
+quando o próprio usuário não tem clareza sobre suas necessidades.
+
+2. Porque design thinking
+Como determinar a necessidade do design thinking
+
+• Inovação com novos significados aos produtos, serviços e relacionamentos
+• Desafia padrões de pensamento, comportamento e de sentimento
+• Soluções que estimulam aspecto cognitivo, emocional e sensorial do ser humano
+
+• Foco: nas pessoas
+• Objetivo: ter informações com o entendimento de culturas, experiências, emoções, pensamentos e comportamentos
+• Dados: levantados por meio da interação do pesquisador e do cliente
+• Amostra: qualitativa de usuários extremos
+• Informação: de comportamentos, objetos e palavras que expressam a relação de coisas e processos do meio
+
+Por que usar Design Thinking no desenvolvimento de software?
+
+O Design Thinking é uma abordagem que visa a inovação no desenvolvimento de software, focando na 
+criação de soluções originais que atendam às necessidades do usuário final e proporcionem uma 
+experiência diferenciada.
+
+Próximos passos: Imersão Preliminar e Pesquisa
+
+A próxima etapa do processo de Design Thinking envolve uma imersão preliminar no problema e a 
+realização de pesquisas para melhor compreendê-lo.
+
+3. Imersão preliminar
+Como entender a imersão preliminar
+
+• Reenquadramento
+• Pesquisa Exploratória
+• Pesquisa desk
+
+Reenquadramento
+• examinar problemas com outro olhar.
+• determinar padrões
+• mudar paradigma
+• gerar soluções inovadoras
+
+Imersão Preliminar no Design Thinking
+
+A imersão preliminar no Design Thinking visa entender as necessidades do cliente de forma mais 
+abrangente, identificando problemas que ele pode nem saber que possui. Essa etapa inicial é crucial 
+para desenvolver soluções inovadoras que atendam a essas necessidades não mapeadas.
+
+Reenquadramento no Design Thinking
+
+O reenquadramento no Design Thinking propõe examinar problemas sob novas perspectivas, buscando 
+soluções inovadoras. A partir da identificação de padrões de soluções existentes, o objetivo é romper 
+com o convencional e criar soluções disruptivas que atendam às necessidades dos usuários de maneira 
+diferenciada.
+
+4. Pesquisa
+Como saber realizar as pesquisas
+
+Pesquisa Exploratória
+• Pesquisa preliminar para definir perfil do cliente
+• Familiariza a equipe com a realidade
+• Aproximação com o usuário final
+• Equipe em pesquisa de campo
+
+Pesquisa desk
+• Pesquisa em fonte bibliográfica e seguras
+• Fontes diferentes dos usuários finais
+• Tenha uma lista de temas relacionadas à pesquisa
+• Registre no cartão de insights
+
+Pesquisa Exploratória e o Perfil do Cliente
+
+A pesquisa exploratória em design thinking busca definir o perfil do cliente e entender suas 
+necessidades. No exemplo do software para reduzir o trânsito, o cliente final são os funcionários 
+que usarão o aplicativo, mas o cliente direto é a empresa que o adquirirá.
+
+Cartões de Insights e Resultados da Pesquisa
+
+Após a pesquisa exploratória, os insights devem ser organizados em cartões, contendo o problema, 
+a fonte da pesquisa e a necessidade que ela aborda. Esses cartões ajudam a visualizar e conectar 
+informações relevantes, descartando as irrelevantes. A combinação dos resultados da pesquisa 
+exploratória e dos cartões de insights guia o desenvolvimento de um software que atenda às necessidades 
+da sociedade.
+
+Resumo:
+
+A inovação no desenvolvimento de software é crucial para evitar a estagnação e a produção de soluções 
+genéricas que não atendem às necessidades reais do mercado. O objetivo principal é buscar novos mercados 
+e preencher lacunas em setores já existentes, garantindo que o software desenvolvido seja um negócio 
+viável e relevante. Para isso, é fundamental compreender as necessidades humanas, muitas vezes não 
+explicitadas pelos próprios usuários.
+
+Nesse contexto, o Design Thinking surge como uma metodologia ou abordagem focada no ser humano, 
+investigando o cliente e o usuário final para entender suas necessidades profundas. Ele se caracteriza 
+por ser multidisciplinar e colaborativo, envolvendo toda a equipe na busca por soluções que promovam 
+o bem-estar das pessoas.
+
+A essência do Design Thinking reside em um pensamento abdutivo, que desafia padrões e estimula a 
+criatividade para encontrar formas inovadoras de resolver problemas. Ao invés de seguir uma linha 
+de raciocínio linear, ele expande o pensamento, aproximando-se do cliente e transformando projetos 
+em oportunidades de negócio de forma mais assertiva e com economia de tempo.
+
+A aplicação do Design Thinking no desenvolvimento de software permite criar produtos e serviços com 
+novos significados, que vão além da funcionalidade básica. Ele busca gerar uma experiência de usuário 
+diferenciada, considerando aspectos como facilidade de uso, estética agradável e a sensação de 
+satisfação, adaptando-se às expectativas de diferentes gerações de usuários.
+
+Essa abordagem desafia padrões de pensamento, comportamento e sentimento, resultando em soluções que 
+estimulam os aspectos cognitivo, emocional e sensorial do ser humano. O software, assim, passa a 
+"conversar" com o usuário, compreendendo suas buscas e desejos, e gerando uma conexão emocional.
+
+O foco do Design Thinking está em um público-alvo específico, não em "todas as pessoas". O objetivo é 
+coletar informações detalhadas sobre a cultura, experiências, emoções, pensamentos e comportamentos 
+desses indivíduos. Os dados são obtidos de forma qualitativa, por meio da interação direta do 
+pesquisador com o cliente e usuário final, muitas vezes buscando os "extremos" para entender a 
+amplitude das necessidades.
+
+A jornada de aplicação do Design Thinking começa com a imersão preliminar, uma fase de pesquisa inicial 
+que visa uma compreensão mais genérica do problema. Esta etapa é crucial para identificar necessidades 
+que o cliente talvez nem saiba que possui, revelando gaps de mercado ainda inexplorados.
+
+Dentro da imersão preliminar, uma das técnicas é o reenquadramento, que consiste em examinar os 
+problemas sob uma nova perspectiva. O objetivo é identificar padrões existentes para, intencionalmente, 
+fugir deles e desenvolver soluções disruptivas e inovadoras. Por exemplo, ao invés de focar apenas em 
+diminuir o trânsito, pode-se buscar formas de tornar o deslocamento mais prazeroso e colaborativo.
+
+Outra técnica é a pesquisa exploratória, que visa definir o perfil do cliente e do usuário final, 
+familiarizando a equipe com a realidade em que o software será inserido. Esta pesquisa é realizada 
+em campo, com interação direta com os usuários em seu ambiente, buscando entender suas dores e 
+expectativas para desenvolver soluções que beneficiem tanto a empresa quanto o colaborador.
+
+Complementando as pesquisas de campo, a pesquisa desk utiliza fontes bibliográficas e eletrônicas 
+seguras, como artigos e estudos, para coletar informações sobre soluções existentes e o comportamento 
+do cliente final. Os resultados dessas pesquisas são registrados em "cartões de insights", que contêm 
+o problema, a fonte e a necessidade resolvida, sendo posteriormente cruzados e filtrados para formar 
+uma rede de informações.
+
+A combinação dessas abordagens de pesquisa – reenquadramento, pesquisa exploratória e pesquisa desk – 
+permite uma compreensão aprofundada e multifacetada das necessidades do ser humano. Essa base sólida 
+de informações qualitativas é essencial para o desenvolvimento de softwares verdadeiramente inovadores, 
+que resolvem problemas reais e geram valor significativo.
+ 

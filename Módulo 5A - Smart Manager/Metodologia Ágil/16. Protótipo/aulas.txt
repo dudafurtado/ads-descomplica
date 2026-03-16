@@ -1,0 +1,55 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Modelo de volume
+Como entender a importância do modelo de volume
+
+• Representações de um produto
+• No nível de fidelidade baixa, tem poucos detalhes
+• No nível de fidelidade alta, próximo à aparência do produto final
+• Sair do conceitual e tangibilizar a ideia
+• Ter algo concreto para validação
+
+• Modelo volumétrico permite visualização tridimensional
+• Estimula as críticas do usuário para refinamento
+• Viabilização da produção
+• Pode ser construído com materiais simples ou com acabamento próximo ao produto final
+
+2. Encenação
+Como determinar e entender a encenação
+
+• Simulação improvisada da situação
+• Representação da interação da pessoa com a máquina
+• Diálogo entre pessoas para encenar aspectos do serviço
+• Para testes da interação para melhorar a experiência
+
+• Seleção de grupo ou duas pessoas para participar da encenação
+• Diálogo para improvisação e ação natural
+• Cada ator tem um papel determinado
+• Pode ter um cenário com o produto e objetos para delimitar a experiência
+• Interação entre pessoas e de pessoa com objetos
+• Usa-se muita imaginação
+
+3. Storyboard
+Como entender a necessidade de storyboard
+
+• Representação visual por meio de quadros estáticos
+• Elementos: desenho, colagem, fotografia, etc.
+• Comunicação de ideia para terceiros
+• Visualização do encadeamento de uma solução
+• Detecção de aspectos em aberto no produto
+• Refinamento do serviço final
+
+• Definição da ideia a ser comunicada e testada
+• Elaboração de roteiro escrito
+• Separação da história em seções com cenários, atores e enquadramento
+• Determina a técnica de representação
+• Representação visual do que se quer comunicar
+
+4. Protótipo de serviços
+Como saber determinar um protótipo de serviços
+
+• Simulação de artefatos materiais, ambientes ou relações interpessoais
+• Representação de aspectos do serviço
+• Envolvimento do usuário para simular a solução proposta
+• Validação do entendimento e as sensações
+• Projeção dos elementos e gerenciamento das interações dos usuários

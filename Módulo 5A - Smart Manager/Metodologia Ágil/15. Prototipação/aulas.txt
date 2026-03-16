@@ -1,0 +1,78 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Visão da equipe do projeto: fidelidade
+Como entender a importância da visão de equipe do projeto
+
+Prototipação
+• Protótipo é a tangibilização de uma ideia
+• Passagem do abstrato para o físico
+• Representa a realidade
+• Simplificada para propiciar validações
+
+Da ótica da equipe de projeto
+• Elaboração das ideias com detalhes
+• Aumenta os níveis de fidelidade da solução
+• Realizada ao longo do processo
+• Aprendizado fazendo
+• Somado com os testes é possível a validação
+
+Níveis de fidelidade
+• Baixa
+Representação conceitual, análoga à ideia
+• Média
+Representação de aspectos da ideia
+• Alta
+Representação mais similar possível da ideia
+
+2. Visão do usuário: contextualidade
+Como determinar e entender a visão de usuário
+
+Do ponto de vista do usuário
+• Interação com o modelo criado
+• Em diferentes níveis de contextualidade
+• Avaliação do usuário
+• Fornecimento de insumos para evolução
+
+Níveis de Contextualidade
+• Restrita: em ambiente controlado
+• Geral: qualquer usuário, qualquer ambiente
+• Parcial: usuário final ou ambiente final
+• Total: usuário final e ambiente final
+
+3. Porque prototipar
+Como entender a necessidade de prototipar
+
+• Redução de incertezas
+• Forma ágil de abandonar alternativas ruins
+• Auxiliam na identificação de uma solução final mais assertiva
+• Processo de prototipação:
+formulação de questões
+respostas para idealização
+criação de modelos
+viabilização de testes
+análise dos resultados
+
+• Os resultados são analisados e o ciclo se repete
+• Mais testes, maior aprendizado e chances de sucesso na solução final
+• Prototipações são simulações que antecipam problemas, testam hipóteses e exemplificam ideias 
+para à realidade
+• Protótipo permite:
+selecionar e refinar ideias de forma assertiva
+tangibilizar e avaliar ideias interativamente
+validação da solução com o público
+antecipa possíveis problemas, reduzindo riscos e otimizando gastos
+
+4. Protótipo em papel
+Como saber determinar um protótipo em papel
+
+• Representações com diferentes níveis de fidelidade
+• Representa por esquema a interface gráfica
+• Inicia-se simples, aumentando a complexidade
+• Realizado para avaliar o fluxo de informações e a navegação do sistema
+• Exploração das possibilidades de comunicação
+• Para tangibilizar a apresentação da ideia para o usuário
+
+• Pode acontecer nos diferentes níveis de contexto
+• O resultado final do protótipo será no papel
+• Pode ser realizado à mão, como rascunho da solução
+• Pode ter auxílio do computador para os detalhes

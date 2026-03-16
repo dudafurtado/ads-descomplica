@@ -1,0 +1,99 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Imersão em profundidade
+Como entender a importância da imersão em profundidade
+
+• Identificação de comportamentos extremos
+• Mapeamento de padrões e necessidades
+• Descoberta do que o usuário faz, como faz e o que sentem
+• Busca de crenças, anseios e necessidades
+
+Imersão em Profundidade
+
+A imersão em profundidade no Design Thinking busca entender o usuário final de forma mais 
+completa do que a imersão preliminar. O objetivo é identificar os comportamentos extremos dos 
+usuários em relação ao problema em questão, mapeando seus padrões e necessidades.
+
+Entendendo o Usuário a Fundo
+
+Para entender o usuário em profundidade, é crucial analisar seus comportamentos, sentimentos e 
+motivações. É preciso ir além da superfície do problema e descobrir as necessidades subjacentes 
+que o usuário pode não ter consciência.
+
+2. Entrevistas
+Como determinar as entrevistas
+
+• Conversa com o entrevistado por meio de perguntas
+• Busca informações da vida dos entrevistados
+• Útil para entende a história das experiências do cliente
+• Instigar a resposta dos porquês
+• Entender comportamento social
+• Descoberta das exceções à regra
+• Informações para determinar um persona
+
+A Importância das Entrevistas no Design Thinking
+
+A entrevista em Design Thinking visa entender profundamente o cliente e suas necessidades. Com 
+base na pesquisa preliminar, elabore de 5 a 10 perguntas assertivas para guiar uma conversa informal 
+e conectar-se com o entrevistado.
+
+3. Sessão generativa
+Como entender a s sessões generativas
+
+• Encontro onde o usuário divide suas experiências em atividades conjuntas
+• Exposição do usuário em relação ao que sabe, sente e sonha
+• Entendimento das experiências diárias do usuário e sua complexidade
+• Utilização de caderno de sensibilização
+• Reflexão do usuário sobre suas memórias, sentimentos e motivações
+• Construção e expressão de experiências mais profundas
+
+Sessão Generativa
+
+A sessão generativa é um encontro onde o usuário final participa de atividades e experiências 
+conjuntas para expor o que sabe, sente e sonha em relação ao problema que se busca solucionar.
+
+Experiência e Vivência
+
+As atividades da sessão generativa devem ser experienciadas como reais, permitindo que o usuário 
+se exponha e revele informações valiosas sobre seu dia a dia, comportamento e como isso reflete em sua vida.
+
+Caderno de Sensibilização
+
+É fundamental registrar tudo o que acontece durante a sessão generativa, capturando as emoções, 
+sentimentos, comportamentos e reações dos usuários em um "caderno de sensibilização".
+
+Reflexão e Resultados
+
+A partir da reflexão do usuário e das informações coletadas, a equipe terá insights para desenvolver 
+um software que vá além de solucionar um problema técnico, mas que gere valor e impacte positivamente 
+a vida do usuário.
+
+4. Um dia na vida
+Como saber realizar um dia na vida
+
+• Simulação da vida de uma pessoa ou situação
+• Alguém da equipe se coloca no papel do cliente e vive a experiência e um dia
+• Visão da vida sob outra perspectiva
+• A pessoa da equipe precisa ter estudado a fundo do tema
+• Com aprendizados de comportamento, atitudes, limitações a serem simuladas
+• Mimetizar o que o usuário experimentaria
+
+Um dia na vida do cliente: entendendo a importância da simulação
+
+A técnica 'Um dia na vida' simula a experiência do cliente, permitindo que um membro da equipe viva 
+como o cliente final. Isso ajuda a entender suas necessidades e problemas, promovendo uma interação 
+direta com a equipe de desenvolvimento.
+
+Resumo:
+
+A imersão em profundidade é uma etapa crucial no Design Thinking, que visa ir além da pesquisa preliminar para compreender detalhadamente o contexto de vida do cliente e dos usuários finais de um projeto de software. O objetivo principal não é apenas identificar um problema aparente, mas sim desvendar as crenças, anseios e necessidades subjacentes que moldam a experiência do usuário.
+Para isso, é fundamental responder a quatro perguntas-chave: o que as pessoas falam, como agem, o que pensam e, principalmente, o que sentem. Essa abordagem qualitativa permite à equipe de desenvolvimento observar, interagir e descobrir as motivações mais profundas, muitas vezes não expressas diretamente pelos usuários.
+Um aspecto importante da imersão em profundidade é a identificação de comportamentos extremos. Ao analisar tanto os usuários que lidam bem com uma situação quanto aqueles que se sentem extremamente frustrados, é possível mapear padrões e necessidades que, se atendidos, satisfarão também o público intermediário. Isso garante que o software desenvolvido seja robusto e inclusivo.
+As entrevistas são uma das ferramentas essenciais para aprofundar essa imersão. Diferente de um questionário formal, elas são conduzidas como conversas empáticas, buscando estabelecer uma conexão emocional com o cliente ou usuário. O foco é entender as histórias de vida e os "porquês" por trás de suas ações e sentimentos, e não apenas coletar respostas superficiais.
+Durante essas conversas, a equipe procura identificar comportamentos sociais, pontos fora da curva e casos extremos, compreendendo suas origens e consequências. As informações coletadas são valiosas para a criação de personas, que representam os diferentes segmentos do público-alvo e guiam as fases subsequentes do Design Thinking, como a ideação.
+Outra técnica poderosa é a sessão generativa, um encontro onde os usuários participam de atividades conjuntas para compartilhar suas experiências relacionadas ao projeto. O propósito é que eles exponham o que sabem, sentem e sonham de forma estratégica e latente, muitas vezes vivenciando situações que evocam emoções e sentimentos reais.
+Essas atividades são projetadas para serem vivências intensas e curtas, permitindo que a equipe compreenda a complexidade das experiências diárias do usuário. Para registrar as observações, utiliza-se um "caderno de sensibilização", onde são anotadas as emoções, sentimentos e comportamentos manifestados pelos participantes.
+A sessão generativa gera uma riqueza de informações qualitativas, ajudando a equipe a desenvolver um software que não apenas resolve um problema técnico, mas que toca nas motivações e necessidades mais profundas do ser humano, como a busca por qualidade de vida e bem-estar. Isso cria um produto que o usuário sente que foi feito sob medida para ele.
+Complementando essas abordagens, a técnica "Um dia na vida" envolve a simulação da rotina de um usuário por um membro da equipe de desenvolvimento. Este membro, após um estudo aprofundado do tema, assume o papel do cliente ou usuário final e vive um dia inteiro como se fosse ele, interagindo com a equipe e expressando suas percepções.
+Essa simulação permite à equipe obter uma nova perspectiva sobre a vida do cliente, gerando empatia e insights valiosos. Ao vivenciar os comportamentos, atitudes e limitações do usuário, inclusive simulando os extremos, a equipe pode identificar e mitigar potenciais problemas e conflitos no software antes mesmo de seu desenvolvimento, otimizando o processo e garantindo que o produto final atenda às expectativas reais.
+Em conjunto, essas técnicas de imersão em profundidade garantem que o desenvolvimento de software seja centrado no ser humano, abordando não apenas o problema visível, mas também as necessidades emocionais e comportamentais. O resultado é um produto que realmente agrega valor, resolve problemas de forma inovadora e cria oportunidades de negócio significativas.

@@ -1,0 +1,127 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Insight e diagrama de afinidade
+Como entender a importância dos insights e do diagrama de afinidades
+
+Cartão de insights
+• Reflexões das pesquisas exploratória, desk e em profundidade
+• Cartões com consulta e manuseio rápido
+• Utilizado para criar o diagrama de afinidades
+• Aplicado na pesquisa desk, na pesquisa de campo
+
+Diagrama de afinidades
+• Organização dos cartões de insight por afinidade, similaridade, dependência ou proximidade
+• Diagrama com macro áreas, divisões e interdependências
+• Realizado de forma colaborativa
+• Resultado final auxilia na compreensão dos dados para criação de ferramentas
+
+Insights e Diagrama de Afinidades
+
+Cartões de insights são ferramentas visuais concisas que sintetizam as descobertas de pesquisas 
+exploratórias, desk research e de profundidade, auxiliando na organização e consulta rápida durante 
+o desenvolvimento de software.
+
+2. Mapa conceitual e critérios
+Como determinar critérios e entender o mapa conceitual
+
+Mapa conceitual
+• Visualização gráfica
+• Simplifica e organiza dados complexos
+• Diferentes níveis de profundidade e abstração
+• Extração de novos significados
+• Visualização dos dados de forma mais rápida e holística
+• Pode ser usado como base de geração de ideias
+
+Critérios Norteadores
+• Diretrizes que balizam o projeto
+• Determinação do escopo para o projeto
+• Direcionamento sugerido pelo cliente
+• Parametrizam e orientam soluções
+• Evidencia adequação ao escopo que deve ser respeitado
+
+A Importância do Mapa Conceitual no Desenvolvimento de Software
+
+O mapa conceitual organiza informações complexas de pesquisas, agrupando insights de cartões de 
+afinidade em hierarquias e inter-relações. Ele simplifica a visualização do projeto, conectando 
+grupos de forma lógica e intuitiva.
+
+Critérios Essenciais para o Desenvolvimento de Software
+
+Os critérios extraídos do mapa conceitual norteiam o desenvolvimento do software, definindo o escopo, 
+direcionando as soluções e garantindo que o produto final atenda às necessidades do cliente, tanto as 
+explícitas quanto as implícitas.
+
+3. Personas e mapa de empatia
+Como entender os personas e o mapa de empatia
+
+Persona
+• São arquétipos, personagens fictícios
+• Concebidos da síntese de comportamentos entre consumidores e perfis externos
+• Representam motivação, desejos, expectativas e necessidades
+• Reúne características significativas de um grupo mais abrangente
+• Úteis para gerar soluções inovadoras que atendam à demanda
+• Direciona as soluções para os usuários
+
+Mapa de Empatia
+• Visualização do que o cliente diz, pensa e sente
+• Entendimento do contexto, comportamentos, preocupações do usuário
+• O que o cliente enxerga e ouve?
+• O que o cliente pensa e sente?
+• O que o cliente diz e faz?
+• Quais as dificuldades e conquistas do cliente?
+
+Criação de Personas e Mapas de Empatia
+
+Personas são personagens fictícios que representam os usuários do seu software. Eles incorporam 
+características, motivações, desejos, expectativas e necessidades do público-alvo, ajudando a entender 
+o comportamento do usuário e a desenvolver soluções mais eficazes.
+
+Construindo Empatia com o Usuário Através do Mapa de Empatia
+
+O mapa de empatia é uma ferramenta visual que ajuda a entender o que o usuário diz, pensa, sente, faz 
+e quais suas dificuldades e conquistas. Ele permite visualizar o contexto, comportamento e preocupações 
+do usuário, criando empatia e guiando o desenvolvimento de uma experiência de usuário mais intuitiva e 
+satisfatória.
+
+4. Jornada do usuário e blueprint
+Como saber realizar a jornada do usuário e o blueprint
+
+Jornada do usuário
+• Representação gráfica das etapas de relacionamento do cliente com o produto ou serviço
+• Descreve o processo antes, durante e depois da aquisição do serviço ou produto
+• Análise das expectativas do cliente para surpreendê-lo
+• Cada persona pode explorar um ciclo de vida do produto ou serviço
+• Criação de soluções inovadoras para óticas do perfil do cliente
+
+Blueprint
+• Matriz que representa o sistema de interações de uma prestação de serviço
+• Mapeia os elementos de contato e interação com o cliente
+• Descreve evidências físicas, os atores, ações, interdependências.
+• Identifica pontos falhos
+• Facilita inovação estratégica e táticas
+
+Jornada do Usuário e Blueprint no Design Thinking
+
+A jornada do usuário representa graficamente as etapas do relacionamento do cliente com o software, 
+desde antes da aquisição até o uso contínuo. É crucial analisar as expectativas do cliente em cada 
+etapa para surpreendê-lo e criar uma experiência positiva que o motive a continuar utilizando o software.
+
+Blueprint e a Redução de Falhas no Desenvolvimento de Software
+
+O Blueprint é uma matriz que mapeia todos os pontos de contato e interação do cliente com o software, 
+descrevendo as ações do usuário e as respostas do sistema. Essa ferramenta permite identificar e corrigir 
+falhas no desenvolvimento antes mesmo de iniciar a programação, economizando tempo e recursos.
+
+Resumo:
+
+A fase de Análise e Síntese no Design Thinking é fundamental para organizar as informações coletadas em pesquisas anteriores, como exploratória, desk e de profundidade. O objetivo é identificar padrões, desafios e compreender profundamente o problema a ser resolvido, garantindo um desenvolvimento de software mais assertivo e focado nas necessidades do usuário final.
+Para iniciar essa organização, são criados os cartões de insights. Estes são reflexões concisas e visuais das informações mais importantes obtidas nas pesquisas, funcionando como post-its que podem ser rapidamente consultados e manuseados. Eles evitam a necessidade de relatórios extensos, sintetizando os pontos-chave para facilitar a visualização e o trabalho da equipe.
+Em seguida, utiliza-se o diagrama de afinidades para agrupar esses cartões de insights. A organização é feita com base em similaridade, dependência ou proximidade dos temas, formando macro áreas e interdependências. Este processo é colaborativo e dinâmico, permitindo que a equipe discuta e reorganize os cartões conforme novas percepções surgem, garantindo que a visão do cliente seja sempre o foco.
+O diagrama de afinidades oferece uma visão macro e aérea das informações, auxiliando na compreensão de grandes volumes de dados e na conexão entre diferentes temas e oportunidades do projeto. Ele é essencial para construir uma base sólida de informações e dados, totalmente voltada para o cliente final e suas necessidades, mesmo aquelas que ele próprio desconhece.
+A partir dos grupos de afinidade, é construído o mapa conceitual, uma visualização gráfica que simplifica e organiza dados complexos em diferentes níveis de profundidade e abstração. Ele estabelece hierarquias e interligações entre os conceitos, permitindo uma compreensão holística do projeto e a identificação de dependências no desenvolvimento do software.
+O mapa conceitual serve como um norte, gerando critérios norteadores que balizam o projeto. Esses critérios são diretrizes que definem o escopo, direcionam o desenvolvimento e garantem que os aspectos importantes permaneçam evidenciados. Eles permitem parametrizar e orientar as soluções, assegurando que o software esteja alinhado com o que o cliente realmente busca.
+Para aprofundar a compreensão do usuário, são criados os personas, que são personagens fictícios ou arquétipos que representam o público-alvo. Eles incorporam características físicas, emocionais, motivações, desejos, expectativas e necessidades coletadas nas pesquisas, sintetizando o comportamento dos consumidores e direcionando o desenvolvimento para soluções inovadoras.
+Complementando o persona, o mapa de empatia é uma ferramenta visual que permite entender profundamente o que o cliente (representado pelo persona) diz, pensa, sente, vê, ouve e faz, além de suas dores e ganhos. Ele ajuda a equipe a se conectar emocionalmente com o usuário, compreendendo seu contexto, comportamento e preocupações.
+Com o persona e o mapa de empatia definidos, a jornada do usuário é mapeada. Esta representa graficamente as etapas do relacionamento do cliente com o produto ou serviço, desde antes da aquisição até o uso contínuo. Ela descreve o processo de interação, permitindo analisar expectativas e criar uma experiência que surpreenda e gere desejo pelo software.
+Finalmente, o blueprint é uma matriz que representa todo o sistema de interações de uma prestação de serviço, mapeando elementos de contato, evidências físicas, atores, ações e interdependências ao longo da jornada do usuário. Ele permite identificar pontos falhos antes do desenvolvimento, economizando esforços e custos com retrabalho, testes e manutenção, e acelerando a inovação estratégica e a entrada do produto no mercado.
+ 

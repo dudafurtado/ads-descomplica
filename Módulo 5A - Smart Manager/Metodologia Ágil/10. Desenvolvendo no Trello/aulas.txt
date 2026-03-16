@@ -1,0 +1,32 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Primeiros passos no trello
+Como entender os primeiros passos no trello
+
+• Em algum browser
+• digite trello.com
+• Crie sua conta
+• Entre com seu usuário
+• Entre com sua senha
+
+2. Do, doing, done no trello
+Como determinar o do, doing, done no trello
+
+3. Entendendo o trello
+Como entender as funcionalidades do trello
+
+4. Aplicando o trello
+Como saber realizar aplicações no trello
+
+O Trello é uma ferramenta digital versátil, projetada para auxiliar no gerenciamento de projetos utilizando metodologias ágeis, como Scrum e Kanban. Ele serve como um meio eletrônico para organizar e visualizar o fluxo de trabalho no desenvolvimento de software, sendo acessível tanto em sua versão gratuita quanto paga, por meio de navegadores web, aplicativos para dispositivos móveis e software de computador.
+Para começar a utilizar o Trello, o primeiro passo é criar uma conta. Isso é feito acessando o site trello.com, onde o usuário deve fornecer um e-mail e uma senha para registrar-se. Após a criação da conta, o acesso é realizado com essas credenciais, e a plataforma oferece dicas para otimizar a experiência do usuário.
+Uma vez logado, é possível nomear e configurar um time, definindo seu tipo (por exemplo, engenharia ou TI) e adicionando os membros que farão parte dos projetos. O Trello permite a conexão com outros aplicativos e serviços, como Slack, Google Drive e Jira, mesmo na versão gratuita, ampliando suas capacidades de colaboração.
+O coração do Trello são os quadros, que representam projetos específicos. O usuário pode optar por utilizar modelos prontos, como templates Kanban, ou criar um quadro do zero, personalizando seu título e plano de fundo. Um quadro pode ser configurado para ser visível apenas para o time ou para um público mais amplo, dependendo da necessidade.
+Dentro de cada quadro, a organização é feita por meio de listas, que funcionam como colunas. A estrutura mais comum e fundamental para metodologias ágeis inclui as listas "Do" (a fazer), "Doing" (fazendo) e "Done" (feito). Essas listas visualizam o progresso das tarefas, desde o que precisa ser iniciado até o que já foi concluído.
+As tarefas individuais são representadas por "cartões" dentro dessas listas, funcionando como post-its digitais. Cada cartão pode ser criado com um título simples e, posteriormente, enriquecido com diversas informações detalhadas para facilitar o acompanhamento e a execução.
+Ao clicar em um cartão, é possível adicionar uma descrição detalhada da tarefa, atribuir membros responsáveis pela sua execução e usar etiquetas coloridas para categorizar ou indicar prioridade e dificuldade. Essa flexibilidade permite uma comunicação visual clara sobre o status e a importância de cada item.
+Outras funcionalidades importantes dos cartões incluem a adição de checklists, que permitem quebrar uma tarefa maior em subtarefas menores e acompanhar seu progresso individualmente. Além disso, é possível anexar arquivos, como documentos, imagens ou outros recursos relevantes para a tarefa, centralizando todas as informações necessárias.
+A gestão de prazos é um recurso crucial, onde cada cartão pode ter uma data e hora de entrega definidas. O Trello oferece um sistema visual de alerta: o cartão fica amarelo quando a data de entrega está próxima, vermelho quando está atrasado e verde quando a tarefa é marcada como concluída, proporcionando transparência sobre o cumprimento dos cronogramas.
+A dinâmica do Trello se manifesta na movimentação dos cartões entre as listas. À medida que uma tarefa avança, os membros da equipe arrastam o cartão de "Do" para "Doing" e, finalmente, para "Done". Essa movimentação, juntamente com um registro de atividades detalhado e uma seção de comentários em cada cartão, cria um histórico completo e transparente de todas as interações e progressos, com registro de data e hora.
+Essa riqueza de informações e a facilidade de visualização tornam o Trello uma ferramenta poderosa para reuniões de equipe, como as diárias de stand-up. Ele permite que todos os envolvidos compreendam rapidamente o status do projeto, identifiquem gargalos e celebrem as conquistas, mantendo a equipe motivada e focada no objetivo final de mover todos os cartões para a lista "Done".
+
