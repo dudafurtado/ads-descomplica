@@ -1,0 +1,72 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Conceitos e aplicações
+Como entender a importância dos conceitos e aplicações
+
+• A engenharia de software reúne metodologias, métodos e ferramentas
+• Utilização para o entendimento do problema até a entrega final do software
+• Atua no processo do desenvolvimento do software, resolvendo problemas
+• Auxilia no processo de produção do software
+• Melhoria da qualidade e diminuição de custos
+
+• Utilização de um conjunto coerente e coordenado de métodos para o desenvolvimento do software
+• Evitar a subjetividade no desenvolvimento do software
+• Processo dinâmico e interativo para o desenvolvimento do software
+
+• Visa qualidade e produtividade nos projetos de software
+• Objetivo de definir quem faz o que, quando e como e até mesmo onde
+• Definição dos papéis e funções
+
+Engenharia de Software: Conceitos e Aplicações
+
+A Engenharia de Software abrange metodologias, métodos e ferramentas para desenvolvimento 
+de software, considerando as necessidades específicas de cada cliente e evitando soluções 
+genéricas.
+
+Engenharia de Software: Processo Dinâmico e Interativo
+
+O desenvolvimento de software é um processo dinâmico e interativo que visa entregar soluções 
+de alta qualidade e produtividade, definindo papéis, funções e interações entre as equipes de 
+desenvolvimento, negócios e o cliente.
+
+2. Engenheiro de software
+Como determinar a importância do engenheiro de software
+
+• Cuida da parte técnica e científica do software
+• Cuida do desenvolvimento e da gestão
+• Criação de softwares de quaisquer naturezas
+• Gerenciamento do negócio e projetos da empresa
+
+3. Importância
+Como entender a importância da engenharia de software
+
+Acompanhamento dos avanços tecnológicos
+• busca de novos métodos para desenvolver
+• para gerenciar sistemas e aplicativos
+• objetivo do bem da sociedade
+
+Produzir sistemas de software eficientes
+• Antenado às tendências
+• Visar praticidade e otimização
+
+4. Futuro 
+Como saber entender o futuro da engenharia de sofware
+
+• Novas tecnologias da informação
+• Tecnologia e novas formas de desenvolvimento, fabricação, comercialização e distribuição de 
+softwares
+• Otimização
+
+O Futuro da Engenharia de Software
+
+A engenharia de software está em constante evolução, acompanhando as novas tecnologias. Diferente 
+de outras engenharias, seu processo de fabricação está diretamente ligado à essa evolução, 
+garantindo seu futuro.
+
+Engenharia de Software e Propósito
+
+A engenharia de software deve ter como propósito melhorar a qualidade de vida das pessoas. Ao 
+invés de temer a substituição por máquinas, devemos utilizar a tecnologia para ter mais tempo 
+livre e aproveitar a vida.
+
+Resumo:

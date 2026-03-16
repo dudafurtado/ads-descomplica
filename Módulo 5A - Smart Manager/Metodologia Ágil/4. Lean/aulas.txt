@@ -1,0 +1,151 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Conceitos e aplicações
+Como entender a importância dos conceitos e aplicações
+
+• Lean Thinking, método criado pela Toyota
+• Foco naquilo que é necessário, no local e no momento certo
+• Eliminação de desperdícios
+• Base na teoria das restrições, demanda puxada, just-in-time
+• Foco na melhoria contínua, qualidade total e flexibilidade
+
+Introdução ao Método Lean
+
+O Lean Thinking, criado pela Toyota, é um método de pensamento enxuto focado no 
+desenvolvimento apenas do necessário, no local e momento certos. Eliminando desperdícios 
+e com base na teoria das restrições, visa atender à demanda de forma justa e eficiente, 
+com foco na melhoria contínua e na qualidade total.
+
+Aplicação do Método Lean no Desenvolvimento de Software
+
+Aplicando o Lean no desenvolvimento de software (Lean Software), o foco se mantém na 
+entrega de valor, eliminando desperdícios e buscando a melhoria constante. Reduzindo 
+prazos e adaptando-se às mudanças, o método visa entregar um software que atenda às 
+necessidades do usuário final.
+
+2. Lean e métodos ágeis
+Como determinar a importância de combinar lean com métodos ágeis
+
+• Lean e Scrum
+• Lean e Kanban
+• Desenvolvimento de software enxuto
+• Metodologias ágeis são interativas e incrementais
+• Participação do cliente
+
+• Lean e métodos ágeis aplicados de maneira complementar
+• Scrum para planejamento e gerencia
+• Scrum para práticas de desenvolvimento
+• Lean abordando princípios, valores e ferramentas de um software enxuto
+
+Métodos Lean e Ágeis: Uma Combinação Poderosa
+
+O método Lean, focado em desenvolvimento enxuto, pode ser combinado com métodos ágeis como 
+Scrum e Kanban para otimizar o desenvolvimento de software.
+
+Desenvolvimento Lean: Foco no Essencial e no Cliente
+
+O desenvolvimento Lean prioriza a entrega do essencial para atender às necessidades do 
+cliente, enquanto os métodos ágeis, com a participação ativa do cliente, garantem que o 
+produto final seja eficaz na resolução de problemas.
+
+Combinando Scrum e Lean para um Desenvolvimento Complementar
+
+Scrum e Lean se complementam no desenvolvimento de software: o Scrum auxilia no 
+planejamento e gerenciamento, enquanto o Lean fornece princípios, valores e ferramentas 
+para um produto enxuto e eficaz.
+
+3. Primeiros Princípios
+Como entender os primeiros princípios do Lean
+
+Elimine o desperdício
+
+• Eliminar o que não agrega valor
+• Mapeamento do fluxo de valor
+
+Integrar Qualidade
+
+• Do início ao fim do projeto
+• Teste para prevenção e não detecção de defeitos
+• Ordenar, sistematizar, limpar, padronizar, manter
+
+Criar conhecimento
+
+• Por meio da experimentação
+• Melhoria contínua dos processos internos
+
+Adiar comprometimentos
+
+• Decisões assertivas
+• Decisões tomadas no último momento possível
+
+Princípio 1: Eliminar o Desperdício com Foco no Valor
+
+O primeiro princípio é eliminar o desperdício, focando no valor que o software entrega 
+ao usuário final. É essencial mapear as necessidades do cliente e eliminar tudo que não 
+agrega valor ao fluxo de desenvolvimento.
+
+Princípio 2: Integrar Qualidade com Foco na Experiência do Usuário
+
+O segundo princípio é integrar qualidade, priorizando a experiência do usuário. É fundamental 
+entender a usabilidade e a percepção do usuário final para garantir que o software entregue 
+uma experiência satisfatória e eficiente.
+
+Princípio 3: Criar Conhecimento Através da Experimentação com o Usuário Final
+
+O terceiro princípio envolve criar conhecimento através da experimentação com o usuário final. 
+Antes de lançar o software, é importante testar com o público-alvo para orientar e melhorar 
+continuamente o processo de desenvolvimento.
+
+Princípio 4: Adiar Compromissos e Tomar Decisões Assertivas
+
+O quarto princípio é adiar compromissos e tomar decisões assertivas. As decisões devem ser 
+baseadas em informações completas e objetivas, evitando mudanças impulsivas que não resolvam 
+os problemas identificados.
+
+4. Últimos princípios
+Como saber entender os últimos princípios do Lean
+
+Entregar rápido
+
+• Velocidade é ausência de desperdício
+• Utilize práticas ágeis
+• Conviver com horas extras não é sustentável
+
+Respeitar pessoas
+
+• Pessoas é o capital mais importante
+• Gerenciar os times para auto organização
+• Ambiente sustentável
+
+Métodos Lean e Ágeis: Uma Combinação Poderosa
+
+O método Lean, focado em desenvolvimento enxuto, pode ser combinado com métodos ágeis como 
+Scrum e Kanban para otimizar o desenvolvimento de software.
+
+Desenvolvimento Lean: Foco no Essencial e no Cliente
+
+O desenvolvimento Lean prioriza a entrega do essencial para atender às necessidades do cliente, 
+enquanto os métodos ágeis, com a participação ativa do cliente, garantem que o produto final 
+seja eficaz na resolução de problemas.
+
+Combinando Scrum e Lean para um Desenvolvimento Complementar
+
+Scrum e Lean se complementam no desenvolvimento de software: o Scrum auxilia no planejamento e 
+gerenciamento, enquanto o Lean fornece princípios, valores e ferramentas para um produto enxuto e 
+eficaz.
+
+Resumo:
+
+O método Lean, ou "pensamento enxuto", é uma abordagem que busca otimizar processos e recursos, focando naquilo que é estritamente necessário. Sua origem remonta à montadora de veículos Toyota, que o desenvolveu para competir com a produção americana, que era significativamente mais rápida. Com menos recursos, a Toyota precisou criar um sistema que eliminasse desperdícios e focasse na eficiência, resultando em um método que não é puramente tradicional nem puramente ágil, mas incorpora características de ambos.
+A essência do Lean Thinking reside em desenvolver apenas o que é necessário, no local e momento certos, com o objetivo de eliminar ao máximo os desperdícios. Isso se baseia em conceitos como a teoria das restrições, a demanda puxada e o "just-in-time", visando a melhoria contínua, a máxima qualidade e grande flexibilidade na entrega de um produto que realmente atenda às necessidades do cliente final.
+Quando aplicado ao desenvolvimento de software, o Lean Software busca reduzir prazos, focar nas necessidades do cliente e permitir adaptações e mudanças ao longo do processo. O objetivo é entregar valor agregado, eliminando desperdícios como documentação excessiva ou funcionalidades desnecessárias, e promovendo a melhoria constante para resolver a "dor" do usuário final do software.
+A abordagem Lean pode ser combinada de forma eficaz com metodologias ágeis, como Scrum e Kanban, criando uma gestão híbrida conhecida como Lean Agile. Enquanto o Lean foca nos princípios de valor e eliminação de desperdícios, os métodos ágeis contribuem com seu caráter iterativo, incremental e a participação ativa do cliente, o que é crucial para garantir que o software desenvolvido realmente atenda às expectativas.
+A união do Lean com métodos ágeis permite que o desenvolvimento de software se beneficie da estrutura de gerenciamento e planejamento do Scrum, por exemplo, ao mesmo tempo em que adere aos princípios de enxutez do Lean. Essa combinação resulta em maior motivação da equipe, ambientes de trabalho sustentáveis e a entrega de um produto que ataca diretamente a necessidade do usuário final, evitando funcionalidades que não serão utilizadas.
+Um dos princípios fundamentais do Lean é a eliminação do desperdício, que se concentra em mapear o fluxo de valor e remover tudo que não agrega valor ao software, como trabalho parcial, documentação desnecessária, funcionalidades sem uso, ou problemas de comunicação. O foco é entregar o mínimo necessário com o menor custo e recursos, sempre alinhado à dor do usuário final.
+Outro princípio crucial é a integração da qualidade, que deve ser garantida do início ao fim do projeto. Isso significa não apenas simplificar, mas também assegurar que o que é entregue tenha alta qualidade, considerando a experiência do usuário final. A qualidade é percebida pela usabilidade e pela eficiência com que o software resolve o problema do usuário, exigindo testes contínuos e refinamento do código.
+O terceiro princípio é criar conhecimento através da experimentação. Isso envolve testar o produto com o público-alvo antes da produção, orientar os usuários e promover a comunicação contínua entre as equipes de desenvolvimento e os usuários. Essa abordagem gera uma melhoria contínua dos processos internos e garante que o software evolua de acordo com as necessidades reais.
+Adiar comprometimentos é o quarto princípio, que sugere que decisões importantes devem ser tomadas de forma assertiva e racional no momento mais oportuno, quando se tem o máximo de informações e experiências disponíveis. Isso evita decisões precipitadas que poderiam gerar retrabalho ou soluções ineficazes.
+A entrega rápida constitui o quinto princípio, entendendo que velocidade é sinônimo de ausência de desperdício e entrega de qualidade. Para isso, são utilizadas práticas ágeis e equipes autogerenciáveis, motivadas e que trabalham em um ambiente sustentável, evitando horas extras excessivas e promovendo a qualidade de vida no trabalho.
+O sexto princípio é o respeito às pessoas, considerando-as o capital mais importante de qualquer projeto ou organização. Isso inclui a equipe de desenvolvimento, a equipe do cliente e os usuários finais. Promover um ambiente de auto-organização, transparência e motivação é essencial para que todos se sintam valorizados e contribuam para o sucesso do software.
+Por fim, o sétimo princípio é otimizar o todo. Isso implica utilizar métricas para medir o desempenho de todo o processo, desde o tempo de desenvolvimento até o feedback do cliente e a produtividade da equipe. A otimização busca garantir que o software, como um todo, agregue valor aos objetivos do cliente, e não seja apenas uma soma de partes desenvolvidas isoladamente.
+Embora o método Lean seja simples de entender em seus conceitos, sua implementação pode ser desafiadora. Requer uma mudança de mindset e cultura em todas as partes envolvidas – equipes de desenvolvimento, clientes e a própria empresa – para que os princípios de eliminação de desperdício e foco no valor possam ser plenamente adotados e resultem em um software verdadeiramente enxuto e de alta qualidade.

@@ -1,0 +1,127 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Maior Prioridade: satisfação do cliente
+Como entender a importância de determinar a prioridade de satisfação do cliente
+
+• Satisfação ao cliente com maior prioridade
+• Entregas contínuas e adiantada do software com valor agregado
+• Interações rápidas e contínuas
+• Agregando valor de negócio ao cliente
+
+• Evitar foco na organização e documentação do ciclo de vida do desenvolvimento da solução
+• Evitar aplicação a risca do estado da arte computacional (tecnologias, linguagens, ferramentas)
+• Foco nas necessidades do cliente
+
+Priorizando a Satisfação do Cliente em Metodologias Ágeis
+
+A satisfação do cliente é a maior prioridade em metodologias ágeis, com foco em entregar 
+um software que atenda às suas necessidades, através de entregas contínuas e com valor agregado.
+
+2. Mudança de requisitos bem-vindas
+Como determinar que mudanças de requisitos são bem-vindas
+
+• Mesmo que tardiamente no desenvolvimento
+• Processos ágeis tiram vantagem das mudanças
+• Foco na vantagem competitiva para o cliente
+• Evita o custo de manutenção
+• Dificilmente é possível levantar todos os requisitos no início do desenvolvimento, sem ter o 
+software funcional
+
+• A filosofia ágil discorda que mudanças tardias são maléficas
+• A filosofia ágil é favorável à mudanças
+• Transformações no escopo original são esperadas e bem-vindas
+• Mudanças são encaradas como normal
+• Técnicas e ferramentas para ter uma resposta rápida às mudanças
+• Benefício do cliente com o potencial competitivo da adaptabilidade e novos cenários de mercado
+
+A Importância das Mudanças de Requisitos em Metodologias Ágeis
+
+Mudanças de requisitos são bem-vindas em metodologias ágeis, mesmo em estágios tardios do 
+desenvolvimento. Adaptar-se às necessidades do cliente é crucial para o sucesso do projeto, 
+mesmo que isso signifique alterar cores, funcionalidades ou outros aspectos.
+
+Gerenciando Mudanças de Requisitos em Projetos Ágeis
+
+Em vez de resistir a mudanças, as metodologias ágeis as abraçam. Técnicas e ferramentas ágeis 
+permitem respostas rápidas a mudanças, garantindo que o software final atenda às necessidades 
+do cliente. A comunicação constante e a colaboração com o cliente são essenciais para garantir 
+que as mudanças sejam implementadas de forma eficaz.
+
+Benefícios da Adaptação a Mudanças em Metodologias Ágeis
+
+A adaptação a mudanças em metodologias ágeis oferece flexibilidade para responder a novos cenários 
+de mercado, resultando em um produto final mais competitivo e alinhado com as necessidades do 
+cliente. Essa abordagem beneficia tanto o cliente quanto a equipe de desenvolvimento.
+
+3. Entregas frequentes
+Como entender a necessidade das entregas frequentes
+
+• Entregas frequentes do software funcional
+• Com menor escala de tempo
+• Interligação dos princípios do método ágil agrega valor
+• Ciclos curtos para para respostas rápidas às mudanças inevitáveis
+• Períodos de tempo dão ritmo ao trabalho
+• Equipe tem consciência da velocidade
+
+• A equipe prevê melhor a capacidade de produção em cada ciclo
+• Iteração de melhoria contínua
+• Aspectos positivos são potencializados
+• Pontos de melhoria são identificados e atuados
+• Relação de confiança com o cliente aumenta ao longo do projeto
+
+A Importância das Entregas Frequentes no Desenvolvimento Ágil
+
+Entregas frequentes em softwares ágeis permitem validações constantes das mudanças propostas pelo cliente, 
+garantindo que o desenvolvimento esteja alinhado com suas necessidades e expectativas.
+
+Benefícios da Comunicação Contínua e Entregas Frequentes
+
+A comunicação contínua e entregas frequentes geram diversos benefícios, como a criação de um ritmo 
+de trabalho, previsibilidade da capacidade de produção, melhoria contínua da interação entre cliente 
+e equipe, e aumento da confiança mútua.
+
+4. Equipe única de negócios e desenvolvedores
+Como saber a importância de equipe única de negócios e desenvolvedores
+
+• Trabalho conjunto das pessoas de negócio com os desenvolvedores, durante todo o projeto
+• Evitar a frase “isso não foi exatamente o que eu pedi”
+• As necessidades do negócio mudam
+• Pois, a realidade do ambiente em que o software está inserido está em constante mudança
+• Processo constante de colaboração entre cliente e equipe de desenvolvimento
+
+• Trabalho juntos no mesmo ambiente
+• Fluxo contínuo de apresentação, discussão e feedback
+• Garantia do sucesso do projeto
+• Estratégias para maximizar os momentos com o cliente
+
+A importância da colaboração entre cliente e equipe de desenvolvimento em projetos ágeis
+
+A colaboração próxima entre cliente e equipe de desenvolvimento em projetos ágeis é crucial. Ter um 
+representante do cliente presente durante o desenvolvimento garante que a equipe compreenda e atenda 
+às necessidades do negócio, evitando falhas na entrega final e insatisfação do cliente.
+
+A importância da adaptação a mudanças e da comunicação constante em projetos de desenvolvimento
+
+A adaptação a mudanças é fundamental em projetos ágeis. O ambiente de negócios é dinâmico e sujeito a 
+constantes alterações. A comunicação próxima e constante entre cliente e equipe permite que o software 
+se ajuste a essas mudanças, garantindo que o produto final atenda às necessidades reais do cliente.
+
+Estratégias para maximizar o tempo e a colaboração em projetos ágeis
+
+Maximizar o tempo e a colaboração em projetos ágeis é essencial. Reuniões e interações frequentes 
+entre cliente e equipe permitem validar ideias, discutir mudanças e garantir que o desenvolvimento 
+esteja alinhado com as expectativas. Essa colaboração próxima resulta em um produto final mais robusto 
+e satisfatório.
+
+Resumo:
+
+O Manifesto Ágil estabelece valores e princípios fundamentais que servem como pilares para os métodos ágeis no desenvolvimento de software. Dentre os doze princípios que o compõem, quatro se destacam por guiar a forma como as equipes interagem e entregam valor. Estes princípios focam na satisfação do cliente, na adaptabilidade a mudanças, na frequência das entregas e na colaboração entre as partes envolvidas.
+A maior prioridade no desenvolvimento ágil é a satisfação do cliente, que se traduz na entrega de um software que realmente atenda às suas necessidades e resolva seus problemas. Para isso, o foco não está em engessar o projeto com requisitos rígidos ou documentação excessiva desde o início, mas sim em garantir que o produto final agregue valor real ao negócio do cliente.
+Essa satisfação é alcançada por meio de entregas contínuas e adiantadas de funcionalidades, permitindo que o cliente teste e valide o software em estágios iniciais. As interações rápidas e constantes entre a equipe de desenvolvimento e o cliente são cruciais, funcionando como um diálogo contínuo que assegura o alinhamento e a qualidade do que está sendo construído.
+Um dos pilares do desenvolvimento ágil é a aceitação de mudanças nos requisitos, mesmo que surjam em fases avançadas do projeto. Diferente de abordagens tradicionais que veem alterações tardias como problemáticas, a filosofia ágil as encara como oportunidades de aprendizado e melhoria. Isso ocorre porque é difícil para o cliente prever todas as suas necessidades no início, e o software amadurece ao longo do tempo.
+Receber bem as mudanças permite que o software se adapte a novos cenários de mercado e às necessidades evolutivas do cliente, conferindo-lhe uma vantagem competitiva. Ignorar essas alterações pode resultar em um produto final insatisfatório e em custos de manutenção muito mais elevados no futuro. A agilidade oferece técnicas e ferramentas para responder a essas mudanças de forma rápida e assertiva, incorporando-as de maneira eficaz.
+As entregas frequentes de software funcional são essenciais para validar o progresso e incorporar feedback continuamente. Essas entregas ocorrem em ciclos curtos, apresentando funcionalidades, mesmo que simplificadas, para que o cliente possa experimentá-las e solicitar ajustes. Essa abordagem minimiza o retrabalho e garante que o produto esteja sempre alinhado com as expectativas.
+A periodicidade dessas entregas cria um ritmo de trabalho dinâmico e motivador tanto para a equipe de desenvolvimento quanto para o cliente. Ao ver o software evoluir e suas sugestões serem implementadas rapidamente, o cliente se sente parte do processo, e a equipe se engaja ainda mais. Essa interação constante melhora a capacidade da equipe de prever a produção e fortalece a sinergia entre todos os envolvidos.
+A formação de uma equipe única, composta por pessoas de negócio e desenvolvedores, é fundamental para o sucesso do projeto. Essa colaboração contínua evita desalinhamentos e a frustrante frase "isso não foi exatamente o que eu pedi" ao final do desenvolvimento. A presença de alguém que compreenda profundamente o negócio do cliente é vital para guiar a equipe e validar as soluções.
+O ambiente de negócios está em constante mudança, e as percepções do cliente evoluem. Ter uma equipe integrada, que trabalhe preferencialmente no mesmo ambiente, facilita um fluxo contínuo de comunicação, discussões e feedbacks. Essa proximidade permite que as necessidades do cliente sejam compreendidas e atendidas de forma mais eficaz, adaptando o software à realidade do mercado.
+A aplicação desses princípios — priorizar a satisfação do cliente, acolher mudanças, realizar entregas frequentes e promover a colaboração entre negócios e desenvolvimento — é estratégica para maximizar o valor entregue. Juntos, eles garantem que o software desenvolvido não apenas seja funcional, mas também resolva os problemas reais do cliente, construindo uma relação de confiança e assegurando o sucesso do projeto.

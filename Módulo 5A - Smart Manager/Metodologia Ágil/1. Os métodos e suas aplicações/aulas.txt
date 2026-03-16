@@ -1,0 +1,178 @@
+Os métodos e suas aplicações
+
+Sumário | Relevância/ Aplicabilidade
+
+1. Importância das metodologias
+Como entender a importância das metodologias
+
+- Indispensável conhecer as metodologias para o desenvolvimento de software
+- A escolha da metodologia pode refletir na qualidade e entrega do software, 
+ou seja, no sucesso do projeto de software
+- Garante eficiência no desenvolvimento
+- Há vantagens e desvantagens, seja sábio na escolha
+
+- Metodologias tradicionais
+- Metodologias modernas
+- Metas, objetivos, prazos, orçamentos são necessários para determinar a 
+metodologia
+
+Introdução à importância das metodologias de desenvolvimento de software
+
+A escolha de uma metodologia de desenvolvimento de software é crucial, pois 
+impacta diretamente no tempo, objetivos e sucesso do projeto. As metodologias 
+se dividem em dois grupos principais: tradicionais e ágeis.
+
+Fatores que influenciam a escolha da metodologia
+
+A escolha da metodologia ideal depende de diversos fatores, como metas, prazos, 
+orçamento e expectativas do cliente. Otimizar custos e garantir a satisfação do 
+cliente são objetivos cruciais.
+
+Métodos tradicionais x Métodos ágeis e os desafios na escolha
+
+Existem desafios na escolha da metodologia ideal, e o estudo aprofundado de 
+cada método, seja tradicional ou ágil, é fundamental para o sucesso do projeto.
+
+2. Problema das metodologias
+Como determinar e solucionar os problemas com as metodologias
+
+- Saber escolher a ideal
+- Determinar o perfil para a adequação
+- Adequação do time à metodologia
+- Adequação do cliente à metodologia
+- Entender a metodologia para ser aplicada corretamente
+- Saber utilizar a metodologia para agregar valor ao produto do cliente
+- Desafio para escolhas que agreguem valor ao negócio do cliente
+- Garantia de produtividade, praticidade e competitividade
+
+Importância da Escolha da Metodologia de Desenvolvimento de Software
+
+A escolha da metodologia de desenvolvimento de software ideal depende da 
+compreensão do perfil do cliente, equipe e projeto. É crucial analisar o 
+nível de experiência da equipe, a cultura da empresa cliente (se é aberta a 
+novas abordagens ou tradicional) e a disponibilidade do cliente durante o processo.
+
+Compreendendo as Necessidades do Cliente e Agregando Valor ao Software
+
+Compreender as necessidades do cliente e agregar valor ao software são aspectos 
+cruciais. O cliente pode ter uma ideia da necessidade, mas não saber a melhor 
+solução. As metodologias devem ir além de simplesmente atender às demandas 
+iniciais, buscando soluções inovadoras que realmente agreguem valor ao negócio, 
+como aumentar a produtividade, praticidade e competitividade.
+
+3. Metodologias tradicionais
+Como entender as metodologias tradicionais
+
+Adota o método de controle
+Processos lineares muito rigorosos
+Etapas se iniciam da finalização da anterior
+Funcional, gradual e analítico
+
+Cascata
+Lean
+
+Impõe sequência restrita
+Tarefas bem dimensionadas
+
+Métodos Tradicionais de Desenvolvimento de Software
+
+Os métodos tradicionais de desenvolvimento de software, populares até o início 
+dos anos 2000, são caracterizados por processos lineares e rigorosos, com ênfase 
+na documentação extensa e na validação em cada fase.
+
+Introdução aos Métodos Ágeis e Comparação com Métodos Tradicionais
+
+As metodologias ágeis surgiram como uma alternativa aos métodos tradicionais, 
+buscando maior flexibilidade e capacidade de resposta às mudanças, com foco na 
+entrega contínua de valor e na colaboração com o cliente.
+
+4. Metodologias Ágeis
+Como saber mais sobre as metodologias ágeis
+
+Foco no próprio projeto
+Foco no produto e no cliente
+Melhorias e alterações constantes
+Base no feedback do usuário final
+Ausência de estruturas rígidas
+
+Períodos curtos de desenvolvimento
+Resultados e feedbacks rápidos
+Correção em estágios iniciais
+Qualidade nas primeiras versões
+Introdução às Metodologias Ágeis
+
+As metodologias ágeis priorizam a entrega de um produto funcional que atenda 
+às necessidades do cliente, em constante evolução através de feedbacks e 
+iterações. A participação ativa do cliente é fundamental durante todo o processo, 
+garantindo um produto final de alta qualidade e valor.
+
+Valores e Princípios das Metodologias Ágeis 
+
+Kanban e Scrum são exemplos de metodologias ágeis que se complementam. A cultura 
+ágil, com seus valores e princípios, deve estar presente em todos os níveis, 
+desde a equipe de desenvolvimento até o cliente, fomentando a colaboração, 
+flexibilidade e entrega de valor.
+
+Resumo:
+
+As metodologias de desenvolvimento de software representam um conjunto de regras 
+e abordagens essenciais para guiar a criação de sistemas. A escolha de um método 
+adequado é fundamental, pois ela calibra o tempo, a importância e os objetivos 
+do projeto, impactando diretamente a qualidade e o sucesso da entrega final. Não 
+existe uma fórmula única ou uma metodologia ideal para todas as situações, sendo 
+crucial conhecer as opções disponíveis para tomar a decisão mais sábia.
+
+O principal objetivo ao desenvolver software é resolver o problema do cliente, 
+tanto aqueles que ele já conhece quanto os que ainda não percebeu. Diferente da 
+produção em massa de itens físicos, o software é único e não pode ser replicado 
+da mesma forma para resolver problemas distintos. Por isso, a metodologia escolhida 
+deve ser capaz de auxiliar o cliente a clarear suas necessidades e garantir que o 
+produto final realmente agregue valor ao seu negócio.
+
+A escolha da metodologia é um desafio que exige a consideração de diversos fatores. 
+É preciso analisar o perfil do cliente, sua abertura a novas abordagens e sua 
+disponibilidade para interagir durante o projeto. Da mesma forma, o perfil da 
+equipe de desenvolvimento, sua experiência, motivação e engajamento são 
+determinantes para o sucesso da aplicação de um método.
+
+Problemas podem surgir se houver um desalinhamento cultural entre a metodologia 
+escolhida, a equipe e o cliente. Por exemplo, tentar aplicar uma metodologia ágil 
+a uma equipe ou cliente acostumados com processos tradicionais, sem um trabalho 
+de educação e adaptação, pode gerar frustrações e ineficiências, mesmo que o 
+projeto seja pequeno.
+
+Historicamente, os métodos tradicionais de desenvolvimento de software foram 
+amplamente utilizados até o início dos anos 2000. Eles são caracterizados por 
+processos lineares e rigorosos, com forte ênfase em controle e documentação 
+extensiva. Cada etapa, como o levantamento de requisitos, deve ser completamente 
+finalizada e validada antes que a próxima possa começar.
+
+Nesses métodos, como o Cascata, qualquer alteração nos requisitos após o início 
+do desenvolvimento é extremamente custosa e gera retrabalho, pois exige o retorno 
+a fases anteriores do projeto. Isso pode resultar em um software "remendado" e 
+que, ao final, não atende plenamente às expectativas do cliente, que podem ter 
+evoluído ao longo do tempo.
+
+Em contraste, as metodologias ágeis surgiram para atender à necessidade de maior 
+flexibilidade e adaptabilidade. O foco principal é o projeto como um todo, o 
+produto entregue e a satisfação do cliente, buscando resolver seu problema de 
+forma eficaz e agregar valor ao seu negócio.
+
+As metodologias ágeis propõem ciclos de desenvolvimento mais curtos, com entregas 
+parciais e funcionais do software. Isso permite que o cliente forneça feedback 
+constante, testando o produto em evolução e sugerindo melhorias ou novas 
+funcionalidades. Essa interação contínua garante que o produto final esteja 
+alinhado com as necessidades reais do cliente.
+
+A abordagem ágil elimina a estrutura rígida e a documentação excessiva dos métodos 
+tradicionais, promovendo a adaptação a mudanças de requisitos ao longo do projeto. 
+Exemplos notáveis incluem o Kanban, que oferece visibilidade do fluxo de trabalho 
+através de checklists, e o Scrum, que organiza a equipe em papéis bem definidos 
+para entregas incrementais.
+
+A adoção de métodos ágeis requer uma mudança cultural, tanto na equipe de 
+desenvolvimento quanto no cliente, valorizando a colaboração, a produtividade e 
+a interação constante. Essa abordagem resulta em resultados rápidos, equipes 
+motivadas e um produto de maior qualidade, pois os problemas são identificados e 
+corrigidos nos estágios iniciais, evitando custos elevados no final do 
+desenvolvimento.

@@ -1,0 +1,124 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Indivíduos e interação
+Como entender a importância dos indivíduos e suas interações
+
+• São mais do que processos e ferramentas
+• A comunicação é muito importante
+• Pessoas que fazem software
+• Conversas e discussões são fundamentais, evitando apenas especificações escritas
+• A discussão presencial, esboços, rabiscos e modelos são importantes
+
+• Ferramentas e processos são importantes, porém, pessoas precisam ser valorizadas
+• Comunicação e a interação entre pessoas é fundamental
+• Trabalho em equipe
+• Valorização do lado humano
+• Obtenção de melhores resultados
+
+Indivíduos e Interação sobre Processos e Ferramentas
+
+Indivíduos e suas interações são mais importantes que processos e ferramentas no desenvolvimento 
+ágil. A comunicação face a face é fundamental, evitando documentação excessiva e promovendo 
+soluções mais eficazes.
+
+Valorização Humana no Desenvolvimento Ágil 
+
+O desenvolvimento ágil valoriza o trabalho em equipe e a liderança presente, focando na entrega 
+de software de qualidade que atenda às necessidades do cliente. Essa abordagem centrada no ser 
+humano agrega valor ao produto final, indo além da funcionalidade e proporcionando uma 
+experiência satisfatória.
+
+2. Software em funcionamento
+Como determinar que um software está em funcionamento par entrega
+
+• É mais importante ter o software e funcionamento do que uma documentação abrangente
+• Engenharia de software é diferente de documentação para evitar permanecer refém dos desenvolvedores
+• Analista de sistema com papel de produzir modelos gráficos e textuais?
+• Qual o ponto de equilíbrio?
+
+• Sim, documento é importante, porém a entrega do software em funcionamento é mais
+• Software funcional e com qualidade
+• Documentação e manutenção estão incluídos nessa qualidade
+• Equilíbrio com o que e quando documentar
+• Evitar desperdício e encarecimento
+
+A Importância do Software em Funcionamento no Desenvolvimento Ágil
+
+A entrega de software funcional e com valor agregado é crucial no desenvolvimento ágil. 
+Entregas parciais e frequentes permitem feedback constante do cliente e garantem que o software 
+atenda às suas necessidades.
+
+A Importância da Funcionalidade e o Declínio da Documentação Excessiva
+
+A funcionalidade do software é mais importante que a documentação excessiva. O foco deve ser 
+entregar um produto de qualidade que atenda às necessidades do cliente, assim como ocorre com 
+outros produtos do dia a dia.
+
+3. Colaboração com cliente
+Como entender a necessidade de colaboração com o cliente
+
+• É mais do que apenas uma negociação de contratos
+• Definição de um escopo vai além de um contrato
+• Desenvolver software é um aprendizado constante
+• Contrato cheio de cláusulas, além de não fechar escopo, geram processos complexos, burocráticos e 
+frustrantes para mudanças
+• Ponto de fragilidade e pessoalidade do Manifesto e dos Métodos Ágeis
+
+• Manter pontos de controle no contrato para minimizar riscos
+• Realizar interesses para manter o contrato
+• Muros de proteção em contratos não evita complexidade das questões
+• É necessário colaboração entre equipe de desenvolvimento e o cliente
+• Confiança e colaboração entre desenvolvedores e cliente
+
+A importância da colaboração com o cliente no desenvolvimento de software
+
+A colaboração com o cliente é fundamental no desenvolvimento de software, indo além de contratos 
+engessados. A flexibilidade é crucial para acompanhar as mudanças e evoluções do projeto. O foco 
+deve estar em entregar valor ao cliente, incorporando aprendizados e feedback durante todo o processo.
+
+Mantendo o contrato saudável e focado em valor
+
+Contratos devem ser enxutos, focando em pontos de controle para minimizar riscos e garantir a 
+entrega de valor. A colaboração constante e a construção de um relacionamento de confiança com o 
+cliente são essenciais para o sucesso do projeto, em vez de contratos complexos e cláusulas de 
+proteção excessivas.
+
+4. Responder à mudanças
+Como saber responder às mudanças
+
+• É mais do que seguir um plano
+• Aprendizado da equipe e do cliente
+• Mudanças são inevitáveis e naturais
+• Mudanças são oportunidades para o desenvolvimento de um software com os resultados que suprem 
+a necessidade do cliente
+• Contribuem para alcançar os resultados desejados
+
+• Mudanças devem ser recebidas e acolhidas de braços abertos
+• Sem mudanças, o resultado final pode não resolver o problema do cliente.
+• É importante replanejar o tempo todo
+• Importância da inclusão de ciclos em diversos níveis
+• Oportunidade de reflexão e readequação do direcionamento do projeto
+
+A Importância das Mudanças no Desenvolvimento de Software
+
+Mudanças em projetos de software são inevitáveis e devem ser vistas como oportunidades de aprendizado 
+e aprimoramento. Ignorar as necessidades do cliente em um ambiente dinâmico leva a softwares obsoletos.
+
+Comunicação e Replanejamento: A Importância dos Ciclos de Desenvolvimento
+
+A comunicação constante com o cliente é crucial para o sucesso do projeto. Ciclos de desenvolvimento 
+com replanejamento frequente permitem integrar as mudanças de forma eficaz e entregar um produto final 
+de alta qualidade.
+
+Resumo:
+
+O Manifesto Ágil apresenta uma abordagem para o desenvolvimento de software baseada em quatro valores fundamentais, que priorizam a eficiência, a adaptabilidade e a entrega de valor real ao cliente. Esses valores guiam as equipes na busca por melhores formas de criar produtos que realmente atendam às necessidades do mercado.
+Um dos pilares é a valorização dos indivíduos e suas interações, que são considerados mais importantes do que processos e ferramentas rígidos. A comunicação direta, como discussões face a face, e a troca de ideias são essenciais para o sucesso de um projeto, pois permitem um entendimento mais profundo e evitam a necessidade de documentação excessiva. O foco está nas pessoas que constroem o software e nas pessoas para quem ele é construído.
+Essa abordagem enfatiza o trabalho em equipe e a liderança de serviço, onde os líderes atuam como facilitadores e solucionadores de problemas, e não apenas como figuras de autoridade. Ao valorizar o lado humano, tanto da equipe de desenvolvimento quanto do cliente, o resultado é um software com maior valor agregado, que satisfaz as necessidades humanas e proporciona uma experiência positiva.
+Outro valor crucial é o software em funcionamento, que é priorizado em detrimento de uma documentação abrangente. Embora a documentação tenha sua importância, especialmente para garantir a manutenção e a continuidade do projeto, o foco principal é entregar um produto funcional e de qualidade em etapas.
+Diferente da engenharia de software tradicional, que muitas vezes se apoiava em contratos detalhados e documentação extensa para mitigar riscos, o Manifesto Ágil busca um ponto de equilíbrio. Ele reconhece que o cliente deseja ver o software funcionando, e não apenas ler manuais complexos, evitando o desperdício de recursos em documentos que podem se tornar obsoletos rapidamente.
+A colaboração com o cliente é o terceiro valor, e vai muito além da simples negociação de contratos. O desenvolvimento de software é um processo de aprendizado contínuo, e a flexibilidade é fundamental, pois o escopo do projeto pode evoluir com o tempo. Contratos excessivamente detalhados podem engessar o processo, gerando burocracia e frustração diante das inevitáveis mudanças.
+É importante que o cliente seja visto como parte integrante da equipe de desenvolvimento, construindo uma relação de confiança e parceria. Embora possa haver uma certa fragilidade e pessoalidade nesse relacionamento, a metodologia ágil oferece mecanismos para integrar o cliente de forma natural, transformando-o em um colaborador ativo.
+O quarto valor é a capacidade de responder a mudanças, que é mais valorizada do que seguir um plano rígido. As mudanças são inerentes ao processo de desenvolvimento e ao ambiente de negócios, e devem ser encaradas como oportunidades para aprimorar o software e garantir que ele realmente atenda às necessidades do cliente.
+O replanejamento contínuo, por meio de ciclos de desenvolvimento frequentes (diários, semanais ou mensais), permite que a equipe se adapte rapidamente às novas demandas. Essa comunicação constante com o cliente sobre as mudanças assegura que o software esteja sempre alinhado com o que ele realmente precisa.
+Ao abraçar as mudanças e promover a colaboração, as equipes ágeis conseguem entregar um software de alta qualidade, com valor agregado e que resolve os problemas reais do cliente. Isso não só garante a satisfação do usuário final, mas também fortalece a relação com o cliente, abrindo portas para futuras parcerias e negócios.

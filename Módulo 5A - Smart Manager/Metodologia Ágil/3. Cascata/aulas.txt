@@ -1,0 +1,114 @@
+Sumário | Relevância/ Aplicabilidade
+
+1. Conceitos e aplicações
+Como entender a importância dos conceitos e aplicações
+
+• Modelo sequencial linear
+• O mais antigo dos métodos de desenvolvimento de software
+• Método tradicional
+• Método com forma sequencial cascateada de uma fase para outra
+
+• Modelo clássico de desenvolvimento
+• O modelo cascata é sugerido para pequenos projetos
+• Para uma fase iniciar, a anterior precisa estar finalizada
+• O resultado de cada etapa é a aprovação de um ou mais documentos assinados
+
+Método Cascata: Desafios e a Importância das Metodologias Ágeis
+
+Embora o método Cascata seja adequado para pequenos projetos, sua aplicação em projetos 
+grandes pode resultar em longos períodos sem feedback do cliente, o que pode tornar o produto 
+final obsoleto ou inadequado às necessidades atuais.
+
+Introdução ao Método Cascata
+
+O método Cascata é um modelo tradicional de desenvolvimento de software, caracterizado por 
+um processo sequencial e linear, onde cada fase é bem definida e deve ser concluída antes de 
+passar para a próxima.
+
+2. Fases
+Como determinar a importância de entender as fases do método cascata
+
+• Especificação – requisitos do sistema
+• Projeto de software – arquitetura geral do sistema, com unidades de programa e requisito de unidade
+• Implementação – de cada unidade de programa
+• Teste unitário – testes de unidade para validação dos requisitos de unidade
+
+• Integração – integração das unidades testadas
+• Teste de sistema – teste geral para validação dos requisitos do sistema
+• Operação e manutenção – evolução do sistema com correções e melhorias no sistema
+
+Especificação
+
+A fase de especificação no método cascata envolve o levantamento de todos os requisitos do sistema 
+com o cliente, resultando em documentos detalhados e diagramas que descrevem o software.
+
+Projeto de Software
+
+Na fase de projeto de software, a arquitetura do sistema é definida, dividindo-o em unidades 
+menores com seus próprios requisitos, gerando mais documentação e validação com o cliente.
+
+Implementação
+
+A fase de implementação envolve o desenvolvimento de cada unidade do software por várias equipes 
+em paralelo, com base nos requisitos definidos nas etapas anteriores.
+
+Testes Unitários
+
+Após a implementação, a fase de testes unitários entra em ação, onde cada unidade do software é 
+testada individualmente, com base em um plano de testes e documentação detalhada.
+
+Integração
+
+Na fase de integração, as unidades individuais do software são combinadas e testadas como um 
+sistema completo, garantindo que funcionem corretamente em conjunto.
+
+Testes do Sistema
+
+Após a integração, são realizados testes abrangentes do sistema como um todo para validar se 
+ele atende aos requisitos especificados inicialmente e se comporta conforme o esperado.
+
+Implantação e Manutenção
+
+Após a aprovação nos testes, o software é implantado em ambiente de produção, tornando-se acessível 
+aos usuários finais, e a partir daí, o foco muda para a manutenção, correções e melhorias.
+
+3. Vantagens
+Como entender as vantagens do método cascata
+
+• Natureza separada em unidades
+• Implementação ao mesmo tempo com vários programadores
+• Agiliza a entrega
+• Se a equipe é fraca tecnicamente, pode ser útil
+• Escopo do trabalho bem definido é uma grande vantagem
+• Desenvolvimento rápido, se especificações estiverem corretas
+
+4. Desvantagens
+Como saber entender as desvantagens do método cascata
+
+• Risco a falhas para especificações mal definidas
+• Falta de flexibilidade e engessada
+• Dificuldade da definição de todos os requisitos inicialmente
+• Necessidade de paciência do cliente
+• Documentação e sua aprovação são caras e de retrabalho
+• Necessidade de congelamento de partes da implementação
+
+• Dificuldade de retornar a fases anteriores
+• Tempos gasto em cada fase
+• Resultado tardio para o cliente
+• Decepção do cliente com o resultado do produto
+• Esconde os riscos por muito tempo
+
+Resumo:
+
+O Método Cascata é uma abordagem tradicional, sequencial e linear para o desenvolvimento de software. Seu nome deriva da forma como as fases do projeto se sucedem, como uma cascata, onde a conclusão de uma etapa é pré-requisito para o início da próxima, e o retorno a fases anteriores é, em geral, inviável ou extremamente custoso.
+Este modelo, um dos mais antigos e populares na engenharia de software, foi amplamente utilizado até a década de 1980 e, embora existam métodos mais modernos, ainda encontra aplicação em certos contextos. Sua estrutura é caracterizada pela rigidez, com processos bem definidos e pouca flexibilidade para alterações ao longo do desenvolvimento.
+A participação do cliente no Método Cascata é mais intensa na fase inicial de levantamento de requisitos. Em cada etapa, uma vasta quantidade de documentação é gerada, detalhando o que deve ser feito. Essa documentação precisa ser validada, muitas vezes pelo cliente, que precisa imaginar o produto final a partir de textos e diagramas abstratos.
+O desenvolvimento pelo Método Cascata é dividido em fases distintas: especificação, projeto de software, implementação, testes (unitários, de integração e de sistema) e, por fim, operação e manutenção. Cada uma dessas fases possui objetivos e entregáveis específicos.
+A fase de especificação envolve o levantamento exaustivo de todos os requisitos do sistema. Neste momento, são criados documentos detalhados e diagramas que buscam descrever o software como um todo, mas a validação por parte do cliente pode ser desafiadora, pois se baseia em uma compreensão abstrata do que será entregue.
+Em seguida, na fase de projeto de software, a arquitetura geral do sistema é definida, incluindo a divisão em unidades de programa e a especificação dos requisitos para cada uma delas. Esta etapa também gera uma considerável quantidade de documentação técnica, que é validada antes de prosseguir.
+A fase de implementação é onde o código é efetivamente escrito, desenvolvendo cada unidade do programa. Esta etapa pode ser relativamente rápida, pois permite que várias equipes trabalhem em paralelo nas unidades independentes. Após a implementação, são realizados os testes unitários, validando cada módulo individualmente.
+As fases subsequentes incluem a integração das unidades testadas, seguida pelos testes de sistema, que avaliam o software como um todo, verificando se os requisitos iniciais foram atendidos. Finalmente, o software é colocado em operação, passando para a fase de manutenção, que abrange correções, melhorias e evoluções do sistema.
+Entre as vantagens do Método Cascata, destacam-se a clareza do escopo do trabalho, que é bem definido desde o início, permitindo cronogramas e orçamentos mais precisos. A separação em fases e a possibilidade de implementação paralela podem agilizar a entrega. Além disso, ele pode ser útil para equipes com diferentes níveis de experiência técnica, pois módulos mais simples podem ser atribuídos a desenvolvedores juniores.
+Contudo, o método apresenta desvantagens significativas, como a falta de flexibilidade para incorporar mudanças, o alto risco de falhas se as especificações iniciais forem mal definidas, e a dificuldade de retornar a fases anteriores para correções. A extensa documentação e o retrabalho podem ser caros. A entrega do produto ao cliente ocorre muito tarde, o que pode levar à decepção, pois as necessidades podem ter mudado ou o software pode não resolver totalmente o problema inicial.
+Em suma, o Método Cascata é mais adequado para projetos pequenos, com requisitos estáveis e bem compreendidos, onde a previsibilidade e o controle são prioritários. A escolha de uma metodologia de desenvolvimento deve sempre considerar as vantagens e desvantagens em relação às características específicas do projeto, da equipe e das expectativas do cliente.
+ 
