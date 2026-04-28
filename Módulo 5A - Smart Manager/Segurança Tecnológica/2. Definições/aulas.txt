@@ -1,0 +1,248 @@
+Sumário
+
+1. Política de Segurança: conceito e aplicabilidade
+Contextualizar o conceito, a importância e aplicabilidade.
+
+As políticas de segurança têm como objetivo estabelecer normas e diretrizes sobre a utilização dos 
+ativos de TI por parte de toda a organização e como as metodologias e mecanismos de proteção serão 
+implementados, gerenciados e monitorados pelas equipes de TI.
+
+As políticas de segurança são mecanismos utilizados pela alta administração da organização para 
+fazer com que áreas de negócio, colaboradores, parceiros comerciais, fornecedores e clientes 
+compreendam o que devem seguir com relação à proteção dos ativos de TI e exerçam o seu papel e 
+responsabilidade junto à segurança da informação e segurança cibernética.
+
+Neste contexto, criar, implementar e garantir que as políticas de segurança sejam eficientes torna-se 
+uma tarefa complexa e de extrema importância.
+
+Afinal, as políticas de segurança são mecanismos norteadores e de controle com relação à proteção e 
+salvaguarda não só de dados e informações, mas também de todos os ativos de TI, incluindo os recursos e 
+serviços providos por eles e utilizados por todos que fazem parte de uma organização.
+
+Sintetizando
+
+Implementar políticas de segurança dentro de um ambiente organizacional significa implementar normas, 
+procedimentos e regras que todos deverão compreender e seguir para garantir a proteção de todas as 
+tecnologias da informação.
+
+Todo tipo de organização, independente do seu modelo de negócio, tamanho, porte ou segmento, deve ter em 
+sua estrutura organizacional políticas de segurança e, mais que tê-las, é fazer valer essas políticas 
+junto a todos dentro e fora da organização.
+
+Introdução à Política de Segurança
+
+Políticas de segurança são um conjunto de normas, procedimentos e diretrizes que devem ser seguidas 
+por toda a organização, visando a proteção dos ativos de TI e a conformidade com as diretrizes 
+estabelecidas.
+
+Importância e Criação de Políticas de Segurança
+
+A criação de políticas de segurança é uma tarefa complexa e essencial, exigindo a colaboração da alta 
+administração e de todas as áreas de negócio para garantir a proteção dos ativos de TI sem comprometer 
+a proposta de valor da organização.
+
+Personalização e Adaptação das Políticas de Segurança
+
+As políticas de segurança devem ser personalizadas de acordo com o modelo de negócio da organização, 
+sendo únicas e representativas, pois não podem ser simplesmente copiadas de uma empresa para outra 
+devido às suas particularidades.
+
+2. Política de Segurança da Informação
+Contextualizar os conceitos relacionados a PSI.
+
+A PSI ou Política de Segurança da Informação pode ser compreendida como um conjunto de instruções, 
+normas e regras previamente definidas, revisadas e aprovadas, que deverão ser seguidas por toda a organização.
+
+Seu principal objetivo é o de garantir uma boa gestão da segurança da informação dentro de um ambiente 
+organizacional.
+
+Uma PSI deve:
+(a) promover orientação da direção e apoio para a segurança da informação de acordo com os requisitos do 
+modelo de negócio;
+(b) promover a conformidade da organização junto a leis e órgãos reguladores;
+(c) orientar o uso correto dos ativos de TI junto a colaboradores, parceiros comerciais, fornecedores e 
+clientes;
+(d) guiar as equipes de TI com relação às medidas técnicas que deverão ser adotadas para garantir a proteção 
+e a salvaguarda dos ativos de TI, dentre outros.
+
+Porém é importante ressaltar que uma PSI deve ser um documento de fácil entendimento, claro e objetivo, 
+para que todos possam compreender e ser construída de forma multidisciplinar, com base nas necessidades e 
+dificuldade que a organização possuir com relação a manter suas informações e ativos de TI seguros.
+
+Por este motivo uma PSI sempre será um documento único e exclusivo de cada organização.
+
+Sintetizando
+
+Podemos entender uma PSI como o documento formal que a organização possui e que todos relacionados a ela 
+devem seguir para garantir a proteção da informação e de todos os ativos de TI dentro de um ambiente 
+organizacional.
+
+Para se construir uma PSI, deve-se montar uma equipe multidisciplinar e esta equipe deve ter um olhar do 
+todo com relação à proteção dos ativos de TI. Por esse motivo, a criação, implementação e gestão de uma PSI 
+é uma atividade complexa, na qual diversos pontos referentes ao modelo de negócio e a todo ambiente 
+organizacional devem ser tratados, o que torna uma PSI única de organização para organização.
+
+Introdução à Política de Segurança da Informação (PSI)
+
+A Política de Segurança da Informação (PSI) é um documento essencial que garante a proteção dos ativos de 
+TI de uma organização. Ela deve ser definida, revisada e aprovada por uma equipe multidisciplinar e pela 
+alta administração, visando uma gestão eficiente da segurança da informação.
+
+Características e Importância da PSI
+
+Uma PSI deve ser clara, objetiva e de fácil compreensão, evitando jargões técnicos. Documentos mais curtos, 
+com até 25 páginas, são mais eficazes. Cada PSI é única, refletindo a cultura e os padrões da organização, 
+sendo crucial para a proteção dos ativos de TI.
+
+Construção e Importância da Participação Multidisciplinar na PSI
+
+A construção da PSI deve envolver uma equipe multidisciplinar, incluindo todas as áreas de negócio e a 
+alta administração. Isso garante que todos os elementos necessários sejam considerados, evitando lacunas 
+na segurança e assegurando que a política atenda aos requisitos da empresa.
+
+3. Política de Segurança Cibernética
+Contextualizar os conceitos relacionados a PSC.
+
+Não muito diferente de uma PSI, a Política de Segurança Cibernética possui praticamente os mesmos objetivos 
+de uma PSI. Porém, sua diferença está em sua aplicabilidade.
+
+Enquanto a PSI trata de normatizar a proteção dos ativos de TI que estão presentes dentro da organização e 
+são utilizados por todos, a PSC (Política de Segurança Cibernética) concentra todos os seus objetivos em 
+normatizar e nortear o uso de todos os recursos e serviços providos pela Internet, incluindo a proteção 
+de todos os ativos no espaço cibernético.
+
+Outro ponto que não podemos deixar de comentar é que, a exemplo da PSI, a construção e implementação de 
+uma PSC também é algo complexo e que exige a formação de uma equipe multidisciplinar.
+
+Para se construir uma PSI e/ou uma PSC precisamos:
+
+1. Questionar
+• Descobrir todas as informações necessárias à construção da PSI ou PSC.
+
+2. Definir
+• Objetivos, fatores críticos de sucesso, normas, procedimentos, responsabilidades, sanções e demais itens 
+relacionados à proteção e salvaguarda dos ativos de TI.
+
+3. Criar
+• Procedimentos que deverão ser aplicados para garantir a proteção e salvaguarda dos ativos de TI, com base 
+em frameworks, leis, normas, regras de negócio e melhores práticas.
+
+4. Implementar
+• Significa revisar, aprovar, divulgar, treinar, informar, monitorar e gerenciar a política.
+
+Sintetizando
+
+A política de segurança cibernética tem como objetivo garantir a proteção e salvaguarda dos ativos de TI 
+que utilizam ou estão contidos na Internet. Seu foco principal está na mitigação de vulnerabilidades 
+presentes na Internet e em inibir ou impedir que ameaças explorem essas vulnerabilidades e tragam como
+consequência algum evento ou incidente não desejável que possa causar qualquer tipo de dano, perda ou 
+prejuízo à organização.
+
+Política de Segurança Cibernética: Definição, Diferenças com a PSI e Importância
+
+A política de segurança cibernética, embora similar à política de segurança da informação (PSI) em objetivo 
+(proteger ativos de TI), difere em escopo. Enquanto a PSI abrange toda a organização, a política de segurança 
+cibernética concentra-se na proteção de ativos no espaço cibernético, ou seja, na internet.
+
+Construindo uma Política de Segurança Cibernética: Passos Essenciais e Boas Práticas
+
+A construção de uma política de segurança cibernética, assim como a PSI, exige uma abordagem metódica e 
+participativa. Passos essenciais incluem: questionar e levantar informações relevantes, definir objetivos 
+e normas, criar o documento com procedimentos e melhores práticas e, por fim, implementar, monitorar e 
+revisar continuamente a política.
+
+A Importância da Política de Segurança Cibernética como Complemento à PSI
+
+A política de segurança cibernética atua como um complemento crucial à PSI, focando especificamente na 
+proteção de ativos de TI no ambiente digital. Ambas as políticas são complexas, demandam uma equipe 
+multidisciplinar e engajamento da alta administração para garantir a segurança abrangente da informação na 
+era digital.
+
+4. Política de Proteção à Privacidade de Dados Pessoais
+Contextualizar os conceitos relacionados a PPD.
+
+Aqui o foco é a proteção de dados pessoais. Isto significa que uma política de proteção de dados pessoais 
+tem como objetivo implementar normas, regras, procedimentos e mecanismos de proteção capazes de garantir, 
+de forma eficiente, a proteção de dados pessoais e dados pessoais sensíveis dentro e fora do ambiente 
+organizacional.
+
+Sendo assim, a política de proteção à privacidade de dados pessoais deve ser orientada aos serviços que 
+realizam o tratamento de dados pessoais.
+
+A exemplo das outras políticas, PSI e PSC, a política de proteção à privacidade de dados pessoais também 
+deve ser um documento de fácil compreensão, conciso e, por fim, de fácil acesso às pessoas.
+
+Sintetizando
+
+Uma política de proteção à privacidade de dados pessoais deve ter seu foco na proteção e privacidade de 
+dados pessoais. É um documento necessário e obrigatório para as organizações que realizam o tratamento 
+de dados pessoais. Isto porque, além de implementar as normas e diretrizes acerca da proteção e 
+privacidade de dados pessoais, possibilita a organização estar em compliance com a Lei Geral de Proteção 
+de Dados Pessoais — LGPD.
+
+Política de Proteção e Privacidade de Dados Pessoais
+
+A política de proteção e privacidade de dados pessoais visa implementar regras e procedimentos para 
+garantir a proteção e privacidade dos dados dentro da organização, devendo ser seguida por todos.
+
+Importância e Conformidade da Política de Proteção de Dados
+
+A política de proteção de dados deve ser criada por uma equipe multidisciplinar, ser de fácil entendimento 
+e estar em conformidade com a LGPD, necessitando de revisões periódicas para garantir sua eficácia.
+
+Resumo:
+
+As políticas de segurança representam um conjunto de normas, procedimentos, regras e padrões que toda 
+organização deve seguir para garantir a proteção e salvaguarda eficiente e eficaz de seus ativos de TI. 
+O objetivo principal dessas políticas é estabelecer diretrizes claras e mecanismos que serão implementados, 
+gerenciados e monitorados pelas equipes, assegurando que todos os objetivos de segurança sejam cumpridos.
+
+A criação de qualquer política de segurança é uma tarefa complexa e de extrema importância, exigindo um 
+processo multidisciplinar. Isso significa que a alta administração, em conjunto com todas as áreas de 
+negócio e equipes especializadas, deve estar envolvida. Essa colaboração é crucial para que as políticas 
+não engessem o modelo de negócio, mas sim apoiem a entrega de valor da organização ao mercado.
+
+A Política de Segurança da Informação (PSI) é considerada um dos documentos mais importantes, sendo a 
+base da segurança de uma organização. Ela consiste em um conjunto de instruções, normas e regras 
+previamente definidas, revisadas e aprovadas pela alta administração, com o propósito de garantir uma 
+boa gestão da segurança da informação.
+
+Uma PSI eficaz deve orientar a direção da empresa, promover a conformidade com leis e regulamentos, e 
+guiar o uso correto dos ativos de TI por todos os colaboradores, internos e externos, incluindo 
+fornecedores e clientes. Além disso, ela deve ser um documento de fácil compreensão, claro e objetivo, 
+evitando termos técnicos excessivos para que qualquer pessoa na organização possa entendê-lo e segui-lo.
+
+A Política de Segurança Cibernética, por sua vez, compartilha muitos dos conceitos e objetivos da PSI, 
+como a proteção de ativos de TI e a implementação de normas e mecanismos de segurança. A principal 
+diferença reside em sua aplicabilidade e escopo, pois ela se concentra na proteção dos ativos de TI que 
+estão no universo cibernético, como a internet e outros ambientes virtuais.
+
+Enquanto a PSI abrange a proteção de todos os ativos de TI da organização, a política cibernética foca 
+especificamente na segurança do espaço digital. Ela atua como um complemento à PSI, garantindo que os 
+ativos expostos online também estejam protegidos por diretrizes formais e específicas para esse ambiente.
+
+Com o advento de leis como a Lei Geral de Proteção de Dados Pessoais (LGPD), a Política de Proteção e 
+Privacidade de Dados Pessoais ganhou destaque. Seu foco é implementar regras e mecanismos para garantir 
+a proteção e privacidade de dados pessoais dentro do ambiente organizacional, baseando-se nos conceitos 
+de tratamento de dados pessoais e nos princípios da LGPD.
+
+Assim como as demais, esta política deve ser construída de forma clara, concisa e de fácil entendimento, 
+especialmente porque clientes e outras partes interessadas podem ter acesso a ela. Seu conteúdo deve 
+detalhar informações sobre a organização, quais dados são tratados, a finalidade, a base legal, prazos 
+de retenção, canais de comunicação e os direitos dos titulares dos dados.
+
+O processo de construção de qualquer uma dessas políticas geralmente envolve etapas como questionar 
+(levantar informações sobre o negócio e tecnologia), definir (objetivos, normas, responsabilidades), 
+criar (redigir as diretrizes, regras e procedimentos) e implementar (revisar, obter aprovação da alta 
+administração, divulgar, treinar e conscientizar).
+
+É fundamental que todas as políticas de segurança passem por um processo de revisão e melhoria contínua. 
+A evolução tecnológica, as novas ameaças e as mudanças regulatórias exigem que esses documentos sejam 
+atualizados periodicamente para manter sua eficiência e eficácia, garantindo que a organização permaneça 
+em conformidade e protegida.
+
+Em resumo, uma organização que busca proteger seus ativos de TI de forma abrangente deve possuir uma 
+Política de Segurança da Informação, uma Política de Segurança Cibernética e uma Política de Proteção e 
+Privacidade de Dados Pessoais. Todas elas devem estar alinhadas com as estratégias da alta administração, 
+o modelo de negócio e as regulamentações aplicáveis, pois a ausência dessas políticas significa a ausência 
+de segurança.

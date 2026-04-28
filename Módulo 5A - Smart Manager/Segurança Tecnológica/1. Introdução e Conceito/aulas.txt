@@ -1,0 +1,283 @@
+Sumário
+
+1. Importância e Valor de Dados e Informações
+Contextualizar importância e o valor de dados e informações.
+
+"Dados é o novo petróleo do mundo"
+
+Atualmente, as pessoas, sociedades e principalmente as organizações estão a todo momento, realizando 
+o TRATAMENTO DE DADOS para suprir suas necessidades, realizar seus sonhos, desejos e alcançar seus 
+objetivos pessoais, sociais e estratégicos.
+
+Mas, o que significa TRATAMENTO DE DADOS?
+Significa:
+DADOS
+• São coletados e organizados através das tecnologias de informação.
+INFORMAÇÃO
+• Analisada por nós seres humanos.
+CONHECIMENTO
+• Compreensão do contexto, caminho para a sabedoria.
+
+"Dados é o oxigênio para as organizações"
+
+Sintetizando
+
+Dados são a matéria-prima da informação, que por sua vez é a matéria-prima do conhecimento. Por isso, 
+dados e informações são atualmente considerados um ativo valioso para as pessoas, sociedades e 
+principalmente para as organizações.
+
+Através da transformação de dados em informações, as pessoas, sociedades e organizações geram o 
+conhecimento e, este por sua vez, fará com que pessoas, sociedades e organizações alcancem seus 
+objetivos, realizem seus sonhos e desejos, resolvam problemas, tomem decisões mais assertivas, criem 
+ou melhorem produtos e serviços, alcancem a melhoria contínua, etc.
+
+A Importância e o Valor de Dados e Informações
+
+Dados são o novo petróleo, representando poder e riqueza para quem os possui. O tratamento 
+de dados, desde a coleta até a organização, visa gerar informação útil para atender necessidades 
+e alcançar objetivos.
+
+Dados brutos, quando tratados e organizados, transformam-se em informação compreensível. A análise 
+dessa informação gera conhecimento, crucial para tomada de decisões e alcance de objetivos.
+
+Dados são como o oxigênio para as empresas, essenciais para sua sobrevivência e sucesso. A partir 
+deles, empresas podem gerar informação, conhecimento e tomar decisões estratégicas para alcançar 
+seus objetivos.
+
+Dados são a matéria-prima da informação, que por sua vez, alimenta o conhecimento. Esse conhecimento 
+é fundamental para pessoas, sociedade e organizações alcançarem seus objetivos, solucionar problemas 
+e criar soluções.
+
+2. Segurança da Informação vs. Segurança Cibernética
+Contextualizar os conceitos e as diferenças entre ambas.
+
+A SEGURANÇA DA INFORMAÇÃO refere-se à proteção da informação contra diversos tipos de ameaças e tem 
+como principal objetivo garantir três princípios que são considerados os pilares da segurança da 
+informação:
+
+• Confidencialidade
+• Integridade
+• Disponibilidade
+
+Além de:
+
+• Autenticidade
+• Não repúdio
+• Auditabilidade
+• Irretratabilidade
+• Privacidade
+
+A SEGURANÇA CIBERNÉTICA refere-se à proteção da informação e dos ativos de TI, contra diversos tipos 
+de ameaças que estão presentes no espaço cibernético. Ou seja, na Internet, seguindo os mesmos 
+princípios da segurança da informação.
+
+O que são ATIVOS DE TI?
+ATIVOS DE TI envolvem:
+TECNOLOGIAS
+• Sistemas computacionais, dados e informações, links de comunicação, aplicativos, softwares, hardware, etc.
+PROCESSOS
+• Conjunto de atividades realizadas através do uso das tecnologias da informação.
+PESSOAS
+• São quem realizam os processos através da utilização das tecnologias da informação.
+
+A SEGURANÇA DA INFORMAÇÃO possui uma visão holística e é algo maior e mais complexo, pois protege a 
+informação e os ativos de TI como um todo.
+
+Já a SEGURANÇA CIBERNÉTICA, por sua vez, possui uma visão mais centrada na proteção da informação e 
+dos ativos de TI que se fazem presente ou usam recursos da Internet.
+
+Podemos perceber que ambas as seguranças (informação e cibernética) seguem o mesmo objetivo que é a 
+proteção da informação e de todos os ativos de TI de uma organização, contra diversos tipos de ameaças, 
+obedecendo diversos princípios tais como: confidencialidade, integridade, disponibilidade, autenticidade, 
+não repúdio, dentre outros...
+
+Porém, a principal diferença entre ambas está relacionada à abordagem. Isto porque a segurança da 
+informação possui uma abordagem maior, pois busca proteger o todo. Enquanto que a segurança cibernética 
+já concentra-se na proteção da informação e dos ativos de TI de um ambiente organização que utilizam 
+ou estão presentes na Internet.
+
+Segurança da Informação vs. Segurança Cibernética
+
+Segurança da Informação (SI) visa proteger informações contra ameaças físicas e virtuais, garantindo 
+confidencialidade, integridade e disponibilidade, além de outros pilares como autenticidade e não-repúdio.
+
+Abrangência e Importância da Segurança da Informação e Cibernética
+
+A SI possui escopo amplo, abrangendo todos os ativos de TI (tecnologias, processos e pessoas), enquanto 
+a Segurança Cibernética foca em ameaças provenientes do espaço cibernético, ambas complexas e vitais 
+para proteger informações.
+
+3. Vulnerabilidade, Ameaça e Risco
+Apresentar os conceitos relacionados ao tema.
+
+Na visão da segurança da informação e segurança cibernética:
+VULNERABILIDADE
+• Fragilidade, ponto fraco, fraqueza presente em um ou mais ativos de TI.
+AMEAÇA
+• Qualquer agente que possa ter o potencial de causar algum evento ou impacto não desejável, por 
+meio da exploração de uma ou mais vulnerabilidades.
+RISCO
+• Resultado decorrente das variáveis: ameaça vs. vulnerabilidade vs. probabilidade e impacto. Podendo 
+ainda ser compreendido como a concretização de um evento que pode ser classificado como um evento 
+positivo ou negativo.
+
+A prioridade de ambas as seguranças, da informação e cibernética, é:
+1. Mitigar as vulnerabilidades;
+2. Inibir ou conter as ameaças;
+3. Controlar e diminuir os riscos;
+4. Impedir eventos não desejáveis;
+5. Evitar ou tratar incidentes.
+
+Sintetizando
+
+Podemos perceber que ambas as seguranças, informação e cibernética, têm como objetivo principal:
+
+(a) mitigar as vulnerabilidades;
+(b) inibir ou impedir que ameaças explorem as vulnerabilidade;
+(c) evitar que eventos não desejáveis aconteçam;
+(d) gerenciar o risco e, por fim,
+(e) quando necessário realizar a tratativa dos incidentes.
+
+Para que isso possa ocorrer de maneira eficiente, é preciso que a organização mantenha um time de 
+TI devidamente alinhado às estratégias do modelo de negócio e capacitado com competências e habilidades 
+para atuar na segurança da informação e segurança cibernética, de acordo com diversos tipos de 
+frameworks, normas, políticas e melhores práticas, sempre buscando a melhoria contínua da proteção e 
+salvaguarda dos ativos de TI.
+
+Vulnerabilidades, Ameaças e Riscos em Segurança da Informação
+
+Vulnerabilidade em segurança da informação e cibernética significa uma fraqueza ou ponto fraco 
+presente em ativos de TI, como tecnologia, processos ou pessoas. 
+
+Ameaça é qualquer agente que possa causar danos explorando uma ou mais vulnerabilidades, buscando 
+pontos fracos para causar prejuízo.
+
+Risco é o resultado da exploração de uma vulnerabilidade por uma ameaça, representando a probabilidade 
+de um dano ocorrer devido à exploração de uma fraqueza.
+
+Mitigar vulnerabilidades, ou seja, tratar os pontos fracos nos ativos de TI, é a principal prioridade 
+para segurança da informação e cibernética.
+
+Inibir ou conter ameaças, controlando ou diminuindo o risco, são passos seguintes que se tornam 
+possíveis a partir da mitigação das vulnerabilidades.
+
+Impedir eventos indesejáveis, ou seja, aqueles que podem causar danos aos ativos de segurança, é 
+outra prioridade, assim como evitar ou tratar incidentes.
+
+4. Frameworks, Normas e Melhores Práticas
+Apresentar frameworks, normas e melhores práticas utilizadas.
+
+Para que possamos alcançar de forma eficiente e eficaz o sucesso com relação à segurança da informação 
+e segurança cibernética dentro de um ambiente organizacional, precisamos adotar uma metodologia que 
+permita realizarmos de maneira certa a proteção e salvaguarda dos ativos de TI.
+
+Além dos frameworks apresentados, é preciso que a organização implemente políticas, regras, normas e 
+procedimentos administrativos, que deverão ser seguidos por todos que fazem parte da organização, tais 
+como:
+
+• Políticas de segurança da informação;
+• Políticas de segurança cibernética;
+• Políticas de proteção à privacidade de dados e dados pessoais;
+• Normas, regras, procedimentos relacionados ao uso da TI.
+
+Por fim, em alguns modelos de negócios a organização ainda estará sujeita a obedecer normas, regras, 
+procedimentos e leis estabelecidas por órgãos reguladores, tais como:
+
+• Leis regulatórias do mercado financeiro — BACEN, CVM, etc.;
+• Leis regulatórias de agências reguladoras — ANATEL, ANEL, ANVISA, etc.;
+• Leis regulatórias de tratamento de dados — LGPD (ANPD);
+• Entre outras.
+
+Sintetizando
+
+Podemos perceber que frameworks, normas e melhores práticas são guias que auxiliam as equipes de TI a 
+garantir uma melhor eficiência e eficácia com relação à proteção e salvaguarda dos ativos de TI de uma 
+organização.
+
+A implementação de frameworks, normas, políticas, procedimentos e melhores práticas relacionadas à 
+segurança dos ativos de TI, além de permitir que a organização possua uma proteção eficiente e eficaz, 
+também garante que ela esteja em conformidade com órgãos reguladores e, por fim, realize a melhoria 
+contínua da própria segurança da informação e segurança cibernética.
+
+Introdução à Segurança da Informação e Frameworks
+
+Frameworks, normas e melhores práticas são essenciais para a segurança da informação, visando a 
+proteção eficaz dos ativos de TI. Embora a segurança 100% seja inalcançável, o objetivo é maximizar 
+a proteção utilizando métodos e técnicas eficientes.
+
+Políticas de Segurança e Importância da Regulamentação
+
+Políticas de segurança, como políticas de segurança da informação e cibernética, são cruciais para 
+definir regras e procedimentos a serem seguidos por todos os stakeholders. O cumprimento de leis 
+regulatórias, como a LGPD, é obrigatório para empresas que lidam com dados pessoais.
+
+Importância dos Frameworks e Próximos Passos
+
+Frameworks, normas e melhores práticas servem como guias para auxiliar as equipes de segurança na 
+proteção dos ativos de TI. A criação de políticas internas, em conjunto com a adesão a leis regulatórias, 
+é essencial para uma proteção abrangente.
+
+Resumo:
+
+No cenário atual, a tecnologia da informação e os sistemas de informação são cruciais para o 
+desenvolvimento econômico, a inovação e a evolução social. Nesse contexto, dados e informações assumem 
+um papel de extrema importância, sendo considerados ativos valiosos para pessoas, sociedades e, 
+principalmente, organizações. A frase "dados é o novo petróleo do mundo" ou "dados é o oxigênio para a 
+organização" ilustra bem o valor que esses elementos possuem, pois, assim como o petróleo ou o oxigênio, 
+eles representam poder, riqueza e a própria capacidade de uma entidade operar e prosperar.
+
+O tratamento de dados é um processo contínuo realizado por todos, que envolve a coleta e organização de 
+fatos brutos. Um dado, por si só, é um fato bruto sem sentido ou significado específico, como um número 
+ou uma letra. Quando esses dados são coletados, organizados e processados, eles se transformam em 
+informação, que é um conjunto de dados com significado e valor para quem a recebe. A análise e 
+interpretação da informação, por sua vez, geram o conhecimento, que é considerado um recurso valiosíssimo 
+e poderoso, pois permite alcançar objetivos e tomar decisões estratégicas.
+
+A Tecnologia da Informação (TI) engloba todos os recursos, sistemas e infraestrutura que permitem a 
+uma organização gerar e utilizar informações. Os ativos de TI, que são o foco da proteção em segurança, 
+são compostos por três grandes grupos: tecnologias (hardware, software, redes, dados), processos 
+(conjuntos de atividades realizadas com o uso das tecnologias) e pessoas (que executam os processos e 
+utilizam as tecnologias). Proteger esses ativos é fundamental para a continuidade dos negócios e para 
+o alcance dos objetivos organizacionais.
+
+A Segurança da Informação (SI) e a Segurança Cibernética (CS) são disciplinas essenciais para a 
+proteção desses ativos. A Segurança da Informação, conforme a norma ISO 27002:2015, é a proteção da 
+informação contra diversos tipos de ameaças para garantir a continuidade dos negócios, minimizando 
+riscos e maximizando oportunidades. Ela possui uma visão holística, abrangendo ameaças físicas, virtuais 
+e tecnológicas, e busca garantir princípios como Confidencialidade, Integridade e Disponibilidade (a 
+tríade CIA), além de outros como autenticidade e não-repúdio.
+
+A Confidencialidade assegura que a informação seja acessível apenas por entidades autorizadas, a 
+Integridade garante que a informação não foi alterada indevidamente, e a Disponibilidade assegura que a 
+informação e os sistemas estejam acessíveis quando necessários. Estes são os pilares fundamentais da 
+segurança da informação, que se estendem a outros princípios para uma proteção robusta dos ativos de TI.
+
+Por outro lado, a Segurança Cibernética é uma segmentação da Segurança da Informação, com foco na 
+proteção dos ativos de TI e da informação contra ameaças originadas do espaço cibernético, ou seja, da 
+internet. Embora ambas compartilhem o objetivo de proteger a informação e os ativos de TI, a Segurança
+da Informação tem um escopo mais amplo, enquanto a Segurança Cibernética se concentra especificamente 
+nas ameaças digitais e online.
+
+Para ambas as seguranças, é crucial compreender os conceitos de vulnerabilidade, ameaça e risco. Uma 
+vulnerabilidade é uma fraqueza ou ponto fraco presente em um ou mais ativos de TI, como bugs em 
+sistemas ou senhas fracas. Uma ameaça é qualquer agente que tem o potencial de explorar essa 
+vulnerabilidade para causar algum dano. O risco, por sua vez, é o resultado da exploração de uma 
+vulnerabilidade por uma ameaça, incluindo a probabilidade e o impacto desse evento negativo.
+
+As equipes de segurança, sejam elas de Segurança da Informação ou Cibernética, devem concentrar seus 
+esforços em mitigar as vulnerabilidades, inibir as ameaças e controlar os riscos. Isso significa tratar 
+os pontos fracos para que as ameaças não tenham como agir, diminuindo a probabilidade de incidentes e 
+eventos indesejáveis que possam causar prejuízos financeiros, operacionais ou de reputação.
+
+Dentro das organizações, existem equipes especializadas para lidar com a segurança. O "Red Team" (Time 
+Vermelho) atua de forma ofensiva, realizando simulações de ataques e testes de intrusão para identificar 
+vulnerabilidades e testar a eficácia das defesas. O "Blue Team" (Time Azul) atua defensivamente, 
+planejando, implementando e monitorando as medidas de proteção para salvaguardar a infraestrutura de TI. 
+A colaboração entre esses times é fundamental para uma postura de segurança eficaz.
+
+Para alcançar uma proteção eficiente e eficaz, as organizações devem adotar metodologias, frameworks 
+e melhores práticas. Exemplos incluem a família de normas ISO 27000 (como a ISO 27001 e 27002 para 
+sistemas de gestão da segurança da informação) e frameworks como o NIST, que oferece guias para 
+identificar, proteger, detectar, responder e recuperar ativos. Além disso, é essencial criar políticas 
+internas (como políticas de segurança da informação e privacidade de dados) e garantir a conformidade 
+com leis e regulamentações externas, como a LGPD para tratamento de dados pessoais.
