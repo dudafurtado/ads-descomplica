@@ -1,0 +1,123 @@
+Sumário
+
+1• Visão geral
+Principais conceitos da engenharia de software
+
+Visão Geral da Engenharia de Requisitos
+A engenharia de requisitos é fundamental para definir e documentar o que deve ser feito em um sistema. 
+Envolve etapas como estudo de viabilidade, análise, definição e especificação de requisitos, culminando 
+na documentação que guiará os desenvolvedores.
+
+Tipos de Requisitos
+Os tipos de requisitos incluem requisitos de sistema, que abordam especificações técnicas; requisitos 
+de usuário, que refletem as expectativas dos usuários; requisitos funcionais, que descrevem as funções 
+do sistema; e requisitos não funcionais, que se referem à qualidade e desempenho.
+
+2• Elicitação de requisitos
+Entendimento inicial dos requisitos
+
+Introdução à Elicitação de Requisitos
+A elicitação de requisitos é a fase inicial crucial que precede a implementação de soluções tecnológicas. 
+Sem uma compreensão clara dos requisitos, o risco de entregar um produto que não atende às necessidades do 
+cliente aumenta significativamente.
+
+Desafios na Elicitação de Requisitos
+Identificar requisitos é um desafio complexo, pois diferentes stakeholders podem ter visões conflitantes. 
+A elicitação de requisitos deve buscar entender as necessidades verdadeiras, evitando erros que podem 
+resultar em projetos incompletos ou errados, com custos elevados para correção.
+
+3• Técnicas de elicitação de requisitos
+Entrevista, brainstorming, mind mapping, storytelling e outras
+
+Técnicas de Licitação de Requisitos
+A licitação de requisitos envolve diversas técnicas além de entrevistas, como casos de uso, cenários, mind 
+mapping e prototipação. Cada técnica tem suas vantagens e limitações, sendo essencial escolher a abordagem 
+adequada conforme o contexto do projeto.
+
+Técnicas de Elicitação de Requisitos
+O storytelling é uma técnica eficaz na elicitação de requisitos, permitindo que stakeholders compartilhem 
+experiências de trabalho. Outras abordagens, como role playing e etnografia, também são valiosas, pois 
+ajudam a entender melhor o contexto e as necessidades dos usuários.
+
+4• Casos de uso
+Histórico, notação e como fazer
+
+História e Importância dos Casos de Uso
+Os casos de uso surgiram em 1987 com Ivair Jacobson, que apresentou sua técnica em uma conferência sobre 
+orientação a objetos. Em 1992, a Ericsson aplicou com sucesso essa técnica, que foi incorporada ao UML em 
+1995, ajudando a definir interações entre usuários e sistemas.
+
+Diagrama de Casos de Uso
+O diagrama de casos de uso é composto por dois elementos principais: atores e casos de uso. Os atores 
+representam usuários ou stakeholders, enquanto os casos de uso descrevem interações específicas. A notação 
+ajuda a visualizar requisitos funcionais no contexto de interação.
+
+Resumo:
+
+A Engenharia de Requisitos (ER) é um pilar fundamental no desenvolvimento de software, atuando como a base 
+que define com precisão o que deve ser construído e quais são as expectativas do cliente. O termo "engenharia" 
+é empregado devido ao rigor metodológico e à precisão que a disciplina exige, estendendo-se além da 
+engenharia civil para áreas como química, alimentos e software. Seu objetivo principal é produzir e manter 
+um documento detalhado que especifique o que o sistema deve realizar, servindo como guia para todo o processo 
+de desenvolvimento.
+
+O processo de Engenharia de Requisitos é composto por diversas fases, que incluem o estudo de viabilidade, 
+a análise, definição e especificação dos requisitos, culminando na criação de um documento que orientará a 
+implementação. Essas etapas são frequentemente ilustradas de forma cíclica, começando com a especificação 
+de requisitos de negócios, passando pela elicitação de requisitos de usuário e sistema, e podendo incluir 
+prototipagem para refinar o entendimento, até a documentação final.
+
+A elicitação de requisitos é uma fase crucial e inicial, que ocorre antes mesmo de se pensar em soluções 
+tecnológicas como linguagens de programação ou bancos de dados. Ela trata da concepção correta do que está 
+sendo solicitado, buscando compreender as necessidades verdadeiras do cliente. Ignorar ou subestimar esta 
+etapa acarreta um risco enorme de entregar um produto que não atende às expectativas ou que está incompleto.
+
+Compreender exatamente os requisitos é uma tarefa complexa, pois diferentes stakeholders podem ter visões 
+conflitantes sobre o mesmo problema. Um exemplo clássico ilustra essa dificuldade: duas pessoas olhando 
+para o mesmo objeto podem ver quantidades diferentes, e ambas estarem "certas" de seu ponto de vista. O 
+papel do analista de requisitos é conciliar essas visões e extrair a verdade subjacente.
+
+Fred Brooks, uma autoridade na engenharia de software, enfatiza que a parte mais árdua na construção de um 
+software é identificar o que construir. Ele argumenta que erros na fase de requisitos são os mais caros de 
+corrigir, pois um entendimento incompleto ou errado pode levar à implementação de um sistema que, embora 
+tecnicamente correto em relação à documentação, não satisfaz a necessidade real do cliente.
+
+O termo "elicitação" foi adotado para abranger diversas formas de obtenção de requisitos, como observação, 
+captura e descoberta, pois nem sempre os requisitos já existem de forma clara e precisam ser "coletados". 
+Em muitos casos, eles precisam ser descobertos ou tornados explícitos a partir das interações com os 
+envolvidos no projeto.
+
+Problemas comuns na elicitação incluem questões de escopo (excesso de detalhamento ou falta de informações), 
+dificuldades de compreensão (usuários assumem o "óbvio" ou têm visão limitada do processo) e a volatilidade 
+dos requisitos, que podem mudar ao longo do desenvolvimento. Metodologias ágeis, por exemplo, são mais 
+adaptadas a lidar com essa volatilidade do que abordagens mais tradicionais.
+
+Os requisitos são classificados em diferentes tipos. Os requisitos de sistema são especificações técnicas 
+focadas na infraestrutura, como hardware e rede. Os requisitos de usuário descrevem o que o usuário espera 
+que o sistema faça, em uma linguagem acessível. Já os requisitos funcionais detalham as funções que o 
+sistema deve executar, traduzindo as necessidades do usuário em ações concretas.
+
+Complementando os funcionais, os requisitos não funcionais, também conhecidos como atributos de qualidade, 
+especificam critérios como eficiência, desempenho, usabilidade e segurança. Por exemplo, a capacidade de 
+registrar entradas e saídas de produtos é um requisito funcional, enquanto o tempo máximo de resposta do 
+sistema para essa operação é um requisito não funcional.
+
+Para realizar a elicitação, existem diversas técnicas, e não apenas entrevistas. As entrevistas são as 
+mais utilizadas, podendo ser abertas (para explorar informações) ou fechadas (para validar dados específicos), 
+mas possuem limitações como a disponibilidade dos stakeholders e fatores psicológicos. Outras técnicas 
+incluem storytelling (contar histórias sobre o dia a dia de trabalho), role-playing (o analista vivencia 
+as tarefas do usuário), etnografia (o analista se insere e participa ativamente do processo), brainstorming 
+(geração de ideias sem crítica) e mind mapping (organização visual de ideias). A escolha da melhor técnica 
+depende do contexto do projeto, sendo comum utilizar um mix de abordagens.
+
+Os Casos de Uso são uma técnica essencial, popularizada por Ivar Jacobson e incorporada à UML (Unified 
+Modeling Language), que serve para representar como os usuários interagem com o sistema. Seu principal 
+objetivo é demonstrar as diferentes maneiras pelas quais um usuário pode interagir com o sistema, ajudando 
+a definir o escopo e as metas a serem alcançadas.
+
+A notação de um diagrama de Casos de Uso é composta principalmente por atores (representando usuários ou 
+outros sistemas que interagem com o sistema, fora do limite do sistema) e os próprios casos de uso 
+(funcionalidades específicas do sistema, representadas por ovais dentro do limite do sistema). Por exemplo, 
+em um sistema de biblioteca, um "Cliente" pode "Solicitar Empréstimo", enquanto um "Bibliotecário" pode 
+"Registrar Empréstimo". Além de documentar requisitos, os Casos de Uso podem auxiliar na geração de 
+código-fonte, transformando atores e casos de uso em classes de programação.

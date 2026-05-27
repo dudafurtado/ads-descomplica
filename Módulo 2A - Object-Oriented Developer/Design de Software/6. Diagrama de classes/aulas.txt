@@ -1,0 +1,81 @@
+Sumário
+
+1• Componentes do diagrama de classes
+Conceito de classe, atributos e métodos em UML
+
+Introdução ao Diagrama de Classes
+O diagrama de classes é fundamental na UML, permitindo a visualização e modelagem de sistemas. Ele 
+facilita a comunicação e compreensão entre a equipe, além de especificar sistemas de forma precisa e 
+não ambígua, integrando-se a diferentes linguagens de programação.
+
+Elementos dos Diagramas de Classe
+Os diagramas de classe modelam a estrutura estática de um sistema, descrevendo classes, atributos, 
+métodos e relacionamentos. Elementos principais incluem classes, objetos e pacotes, que organizam e 
+hierarquizam os componentes do modelo, facilitando a compreensão do sistema.
+
+2• Composição
+Aplicação do conceito de composição no design
+
+Introdução à Composição
+A composição é uma forma de relacionamento na decomposição de problemas complexos, onde partes menores 
+se combinam para formar um todo. Ela representa uma dependência forte entre os objetos, onde a existência 
+das partes depende da existência do todo.
+
+Exemplos de Composição
+Exemplos de composição incluem a relação entre Casa e Banheiro, onde a Casa depende do Banheiro para 
+existir. Outros exemplos são a relação entre Árvore e Folha, Escola e Sala de Aula, e Pessoa com seus 
+órgãos, todos ilustrando a dependência entre partes e o todo.
+
+3• Agregação
+Aplicação do conceito de agregação no design
+
+Definição de Agregação e Composição
+A agregação é uma relação de associação entre todo e parte, onde a parte pode existir independentemente 
+do todo. Em contraste, a composição é uma relação forte, onde a parte não existe sem o todo. O ciclo de 
+vida das partes e do todo é independente na agregação.
+
+Exemplos de Agregação
+Exemplos de agregação incluem a relação entre casa e móveis, onde os móveis existem independentemente da 
+casa. Em contraste, a relação entre escola e sala de aula é uma composição, pois a sala de aula não existe 
+sem a escola. O ciclo de vida dos professores e produtos é independente das escolas e lojas, respectivamente.
+
+4• Multiplicidade
+Representação das diferentes relações entre instâncias de classes
+
+Introdução à Multiplicidade
+A multiplicidade define quantas instâncias de uma classe podem se associar a outra. Exemplos incluem 
+agregação, onde objetos existem independentemente, e composição, onde um objeto faz parte de outro. A casa 
+pode ter muitos móveis, mas um banheiro pertence a uma casa.
+
+Exemplos de Relacionamentos e Multiplicidade
+Os relacionamentos de agregação e composição foram exemplificados com escola e professor, árvore e folha, e 
+pessoa e órgãos. A multiplicidade varia entre 0, 1, 1.1, 0 e asterisco, refletindo diferentes associações e 
+suas implicações nos relacionamentos.
+
+5• Visibilidade
+Uso de modificadores de visibilidade no controle da exposição e proteção de dados
+
+Visibilidade e Encapsulamento
+A visibilidade determina se atributos e operações de classes são acessíveis por outras classes, sendo essencial 
+para o encapsulamento. A escolha correta da visibilidade promove segurança e manutenibilidade do código, 
+escondendo detalhes de implementação e expondo apenas o necessário.
+
+Exemplos de Visibilidade
+Os tipos de visibilidade incluem: privado (sinal de -), que impede acesso externo; público (sinal de +), que 
+permite acesso livre; protegido (sinal de #), acessível por subclasses; e pacote (sinal de ~), acessível dentro 
+do mesmo pacote. Exemplos ilustram essas definições.
+
+Resumo:
+
+O diagrama de classes é uma ferramenta essencial da Linguagem de Modelagem Unificada (UML), utilizada para visualizar, especificar e construir sistemas de software. Ele modela a estrutura estática de um sistema, descrevendo as classes, seus atributos, métodos e os relacionamentos entre elas. A UML, sendo uma linguagem padronizada e independente de tecnologia, facilita a compreensão de sistemas complexos, melhora a comunicação entre equipes e permite a geração de código-fonte a partir dos diagramas.
+Os principais elementos de um diagrama de classes incluem as classes, que representam conjuntos de objetos com estrutura e comportamento comuns; os objetos, que são instâncias dessas classes; e os pacotes, que agrupam elementos relacionados para organizar o modelo de forma hierárquica e facilitar a compreensão. Uma classe é geralmente representada por um retângulo dividido em três partes: o nome da classe, seus atributos e seus métodos.
+A notação para atributos em UML segue o formato "nomeAtributo: Tipo", como "marca: String" ou "ano: int". Já os métodos são representados por "nomeMetodo()", mesmo que não recebam parâmetros, como "ligar()" ou "acelerar()". Essa padronização permite uma representação clara e não ambígua da estrutura e comportamento de cada classe.
+A composição é um tipo de relacionamento entre classes que denota uma dependência forte, onde as partes não podem existir sem o todo. É uma relação de contenção, significando que o ciclo de vida das partes está intrinsecamente ligado ao ciclo de vida do objeto que as contém. Se o objeto "todo" é destruído, suas partes componentes também deixam de existir.
+Exemplos práticos de composição incluem a relação entre uma "Casa" e um "Banheiro", onde o banheiro não existe sem a casa; uma "Árvore" e suas "Folhas", pois as folhas não subsistem sem a árvore; ou uma "Pessoa" e seus "Órgãos", como o "Coração" ou o "Pulmão", que são essenciais e dependentes da existência da pessoa. Em UML, a composição é representada por um losango preenchido no lado do "todo" na linha de conexão entre as classes.
+Em contraste, a agregação é um relacionamento "todo-parte" mais fraco que a composição. Nela, as partes podem existir independentemente do todo, ou seja, seus ciclos de vida são autônomos. A relação de contenção é fraca, e as partes podem ser associadas a múltiplos objetos do todo ou existir por si só.
+Um exemplo comum de agregação é a relação entre uma "Casa" e "Móveis", onde os móveis podem ser removidos ou existir fora da casa. Outro caso é o de uma "Escola" e um "Professor", pois um professor pode lecionar em várias escolas ou não estar vinculado a nenhuma. Similarmente, uma "Loja" e seus "Produtos" ilustram a agregação, já que os produtos podem ser vendidos em outras lojas ou existir sem uma loja específica. A agregação é representada por um losango não preenchido no lado do "todo".
+A multiplicidade é uma propriedade fundamental das associações entre classes, que especifica o número de instâncias de uma classe que podem estar relacionadas a instâncias de outra classe. Ela define os limites mínimo e máximo de objetos que participam de um relacionamento, sendo expressa por notações como "0..*" (zero a muitos), "1" (exatamente um), "1..1" (exatamente um), "0..1" (zero ou um) ou números específicos como "1..2" (um ou dois).
+Em um relacionamento de agregação entre "Casa" e "Móvel", a multiplicidade pode ser "0..*" em ambos os lados, indicando que uma casa pode ter nenhum ou muitos móveis, e um móvel pode pertencer a nenhuma ou muitas casas. Já na composição "Casa" e "Banheiro", a casa pode ter "0..*" banheiros, mas um banheiro necessariamente pertence a "1" casa. Para a relação "Pessoa" e "Coração", a multiplicidade é "1..1", enquanto para "Pessoa" e "Pulmão" pode ser "1..2", refletindo a quantidade de órgãos.
+A visibilidade, por sua vez, define o nível de acesso aos atributos e métodos de uma classe por outras classes, sendo crucial para o encapsulamento e a segurança do sistema. Existem quatro tipos principais de visibilidade, cada um com seu símbolo correspondente em UML.
+O tipo privado, simbolizado por um sinal de menos (-), restringe o acesso a atributos e métodos apenas à própria classe. O público, indicado por um sinal de mais (+), permite que qualquer classe acesse esses elementos. O protegido, representado por um sustenido (#), concede acesso à própria classe e suas subclasses. Por fim, a visibilidade de pacote, com um til (~), permite acesso por classes dentro do mesmo pacote. A escolha adequada da visibilidade é vital para controlar a exposição de dados e garantir a manutenibilidade do código.
+ 

@@ -1,0 +1,50 @@
+Sobre a Programação Estruturada, analise as seguintes assertivas:
+
+I – A Programação Estruturada se baseia nos princípios de sequência, seleção e repetição.
+II – Esse paradigma visa melhorar a legibilidade e a manutenibilidade do código.
+III – Encapsulamento é um dos pilares da Programação Estruturada.
+
+Assinale a alternativa CORRETA:
+
+Apenas as assertivas I e II estão corretas.
+
+Sobre objetos e classes, analise as seguintes assertivas:
+
+I – Objetos são instâncias de classes.
+II – Classes podem conter métodos e atributos, que determinam o comportamento e o estado de seus objetos.
+III – Um objeto pode existir sem uma classe associada.
+
+Assinale a alternativa CORRETA:
+
+Apenas as assertivas I e II estão corretas.
+
+Sobre herança na Programação Orientada a Objetos, analise as seguintes assertivas:
+
+I – Herança permite reutilizar código e criar hierarquias de classes.
+II – Subclasses podem sobrescrever métodos das superclasses para alterar o comportamento herdado.
+III – Uma classe pode herdar de múltiplas classes diretamente em todas as linguagens de programação.
+
+Assinale a alternativa CORRETA:
+
+Apenas as assertivas I e II estão corretas.
+
+
+Sobre polimorfismo, analise as seguintes assertivas:
+
+I – Polimorfismo permite que métodos com o mesmo nome tenham comportamentos diferentes em classes relacionadas.
+II – Um exemplo de polimorfismo é a capacidade de um método aceitar diferentes tipos de argumentos.
+III – O polimorfismo só ocorre em linguagens que suportam herança múltipla.
+
+Assinale a alternativa CORRETA:
+
+Apenas as assertivas I e II estão corretas.
+
+Acerca do encapsulamento, analise as seguintes assertivas:
+
+I – Encapsulamento visa proteger os atributos internos de uma classe contra acessos diretos.
+II – Métodos de acesso, como getters e setters, são usados para implementar o encapsulamento.
+III – O encapsulamento impossibilita qualquer interação com os atributos da classe.
+
+Assinale a alternativa CORRETA:
+
+Apenas as assertivas I e II estão corretas.

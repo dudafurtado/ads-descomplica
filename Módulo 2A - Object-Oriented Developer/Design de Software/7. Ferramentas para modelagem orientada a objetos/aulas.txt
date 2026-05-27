@@ -1,0 +1,133 @@
+Sumário
+
+1° Instalação do Astah
+Instalação e configuração da ferramenta de modelagem UML Astah
+
+O Asta é uma ferramenta de modelagem UML da Change Vision, anteriormente conhecida como Jude. 
+A instalação e configuração inicial são essenciais para o uso adequado da ferramenta.
+
+Para obter a licença de estudante, é necessário acessar uma URL específica e utilizar um e-mail 
+institucional. A licença é válida por um ano, enquanto a versão de demonstração dura 30 dias.
+
+O download do Asta deve ser feito através do site oficial, escolhendo a versão correta para o 
+sistema operacional. A instalação deve seguir as configurações padrão sem modificações.
+
+Após a instalação, é necessário registrar a licença acessando o menu Help e inserindo a chave de 
+licença recebida por e-mail. O processo é simples e rápido.
+
+A instalação do Asta é rápida e deve ser feita com atenção às instruções, garantindo que todas as 
+etapas sejam seguidas corretamente para um funcionamento adequado da ferramenta.
+
+2° Visão geral do Astah
+Uso da ferramenta de modelagem UML Astah e visão geral das principais funcionalidades
+
+Visão Geral do Asta e Diagramas UML
+O Asta oferece acesso a todos os principais diagramas UML, incluindo diagrama de classe, sequência 
+e casos de uso, além de outros diagramas úteis como DFD e fluxogramas. Possui guias de alinhamento 
+automáticas que facilitam a estética dos diagramas.
+
+Prática com o Asta
+Ao usar o Asta, é possível criar diagramas rapidamente com duplo clique. O software permite 
+personalização de cores e alinhamento automático, facilitando a organização visual. Além disso, é 
+possível gerar código Java a partir dos diagramas e vice-versa.
+
+3° Instalação do Android Studio
+Instalação do ambiente de desenvolvimento integrado (IDE) do Google para Android
+
+O Android Studio é uma ferramenta gratuita que pode ser baixada diretamente do site oficial. A 
+instalação deve ser feita de forma padrão, sem necessidade de alterações, exceto para usuários avançados.
+
+Recursos do Android Studio
+O Android Studio recebe atualizações constantes, incluindo novos recursos como suporte à inteligência 
+artificial. Possui emulador Android e permite desenvolvimento em dispositivos reais, facilitando testes 
+em diferentes versões e modelos.
+
+4° Visão geral do Android Studio
+Uso da IDE, apresentação das funções básicas do editor de código-fonte e emulador Android
+
+O Android Studio é a IDE oficial do Google para desenvolvimento Android, oferecendo suporte com um 
+editor inteligente que facilita a codificação, além de permitir o uso de Java, C, C++ e Kotlin. A versão 
+Jellyfish introduz suporte à inteligência artificial Gemini.
+
+Emulador e Configuração
+O emulador do Android Studio permite testar aplicativos em diferentes dispositivos virtuais. É 
+importante considerar a compatibilidade com versões antigas do Android, pois muitos usuários não 
+atualizam seus dispositivos. O Android Studio também suporta desenvolvimento para diversas plataformas 
+além de smartphones.
+
+5° Cartões CRC
+Aplicação dos cartões Classe, Responsabilidade e Colaborador (CRC) no design
+
+Introdução aos Cartões CRC
+Os cartões CRC são uma técnica para representar classes, responsabilidades e colaboradores, facilitando 
+o design conceitual. Eles ajudam a organizar componentes, identificar responsabilidades e interações, 
+promovendo uma visão de alto nível do sistema.
+
+Exemplos e Benefícios dos Cartões CRC
+Após identificar classes e responsabilidades, os cartões CRC permitem revisões e ajustes. Eles facilitam
+ a visualização e comunicação das responsabilidades e interações entre classes, promovendo um entendimento 
+ claro e colaborativo no desenvolvimento.
+
+Resumo:
+
+A modelagem orientada a objetos é um pilar fundamental no desenvolvimento de software, permitindo a 
+visualização e estruturação clara de componentes. Para auxiliar nesse processo, diversas ferramentas e 
+técnicas são empregadas, como o Astah para modelagem UML, o Android Studio para desenvolvimento de aplicativos, 
+e a técnica dos Cartões CRC para design conceitual. Essas abordagens, em conjunto, promovem a criação de 
+sistemas organizados, eficientes e de fácil manutenção.
+
+A instalação do Astah, uma ferramenta de modelagem UML da empresa japonesa Change Vision (anteriormente 
+conhecida como Jude), é um passo inicial importante. Para obtê-la, deve-se acessar o site oficial asta.net e, 
+para estudantes, solicitar uma licença gratuita de um ano através de um e-mail institucional. O processo de 
+download e instalação é padrão, sem a necessidade de configurações complexas, e a ativação da licença é feita 
+no menu "Help" da ferramenta, inserindo a chave recebida por e-mail. O Astah está disponível para Windows, 
+macOS e Linux, garantindo ampla compatibilidade.
+
+Ao explorar o Astah, percebe-se sua abrangência na criação de diagramas UML, incluindo os estruturais e 
+comportamentais, como diagramas de classe, sequência e casos de uso. Além disso, a ferramenta oferece suporte 
+a diagramas não-UML, como DFD e DER, úteis em contextos específicos. Uma funcionalidade notável é o sistema 
+de guias de alinhamento automático, que facilita a organização visual dos elementos no diagrama, tornando o 
+processo mais ágil e esteticamente agradável, sem a necessidade de ajustes manuais precisos.
+
+O Astah também se destaca pela capacidade de gerar código-fonte Java a partir de diagramas de classe e, 
+inversamente, importar código Java para criar diagramas, com suporte também para outras linguagens como C# e 
+C++. A criação de objetos nos diagramas é simplificada por um duplo clique na área de trabalho, que insere 
+automaticamente o elemento principal. A ferramenta permite ainda a personalização visual, como a alteração de 
+cores de classes, e oferece recursos de auto layout para distribuir elementos de forma simétrica, garantindo 
+um design organizado.
+
+Paralelamente, para o desenvolvimento de aplicativos móveis, o Android Studio é a IDE oficial do Google. Sua 
+instalação é gratuita e direta, bastando acessar developer.android.com/studio e seguir os passos padrão. A 
+ferramenta detecta automaticamente o sistema operacional e o tipo de chip (no caso de Macs), oferecendo a 
+versão adequada. Embora não exija registro pago, o uso de uma conta Google pode liberar recursos adicionais.
+
+O Android Studio é uma IDE robusta com um editor de código inteligente que oferece destaque de sintaxe, 
+autocompletar e identificação de uso de variáveis e métodos, acelerando o desenvolvimento. Ele suporta 
+linguagens como Java, C, C++ e Kotlin. Uma adição recente e significativa é a integração com a inteligência 
+artificial Gemini, que atua como um assistente de chat, auxiliando na busca por erros, sugerindo melhorias e 
+até gerando trechos de código, complementando o trabalho do desenvolvedor.
+
+Um dos recursos mais valiosos do Android Studio é o emulador Android, que permite testar aplicativos em uma 
+vasta gama de modelos de dispositivos e versões do sistema operacional. Isso é crucial para garantir a 
+compatibilidade com diferentes APIs e hardware, desde os mais antigos até os mais recentes. Além do emulador, 
+a IDE oferece a flexibilidade de conectar um dispositivo Android físico ao computador para testar o aplicativo 
+diretamente no hardware real, proporcionando uma experiência de teste mais autêntica.
+
+O gerenciamento de emuladores é feito através do "Device Manager", onde é possível criar e configurar máquinas 
+virtuais para smartphones, tablets, Wear OS (para relógios inteligentes), TVs e até sistemas multimídia 
+automotivos. A IDE também integra ferramentas essenciais para o fluxo de trabalho de desenvolvimento, como 
+depuração de código, suporte a sistemas de controle de versão como Git e um terminal embutido, facilitando a 
+gestão completa do projeto.
+
+A técnica dos Cartões CRC (Class, Responsibility, Collaborator) é uma abordagem valiosa para o design 
+conceitual de sistemas orientados a objetos. Ela consiste em utilizar cartões físicos, geralmente de papel, 
+onde se anota o nome da classe, suas responsabilidades e os colaboradores com os quais interage. Essa técnica, 
+originada como método de ensino e adotada pela comunidade XP, ajuda a organizar componentes em classes e a 
+identificar suas funções e interações de forma simples e intuitiva.
+
+A utilização de cartões físicos, em vez de softwares, é incentivada para evitar a criação excessiva de classes 
+e para promover uma análise mais profunda da coesão e do acoplamento. Se uma classe possui muitas 
+responsabilidades, pode indicar baixa coesão, violando o Princípio da Responsabilidade Única. Da mesma forma, 
+muitos colaboradores podem apontar para um alto acoplamento. A revisão colaborativa dos cartões em grupo 
+facilita a clarificação das responsabilidades e o mapeamento das interações, tornando o design mais robusto e 
+compreensível, inclusive para usuários não técnicos.

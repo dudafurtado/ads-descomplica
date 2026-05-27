@@ -1,0 +1,135 @@
+Sumário
+
+1. Por que modelar sistemas?
+Modelos e modelagem de software
+
+Importância da Modelagem de Sistemas
+Modelar sistemas é essencial para abstrair e comunicar ideias complexas, facilitando a 
+colaboração entre stakeholders. Modelos físicos e tangíveis, como plantas e maquetes, 
+ajudam na visualização e compreensão do projeto antes da construção efetiva do software.
+
+Benefícios da Modelagem para Desenvolvimento de Software
+A modelagem de software proporciona clareza e entendimento entre desenvolvedores e 
+stakeholders, permitindo uma comunicação eficaz. Modelos visuais superam representações 
+textuais, facilitando a interpretação e avaliação de requisitos, design e arquitetura do 
+sistema.
+
+2. Quando dispensar a modelagem?
+Cenários em que a modelagem de software não é indicada
+
+Quando dispensar a modelagem
+Modelagem de software não é necessária em todas as situações. Exemplos como a construção 
+de uma casinha de cachorro ou o uso de macros no Word mostram que, em casos simples, é 
+mais eficiente partir diretamente para a implementação.
+
+Casos em que a modelagem é dispensável
+Modelos podem ser dispensados quando o domínio do problema é bem conhecido, a solução é 
+fácil de construir, há poucas pessoas colaborando e a manutenção contínua é mínima. Evite 
+dispensar modelos por motivos inadequados, como domínio da linguagem ou pressa no desenvolvimento.
+
+3. Motivação de uso de modelos
+Cenários em que a modelagem de software é indicada
+
+Importância dos Modelos no Desenvolvimento de Software
+Modelos são essenciais no desenvolvimento de software para gerenciar complexidade e riscos. 
+Eles ajudam a evitar estourar prazos, orçamentos e problemas de escopo, além de facilitar a 
+integração de novos membros na equipe ao fornecer uma visão clara do projeto.
+
+Modelagem e Sistemas Críticos
+Em sistemas críticos, a modelagem é crucial para visualizar e validar opções antes da implementação. 
+Isso é vital em softwares que não podem ser testados em produção, como controladores de foguetes 
+ou sistemas de suporte à vida, onde falhas podem ter consequências graves.
+
+4. Design e arquitetura de software
+Relação entre design de software e arquitetura de software
+
+Arquitetura de Software
+A arquitetura de software define a estrutura e comportamento do sistema como um todo, incluindo 
+componentes, interações e decisões sobre frameworks e armazenamento de dados. O arquiteto é 
+responsável pela integridade conceitual do sistema durante o desenvolvimento.
+
+Design de Software
+O design de software foca nos detalhes dos componentes individuais e suas responsabilidades, 
+promovendo modularidade e reutilização. Utiliza notações visuais como diagramas UML e considera 
+fatores como separação de conceitos e ocultação de informações.
+
+5. IDEs e ferramentas CASE
+O que são IDEs e ferramentas case, apresentação do Android Studio e Astah UML
+
+Introdução às IDEs e Ferramentas CASE
+As IDEs, ou Ambientes de Desenvolvimento Integrado, são ferramentas que reúnem editor de código, 
+compilador e depurador em um único ambiente, facilitando o desenvolvimento de software. O Turbo 
+Pascal é considerado a primeira IDE, lançada em 1991, seguida pelo Visual Basic.
+
+Instalação do Android Studio e Asta UML
+O Android Studio é a IDE oficial do Google para desenvolvimento de aplicativos Android, 
+suportando também outras plataformas. A instalação é simples e segue configurações padrão. 
+A Asta UML é uma ferramenta dedicada para diagramas UML, facilitando a integração com código-fonte, 
+especialmente em Java.
+
+Resumo:
+
+A evolução da tecnologia e o crescente domínio do software em diversas indústrias, desde a automotiva 
+até a de sistemas de apoio a negócios, evidenciam a necessidade de abordagens estruturadas para o 
+desenvolvimento. A disciplina "Designed Software" aborda justamente esses fundamentos, ensinando a 
+modelar software, engenharia de requisitos, orientação a objetos com UML e Java, além de explorar 
+ferramentas essenciais para o processo.
+
+A modelagem de software é uma etapa crucial que permite a todos os envolvidos ter uma visão clara e 
+estruturada do projeto antes de iniciar a codificação. Em vez de partir diretamente para a programação, 
+a criação de modelos oferece uma abstração que facilita a compreensão das funcionalidades e requisitos 
+do sistema. Isso é particularmente importante para sistemas complexos, onde a falta de clareza pode gerar 
+retrabalho, atrasos e falhas na comunicação entre os diversos stakeholders.
+
+Para ilustrar a importância da modelagem, podemos usar a analogia da construção civil: assim como uma 
+planta é essencial para a construção de um imóvel, permitindo que o cliente e os construtores visualizem 
+o projeto e tomem decisões informadas, os modelos de software servem como representações visuais que 
+auxiliam no planejamento e na antecipação de problemas. Eles transformam especificações textuais complexas 
+em diagramas mais compreensíveis, facilitando a comunicação e a colaboração.
+
+No entanto, a modelagem não é uma prática universalmente aplicável. Existem cenários onde ela pode ser 
+dispensada, como no desenvolvimento de soluções muito simples. Por exemplo, para criar uma casinha de 
+cachorro, uma macro em um editor de texto ou um aplicativo básico de conversão de moedas, o tempo gasto 
+em modelagem formal pode não ser justificável. Nesses casos, a implementação direta ou um esboço simples 
+pode ser mais eficiente.
+
+A decisão de dispensar a modelagem deve ser baseada em critérios claros, como um domínio do problema bem 
+conhecido, uma solução relativamente fácil de construir, um número reduzido de colaboradores, baixa 
+necessidade de manutenção contínua e pouca probabilidade de crescimento substancial do escopo. É fundamental, 
+contudo, evitar a dispensa da modelagem por motivos equivocados, como o profundo domínio de uma linguagem 
+de programação ou a crença de que a modelagem atrasa o desenvolvimento.
+
+A principal motivação para o uso de modelos reside na gestão da complexidade e na mitigação de riscos. 
+Construir sistemas complexos sem um design prévio é temerário, tanto do ponto de vista técnico quanto 
+econômico. Modelos ajudam a controlar prazos, orçamentos, escopo e qualidade, permitindo que arquitetos e 
+stakeholders visualizem o sistema inteiro e validem diferentes opções antes da implementação real, 
+especialmente em sistemas críticos, como os de controle de foguetes ou suporte à vida.
+
+Dentro do universo da modelagem, é importante distinguir entre arquitetura de software e design de software. 
+A arquitetura lida com a estrutura geral do sistema, seus componentes, interações e relacionamentos, 
+focando em aspectos de alto nível e decisões sobre frameworks. O arquiteto de software é responsável pela 
+integridade conceitual do sistema.
+
+Por outro lado, o design de software se concentra nos detalhes dos componentes individuais, suas 
+responsabilidades e a criação de software modular, flexível e reutilizável, frequentemente utilizando 
+notações visuais como os diagramas de classe UML. Ele aborda aspectos de baixo nível, garantindo a 
+modularidade, separação de conceitos e ocultação de informações, sendo fundamental para a evolução e 
+escalabilidade do produto.
+
+Para auxiliar no desenvolvimento, utilizamos ferramentas como as IDEs (Ambientes de Desenvolvimento Integrado), 
+que reúnem em um único ambiente editor de código-fonte, compilador e depurador. Historicamente, o Turbo 
+Pascal foi uma das primeiras IDEs, e hoje, ferramentas como o Android Studio, a IDE oficial do Google para 
+desenvolvimento Android, são amplamente utilizadas, oferecendo suporte para diversos dispositivos e um 
+emulador para testes.
+
+Além das IDEs, as ferramentas UML, como o Asta UML utilizado na disciplina, são essenciais para a criação 
+de diagramas que representam graficamente a estrutura e o comportamento do software. Elas automatizam 
+tarefas e podem até gerar código a partir dos diagramas. As ferramentas CASE (Computer-Aided Software 
+Engineering) vão além, automatizando diversas atividades de engenharia de software, incluindo a geração 
+de código e o desenvolvimento low-code, como exemplificado pelo GeneXus, tornando o processo mais ágil e 
+acessível.
+
+Em suma, a modelagem de software, juntamente com o uso estratégico de ferramentas como IDEs e ferramentas 
+CASE, é fundamental para gerenciar a complexidade inerente ao desenvolvimento de sistemas modernos. Ela 
+permite uma comunicação eficaz, a mitigação de riscos e a construção de soluções robustas e escaláveis, 
+desde a concepção até a manutenção contínua do software.
