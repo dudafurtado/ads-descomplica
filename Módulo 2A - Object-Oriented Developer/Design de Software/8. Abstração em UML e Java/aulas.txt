@@ -1,0 +1,25 @@
+Sumário
+
+1° Abstração em UML
+Aplicação do conceito de abstração em UML
+
+A abstração em UML é um processo de simplificação que foca nos aspectos essenciais de um sistema, 
+omitindo detalhes irrelevantes. Isso permite representar visualmente sistemas complexos de forma 
+compreensível, facilitando a comunicação entre desenvolvedores e stakeholders.
+
+Aplicações da Abstração em UML
+
+A principal aplicação da abstração em UML ocorre nos diagramas de classe, onde classes representam 
+abstrações de objetos do mundo real. Este conceito é utilizado em todos os diagramas UML, permitindo 
+uma visão de alto nível e facilitando o design de software.
+
+2° Criação de classes no Astah
+Uso da ferramenta de modelagem UML Astah para criação de classes
+
+
+
+3° Abstração em Java
+Aplicação do conceito de abstração em Java
+
+4° Geração de código Java no Astah
+Uso da ferramenta de modelagem UML Astah para gerar código-fonte a partir do diagrama de classe
