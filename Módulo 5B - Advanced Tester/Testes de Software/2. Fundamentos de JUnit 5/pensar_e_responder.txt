@@ -1,0 +1,45 @@
+Pensar & Responder
+
+Imagine que você foi convidado para revisar a suíte de testes de uma aplicação Java desenvolvida recentemente. Durante a revisão, 
+você percebe que muitos testes estão falhando de maneira inconsistente: às vezes passam, às vezes falham, sem que o código tenha 
+sido alterado. Além disso, alguns métodos de teste não possuem nenhuma anotação do JUnit 5, e os relatórios gerados são difíceis 
+de interpretar.
+
+Com base nos conceitos e práticas apresentados no módulo, explique:
+​· Quais problemas técnicos podem estar causando essas inconsistências nos testes?
+· De que maneira o uso correto das anotações e da estrutura de testes em JUnit 5 pode ajudar a resolver esses problemas e tornar 
+a suíte de testes mais confiável?​
+
+Resposta:
+
+A inconsistência nos testes pode estar relacionada a vários problemas técnicos na forma como a suíte foi planejada e organizada. 
+Quando os testes passam em algumas execuções e falham em outras, mesmo sem alteração no código, isso pode indicar que eles não 
+estão isolados corretamente, dependem de uma ordem específica de execução, utilizam dados compartilhados entre si ou dependem de 
+recursos externos instáveis, como banco de dados, arquivos, APIs ou serviços web.
+
+Outro problema possível é a falta de preparação e limpeza adequada do ambiente de teste. Se um teste altera algum dado e outro 
+teste depende desse mesmo dado, o resultado pode variar conforme a ordem em que os testes são executados. Também podem existir 
+testes com lógica muito ampla, métodos mal nomeados ou sem foco em um único comportamento, dificultando a identificação da causa 
+real da falha.
+
+A ausência de anotações do JUnit 5 também é um problema importante. Métodos que não possuem a anotação `@Test`, por exemplo, podem 
+nem ser reconhecidos como testes pela ferramenta. Além disso, a falta de anotações como `@BeforeEach`, `@AfterEach`, `@BeforeAll` 
+e `@AfterAll` prejudica a organização da preparação e finalização dos testes, tornando a suíte menos previsível.
+
+O uso correto da estrutura do JUnit 5 ajuda a resolver esses problemas porque permite organizar melhor a execução dos testes. A 
+anotação `@Test` identifica claramente quais métodos são casos de teste. A anotação `@BeforeEach` pode ser usada para preparar um 
+novo cenário antes de cada teste, garantindo que cada execução comece em um estado conhecido. Já a anotação `@AfterEach` pode 
+limpar dados ou recursos utilizados, evitando que um teste interfira no outro.
+
+Além disso, os testes devem ser agrupados em classes que espelhem as classes de produção, com métodos pequenos, objetivos e 
+claramente nomeados. Cada teste deve validar um único comportamento da funcionalidade, facilitando a leitura, a manutenção e a 
+interpretação dos relatórios.
+
+Também é importante separar testes rápidos e isolados, como testes unitários, daqueles que dependem de banco de dados, serviços 
+externos ou integrações. Essa separação torna possível executar os testes unitários com frequência durante o desenvolvimento e 
+deixar os testes mais demorados para momentos estratégicos, como pipelines de integração contínua.
+
+Portanto, para tornar a suíte de testes mais confiável, é necessário revisar sua organização, garantir o uso correto das anotações 
+do JUnit 5, isolar os testes, padronizar a preparação e limpeza dos cenários e melhorar a nomenclatura dos métodos. Dessa forma, os 
+relatórios se tornam mais claros, as falhas ficam mais fáceis de identificar e a suíte passa a contribuir de forma mais efetiva 
+para a qualidade contínua do software.
