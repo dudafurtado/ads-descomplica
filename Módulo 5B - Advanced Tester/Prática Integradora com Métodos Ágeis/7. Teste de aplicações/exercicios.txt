@@ -1,0 +1,8 @@
+É o teste de aceitação.
+
+Ele é feito pelo cliente, usuário final ou representante do negócio para validar se o software atende aos requisitos 
+definidos e se está pronto para uso.
+
+Também pode aparecer como:
+
+UAT — User Acceptance Testing, ou Teste de Aceitação do Usuário.
