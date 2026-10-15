@@ -16,10 +16,52 @@ uma visão de alto nível e facilitando o design de software.
 2° Criação de classes no Astah
 Uso da ferramenta de modelagem UML Astah para criação de classes
 
+No Asta, o Diagrama de Classe é acessado pelo menu Diagrama. A classe é criada com um duplo clique, e 
+atributos são adicionados através da guia Atributo. É importante definir os tipos corretos para cada 
+atributo, seguindo as melhores práticas de desenvolvimento.
 
+Métodos e Encapsulamento
+O encapsulamento é respeitado utilizando métodos Getters e Setters para acessar e modificar atributos. 
+Os métodos devem ter tipos de retorno adequados e parâmetros definidos. A visibilidade dos atributos deve 
+ser privada, enquanto os métodos podem ser públicos.
 
 3° Abstração em Java
 Aplicação do conceito de abstração em Java
 
+Introdução à Abstração em Java
+Uma classe em Java é um modelo para criar objetos, definindo seu estado através de atributos e comportamento 
+por meio de métodos. A abstração é um conceito central na programação orientada a objetos, permitindo 
+simplificar a complexidade.
+
+Implementação da Classe em Java
+A implementação de uma classe em Java começa com a declaração da classe, seguida pela definição de atributos 
+e métodos. A visibilidade dos atributos e métodos é especificada, e a sintaxe deve ser respeitada, 
+utilizando convenções de nomenclatura.
+
 4° Geração de código Java no Astah
 Uso da ferramenta de modelagem UML Astah para gerar código-fonte a partir do diagrama de classe
+
+Configuração da Linguagem de Programação
+A configuração da linguagem de programação no Asta é essencial para o desenvolvimento. É necessário acessar 
+as propriedades do objeto e definir a linguagem correta, como Java, para gerar o código-fonte a partir de 
+diagramas de classes e outros diagramas UML.
+
+Exportação de Código Java
+A exportação de código Java no Asta permite gerar automaticamente o código-fonte a partir de classes criadas 
+em diagramas UML. O processo envolve selecionar a classe desejada e exportar, respeitando as visibilidades 
+e tipos de variáveis definidos no diagrama.
+
+Resumo: 
+
+A abstração é um conceito fundamental na programação orientada a objetos, essencial para simplificar e organizar sistemas complexos. Ela permite focar nos aspectos essenciais e relevantes de um sistema, omitindo detalhes que não são importantes para um contexto específico. Este princípio é aplicado tanto na modelagem visual com UML quanto na implementação de código em Java, facilitando o entendimento e o desenvolvimento de software.
+Em UML (Unified Modeling Language), a abstração é utilizada para criar representações visuais de sistemas complexos de forma compreensível e gerenciável. Ao analisar um objeto do mundo real, selecionamos apenas os atributos e comportamentos que importam para o cenário em questão, como a placa de um carro em um estacionamento ou a cor para um aplicativo de transporte. Essa abordagem visual, que une texto e imagem, melhora significativamente a comunicação e a colaboração entre os envolvidos no projeto.
+Os objetivos da abstração em UML incluem facilitar a comunicação entre desenvolvedores e analistas por meio de diagramas claros, além de simplificar o entendimento e o planejamento da arquitetura do sistema. Isso permite uma visão de alto nível, sem a necessidade de se perder nos detalhes de implementação. Conceitos como generalização, especialização e herança são aplicados em diagramas de classe para organizar e hierarquizar objetos, mas a abstração é um princípio presente em praticamente todos os tipos de diagramas UML.
+Para a criação prática de classes em UML, utilizamos ferramentas como o Astah. O processo inicia-se selecionando a opção de "Diagrama de Classe" no menu, que é um diagrama estático de estrutura. Uma nova classe pode ser adicionada com um duplo clique e nomeada, como no exemplo de uma "Conta Bancária".
+Após a criação da classe, o próximo passo é definir seus atributos, que representam o estado do objeto. Para a classe "Conta Bancária", atributos como "Número", "Titular", "Saldo" e "Limite" são adicionados. É crucial definir o tipo de cada atributo, como String para "Número" e "Titular", e Double para "Saldo" e "Limite", seguindo as melhores práticas de nomenclatura, que sugerem iniciar os atributos com letra minúscula.
+A visibilidade dos atributos e métodos é um aspecto importante para o encapsulamento. No Astah, atributos são geralmente configurados como privados (indicado por um traço "-"), enquanto os métodos são públicos (indicado por um sinal de mais "+"). Essa prática garante que o acesso aos atributos seja controlado por meio de métodos específicos, como os Getters e Setters.
+Os métodos, ou operações, definem o comportamento da classe. Para a "Conta Bancária", podemos ter métodos como `GetNúmero`, `GetTitular`, `GetSaldo` e `GetLimite` para consultar valores, e `SetTitular`, `SetLimite`, `Depositar` e `Sacar` para alterar ou realizar ações. É fundamental configurar o tipo de retorno de cada método (ex: String para `GetTitular`, Double para `GetSaldo`, void para `SetTitular` e Boolean para `Sacar`, indicando sucesso ou falha). Métodos que alteram valores e não precisam retornar dados são geralmente do tipo `void`.
+Em Java, uma classe é um modelo ou plano para criar objetos, implementando diretamente o conceito de abstração. Ela define o estado de um objeto através de seus atributos e seu comportamento por meio de métodos. A classe em Java permite que o desenvolvedor se concentre nos aspectos essenciais do sistema, deixando de lado detalhes irrelevantes para o contexto.
+A estrutura de uma classe Java segue convenções específicas: começa com a declaração de visibilidade (`public class NomeDaClasse`), seguida pela declaração dos atributos (ex: `public String nome;`, `private float salario;`) e, posteriormente, os métodos (ex: `public float calcularBonus() { ... }`, `private float aumentarSalario() { ... }`). A visibilidade e os tipos de dados são definidos conforme a necessidade, e ferramentas de desenvolvimento como o Android Studio auxiliam com autocompletar e formatação.
+Uma das grandes vantagens de usar ferramentas UML como o Astah é a capacidade de gerar código-fonte automaticamente a partir dos diagramas. Para isso, é necessário configurar a linguagem de programação (Java) nas propriedades do projeto. Essa funcionalidade integra o design com a implementação, garantindo que o código reflita o modelo visual.
+O processo de geração de código envolve selecionar os elementos do diagrama (uma classe ou o diagrama completo) e exportá-los para código Java. O Astah gera o código respeitando as configurações de visibilidade (público ou privado), os tipos de dados e os nomes de atributos e métodos definidos no diagrama. Se um método não tiver um tipo de retorno especificado, um retorno padrão é inserido.
+Essa integração bidirecional permite não apenas gerar código a partir de diagramas, mas também importar código-fonte para criar diagramas UML. Isso mantém o código e os diagramas sincronizados, facilitando a manutenção e a documentação de sistemas complexos e promovendo um design de software eficiente e bem estruturado.

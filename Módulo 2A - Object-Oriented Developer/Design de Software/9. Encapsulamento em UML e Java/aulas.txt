@@ -1,0 +1,28 @@
+Sumário
+
+1° Encapsulamento em UML
+Conceito de encapsulamento em UML
+
+O encapsulamento em UML esconde detalhes internos de um objeto, expondo apenas métodos necessários. 
+Representado em diagramas de classes, une dados e funções em um objeto autocontido, com atributos 
+privados e métodos públicos, garantindo a proteção da implementação.
+
+Benefícios do Encapsulamento
+Os benefícios do encapsulamento incluem proteção dos detalhes de implementação, facilidade de manutenção 
+e suporte ao conceito de abstração. A utilização de métodos getters e setters permite acesso controlado 
+a atributos, evitando exposição desnecessária e promovendo uma interface limpa.
+
+2° Criação de classes no Astah
+Aplicação do conceito de encapsulamento nos diagramas de classe do Astah
+
+
+
+
+3° Encapsulamento em Java
+Representação do encapsulamento no código-fonte Java
+
+
+
+4° Geração de código Java no Astah
+Como gerar código-fonte Java a partir do diagrama de classe
+
