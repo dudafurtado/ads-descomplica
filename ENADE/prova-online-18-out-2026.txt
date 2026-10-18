@@ -1,0 +1,753 @@
+Questão 1 | Enade - Formação Geral Bacharelado
+Código da questão: 26755
+Durante a revisão do Plano Diretor de um município amazônico, foi proposto um projeto de infraestrutura que afetaria diretamente comunidades ribeirinhas e povos indígenas que ocupam a região há séculos. A proposta previa a construção de uma rodovia e de empreendimentos turísticos sem consulta prévia às populações locais.
+
+As lideranças comunitárias denunciaram a violação do direito ao território e à consulta livre, prévia e informada, conforme estabelece a Convenção nº 169 da Organização Internacional do Trabalho (OIT). Além disso, destacaram que o território para esses povos não é apenas um espaço físico, mas um lugar de memória, identidade e modos de vida, intimamente relacionado à sua cultura e espiritualidade.
+
+O caso reacendeu o debate sobre o reconhecimento dos direitos territoriais dos povos e comunidades tradicionais, previsto na Constituição Federal de 1988 e reforçado por órgãos como a FUNAI e o Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN), no âmbito da proteção do patrimônio cultural imaterial.
+
+(Fonte: ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT). Convenção nº 169 sobre Povos Indígenas e Tribais. Genebra: OIT, 1989. Disponível em: https://www.ilo.org/brasilia/convencoes/WCMS_126098/lang--pt/index.htm. Acesso em: 13 out. 2025. BRASIL. Constituição da República Federativa do Brasil de 1988. Brasília: Senado Federal, 1988.INSTITUTO DO PATRIMÔNIO HISTÓRICO E ARTÍSTICO NACIONAL (IPHAN). Política de Patrimônio Imaterial. Brasília: IPHAN, 2020.)
+
+Com base no contexto e nas normas de proteção à diversidade cultural e aos direitos territoriais, assinale a alternativa que representa a ação mais adequada do poder público diante da situação descrita.
+
+Questão 2 | Enade - Formação Geral Bacharelado
+Código da questão: 26752
+O avanço da inteligência artificial generativa tem transformado setores inteiros — da indústria ao ensino superior —, ao permitir a criação de textos, imagens, códigos e decisões automatizadas. Contudo, cresce a preocupação com viés algorítmico, desinformação, desemprego tecnológico e uso indevido de dados pessoais.
+
+Em 2021, a UNESCO publicou a Recomendação sobre a Ética da Inteligência Artificial, primeiro marco global a orientar países e empresas sobre o uso responsável e humanista da IA. O documento destaca que a tecnologia deve ser centrada no ser humano, pautada pela transparência, justiça, não discriminação e proteção de direitos fundamentais.
+
+No Brasil, o Marco Legal da Inteligência Artificial (PL 2338/2023) propõe diretrizes semelhantes, incentivando inovação com responsabilidade, avaliação de riscos e regulação ética.
+
+(Fontes: UNESCO. Recommendation on the Ethics of Artificial Intelligence. Paris: UNESCO, 2021. Disponível em: https://unesdoc.unesco.org/ark:/48223/pf0000380455. Acesso em: 11 out. 2025. BRASIL. Projeto de Lei nº 2338/2023 – Marco Legal da Inteligência Artificial. Câmara dos Deputados, 2023. Disponível em: https://www.camara.leg.br/propostas-legislativas/2338-2023.) Acesso em 11/10/2025.
+
+Com base no contexto e nas diretrizes internacionais de ética em ciência e tecnologia, assinale a alternativa que representa a postura mais adequada diante dos desafios da inovação em inteligência artificial.
+
+Questão 3 | Enade - Formação Geral Bacharelado
+Código da questão: 26749
+Nas últimas décadas, o Brasil vem ampliando sua participação em políticas internacionais de combate às mudanças climáticas, assumindo compromissos para reduzir emissões de gases de efeito estufa e promover a transição energética para fontes renováveis.
+
+Entretanto, pesquisas do Painel Intergovernamental sobre Mudanças Climáticas (IPCC, 2023) apontam que, mesmo com o avanço das energias solar e eólica, o país ainda enfrenta desafios estruturais, como a dependência de combustíveis fósseis em transportes, a expansão de áreas de desmatamento e a falta de políticas de adaptação social.
+
+A Agenda 2030 da ONU estabelece que a sustentabilidade deve articular crescimento econômico, inclusão social e preservação ambiental, exigindo que os governos implementem planos integrados e justos de transição ecológica, capazes de reduzir desigualdades e proteger populações vulneráveis.
+
+(Fonte: INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE (IPCC). AR6 Synthesis Report: Climate Change 2023. Geneva: IPCC, 2023. Disponível em: https://www.ipcc.ch/report/ar6/syr/. Acesso em: 11 out. 2025.
+
+UNITED NATIONS. Transforming Our World: The 2030 Agenda for Sustainable Development. 2015. Disponível em: https://sdgs.un.org/2030agenda. Acesso em: 11 out. 2025.)
+
+Elemento de Suporte – Objetivo 13 da Agenda 2030 (ONU):
+
+“Tomar medidas urgentes para combater a mudança do clima e seus impactos, fortalecendo a resiliência e a capacidade de adaptação a riscos relacionados ao clima e desastres naturais.” (ONU, 2015)
+
+Comando:
+
+Com base no contexto e nas diretrizes internacionais sobre desenvolvimento sustentável e transição energética, assinale a alternativa que representa a estratégia mais adequada para enfrentar os desafios climáticos no Brasil de forma ética, justa e sustentável.
+
+Questão 4 | Enade - Formação Geral Bacharelado
+Código da questão: 26742
+Uma instituição de pesquisa desenvolveu um algoritmo de machine learning capaz de identificar padrões em imagens de satélite para prever desmatamento ilegal na Amazônia com 72 horas de antecedência. O sistema foi testado por 18 meses e demonstrou 87% de precisão. O governo federal manifestou interesse em adquirir a tecnologia, mas propôs que o código-fonte permaneça fechado e sob controle exclusivo de uma agência de segurança, sem transparência sobre os critérios de decisão do algoritmo ou possibilidade de auditoria externa.
+
+Inovações tecnológicas aplicadas a questões socioambientais críticas envolvem trade-offs entre eficácia operacional e accountability democrático. Considerando que o desmatamento ilegal causa danos irreversíveis à biodiversidade e ao clima global, mas que sistemas opacos de vigilância podem ser usados de forma arbitrária ou discriminatória, analise a proposta governamental. Avalie qual modelo de governança dessa tecnologia melhor equilibra efetividade na proteção ambiental com princípios de transparência, controle social e prevenção de abusos.
+
+Questão 5 | Enade - Formação Geral Bacharelado
+Código da questão: 26737
+Uma startup de tecnologia está desenvolvendo um aplicativo de delivery que coleta dados de localização dos usuários em tempo real. Durante uma reunião, o líder técnico propôs vender esses dados para empresas de marketing sem informar os usuários, argumentando que isso geraria receita adicional. A equipe de desenvolvimento está dividida sobre a questão, considerando aspectos legais e éticos envolvidos na decisão.
+
+Dados Coletados pelo App:
+
+- Localização GPS (precisão: 5m)
+- Histórico de rotas diárias
+- Frequência de visitas a estabelecimentos
+- Padrões de consumo por região
+- Horários de maior atividade
+
+Considerando os princípios éticos da engenharia de software e a legislação brasileira sobre proteção de dados (LGPD), avalie a situação apresentada. A proposta de comercialização de dados pessoais sem consentimento explícito dos usuários viola princípios fundamentais de privacidade e autonomia. Analise qual posicionamento o engenheiro de software deve adotar diante dessa situação, considerando suas responsabilidades profissionais e os direitos dos cidadãos.
+
+Questão 6 | Enade - Formação Geral Bacharelado
+Código da questão: 26732
+O princípio da responsabilidade se contrapõe à ética tradicional, que era restrita à relação face a face. No contexto tecnológico moderno, a responsabilidade deve ser estendida para abranger as consequências futuras e globais das nossas ações, especialmente aquelas relacionadas à persistência da vida na Terra e à dignidade das gerações futuras.
+
+JONAS, Hans. O Princípio Responsabilidade: Ensaio de uma Ética para a Civilização Tecnológica. Rio de Janeiro: Contraponto, 2006 (Adaptado).
+
+O avanço da ciência e da tecnologia (C&T) é frequentemente celebrado como a principal força motriz do progresso humano. Contudo, a formação de um profissional ético e completo exige a compreensão de que a C&T possui uma dimensão sociopolítica inescapável. A tomada de decisão em projetos de inovação deve, portanto, incorporar a análise de riscos e os valores de equidade e sustentabilidade.
+
+Com base no conceito de responsabilidade ética na ciência e tecnologia e na análise crítica de seus impactos sociopolíticos, avalie as afirmações a seguir:
+
+I. O Determinismo Tecnológico, que afirma que a tecnologia evolui segundo uma lógica interna e autônoma, alheia a fatores sociais, é o modelo de análise mais adequado para orientar políticas públicas de inovação.
+
+II. A inovação tecnológica, mesmo quando bem-sucedida em seus objetivos primários, pode gerar externalidades negativas não intencionais, como o aprofundamento da exclusão digital e a obsolescência acelerada de certas habilidades humanas.
+
+III. A ética aplicada à C&T deve ser prospectiva e global, focada em evitar que os benefícios imediatos da inovação comprometam a capacidade das gerações futuras de atenderem às suas próprias necessidades, conforme defendido pelo Princípio Responsabilidade.
+
+IV. A principal barreira para o desenvolvimento científico-tecnológico em países em desenvolvimento é exclusivamente a falta de talentos humanos, e não o descompasso entre as agendas de pesquisa e as necessidades sociais prioritárias locais.
+
+É correto o que se afirma apenas em: 
+
+Questão 7 | Enade - Formação Geral Bacharelado
+Código da questão: 26728
+O trabalho em plataformas digitais, embora ofereça flexibilidade e novas oportunidades de renda, muitas vezes dilui a responsabilidade das empresas, transferindo os custos e os riscos sociais da atividade para o próprio trabalhador. Isso exige uma redefinição do papel regulador do Estado.
+
+Adaptado de: ANTUNES, Ricardo. O privilégio da servidão: O novo proletariado de serviços na era digital. Boitempo, 2018.
+
+Elaborado por Inteligência Artificial.
+
+A rápida transformação tecnológica impulsionou novos modelos de trabalho que desafiam as estruturas jurídicas e sociais. A regulação estatal é crucial para manter um equilíbrio entre a inovação econômica e a proteção social dos trabalhadores, garantindo que o trabalho não se torne uma servidão digital.
+
+Considerando as complexas relações entre Estado, sociedade e as novas modalidades de trabalho na era digital, e a situação ilustrada na charge, assinale a alternativa que apresenta a principal dificuldade regulatória enfrentada pelo Estado de Direito para garantir os direitos básicos dos trabalhadores da gig economy.
+
+Questão 8 | Enade - Formação Geral Bacharelado
+Código da questão: 26724
+A acessibilidade comunicacional representa um dos pilares centrais para a construção de uma sociedade mais inclusiva, especialmente no que se refere ao acesso à informação e aos serviços públicos. Em países como o Brasil, onde há uma diversidade linguística e cultural significativa, políticas públicas que promovam a comunicação acessível em diferentes formatos são fundamentais. O uso de tecnologias assistivas, como intérpretes de Libras, legendas em tempo real, audiodescrição e leitura fácil, amplia o alcance de conteúdos educativos, culturais e informativos. Essas ferramentas não apenas garantem direitos previstos na legislação, como a Lei Brasileira de Inclusão (Lei n.º 13.146/2015), mas também estimulam transformações sociais profundas, promovendo equidade no acesso ao conhecimento e à cidadania.
+
+Fonte: BRASIL. Lei n.º 13.146, de 6 de julho de 2015. Estatuto da Pessoa com Deficiência. Diário Oficial da União: seção 1, Brasília, DF, ano 152, n. 127, p. 2, 7 jul. 2015. (Texto adaptado para fins educacionais).
+
+Considerando o papel das tecnologias assistivas na promoção da acessibilidade comunicacional, identifique a proposta que melhor representa uma estratégia inovadora e viável para um biólogo atuar na promoção da inclusão social em espaços formais de educação científica.
+
+Questão 9 | Enade - Formação Geral Bacharelado
+Código da questão: 26722
+Tecnologia CRISPR e os avanços da biotecnologia
+
+A tecnologia CRISPR-Cas9 revolucionou a engenharia genética ao permitir alterações precisas no DNA de organismos vivos. Desde 2012, quando foi adaptada para uso em células humanas, essa ferramenta tem possibilitado a correção de mutações genéticas responsáveis por doenças, o desenvolvimento de variedades agrícolas mais resistentes e o controle de vetores de doenças. No entanto, os aspectos éticos e de biossegurança ainda são discutidos pela comunidade científica e organismos reguladores. O desafio contemporâneo não é apenas aprimorar a técnica, mas estabelecer políticas públicas que equilibrem inovação e precaução. Nesse cenário, cientistas e biólogos desempenham papel fundamental na construção de propostas de aplicação responsável dessa tecnologia em benefício da saúde, do meio ambiente e da sociedade.
+
+Fonte: Doudna, J. A.; Charpentier, E. (2020). The new frontier of genome engineering with CRISPR-Cas9. Science, 346(6213), 1258096. Disponível em: https://www.science.org/doi/10.1126/science.1258096. Acesso em: 03 out. 2025. (Texto adaptado para fins educacionais).
+
+Considerando o papel do biólogo frente às inovações científicas e tecnológicas, sobretudo no uso da edição genética como ferramenta estratégica, imagine que um conselho regional de biologia solicitou aos seus membros sugestões de diretrizes para uma política pública local que envolva o uso de CRISPR-Cas9 no controle de doenças tropicais negligenciadas, como a dengue. A proposta deverá priorizar a aplicação da biotecnologia com responsabilidade social e ambiental, dialogando com princípios da precaução, da equidade e da sustentabilidade.
+
+Com base na situação apresentada e no texto-base, qual diretriz melhor atende aos objetivos da política pública proposta?
+
+Questão 10 | Enade - Formação Geral Bacharelado
+Código da questão: 26718
+“Entendem-se por educação ambiental os processos por meio dos quais o indivíduo e a coletividade constroem valores sociais, conhecimentos, habilidades, atitudes e competências voltadas para a conservação do meio ambiente, bem de uso comum do povo, essencial à sadia qualidade de vida e sua sustentabilidade.”
+
+“A educação ambiental é um componente essencial e permanente da educação nacional, devendo estar presente, de forma articulada, em todos os níveis e modalidades do processo educativo, em caráter formal e não formal.”
+
+Fonte (ABNT): BRASIL. Lei nº 9.795, de 27 de abril de 1999. Dispõe sobre a educação ambiental, institui a Política Nacional de Educação Ambiental e dá outras providências. Diário Oficial da União, Brasília, DF, 28 abr. 1999. Disponível em: http://www.planalto.gov.br/ccivil_03/leis/l9795.htm. Acesso em: 12 out. 2025. (Texto adaptado para fins educacionais).
+
+Considera-se que um curso de Ciências Biológicas pretenda organizar, ao longo de um semestre, uma ação de extensão universitária com foco em educação e desenvolvimento humano e social, articulando saúde, ambiente e cidadania no território do entorno do campus. O planejamento deseja refletir a Política Nacional de Educação Ambiental (Lei nº 9.795/1999) e fortalecer a sadia qualidade de vida por meio de práticas interdisciplinares e participativas.
+
+À luz do texto-base e do objetivo de integrar dimensões ambientais, educativas e de bem-estar, qual proposta de intervenção apresenta coerência formativa, participação social e articulação intersetorial adequadas ao contexto descrito?
+
+Questão 11 | Enade - Formação Geral Bacharelado
+Código da questão: 26712
+A inovação tecnológica é elemento essencial para o desenvolvimento econômico e social, especialmente em países emergentes.
+
+Fonte: OECD. Science, Technology and Innovation Outlook, 2023.
+
+O investimento em pesquisa e desenvolvimento (P&D) correlaciona-se diretamente com o crescimento do PIB e a criação de empregos qualificados.
+
+Qual medida pública favorece o avanço científico e tecnológico de um país?
+
+Assinale a alternativa correta.
+
+Questão 12 | Enade - Formação Geral Bacharelado
+Código da questão: 26710
+O setor de tecnologia ainda apresenta baixa representatividade feminina e de minorias étnicas em cargos de liderança.
+
+Fonte: ONU Mulheres. Relatório Gênero e Tecnologia no Século XXI, 2024.
+
+Apenas 26% dos profissionais da área de computação são mulheres, segundo o Fórum Econômico Mundial.
+
+Que ação corporativa pode contribuir para reduzir essa desigualdade?
+
+Assinale a alternativa correta.
+
+Questão 13 | Enade - Formação Geral Bacharelado
+Código da questão: 26709
+Empresas de tecnologia buscam reduzir a pegada de carbono de seus data centers, adotando práticas sustentáveis no consumo energético.
+
+Fonte: ONU. Relatório Global de Sustentabilidade Digital, 2023.
+
+A computação em nuvem e o uso de energia renovável podem reduzir em até 80% o consumo energético de infraestruturas locais.
+
+Qual prática está alinhada à sustentabilidade digital?
+Assinale a alternativa correta.
+
+Questão 14 | Enade - Formação Geral Bacharelado
+Código da questão: 26708
+O avanço da automação e da inteligência artificial tem transformado o mercado de trabalho e exigido novas políticas públicas voltadas à qualificação profissional.
+
+Fonte: CASTELLS, Manuel. A Sociedade em Rede. São Paulo: Paz e Terra, 2020.
+
+Relatório da OCDE aponta que até 2030 cerca de 14% das funções atuais poderão ser automatizadas.
+
+Diante desse cenário, qual ação deve ser priorizada pelo Estado para reduzir os impactos sociais da automação?
+
+Assinale a alternativa correta.
+
+Questão 15 | Enade - Formação Geral Bacharelado
+Código da questão: 26707
+Em uma sociedade digital cada vez mais conectada, o respeito aos direitos humanos passa também pela proteção da privacidade e do uso ético dos dados pessoais.
+
+Fonte: ONU. Declaração Universal dos Direitos Humanos. Artigo 12, 1948.
+
+“Ninguém será sujeito a interferências em sua vida privada, em sua família, em seu domicílio ou em sua correspondência, nem a ataques à sua honra e reputação.”
+
+A citação acima se relaciona diretamente com qual princípio ético aplicado à tecnologia?
+
+Assinale a alternativa correta.
+
+Questão 16 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31162
+A qualidade de software não se restringe apenas à correção funcional, mas envolve atributos como manutenibilidade, confiabilidade, eficiência e usabilidade. Segundo Pressman e Maxim (2020), modelos de qualidade fornecem estruturas conceituais para avaliar e gerenciar esses atributos ao longo do ciclo de vida do software, permitindo decisões mais fundamentadas sobre práticas de desenvolvimento e manutenção.
+
+PRESSMAN, Roger S.; MAXIM, Bruce R. Software Engineering: A Practitioner’s Approach. 9. ed. New York: McGraw-Hill, 2020.
+
+Durante a avaliação de um sistema de informação já implantado, a equipe técnica identificou que, embora o software atenda corretamente aos requisitos funcionais, ele apresenta dificuldades de manutenção, como alto acoplamento entre módulos e baixa legibilidade do código, aumentando o custo de evolução do sistema.
+
+Atributos de qualidade relevantes ao cenário:
+
+- Manutenibilidade
+- Modularidade
+- Acoplamento
+- Coesão
+
+Esses atributos influenciam diretamente o custo e o esforço de manutenção.
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente o atributo de qualidade de software mais diretamente comprometido no cenário descrito.
+
+Questão 17 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31161
+Sistemas distribuídos dependem fortemente de mecanismos de comunicação confiáveis para garantir consistência, disponibilidade e tolerância a falhas. Segundo Tanenbaum e Van Steen (2017), a comunicação em sistemas distribuídos deve lidar com latência variável, falhas parciais e ausência de um relógio global, o que torna protocolos de comunicação e coordenação essenciais para o correto funcionamento desses sistemas.
+
+TANENBAUM, Andrew S.; VAN STEEN, Maarten. Distributed Systems: Principles and Paradigms. 3. ed. Boston: Pearson, 2017.
+
+Em uma arquitetura de microsserviços, diferentes serviços independentes comunicam-se por meio da rede para compor funcionalidades de um sistema corporativo. Durante períodos de alta carga, observou-se que atrasos na comunicação e falhas temporárias impactam a consistência das respostas fornecidas aos usuários.
+
+Características de sistemas distribuídos relevantes ao cenário:
+
+- Comunicação por troca de mensagens
+- Latência de rede não determinística
+- Falhas parciais (um nó falha sem que os demais parem)
+- Ausência de relógio global
+
+Com base no contexto apresentado, assinale a alternativa que identifica corretamente um desafio inerente à comunicação em sistemas distribuídos.
+
+Questão 18 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31159
+Frameworks de governança e gestão de TI fornecem estruturas para orientar decisões, controlar riscos e avaliar desempenho. O COBIT 2019 distingue explicitamente governança (avaliar, direcionar e monitorar) de gestão (planejar, construir, executar e monitorar), reforçando papéis distintos da alta administração e da gestão executiva. Segundo De Haes, Van Grembergen e Debreceny (2013), essa separação é crucial para assegurar responsabilidade, transparência e alinhamento estratégico no uso da TI.
+
+ISACA. COBIT® 2019 Framework: Governance and Management Objectives. Schaumburg: ISACA, 2019.
+
+DE HAES, Steven; VAN GREMBERGEN, Wim; DEBRECENY, Roger S. COBIT 5 and Enterprise Governance of Information Technology. Rolling Meadows: ISACA, 2013.
+
+Durante uma auditoria interna, foi identificado que decisões sobre prioridades de investimentos em TI estavam sendo tomadas exclusivamente por equipes técnicas, sem direcionamento formal da alta administração, o que resultou em desalinhamento com os objetivos estratégicos da organização.
+
+Separação conceitual no COBIT:
+
+Governança (EDM):
+
+- Avaliar necessidades e opções
+- Direcionar por meio de políticas e princípios
+- Monitorar desempenho e conformidade
+
+Gestão (APO, BAI, DSS, MEA):
+
+- Planejar, construir, executar e monitorar soluções
+
+À luz do COBIT e do contexto apresentado, assinale a alternativa que corrige adequadamente o problema identificado.
+
+Questão 19 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31158
+A adoção de Arquitetura Corporativa não se limita à documentação técnica, mas envolve governança, tomada de decisão e evolução planejada dos sistemas de informação. Segundo Ross, Weill e Robertson (2006), arquiteturas corporativas eficazes estabelecem princípios claros que orientam decisões sobre investimentos em TI, integração de sistemas e padronização tecnológica, funcionando como um mecanismo de coordenação organizacional. TOGAF (2018) reforça que princípios arquiteturais são declarações normativas que influenciam o desenho e a evolução da arquitetura ao longo do tempo.
+
+ROSS, Jeanne W.; WEILL, Peter; ROBERTSON, David C. Enterprise Architecture as Strategy. Boston: Harvard Business School Press, 2006.
+
+THE OPEN GROUP. TOGAF® Standard, Version 9.2. Reading: The Open Group, 2018.
+
+Durante a revisão de sua arquitetura corporativa, uma organização definiu o princípio:
+
+“Os dados corporativos devem ser capturados uma única vez, na fonte, e compartilhados de forma padronizada entre os sistemas.”
+
+Esse princípio passou a orientar decisões sobre integração, desenvolvimento de aplicações e gestão da informação.
+
+Princípio arquitetural e seus efeitos:
+
+Princípio:
+“Dados únicos e compartilhados”
+
+Efeitos esperados:
+
+- Redução de redundância de dados
+- Aumento da consistência da informação
+- Facilitação da interoperabilidade entre sistemas
+
+Considerando o contexto apresentado, assinale a alternativa que interpreta corretamente a função desse princípio no âmbito da Arquitetura Corporativa.
+
+Questão 20 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31157
+Em sistemas organizacionais e de informação, é comum que decisões locais produzam efeitos não intencionais no desempenho global. Senge (2010) destaca que estruturas de retroalimentação (feedback loops) podem gerar dinâmicas como “crescimento e colapso”, “limites ao crescimento” e oscilações, exigindo que gestores e analistas modelarem causas e efeitos para evitar intervenções que resolvem sintomas, mas agravam a estrutura do problema. Meadows (2008) reforça que compreender os loops de reforço e de balanceamento é essencial para identificar pontos de alavancagem (leverage points) e intervir de forma mais efetiva.
+
+SENGE, Peter M. A quinta disciplina: arte e prática da organização que aprende. 27. ed. Rio de Janeiro: BestSeller, 2010.
+
+MEADOWS, Donella H. Thinking in Systems: A Primer. White River Junction: Chelsea Green Publishing, 2008.
+
+Uma organização implantou um novo sistema de atendimento (service desk) e decidiu aumentar o número de chamados resolvidos por dia como principal meta operacional. Após algumas semanas, a gerência observou aumento de retrabalho e queda de satisfação do usuário, apesar do número de chamados “encerrados” ter subido.
+
+Diagrama causal simplificado (loops de feedback)
+
+Loop R (reforço de encerramentos):
+
+- Pressão por encerrar chamados ↑ → Encerramentos por dia ↑ → Indicador de produtividade ↑ → Pressão por encerrar chamados ↑
+
+Loop B (balanceamento por retrabalho):
+
+- Encerramentos apressados ↑ → Qualidade da solução ↓ → Retrabalho/recorrência ↑ → Fila total de chamados ↑ → Pressão por encerrar chamados ↑
+
+Considerando o diagrama e o contexto, assinale a alternativa que interpreta corretamente a dinâmica sistêmica predominante e sua implicação para a gestão do sistema.
+
+Questão 21 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31155
+A programação orientada a objetos (POO) consolidou-se como um dos principais paradigmas para o desenvolvimento de sistemas de informação de grande porte, especialmente por favorecer modularidade, reutilização e manutenção de código. Segundo Booch, Rumbaugh e Jacobson (2005), os princípios de encapsulamento, herança e polimorfismo são fundamentais para a construção de sistemas flexíveis e extensíveis, permitindo que diferentes comportamentos sejam tratados de forma uniforme.
+
+BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. The Unified Modeling Language User Guide. 2. ed. Boston: Addison-Wesley, 2005.
+
+Em um sistema corporativo desenvolvido segundo o paradigma orientado a objetos, diferentes tipos de usuários (Administrador, Analista e Operador) executam a mesma operação “gerarRelatorio()”, porém cada tipo produz um resultado distinto, de acordo com suas permissões e responsabilidades no sistema.
+
+Representação conceitual simplificada:
+
+Classe Usuario
+→ método gerarRelatorio()
+
+Subclasses:
+
+- Administrador
+- Analista
+- Operador
+
+Cada subclasse redefine o método gerarRelatorio() conforme seu papel no sistema.
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente o conceito da programação orientada a objetos que explica esse comportamento.
+
+Questão 22 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31154
+O controle de acesso é um dos mecanismos centrais da segurança da informação, pois define quem pode acessar quais recursos e sob quais condições. Segundo Stallings (2018), modelos de controle de acesso estruturam políticas de segurança ao estabelecer regras formais para concessão de permissões, sendo amplamente utilizados em sistemas de informação corporativos para reduzir riscos de acesso indevido e violação de dados.
+
+STALLINGS, William. Cryptography and Network Security: Principles and Practice. 7. ed. Boston: Pearson, 2018.
+
+Em um sistema corporativo, os usuários recebem permissões de acesso com base nas funções que exercem na organização, de modo que cada perfil possui um conjunto pré-definido de autorizações para executar operações no sistema.
+
+Exemplo de associação entre papéis e permissões:
+
+- Administrador → gerenciar usuários, configurar sistema
+- Analista → consultar e atualizar dados
+- Usuário comum → consultar informações
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente o modelo de controle de acesso adotado no cenário descrito.
+
+Questão 23 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31153
+Na Interação Humano-Computador, a avaliação da usabilidade é essencial para verificar se um sistema atende às necessidades reais dos usuários. Segundo Preece, Rogers e Sharp (2015), métodos de avaliação podem ser realizados com ou sem a participação direta de usuários, permitindo identificar problemas de interação, compreender dificuldades cognitivas e orientar melhorias no design de interfaces.
+
+PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. Interaction Design: Beyond Human-Computer Interaction. 4. ed. Chichester: Wiley, 2015.
+
+Durante o desenvolvimento de um sistema de informação, a equipe optou por avaliar a interface antes da implantação, utilizando especialistas para inspecionar a interface com base em princípios de usabilidade, sem a participação direta de usuários finais.
+
+Métodos de avaliação de usabilidade:
+
+- Testes com usuários
+- Avaliação heurística
+- Inspeção por especialistas
+- Análise de tarefas
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente o método de avaliação de usabilidade utilizado no cenário descrito.
+
+Questão 24 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31152
+A melhoria contínua de processos de negócio exige não apenas sua modelagem, mas também a definição de indicadores que permitam monitorar desempenho e orientar decisões gerenciais. Segundo Davenport (1993), processos devem ser geridos a partir de métricas alinhadas aos objetivos organizacionais, enquanto Dumas et al. (2018) destacam que indicadores de desempenho (KPIs) são fundamentais para avaliar eficiência, eficácia e qualidade dos processos ao longo do tempo.
+
+DAVENPORT, Thomas H. Process Innovation: Reengineering Work through Information Technology. Boston: Harvard Business School Press, 1993.
+
+DUMAS, Marlon; LA ROSA, Marcello; MENDLING, Jan; REIJERS, Hajo A. Fundamentals of Business Process Management. 2. ed. Heidelberg: Springer, 2018.
+
+Após redesenhar um processo de atendimento ao cliente, uma organização passou a acompanhar sistematicamente seu desempenho para verificar se as melhorias implementadas estavam produzindo os resultados esperados.
+
+Indicadores de desempenho do processo de atendimento:
+
+- Tempo médio de atendimento
+- Taxa de retrabalho
+- Índice de satisfação do cliente
+- Volume de atendimentos concluídos
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente o papel dos indicadores de desempenho (KPIs) na gestão de processos de negócio.
+
+Questão 25 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31151
+A gestão de processos de negócio (Business Process Management – BPM) visa analisar, modelar, executar, monitorar e melhorar continuamente os processos organizacionais. Segundo Dumas et al. (2018), a modelagem de processos é essencial para compreender como o trabalho é realizado, identificar gargalos e promover melhorias alinhadas aos objetivos estratégicos, sendo a notação BPMN amplamente adotada por sua clareza e padronização.
+
+DUMAS, Marlon; LA ROSA, Marcello; MENDLING, Jan; REIJERS, Hajo A. Fundamentals of Business Process Management. 2. ed. Heidelberg: Springer, 2018.
+
+Uma organização decidiu revisar seus processos de atendimento ao cliente após identificar atrasos e retrabalho. Para isso, a equipe de análise optou por modelar o processo atual de forma detalhada, representando atividades, eventos e decisões, antes de propor melhorias.
+
+Elementos básicos da BPMN:
+
+- Evento (início, intermediário, fim)
+- Atividade (tarefa ou subprocesso)
+- Gateway (decisão e controle de fluxo)
+
+Esses elementos permitem representar o fluxo do processo de negócio.
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente a finalidade principal da modelagem de processos de negócio.
+
+Questão 26 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31150
+O gerenciamento de projetos é fundamental para assegurar que iniciativas organizacionais atinjam seus objetivos dentro de restrições de prazo, custo e escopo. De acordo com o PMBOK®, projetos são empreendimentos temporários que demandam planejamento, execução, monitoramento e controle sistemáticos. Kerzner (2017) destaca que o gerenciamento eficaz de projetos depende do equilíbrio entre as áreas de conhecimento e da tomada de decisões baseada em informações confiáveis.
+
+PROJECT MANAGEMENT INSTITUTE. A Guide to the Project Management Body of Knowledge (PMBOK® Guide). 7. ed. Newtown Square: PMI, 2021.
+
+KERZNER, Harold. Project Management: A Systems Approach to Planning, Scheduling, and Controlling. 12. ed. Hoboken: Wiley, 2017.
+
+Em um projeto de desenvolvimento de um sistema de informação, o gerente de projetos identificou que alterações frequentes de requisitos estavam impactando o cronograma e os custos previstos, exigindo maior controle sobre o trabalho a ser realizado.
+
+Triângulo de restrições do projeto:
+
+- Escopo
+- Prazo
+- Custo
+
+Alterações em uma restrição impactam as demais.
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente a área de conhecimento do gerenciamento de projetos mais diretamente envolvida no controle das alterações descritas.
+
+Questão 27 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31149
+A concepção e a modelagem de sistemas de informação são etapas fundamentais para traduzir necessidades organizacionais em soluções computacionais coerentes. Segundo Kendall e Kendall (2011), modelos auxiliam na compreensão, comunicação e validação de requisitos, permitindo representar processos, dados e regras de negócio de forma estruturada antes da implementação. A utilização de notações padronizadas, como a UML, reduz ambiguidades e melhora o alinhamento entre analistas, desenvolvedores e usuários.
+
+KENDALL, Kenneth E.; KENDALL, Julie E. Systems Analysis and Design. 8. ed. Boston: Pearson, 2011.
+
+Durante a fase de análise de um sistema de informação para gestão acadêmica, a equipe optou por utilizar modelos para representar funcionalidades do sistema a partir da perspectiva dos usuários, descrevendo interações e objetivos sem detalhar a implementação técnica.
+
+Tipos de modelos na UML e seus focos:
+
+- Diagrama de Casos de Uso – visão funcional do sistema
+- Diagrama de Classes – estrutura estática de dados
+- Diagrama de Sequência – interação temporal entre objetos
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente o modelo UML mais adequado para representar as funcionalidades do sistema sob a perspectiva dos usuários.
+
+Questão 28 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31148
+A Engenharia de Software busca aplicar princípios sistemáticos, disciplinados e quantificáveis ao desenvolvimento, operação e manutenção de software. Segundo Sommerville (2020), processos de software bem definidos são essenciais para controlar complexidade, garantir qualidade e aumentar a previsibilidade de prazo e custo em projetos de sistemas de informação.
+
+SOMMERVILLE, Ian. Software Engineering. 10. ed. Boston: Pearson, 2020.
+
+Uma organização decidiu padronizar o desenvolvimento de seus sistemas de informação após enfrentar problemas recorrentes de atrasos, retrabalho e falhas de qualidade em projetos anteriores. Para isso, passou a adotar processos de software formais e documentados.
+
+Atividades fundamentais do processo de software (Sommerville):
+
+- Especificação
+- Desenvolvimento
+- Validação
+- Evolução
+
+Essas atividades podem ser organizadas segundo diferentes modelos de processo.
+
+Considerando o contexto apresentado, assinale a alternativa que expressa corretamente a finalidade principal da adoção de processos de software.
+
+Questão 29 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31147
+As redes de computadores permitem o compartilhamento eficiente de recursos e informações entre sistemas distribuídos. Segundo Tanenbaum e Wetherall (2021), os modelos de referência, como o modelo OSI, são fundamentais para compreender a organização funcional das redes, pois separam responsabilidades em camadas bem definidas, facilitando interoperabilidade, padronização e diagnóstico de falhas.
+
+TANENBAUM, Andrew S.; WETHERALL, David J. Computer Networks. 6. ed. Boston: Pearson, 2021.
+
+Em um ambiente corporativo, problemas de comunicação entre aplicações distribuídas exigem análise estruturada para identificar em que nível da rede ocorre a falha. O uso de modelos em camadas permite localizar e tratar esses problemas de forma sistemática.
+
+Modelo OSI – Camadas superiores para comunicação de aplicações:
+
+- Camada 7 – Aplicação
+- Camada 6 – Apresentação
+- Camada 5 – Sessão
+
+Essas camadas são responsáveis por serviços diretamente percebidos pelas aplicações.
+
+Com base no contexto apresentado, assinale a alternativa que identifica corretamente a função principal da Camada de Aplicação (Camada 7) do modelo OSI.
+
+Questão 30 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31146
+Os sistemas operacionais são responsáveis por gerenciar os recursos de hardware e fornecer serviços essenciais às aplicações. Segundo Silberschatz, Galvin e Gagne (2020), o gerenciamento de processos é uma das funções centrais de um sistema operacional, permitindo a execução concorrente de programas, o compartilhamento eficiente da CPU e a garantia de responsividade do sistema.
+
+SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. Operating System Concepts. 10. ed. Hoboken: John Wiley & Sons, 2020.
+
+Em um servidor corporativo, múltiplas aplicações são executadas simultaneamente, competindo pelo uso do processador. O sistema operacional utiliza mecanismos específicos para organizar e controlar essa execução concorrente, garantindo eficiência e equidade no uso da CPU.
+
+Estados clássicos de um processo:
+
+- Novo
+- Pronto
+- Executando
+- Bloqueado
+- Encerrado
+
+O escalonador decide qual processo no estado “Pronto” ocupará a CPU.
+
+Com base no contexto apresentado, assinale a alternativa que descreve corretamente a função do escalonador de processos em um sistema operacional.
+
+Questão 31 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31144
+A Governança de Tecnologia da Informação (Governança de TI) tem como objetivo assegurar que o uso da tecnologia sustente e amplie as estratégias e objetivos organizacionais, ao mesmo tempo em que gerencia riscos e otimiza recursos. Segundo o framework COBIT, a governança de TI estabelece responsabilidades, processos e práticas para alinhar TI ao negócio, garantindo entrega de valor, gestão de riscos e conformidade. Weill e Ross (2004) destacam que organizações com governança de TI eficaz apresentam melhor desempenho e maior controle sobre seus investimentos em tecnologia.
+
+ISACA. COBIT® 2019 Framework: Governance and Management Objectives. Schaumburg: ISACA, 2019.
+
+WEILL, Peter; ROSS, Jeanne W. IT Governance: How Top Performers Manage IT Decision Rights for Superior Results. Boston: Harvard Business School Press, 2004.
+
+Uma organização decidiu revisar suas práticas de TI após identificar desalinhamento entre investimentos tecnológicos e prioridades estratégicas, além de dificuldades no controle de riscos e na avaliação de resultados obtidos com projetos de TI.
+
+Objetivos centrais da Governança de TI (COBIT):
+
+- Alinhamento estratégico
+- Entrega de valor
+- Gestão de riscos
+- Otimização de recursos
+- Transparência e responsabilização
+
+Com base no contexto apresentado, assinale a alternativa que representa corretamente um objetivo fundamental da Governança de Tecnologia da Informação.
+
+Questão 32 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31143
+A Arquitetura Corporativa (Enterprise Architecture – EA) é um instrumento essencial para alinhar estratégia de negócio, processos, informação e tecnologia da informação. Segundo TOGAF (The Open Group Architecture Framework), a arquitetura corporativa fornece uma visão estruturada da organização, permitindo planejar a evolução dos sistemas de informação de forma coerente com os objetivos estratégicos e reduzir redundâncias, inconsistências e riscos tecnológicos. Ross, Weill e Robertson (2006) destacam que organizações com arquiteturas bem definidas tendem a apresentar maior agilidade e governança sobre seus ativos digitais.
+
+THE OPEN GROUP. TOGAF® Standard, Version 9.2. Reading: The Open Group, 2018.
+
+ROSS, Jeanne W.; WEILL, Peter; ROBERTSON, David C. Enterprise Architecture as Strategy. Boston: Harvard Business School Press, 2006.
+
+Uma organização em processo de transformação digital decidiu revisar sua arquitetura corporativa para garantir maior integração entre sistemas, padronização de dados e alinhamento com suas estratégias de crescimento e inovação.
+
+Camadas clássicas da Arquitetura Corporativa:
+
+- Arquitetura de Negócio
+- Arquitetura de Dados / Informação
+- Arquitetura de Aplicações
+- Arquitetura de Tecnologia
+
+Essas camadas se relacionam de forma hierárquica e interdependente.
+
+Considerando o contexto apresentado, assinale a alternativa que descreve corretamente o papel da Arquitetura de Dados / Informação no âmbito da Arquitetura Corporativa.
+
+Questão 33 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31142
+O pensamento sistêmico permite compreender organizações e sistemas complexos como um conjunto de elementos interdependentes, cujas interações produzem comportamentos que não podem ser explicados apenas pela análise isolada das partes. Segundo Bertalanffy (2015), a Teoria Geral de Sistemas introduziu uma abordagem holística, fundamental para a análise de sistemas organizacionais, tecnológicos e sociais, amplamente aplicada em Sistemas de Informação.
+
+BERTALANFFY, Ludwig von. Teoria Geral dos Sistemas: fundamentos, desenvolvimento e aplicações. 9. ed. Petrópolis: Vozes, 2015.
+
+Em uma organização que utiliza diversos sistemas integrados, alterações realizadas em um subsistema frequentemente impactam o desempenho global do sistema como um todo. Esse comportamento evidencia a importância de analisar não apenas os componentes individuais, mas também suas inter-relações.
+
+Representação conceitual de um sistema organizacional:
+
+Sistema Organizacional
+
+→ Subsistema A (Financeiro)
+→ Subsistema B (Operacional)
+→ Subsistema C (Tecnologia da Informação)
+
+As saídas de cada subsistema influenciam os demais por meio de fluxos de informação e retroalimentação.
+
+Com base no contexto apresentado, assinale a alternativa que expressa corretamente um princípio fundamental do pensamento sistêmico aplicado a sistemas de informação.
+
+Questão 34 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31141
+Os Sistemas de Informação (SI) desempenham papel central no suporte às operações, à gestão e à tomada de decisão nas organizações modernas. Segundo Laudon e Laudon (2020), um sistema de informação pode ser compreendido como um conjunto de componentes inter-relacionados que coletam, processam, armazenam e distribuem informações para apoiar processos organizacionais, coordenação e controle.
+
+LAUDON, Kenneth C.; LAUDON, Jane P. Management Information Systems: Managing the Digital Firm. 16. ed. Harlow: Pearson, 2020.
+
+Em uma organização de médio porte, diferentes sistemas são utilizados para apoiar desde as atividades operacionais do dia a dia até decisões estratégicas da alta gestão. Cada tipo de sistema possui objetivos, usuários e níveis de informação distintos.
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente o sistema de informação voltado ao apoio à tomada de decisões semi-estruturadas pelos gestores.
+
+Questão 35 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31139
+Os paradigmas de programação representam diferentes abordagens para a construção de soluções computacionais, influenciando diretamente a forma como problemas são modelados e resolvidos. De acordo com Sebesta (2019), o paradigma imperativo baseia-se na execução sequencial de comandos que modificam o estado do programa, sendo amplamente utilizado em linguagens tradicionais como C, Pascal e Java.
+
+SEBESTA, Robert W. Concepts of Programming Languages. 12. ed. Boston: Pearson, 2019.
+
+Em um sistema corporativo desenvolvido para controle financeiro, grande parte da lógica de negócio é implementada por meio de instruções sequenciais que alteram valores de variáveis ao longo da execução do programa, refletindo mudanças de estado do sistema.
+
+Com base no contexto apresentado, assinale a alternativa que identifica corretamente o paradigma de programação predominante no exemplo apresentado.
+
+Questão 36 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31138
+Estruturas de dados adequadas são essenciais para a eficiência de algoritmos em sistemas de informação, especialmente quando há necessidade de inserção, remoção e acesso frequente a elementos. Segundo Cormen et al. (2022), listas encadeadas permitem operações dinâmicas eficientes em comparação com vetores estáticos, sendo amplamente utilizadas em sistemas operacionais, compiladores e aplicações corporativas.
+
+CORMEN, Thomas H. et al. Introduction to Algorithms. 4. ed. Cambridge: MIT Press, 2022.
+
+Em um módulo de gerenciamento de sessões de usuários de um sistema web, os dados precisam ser inseridos e removidos dinamicamente ao longo do tempo, sem a necessidade de realocação contínua de memória. Para isso, foi escolhida uma estrutura de dados adequada a esse tipo de operação.
+
+Esta imagem mostra uma comparação de eficiência entre duas estruturas de dados fundamentais: o Vetor (Array) e a Lista Encadeada. A tabela utiliza a Notação Big O para indicar quantos passos cada operação demora para ser executada no pior cenário possível.
+
+O que significam os termos da tabela?
+
+• O(1) (Tempo Constante): É a velocidade máxima. A operação é imediata e não importa o tamanho da lista.
+• O(n) (Tempo Linear): A velocidade depende do tamanho (\(n\)). Se a lista tiver 1000 itens, a operação pode levar 1000 passos.
+
+Explicação da comparação
+
+Operação	Vetor (Array)	Lista Encadeada	Por que essa diferença existe?
+Inserção	\(O(n)\) (Lento)	\(O(1)\) (Rápido)	No vetor, inserir exige "empurrar" os outros elementos para o lado. Na lista encadeada, basta mudar os ponteiros que ligam os nós.
+Remoção	\(O(n)\) (Lento)	\(O(1)\) (Rápido)	No vetor, remover deixa um buraco, exigindo reorganizar os itens seguintes. Na lista, basta desvincular o nó.
+Acesso direto	\(O(1)\) (Rápido)	\(O(n)\) (Lento)	O vetor guarda tudo junto na memória com índices numéricos. A lista exige navegar do primeiro nó até o destino, um por um.
+
+Com base no contexto apresentado, assinale a alternativa que justifica corretamente a escolha de uma lista encadeada em vez de um vetor para o cenário descrito.
+
+Questão 37 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31136
+A lógica de predicados amplia a lógica proposicional ao permitir a representação de propriedades de objetos e relações entre eles, sendo fundamental em áreas como bancos de dados, verificação formal de software e inteligência artificial. De acordo com Enderton (2001), o uso adequado de quantificadores universais e existenciais possibilita expressar regras gerais e condições específicas de forma precisa, evitando ambiguidades em sistemas computacionais baseados em regras formais.
+
+ENDERTON, Herbert B. A Mathematical Introduction to Logic. 2. ed. San Diego: Academic Press, 2001.
+
+Em um sistema de controle acadêmico, deseja-se representar formalmente a afirmação:
+
+“Todo estudante matriculado em Sistemas de Informação cursa pelo menos uma disciplina obrigatória.”
+
+Para isso, utiliza-se a lógica de predicados, considerando os seguintes predicados:
+
+- E(x): “x é estudante de Sistemas de Informação”;
+- D(y): “y é uma disciplina obrigatória”;
+- C(x, y): “x cursa a disciplina y”.
+
+Representação dos predicados e domínio:
+
+Domínio de x: conjunto dos estudantes
+Domínio de y: conjunto das disciplinas
+
+Predicados:
+
+E(x) → estudante
+D(y) → disciplina obrigatória
+C(x, y) → relação de matrícula
+
+Assinale a alternativa que expressa corretamente, em lógica de predicados, a afirmação apresentada no contexto.
+
+Questão 38 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31135
+A Segurança da Informação tem como objetivo proteger informações contra acessos não autorizados, alterações indevidas e indisponibilidade. De acordo com a norma ISO/IEC 27001, a segurança da informação é baseada na preservação de três princípios fundamentais, conhecidos como tríade CIA (Confidentiality, Integrity and Availability), amplamente utilizados na definição de políticas e controles de segurança em sistemas de informação.
+
+ISO/IEC 27001:2022. Information security, cybersecurity and privacy protection — Information security management systems — Requirements. Geneva: ISO, 2022.
+
+Uma organização está estruturando sua política de segurança da informação e precisa garantir que seus sistemas protejam adequadamente os dados corporativos contra acessos indevidos, alterações não autorizadas e indisponibilidade de serviços.
+
+Tríade da Segurança da Informação (CIA):
+
+- Confidencialidade – acesso restrito a usuários autorizados
+- Integridade – proteção contra alterações não autorizadas
+- Disponibilidade – acesso à informação quando necessário
+
+Com base no contexto apresentado, assinale a alternativa que identifica corretamente um dos princípios da tríade da segurança da informação.
+
+Questão 39 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31134
+A Interação Humano-Computador (IHC) estuda a forma como pessoas interagem com sistemas computacionais, buscando tornar essa interação mais eficiente, eficaz e satisfatória. Segundo Nielsen (1994), princípios de usabilidade auxiliam projetistas a criar interfaces que reduzam erros, facilitem o aprendizado e aumentem a satisfação do usuário, sendo amplamente adotados no desenvolvimento de sistemas de informação.
+
+NIELSEN, Jakob. Usability Engineering. San Francisco: Morgan Kaufmann, 1994.
+
+Durante o desenvolvimento de um sistema de informação, a equipe de projeto buscou garantir que os usuários conseguissem aprender rapidamente a utilizar o sistema e executar suas tarefas com poucos erros, mesmo sem treinamento prévio extensivo.
+
+Princípios clássicos de usabilidade (Nielsen):
+
+- Facilidade de aprendizado
+- Eficiência de uso
+- Prevenção de erros
+- Satisfação do usuário
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente um objetivo central da usabilidade em Interação Humano-Computador.
+
+Questão 40 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31133
+A qualidade de software pode ser analisada tanto sob a perspectiva do processo de desenvolvimento quanto do produto final entregue ao usuário. Segundo a norma ISO/IEC 25010, a qualidade de produto refere-se ao grau em que o software atende a requisitos funcionais e não funcionais, enquanto a qualidade de processo está relacionada às práticas adotadas durante o desenvolvimento, influenciando previsibilidade, retrabalho e consistência dos resultados.
+
+ISO/IEC 25010:2011. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. Geneva: ISO, 2011.
+
+Durante a avaliação de um sistema de informação, a equipe verificou se o software atendia corretamente aos requisitos funcionais e apresentava desempenho, confiabilidade e usabilidade adequados aos usuários finais.
+
+Características de qualidade de produto (ISO/IEC 25010):
+
+- Adequação funcional
+- Confiabilidade
+- Usabilidade
+- Eficiência de desempenho
+- Manutenibilidade
+- Portabilidade
+
+Com base no contexto apresentado, assinale a alternativa que identifica corretamente um atributo de qualidade de produto de software.
+
+Questão 41 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31132
+O gerenciamento de projetos estabelece práticas para planejar, executar e controlar empreendimentos temporários. Segundo o PMBOK® Guide, a definição clara de papéis, responsabilidades e autoridade do gerente de projetos é essencial para coordenar equipes, integrar áreas de conhecimento e garantir que os objetivos do projeto sejam atingidos. Kerzner (2017) ressalta que a autoridade do gerente de projetos é um fator crítico para o sucesso, especialmente em ambientes organizacionais matriciais.
+
+PROJECT MANAGEMENT INSTITUTE. A Guide to the Project Management Body of Knowledge (PMBOK® Guide). 7. ed. Newtown Square: PMI, 2021.
+
+KERZNER, Harold. Project Management: A Systems Approach to Planning, Scheduling, and Controlling. 12. ed. Hoboken: Wiley, 2017.
+
+Em um projeto de desenvolvimento de um sistema de informação, o gerente de projetos é responsável por coordenar atividades, integrar equipes multidisciplinares e acompanhar o desempenho do trabalho ao longo do ciclo de vida do projeto.
+
+Responsabilidades típicas do gerente de projetos:
+
+- Planejar e acompanhar o trabalho
+- Integrar equipes e áreas de conhecimento
+- Monitorar prazo, custo e escopo
+- Comunicar progresso às partes interessadas
+
+Considerando o contexto apresentado, assinale a alternativa que identifica corretamente uma responsabilidade central do gerente de projetos.
+
+Questão 42 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31131
+Protocolos de comunicação são fundamentais para o funcionamento das redes de computadores, pois definem regras e formatos para a troca de informações entre dispositivos. Segundo Kurose e Ross (2021), o modelo TCP/IP organiza esses protocolos em camadas, permitindo interoperabilidade entre sistemas heterogêneos e garantindo comunicação fim a fim confiável ou não confiável, conforme a necessidade da aplicação.
+
+KUROSE, James F.; ROSS, Keith W. Computer Networking: A Top-Down Approach. 8. ed. Boston: Pearson, 2021.
+
+Em aplicações corporativas distribuídas, diferentes protocolos são utilizados para transportar dados pela rede, sendo escolhidos de acordo com requisitos como confiabilidade, ordenação e controle de fluxo.
+
+• TCP (Protocolo de Controle de Transmissão):
+	• Prioriza a segurança e a entrega correta.
+	• Confirma se cada pedaço de dado chegou ao destino.
+	• Reenvia informações se houver alguma perda no caminho.
+	• Usado em aplicações críticas, como navegação web e e-mails.
+• UDP (Protocolo de Datagrama do Usuário):
+	• Prioriza a velocidade e o tempo real.
+	• Envia os dados sem checar se eles chegaram.
+	• Pode sofrer pequenas perdas de pacotes sem parar.
+	• Usado em streaming de vídeo, chamadas VoIP e jogos online.
+
+Com base no contexto apresentado, assinale a alternativa que identifica corretamente uma característica do protocolo TCP.
+
+Questão 43 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31130
+Os sistemas de informação são compostos por diferentes elementos que atuam de forma integrada para coletar, processar, armazenar e disseminar informações. Segundo Stair e Reynolds (2018), a compreensão dos componentes básicos de um sistema de informação é essencial para analisar seu funcionamento e avaliar sua adequação às necessidades organizacionais, independentemente da tecnologia empregada.
+
+STAIR, Ralph M.; REYNOLDS, George W. Principles of Information Systems. 13. ed. Boston: Cengage Learning, 2018.
+
+Ao analisar a implantação de um novo sistema de informação em uma organização, o analista precisa identificar corretamente os elementos que compõem esse sistema, considerando não apenas os recursos tecnológicos, mas também aspectos humanos e organizacionais.
+
+Componentes básicos de um Sistema de Informação:
+
+- Hardware
+- Software
+- Dados
+- Pessoas
+- Processos
+
+Com base no contexto apresentado, assinale a alternativa que identifica corretamente um componente essencial de um sistema de informação.
+
+Questão 44 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 31129
+A análise de dados estatísticos é essencial para a tomada de decisão em sistemas de informação, especialmente em áreas como inteligência de negócios e análise de desempenho organizacional. Segundo Montgomery e Runger (2014), medidas descritivas como média, mediana e moda são amplamente utilizadas para resumir conjuntos de dados e fornecer uma visão inicial do comportamento de variáveis quantitativas em contextos reais.
+
+MONTGOMERY, Douglas C.; RUNGER, George C. Applied Statistics and Probability for Engineers. 6. ed. Hoboken: John Wiley & Sons, 2014.
+
+Um analista de sistemas está avaliando o tempo, em minutos, que usuários levam para concluir uma operação em um sistema corporativo. Os dados coletados em cinco execuções consecutivas foram utilizados para identificar uma medida que represente adequadamente o valor central desse conjunto.
+
+Conjunto de dados coletados (em minutos):
+
+12, 15, 15, 18, 20
+
+Com base nos dados apresentados, assinale a alternativa que indica corretamente a moda do conjunto.
+
+Questão 45 | Enade - Sistemas de Informação - Conhecimento Específico
+Código da questão: 30993
+A modelagem de sistemas de informação é uma etapa essencial no ciclo de desenvolvimento de software, pois permite representar, de forma abstrata, os requisitos, os processos e as estruturas de dados do sistema antes de sua implementação. Modelos conceituais, como diagramas UML e modelos entidade-relacionamento, auxiliam na comunicação entre stakeholders e reduzem riscos associados a ambiguidades, inconsistências e retrabalho ao longo do projeto (SOMMERVILLE, 2019).
+
+SOMMERVILLE, Ian. Engenharia de software. 10. ed. São Paulo: Pearson, 2019.
+
+Considere um projeto de desenvolvimento de um sistema de informação corporativo no qual diferentes stakeholders apresentam visões distintas sobre os requisitos do sistema, incluindo usuários finais, analistas de negócio e desenvolvedores.
+
+Avalie a importância da modelagem de sistemas de informação nesse contexto e explique de que forma o uso de modelos conceituais contribui para a redução de falhas de entendimento ao longo do desenvolvimento. Em sua resposta, apresente dois benefícios técnicos da modelagem e relacione-os à qualidade do sistema final.
+
+A modelagem de sistemas de informação é fundamental no desenvolvimento de software corporativo. Ela funciona como uma ponte entre diferentes visões de stakeholders. Usuários finais e desenvolvedores costumam usar linguagens muito distintas. Os modelos conceituais unificam esses discursos através de diagramas visuais. Esse entendimento compartilhado reduz drasticamente as falhas de comunicação iniciais. O alinhamento prévio evita o retrabalho técnico ao longo do projeto.
+A detecção precoce de falhas representa um grande benefício técnico. Desenhar diagramas permite visualizar falhas lógicas nos requisitos de negócio. Erros estruturais ocultos em textos longos tornam-se evidentes visualmente. Essa identificação preventiva melhora diretamente a confiabilidade do produto entregue. O sistema final apresenta menos defeitos operacionais em produção. Isso reduz os custos de correção tardia após a implementação.
+A melhoria na manutenibilidade do código é outra vantagem técnica. Modelos bem estruturados criam uma arquitetura limpa e documentada. Essa organização facilita a compreensão do sistema por novos desenvolvedores. Mudanças futuras e expansões de funcionalidades tornam-se bem mais simples. O software ganha maior escalabilidade diante de novas demandas corporativas. A qualidade sustentável garante uma vida útil longa para a aplicação.
